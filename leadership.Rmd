@@ -1,0 +1,125 @@
+---
+output: html_document
+---
+
+# Leadership Experience
+
+```{r Leadership}
+
+data <- rbind(
+  
+  tibble(
+    what = "Département de psychologie (Université du Québec à Montréal)",
+    when = "2019/01 – Present",
+    role = "Yoga \\& Meditation Student Committee Lead",
+    where = "Montréal, Québec",
+    details = c("Organize affordable weekly yoga sessions for psychology students on campus (Winter 2022)", 
+                "Wrote and successfully obtained 2 grants for the project (first: \\$1,697.85; second: \\$500)", 
+                "Organized and guided weekly meditations for psychology students on campus (Winter 2019)", 
+                "Project objective is to improve student mental health with evidence-based mind-body exercises")),
+
+  tibble(
+    what = "Canadian Positive Psychology Association (CPPA)",
+    when = "2019/09 – Present",
+    role = "Lead Student Ambassador \\& Co-founder, Student Ambassador Program",
+    where = "Montréal, Québec",
+    details = c("As lead, manage about 70 other Student Ambassadors for various projects (blog, webinar, logo, Instagram, etc.)", 
+                "Editor-in-Chief for the blog project. Reviewed/supervised the publication of more than 20 blogs (see https://medium.com/@cppastudents)", 
+                "Weekly Core Team (board) meetings, monthly meetings for each project",
+                "Organize and host webinars periodically, various involvement in other projects")),
+  
+  tibble(
+    what = "International Positive Psychology Association (IPPA)",
+    when = "2017/12 – Present",
+    role = "Regional Representative (for the province of Québec) of the Student Division (SIPPA)",
+    where = "Montréal, Québec",
+    details = c("Connect local members to IPPA’s Student Division",
+                "Monthly meetings and brainstorming with Representatives and SIPPA Executive Team", 
+                "Created an interactive map of locations of all representatives across the globe for the website", 
+                "Contribution to SIPPA newsletter")),
+  
+  tibble(
+    what = "Regroupement québécois de psychologie positive",
+    when = "2016/04 – Present",
+    role = "Member of think-tank for the future of positive psychology in Québec",
+    where = "Montréal, Québec",
+    details = c("Participate to group meetings, discussions, debates, vision, and orientations", 
+                "Part of a) research, b) clinical, c) student, and d) English community committees", 
+                "Contribute to advertisement and goals of the group through public outreach, document preparation, help with organization of conference, and presentations to student associations to foster collaborations", 
+                "Lead development of freshly formed student division")),
+  
+  tibble(
+    what = "Permacultive ta Ville",
+    when = "2012/11 – 2016/08",
+    role = "Co-Founder",
+    where = "Montérégie",
+    details = c("Co-managed a community garden in Boucherville (summer 2014)", 
+                "Led presentations and promoted urban permaculture, co-managing Facebook page")),
+  
+  tibble(
+    what = "SOI (Sagesse, Ouverture, Intégrité)",
+    when = "2010/09 – 2012/09",
+    role = "Founding president",
+    where = "Cégep Édouard-Montpetit",
+    details = c("Led the executive administrative board (6 people); managed budget (about \\$700/year); promoted well-being, happiness, and health, and led activities based on psychological principles")),
+  
+  tibble(
+    what = "Shaved Head Challenge",
+    when = "2009/04-10, 2011/06, 2015/05",
+    role = "Co-spokesperson (2009), Participant (2011, 2015)",
+    where = "Montérégie/Montréal",
+    details = c("Shaved and gave my hair, plus collected a total of \\$1456 (2011 \\& 2015) in the community for Leucan",
+                "2009: Represented Leucan and the Challenge for the Montérégie region")),
+  
+  tibble(
+    what = "McGill University Leadership Training Program",
+    when = "2012/09 – 2013/04",
+    role = "Trainee",
+    where = "Montérégie/Montréal",
+    details = "Completed the Leadership Skills Development Workshop series"),
+  
+  tibble(
+    what = "Institut du Nouveau Monde \\& Forum Jeunesse Longueuil",
+    when = "2012/09 – 2013/04",
+    role = "Main Organizer",
+    where = "Cégep Édouard-Montpetit",
+    details = "Organized electoral debate for the provincial elections, communications \\& setup"),
+  
+  tibble(
+    what = "Société Québécoise de Psilogie",
+    when = "2011/03-2012/07",
+    role = "Volunteer",
+    where = "Montréal",
+    details = "Scanned all past issues of Le Lien Psi, the organization’s journal, and distributed it on CDs"),
+  
+  tibble(
+    what = "Groupe d’Économie Solidaire du Québec (GESQ)",
+    when = "2012/06",
+    role = "Member of the Youth Delegation",
+    where = "Rio de Janeiro, Brazil",
+    details = "Participated in the United Nations Conference on Sustainable Development"),
+  
+  tibble(
+    what = "SIRIUS International Cooperation Internship",
+    when = "2012/01",
+    role = "Intern",
+    where = "Quito \\& Santo Domingo, Ecuador",
+    details = "Taught children academic topics, painted school, \\& worked in indigenous cocoa plantation"),
+  
+  tibble(
+    what = "VOX POPULI Political Institutions Internship",
+    when = "2011/03",
+    role = "Intern",
+    where = "Québec City",
+    details = "Visited various democratic institutions of the government, met with politicians \\& wrote a final report")
+  
+)
+
+if (short) {
+   data <- data[c(5:16), ]
+   #data$details <- NA
+}
+
+detailed_entries(data, role, when, what, where, details, .protect = FALSE)
+
+```

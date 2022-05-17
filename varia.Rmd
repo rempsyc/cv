@@ -1,0 +1,130 @@
+---
+output: html_document
+---
+
+# Varia
+
+## Professional Affiliations
+
+\scriptsize
+
+```{r Affiliations}
+data <- rbind(
+  
+  tibble(
+    when = "2022/02 – Present",
+    with = "Canadian Psychological Association"),
+  
+  tibble(
+    when = "2021/01  – Present",
+    with = "Institut des sciences cognitives (UQAM)"),
+  
+  tibble(
+    when = "2016/09 – Present",
+    with = "International Positive Psychology Association"),
+  
+  tibble(
+    when = "2016/02 – Present",
+    with = "Psychologists for Social Responsibility"),
+  
+  tibble(
+    when = "2015/09 – Present",
+    with = "Canadian Positive Psychology Association")
+)
+
+detailed_entries(data, with, when, .protect = FALSE)
+```
+
+## Conferences Attended
+
+```{r Conferences}
+data <- rbind(
+  
+  tibble(
+    Name = "6th World Congress on Positive Psychology",
+    where = "Melbourne, Australia",
+    Date = "2019/07"),
+  
+  tibble(
+    Name = "Mind \\& Life Summer Research Institute",
+    where = "Garrison, New York",
+    Date = "2019/06"),
+  
+  tibble(
+    Name = "Congress of the Humanities and Social Sciences",
+    where = "Vancouver, BC",
+    Date = "2019/06"),
+  
+  tibble(
+    Name = "XXI World Congress of Medical and Clinical Hypnosis",
+    where = "Montréal, QC",
+    Date = "2018/08"),
+  
+  tibble(
+    Name = "Mind \\& Life Summer Research Institute",
+    where = "Garrison, New York",
+    Date = "2018/06"),
+  
+  tibble(
+    Name = "4th Canadian Conference on Positive Psychology",
+    where = "Toronto, ON",
+    Date = "2018/05"),
+  
+  tibble(
+    Name = "5th World Congress on Positive Psychology",
+    where = "Montréal, QC",
+    Date = "2017/06"),
+  
+  tibble(
+    Name = "Psychologie Positive au sein de la francophonie, perspectives et prospective",
+    where = "Montréal, QC",
+    Date = "2017/06"),
+  
+  tibble(
+    Name = "Research Day of the Douglas Hospital Research Centre",
+    where = "Montréal, QC",
+    Date = "2017/05"),
+  
+  tibble(
+    Name = "8th Annual LDI Scientific",
+    where = "Montréal, QC",
+    Date = "2017/05"),
+  
+  tibble(
+    Name = "3rd Canadian Conference on Positive Psychology",
+    where = "Niagara-on-the-Lake, ON",
+    Date = "2016/05"),
+  
+  tibble(
+    Name = "Psychology Undergraduate Research Day",
+    where = "McGill University",
+    Date = "2015/04"),
+  
+  tibble(
+    Name = "6th Annual Faculty of Arts Undergraduate Research Event",
+    where = "McGill University",
+    Date = "2015/01")
+  
+)
+
+data <- data %>% 
+  mutate(Name = paste0("\\hspace{0.5cm} ", Name))
+
+brief_entries(data, Name, Date, where, .protect = FALSE)
+```
+
+## Research Interests
+
+Positive & moral psychology, contemplative practices, Theory of Mind, empathy, self-regulatory strength, Self-Determination Theory, bodily self-consciousness, multisensory integration, anomalous experiences
+
+## Technical Skills
+
+Including: R, Rstudio, Shiny, GitHub, Inquisit, Wowchemy, Netlify, SPSS, MATLAB, ActiView, Brainstorm, Brain Analyzer, Qualtrics, Survey Monkey, LimeSurvey, Microsoft Office suite, Adobe Software, WordPress.
+
+## Languages
+
+French (native) and English (fluent)
+
+## Activities And Interests
+
+Martial arts (Jeet Kune Do & others), breakdance, parkour/free running, skateboard, gymnastics, yoga, salsa")

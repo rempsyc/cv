@@ -1,0 +1,55 @@
+---
+output: html_document
+---
+
+# Education
+
+```{r Education}
+data <- rbind(
+  
+  tibble(
+    what = "PhD (Psychology - Social)",
+    when = "2018/09 - Present",
+    with = "Université du Québec à Montréal",
+    where = "Montréal, Québec, Canada",
+    details = c("GPA: 4.30/4.30",
+                "Supervisor: Stéphane Dandeneau")), 
+
+  tibble(
+    what = "Master of Science (Psychiatry)",
+    when = "2016/09 - 2018/08",
+    with = "McGill University",
+    where = "Montréal, Québec, Canada",
+    details = c("GPA: 4.00/4.00",
+                "Supervisor: Amir Raz",
+                "Advisory Committee: 
+                                    Amir Raz, 
+                                    Jennifer Bartz, 
+                                    Donald Taylor, \\&
+                                    Samuel Veissière")),
+
+tibble(
+  what = "Bachelor of Arts (Psychology, 
+                            Behavioral Science, \\&
+                            Sociology)",
+  when = "2013/01 - 2016/04",
+  with = "McGill University",
+  where = "Montréal, Québec, Canada",
+  details = c("GPA: 3.76/4.00 (Distinction – top 25\\%)",
+            "Supervisor: Amir Raz")),
+
+tibble(
+  what = "Diplôme d’Étude Collégial (Sciences humaines)",
+  when = "2010/08 - 2012/09",
+  with = "Cégep Édouard-Montpetit",
+  where = "Longueuil, Québec, Canada",
+  details = "Cote R: 30.754 (\\textit{M} = 20-25.9)")
+)
+
+ if (short) {
+   data <- data[1:7, ]
+   data$details <- NA
+ }
+ 
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+```

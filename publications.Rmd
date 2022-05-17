@@ -1,0 +1,25 @@
+---
+output: html_document
+---
+
+# Publications
+
+**Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly of Experimental Psychology*. <https://doi.org/10.1177/17470218221078858>
+
+**Thériault, R.**, Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology*. <https://doi.org/10.1177/17470218211024826>.
+
+Krol, S. A., **Thériault, R.**, Olson, J. A., Raz, A., & Bartz, J. (2020). Self-concept clarity and the bodily self: Malleability across modalities. *Personality and Social Psychology Bulletin*, *46*(5). <https://doi.org/10.1177/0146167219879126>
+
+**Thériault, R.** (2019). Book review: Awareness is freedom: The adventure of psychology and spirituality. *Frontiers in Psychology*, *10*(2814)*.* <https://doi.org/10.3389/fpsyg.2019.02814>
+
+**Thériault, R.**, & Raz, A. (2018). Patterns of bronchial challenge testing in Canada. *Canadian Journal of Respiratory Therapy*, *54*(2), 41-47. <https://doi.org/10.29390/cjrt-2018-006>
+
+Lifshitz, M., Sheiner, E. O., Olson, J., **Thériault, R.**, & Raz, A. (2017). On suggestibility and placebo: A follow-up study. *American Journal of Clinical Hypnosis*, *59*(4), 1-8. <https://doi.org/10.1080/00029157.2016.1225252>
+
+```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}
+
+source("make_data_impact.R")
+plot_impact(data_scholar)
+table_impact(data_scholar, author.name = author.name)
+
+```

@@ -1,0 +1,27 @@
+---
+output: html_document
+---
+
+```{r, results = "asis", eval = !short}
+cat("\\pagebreak")
+```
+
+# Research Grants
+
+```{r Grants}
+data <- rbind(
+  
+  tibble(
+    Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI",
+    URL = "https://www.mindandlife.org/grant/transforming-habits-from-the-heart-from-good-intentions-to-reliable-prosocial-response/",
+    Details = "Transforming habits from the heart: From good intentions to reliable prosocial response",
+    Date = "2019 - 2022",
+    Amount = "USD \\$20,000",
+    Activity = NA)
+)
+
+data <- data %>%
+  mutate(Name = link(Name, URL, color = "333333"))
+
+detailed_entries(data, Details, Date, Name, Amount, Activity, .protect = FALSE)
+```

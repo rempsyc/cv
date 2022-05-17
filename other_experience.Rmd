@@ -1,0 +1,54 @@
+---
+output: html_document
+---
+
+# Other Research Experience
+
+## Research Assistant, Amir Raz Cognitive Neuroscience Laboratory (2013/09–2016/09)
+
+```{r experience, include = !short}
+data <- rbind(
+  
+  tibble(
+    what = "Sensory Deprivation, Consciousness, and Dissociation",
+    when = "2014/09-2016/09",
+    with = "McGill University",
+    where = "Raz Lab",
+    details = c("Conceived research designs \\& formulated hypotheses",
+                "Performed various administrative tasks related to the sensory deprivation unit (shopping, maintenance, risks, authorizations, etc.)")),
+
+  tibble(
+    what = "Administrative Assistantship",
+    when = "2013/09-2016/09",
+    with = "McGill University",
+    where = "Raz Lab",
+    details = c("Worked on the WordPress website (razlab.org) \\& managed servers",
+                "Edited videos and photos",
+                "Performed various investigations on different topics for PI")),
+  
+  tibble(
+    what = "Posture and Human Resting-State (EEG, MEG)",
+    when = "2015/05-07",
+    with = "McGill University",
+    where = "Raz Lab",
+    details = "Performed various tasks (including statistical analyses) on Brainstorm, Matlab, and Photoshop"),
+  
+  tibble(
+    what = "Chronic Hives and the Effect of Cognitive Treatment in Kids and Adults",
+    when = "2014/01-09",
+    with = "McGill University",
+    where = "Raz Lab",
+    details = "Recruited and managed participants’ appointments"),
+  
+  tibble(
+    what = "Attention Training in Health and Disease",
+    when = "2014/05-08",
+    with = "McGill University",
+    where = "Raz Lab",
+    details = "Trained children’s attention with video games (data collection)")
+  
+  )
+
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+
+```

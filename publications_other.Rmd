@@ -1,0 +1,133 @@
+---
+output: html_document
+---
+
+# Non-Peer-Reviewed Publications
+
+**Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Under peer review at *Social Psychological and Personality Science*. Preprint: <https://psyarxiv.com/xc4g7/>
+
+Miglianico, M.†, **Thériault, R.†,** Lavoie, B.†, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*. Under peer review [second round]. †These authors contributed equally.
+
+**Thériault, R.**, Dandeneau, S, & Baldwin, M. (in preparation). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals.
+
+**Thériault, R.**, Landry, M., Mattuck, S., and Raz, A. (in preparation). The Rubber Hand Illusion: Does cognitive load affect EEG & electrodermal activity?
+
+**Thériault, R.**, Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J., Turkakin, E., & Raz, A. (in preparation). Suggestion affects subjective breathlessness but not objective pulmonary function.
+
+**Thériault, R.** (2018). *Comparing the effects of mental and embodied perspective-taking* (Master's thesis). McGill University, Montréal, Québec, Canada.
+
+**Thériault, R.** (2016). *Exploring cognitive dimensions of body ownership* (Bachelor's thesis). McGill University, Montréal, Québec, Canada.
+
+**Thériault, R.**, Baron, A., & Cowell, B.(2012). *Comment les activités artistiques peuvent développer l'estime de soi chez les jeunes marginalisés : une intervention en cirque social à la maison des jeunes Kekpart* (Collegial thesis). Cégep Édouard-Montpetit, Longueuil, Québec, Canada.
+
+# Invited Talks
+
+**Thériault, R.†**, Quilico, E.†, Tétreault, F.†, Labossière, S.†, Boudreau, S.† (2020, May 13; †all panelists contributed equally). Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting (Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation). Panel organized by the *Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal (CRIR)*. Presentation available from: <https://youtu.be/8VfnOjnon30?t=4288>.
+
+**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2019, January 15). Immersive embodiment experiences improve intergroup relations, empathy, self-other overlap, and prejudice. Online webinar for the *Student Speaker Series* of the *Student Division of the International Positive Psychology Association*. Presentation available from: <https://vimeo.com/user68157211/review/378278530/8d86f3cb33>.
+
+**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, October 25). Virtual-reality-based immersive embodiment experiences increase empathy, reduce prejudice. Oral presentation for the *Institute for Interdisciplinary Brain and Behavioral Science* in Orange, California.
+
+**Thériault, R.**, & Raz, A. (2016, December 8). Diagnosing asthma across Canada: question marks... and exclamation points! Oral presentation for the *Chronic Diseases Seminar* for the *Research Center* *of the* *Hôpital Sacré-Coeur de Montréal*, QC.
+
+**Thériault, R.** (2016, October 19)**.** Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale. Oral presentation for the *Wampum Center* at the *Native Friendship Center of Montreal*, QC.
+
+# Conference Talks
+
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 16-20). Does loving-kindness meditation increase giving behaviors? Talk accepted for the *Tenth SELF International Conference* in Québec city, QC (but the conference has switched to an online format because of COVID).
+
+**Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022, June 17-19). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Talk accepted for the *2022 CPA Annual National Convention* in Calgary, AB.
+
+**Thériault, R.** (2019, June 3). Réduire les préjugés et augmenter l'empathie via la réalité virtuelle. Talk presented at the *2019 Congress of the Humanities and Social Sciences* in Vancouver, BC.
+
+**Thériault, R.**, Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J. A., & Raz, A. (2018, August 24). Can suggestion affect pulmonary function in children with suspected asthma? Talk presented at the *21^st^* *World Congress of Medical and Clinical Hypnosis* in Montréal, QC.
+
+Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., **Thériault, R.**, Krol, S., Olson, J., & Raz, A. (2018, June 5). Walking a mile in another's shoes: Can virtual reality decrease prejudice? Conference talk presented by first author at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC.
+
+**Thériault, R.**, Krol, S., & Raz, A. (2017, July 14). Investigating the effects of mental versus embodied perspective-taking on prejudice. Talk presented at the *5^th^ World Congress on Positive Psychology* in Montréal, QC.
+
+**Thériault, R.**, Landry, M., Mattuck, S., & Raz, A. (2017, June 2). The Rubber Hand Illusion: Does load affect EEG & electrodermal activity? Talk presented at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC.
+
+Lifshitz, M., Sheiner, E., Olson, J., **Thériault, R**., & Raz, A. (2016, October 6). On suggestibility and placebo. Conference talk presented by first author at the *67^th^ meeting of the Society for Clinical and Experimental Hypnosis* in Boston, MA.
+
+# Conference Poster Presentations
+
+Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (2021, July). *Can loving-kindness meditation reduce aggressivity? A randomized controlled trial.* Poster session presented by first author at the *7^th^ World Congress on Positive Psychology* in Vancouver, Canada (virtual conference because of COVID).
+
+Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (2021, June). *Can prosocial attitudes and behaviors be positively influenced by aggression and subjective fatigue?* Poster session presented by first author at the *Canadian Psychology Association's 82^nd^ Annual National Convention*, Ottawa, Canada (virtual conference because of COVID).
+
+Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (2021, April 28-May 7). L'agressivité et la fatigue cognitive peuvent-elles mener à de plus grands comportements d'aide et de don? Poster session presented by first author at the *88^th^ Congress of ACFAS*---*l'Association francophone pour le savoir* (virtual conference because of COVID).
+
+Bold, J., **Thériault, R.**, Olson, J., Stain, A., Curry, D., & Raz, A. (2020, February 29). Replicating the body swap in a different sample: Preliminary data. Poster session presented by first author at the *Society for Personality and Social Psychology Annual Convention* in New Orleans, Louisiana.
+
+**Thériault, R.**, Dandeneau, S, & Baldwin, M. (2019, July 20). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals. Poster session presented at the *6^th^ World Congress on Positive Psychology* in Melbourne, Australia.
+
+**Thériault, R.,** & Dandeneau, S. (2019, June 12). Trait self-control moderates the effects of priming mindfulness on aggressive behaviour. Poster session presented at the *Mind & Life Summer Research Institute* in Garrison, New York.
+
+**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, June 6). Being one with diversity through perspective-taking: Mind or body to increase prosocial feelings? Poster session presented at the *Mind & Life Summer Research Institute* in Garrison, New York.
+
+Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., **Thériault, R.**, Krol, S., Olson, J. A., & Raz, A. (2018, June 5). Walking a mile in another's shoes: Can virtual reality decrease prejudice? Poster session presented by first three authors at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC.
+
+**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, May 24-25). Comparing two interventions to reduce prejudice and increase empathy. Poster session presented at the *4^th^ Canadian Conference on Positive Psychology* in Toronto, ON.
+
+**Thériault, R.**, Landry, M., Mattuck, S., & Raz, A. (2017, June 2). The Rubber Hand Illusion: Does load affect EEG & electrodermal activity? Poster session presented at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC.
+
+**Thériault, R.**, Landry, M., Mattuck, S., & Raz, A. (2017, May 12). The impact of load on electrodermal activity during the Rubber Hand Illusion. Poster session presented at the *8^th^ Annual LDI Scientific Retreat* in Montréal, QC.
+
+Mattuck, S., **Thériault, R.**, Landry, M., & Raz, A. (2017, April 17). Exploring the influence of cognitive resources on body ownership. Poster session presented by first author at the *Psychology Undergraduate Research Day* at McGill University in Montréal, QC.
+
+**Thériault, R.**, Landry, M., & Raz, A. (2016, April 15). Exploring the effects of cognitive load and task instructions in the Rubber Hand Illusion. Poster session presented at the *Psychology Undergraduate Research Day* at McGill University in Montréal, QC.
+
+**Thériault, R.**, Landry, M., & Raz, A. (2016, January 19). Exploring cognitive aspects of body ownership. Poster session presented at the *6th Annual Faculty of Arts Undergraduate Research Event* at McGill University in Montréal, QC.
+
+# Media Publications
+
+**Thériault, R.** (2022, February 8). Making simple moderations with simple slopes easily in [Blog post]. Retrieved from <https://remi-theriault.com/blog_moderation>
+
+**Thériault, R.** (2022, February 3). Making simple t-tests with multiple variables easily R [Blog post]. Retrieved from <https://remi-theriault.com/blog_t-test>
+
+**Thériault, R.** (2021, March 9). Time Management: The Importance of Self-Monitoring post]. Student Ambassador Program of the Canadian Positive Psychology. Retrieved from <https://cppastudents.medium.com/time-management-the-importance-of-self-monitoring-c9dfff241af1>
+
+**Thériault, R.** (2020, December 25). Quickly test linear regression assumptions [Blog]. Retrieved from <https://remi-theriault.com/blog_assumptions>
+
+**Thériault, R.** (2020, September 1). Rémi Thériault - Student Success Series [Blog post]. Student Ambassador Program of the Canadian Positive Psychology Association. Retrieved from [https://medium.com/cppastudents/student-success-series-with-rémi-thériault-7c15d09b98f](https://medium.com/cppastudents/student-success-series-with-rémi-thériault-7c15d09b98f)
+
+**Thériault, R.** (2020, August 21). Introducing an R function for making nice tables [Blog post]. Retrieved from <https://remi-theriault.com/blog_table>
+
+**Thériault, R.** (2020, March 27). Êtes-vous contrôle... de vous? [Blog post]. Retrieved from [https://medium.com/psychologie.sociale.uqam/%C3%AAtes-vous-en-contr%C3%B4le-de-vous-f5fbdf81b7eb](https://medium.com/psychologie.sociale.uqam/%C3%AAtes-vous-en-contr%C3%B4le-de-vous-f5fbdf81b7eb)
+
+**Thériault, R.** (2020, February 28). Interpolating the Inclusion of the Other in the Self [Blog post]. Retrieved from <https://remi-theriault.com/blog_circles>
+
+**Thériault, R.** (2019, October 14). Introducing an R function for easy randomization [Blog post]. Retrieved from <https://remi-theriault.com/blog_randomize>
+
+**Thériault, R.** (2019, September 12). Introducing an R function for making nice scatter plots [Blog post]. Retrieved from <https://remi-theriault.com/blog_scatter>
+
+**Thériault, R.** (2019, September 6). Introducing an R function for making nice violin plots [Blog post]. Retrieved from <https://remi-theriault.com/blog_violin>
+
+**Thériault, R.** (2015, December 7). Does hypnosis improve clinical interventions? [Blog post]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/does-hypnosis-improve-clinical-interventions/10154268637803797](https://www.facebook.com/notes/rémi-thériault/does-hypnosis-improve-clinical-interventions/10154268637803797)
+
+**Thériault, R.** (2015, April 9). The SOI, the Big Five traits of personality, and personal transformation [Blog post]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/the-soi-the-big-five-traits-of-personality-and-personal-transformation/10153829459748797](https://www.facebook.com/notes/rémi-thériault/the-soi-the-big-five-traits-of-personality-and-personal-transformation/10153829459748797)
+
+**Thériault, R.**, April 8). L'hypothèse de continuité dans les rêves et son extension [Blog post]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/lhypothèse-de-continuité-dans-les-rêves-et-son-extension-morale/10153830286773797](https://www.facebook.com/notes/rémi-thériault/lhypothèse-de-continuité-dans-les-rêves-et-son-extension-morale/10153830286773797)
+
+**Thériault, R.** (2014, November 27). Critically assessing the motivational framework of Rhonda Byrne's *The Secret* [Blog]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/critically-assessing-the-motivational-framework-of-rhonda-byrnes-the-secret/10153691320873797](https://www.facebook.com/notes/rémi-thériault/critically-assessing-the-motivational-framework-of-rhonda-byrnes-the-secret/10153691320873797)
+
+**Thériault, R.** (2014, April 10). Buddhist koans: Duality of language and its transcendence [Blog post]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/buddhist-koans-duality-of-language-and-its-transcendence/10153691300283797](https://www.facebook.com/notes/rémi-thériault/buddhist-koans-duality-of-language-and-its-transcendence/10153691300283797)
+
+**Thériault, R.** (2014, April 3). Do we really know what yoga means?: The place of spirituality in yoga research [Blog post]. Retrieved from [https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/](https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/)
+
+**Thériault, R.** (2014, March 29). How I became intelligent: or why IQ tests may fail to awaken one's potential [Blog post]. Retrieved from [https://medium.com/rempsyc/how-i-became-intelligent-a95bc08c6290](https://medium.com/rempsyc/how-i-became-intelligent-a95bc08c6290)
+
+**Thériault, R.** (2014, March 23). The quest for meaning and where it originates [Blog post]. Retrieved from [https://medium.com/rempsyc/the-quest-for-meaning-eda73de238b8](https://medium.com/rempsyc/the-quest-for-meaning-eda73de238b8)
+
+**Thériault, R.** (2014, March 22). Do you know your EQ?: No, I'm not talking about your intelligence quotient [Blog post]. Retrieved from [https://medium.com/rempsyc/do-you-know-your-eq-23beca870fc](https://medium.com/rempsyc/do-you-know-your-eq-23beca870fc)
+
+**Thériault, R.** (2014, January 16). Nature of reality and its inevitable simplification [Blog post]. Retrieved from [https://medium.com/rempsyc/nature-of-reality-e286a1587d94](https://medium.com/rempsyc/nature-of-reality-e286a1587d94)
+
+**Thériault, R.** (2012, October 10). Bilan de RIO+20: La planète n'y arrivera pas si on ne change pas de modèle! *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *38*(3), p. 5. Retrieved from <https://issuu.com/motdit/docs/motdit10.10.12>
+
+**Thériault, R.** (2012, August 30). Une folle élection: « ki cé kon vote, pq ou qs? » [pastiche]. *Le MotDit : Le journal du Collège Édouard-Montpetit*, *38*(1), p. 6. Retrieved from <https://issuu.com/motdit/docs/motdit30.08.12>
+
+**Thériault, R.** (2012, February 22). Réflexion sur la hausse des droits de scolarité. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *37*(5), p. 10.
+
+**Thériault, R.** , April 27). Expérience sur les perceptions extrasensorielles. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *36*(7), p. 6.

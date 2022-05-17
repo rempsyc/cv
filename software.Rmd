@@ -1,0 +1,7 @@
+---
+output: html_document
+---
+
+# Software (R Package)
+
+**Thériault, R.** (2022). rempsyc: Convenience functions for psychology. <https://github.com/rempsyc/rempsyc> Version = 0.0.3.3.

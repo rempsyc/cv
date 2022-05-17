@@ -1,0 +1,9 @@
+---
+output: html_document
+---
+
+# Other Contributions (Academic Service)
+
+**Reviewer** for *Psychology of Consciousness: Theory, Research, and Practice*, January 2022.
+
+**Reviewer** for the *XXI World Congress of Medical and Clinical Hypnosis*, organized by the International Society of Hypnosis and the Société Québécoise d'Hypnose, August 22-25, 2018, Montréal.

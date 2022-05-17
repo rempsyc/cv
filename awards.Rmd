@@ -1,0 +1,182 @@
+---
+output: html_document
+---
+
+# Recognitions And Awards
+
+```{r Awards}
+data <- rbind(
+  
+  tibble(
+    Name = "Prix reconnaissance de l’implication étudiante (UQAM) - Projet, Volet Santé et saines habitudes de vie",
+    URL = "https://actualites.uqam.ca/2022/bourses-implication-etudiante",
+    Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
+    Date = "2022",
+    Amount = 1000,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Prix Relève étoile Paul-Gérin-Lajoie, for best paper (FRQSC)",
+    URL = "https://frq.gouv.qc.ca/en/story-and-report/releve-etoile-paul-gerin-lajoie-janvier-2022/",
+    Details = "Award-winning publication: Body swapping with a Black person boosts empathy",
+    Date = "2022",
+    Amount = 1000,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse d'implication Desjardins, for student involvement",
+    URL = "",
+    Details = "For student involvement",
+    Date = "2021",
+    Amount = 2000,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Finalist only (< 6\\% of applicants) for the Pierre Elliott Trudeau Scholarship (valued at \\$180,000)",
+    URL = "https://www.trudeaufoundation.ca/updates/news/path-engaged-leadership-starts-here",
+    Details = "Finalist only (< 6\\% of applicants)",
+    Date = "2021-2024",
+    Amount = 0,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse d'excellence de l'Institut des sciences cognitives (UQAM)",
+    URL = "https://isc.uqam.ca/etudiants/laureats-excellence/",
+    Details = "Excellence award from the Institute of Cognitive Sciences",
+    Date = "2021",
+    Amount = 2000,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "McGill Department of Psychiatry Travel Award",
+    URL = "",
+    Details = "To attend the 2019 Congress of the Humanities and Social Sciences",
+    Date = "2019",
+    Amount = 485,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Storytellers public speaking contest Finalist (SSHRC)",
+    URL = "https://www.sshrc-crsh.gc.ca/news_room-salle_de_presse/latest_news-nouvelles_recentes/2019/2019_storytellers_top_25-jai_une_histoire_a_raconter_25_finalistes_2019-eng.aspx",
+    Details = "Public speaking contest from the Social Sciences and Humanities Research Council",
+    Date = "2019",
+    Amount = 3000,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Doctoral (SSHRC)",
+    URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2017/cgs_doctoral-doctorat_bes-eng.aspx",
+    Details = "Excellence award from the Social Sciences and Humanities Research Council",
+    Date = "2018-2021",
+    Amount = 105000,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Fonds de recherche du Québec - Société et culture-Doctoral — Declined",
+    URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
+    Details = "Excellence award from the FRQSC",
+    Date = "2018-2021",
+    Amount = 84000,
+    Activity = NA,
+    Declined = TRUE),
+  
+  tibble(
+    Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Master’s (SSHRC)",
+    URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2016/masters-maitrise-eng.aspx",
+    Details = "Excellence award from the Social Sciences and Humanities Research Council",
+    Date = "2017-2018",
+    Amount = 17500,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Fonds de recherche du Québec - Société et culture-Master’s — Declined",
+    URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
+    Details = "Excellence award from the FRQSC",
+    Date = "2017-2018",
+    Amount = 15000,
+    Activity = NA,
+    Declined = TRUE),
+  
+  tibble(
+    Name = "Graduate Excellence Fellowship in Mental Health Research",
+    URL = "",
+    Details = "Excellence award from McGill University",
+    Date = "2017-2018",
+    Amount = 10000,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Faculty of Arts Research Internship Award",
+    URL = "https://www.mcgill.ca/arts-internships/research/recipients/2015-aria-recipients",
+    Details = "Excellence award from McGill University",
+    Date = "2015",
+    Amount = 4000,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Je prends ma place Laureate, for citizen engagement (Québec Government)",
+    URL = "https://youtu.be/Hm0_j3OG1BU",
+    Details = "Citizen involvement award from the Québec Government",
+    Date = "2013",
+    Amount = 1000,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Forces Avenir Laureate – College, Committed Student",
+    URL = "https://ancien.fedecegeps.qc.ca/autres-activites/forces-avenir/",
+    Details = "Student involvement award from Forces Avenir",
+    Date = "2013",
+    Amount = 2500,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse Coopérative-Odyssée, for student engagement",
+    URL = "",
+    Details = "Student involvement award from Cégep Édouard-Montpetit",
+    Date = "2012",
+    Amount = 750,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse Édouard-Montpetit-Desjardins, for student engagement",
+    URL = "",
+    Details = "Student involvement award from Cégep Édouard-Montpetit",
+    Date = "2011",
+    Amount = 750,
+    Activity = NA,
+    Declined = FALSE)
+  
+)
+
+total <- data$Amount
+
+data <- data %>% 
+    add_row(Name = "Total Amount Offered",
+            URL = "",
+            Date = "2011-2022",
+            Amount = sum(total),
+            Declined = FALSE) %>% 
+  mutate(Name = link(paste0("\\hspace{0.5cm} ", Name, "\\dotfill"), URL, color = "333333"),
+         Amount = paste0("\\$", scales::label_comma(accuracy = 1)(Amount)),
+         Amount = ifelse(Declined == TRUE,
+                         paste0("(", Amount, ")"),
+                         Amount))
+data[18,1] <- gsub("333333", "6FA3CE", data[18,1]) #Red: FF0000, but we use same colour as rest
+
+brief_entries(data, Name, Date, Amount, .protect = FALSE)
+
+```

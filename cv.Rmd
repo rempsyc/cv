@@ -1,0 +1,139 @@
+---
+name: Rémi
+surname: Thériault
+profilepic: "./img/profile.png"
+position: "PhD Student"
+qualifications: "MSc"
+address: "Université du Québec à Montréal, Montréal, Québec, Canada"
+phone: (438) 995-7648
+www: remi-theriault.com
+email: "theriault.remi@courrier.uqam.ca"
+twitter: rempsyc
+github: rempsyc
+# linkedin: rempsyc
+
+aboutme: |
+  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. One of my research areas deals with the mind-body connection, for example through exploring alterations in the sense of embodiment, the placebo effect, and mindfulness. A second central research area of mine focuses on prosociality: empathy, perspective-taking, altruism, loving-kindness, and self-control. I am also passionate about open science, reproducible science, and data science using R (this CV was made in R too).
+
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look
+urlcolor: blue
+linkcolor: blue
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+#######################
+#### SHORT VERSION ####
+#######################
+
+# Whether to print a shortened version of the CV
+short <- TRUE
+
+########################
+#### PACKAGE SETUP #####
+########################
+
+# Required packages
+library(vitae)
+library(dplyr)
+library(dplyr)
+
+# For Google scholar data/visualization
+library(scholar)
+library(ggplot2)
+library(forcats)
+library(patchwork)
+library(see)
+
+# To format links throughout the CV
+link <- function(txt, url, color = "1976D2") {
+  paste0("\\href{", url, "}{\\color[HTML]{", color, "}{", txt, "}}")
+}
+
+########################
+#### GOOGLE SCHOLAR ####
+########################
+
+# Specify your Google scholar profile
+scholar.profile <- "NrfwEncAAAAJ" # Get it from your Google Scholar profile URL
+
+# Specify your Google scholar short author name
+author.name <- "rém thériault"
+# Note: correct name may vary (e.g., if you inconsistently used middle name initials)
+# Dominique Makowski's was simply "d makowski", so the pattern is unclear 
+# But usually it seems 1-3 letters from first name plus full last name
+
+# When in doubt, the correct author name can be obtained through:
+# source("cv/get_scholar_name.R") # (after defining 'scholar.profile' above)
+
+# Name inconsistencies should be corrected manually in file 'make_data_impact.R' (lines 14-16) %>% .
+
+```
+
+
+```{r Education parent, child=c('education.Rmd')}
+
+```
+
+```{r Awards parent, child=c('awards.Rmd')}
+
+```
+
+```{r Grants parent, child=c('grant.Rmd')}
+
+```
+
+```{r Teaching parent, child=c('teaching.Rmd')}
+
+```
+
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+```{r Software parent, child=c('software.Rmd')}
+
+```
+
+```{r Publications parent, child=c('publications.Rmd')}
+
+```
+
+```{r Other publications parent, child=c('publications_other.Rmd'), eval = !short}
+```
+
+```{r Academic service parent, child=c('academic_service.Rmd')}
+
+```
+
+```{r Media coverage parent, child=c('media_coverage.Rmd'), eval = !short}
+
+```
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+```{r Other experience parent, child=c('other_experience.Rmd'), eval = !short}
+
+```
+
+```{r Leadership parent, child=c('leadership.Rmd')}
+
+```
+
+```{r Varia parent, child=c('varia.Rmd'), eval = !short}
+
+```
+
+# Credit
+
+\scriptsize
+
+This CV was made using the `r link("vitae", "https://pkg.mitchelloharawild.com/vitae/")` package in R, and a great deal of inspiration from `r link("Dominique Makowski's template", "https://github.com/DominiqueMakowski/CV")`
