@@ -17,6 +17,7 @@ This CV was made using the [`vitae`](https://pkg.mitchelloharawild.com/vitae/) p
 - Change the order of sections by changing the order of code chunks.
 - Edit the individual files ("childs") to edit your sections' content as desired (e.g., `publications.Rmd`).
 - Add `eval = !short` to code chunk options to make them optional for the short version.
+- To output the CV to PDF, simply Knit it (through RStudio's button or the Ctr+Shift+K shortcut)
 
 ## Notes
 
