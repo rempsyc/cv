@@ -23,23 +23,24 @@ me would be appreciated, though totally optional.
 4.  Change the order of sections by changing the order of code chunks.
 5.  Edit the individual files (“childs”) to edit your sections’ content
     as desired (e.g., `publications.Rmd`).
-6.  To output the CV to PDF, simply Knit `cv.Rmd` (shortcut is
+6.  To output the CV to PDF, simply knit `cv.Rmd` (shortcut is
     Ctr+Shift+K)
 
 ## Tips
 
--   If you are using a word processor as well as RStudio, one tip to
-    save time is to change the relevant content section (e.g.,
-    `publications.Rmd`) from `Source` to `Visual` (top left in RStudio)
-    before copy-pasting your publications and other formatted content.
-    This way, all the existing formatting (bold, italic, etc.) will be
-    kept and you won’t have to manually recreate all the formatting.
 -   Request a short version by setting `short` to `TRUE` in `cv.Rmd`.
 -   Add `eval = !short` to code chunk options to make them optional for
     the short version.
--   It is possible to import data from other sources automatically (from
-    ORCID, Google Scholar, or another platform), but I have not
-    personally experimented with this yet. More info can be found
+-   If you are using a word processor as well as RStudio, one tip to
+    save time is to change the relevant content section (e.g.,
+    `publications.Rmd`) View from `Source` to `Visual` (top left in
+    RStudio) before copy-pasting your publications and other formatted
+    content. This way, all the existing formatting (bold, italic, etc.)
+    will be kept and you won’t have to manually recreate all the
+    formatting.
+-   It is also possible to import data from other sources automatically
+    (ORCID, Google Scholar, etc.), but I have not personally
+    experimented with this yet. More info can be found
     [here](https://pkg.mitchelloharawild.com/vitae/articles/data.html).
 
 ## Notes
