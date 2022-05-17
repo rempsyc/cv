@@ -10,20 +10,23 @@ This CV was made using the [`vitae`](https://pkg.mitchelloharawild.com/vitae/) p
 
 ## Instructions
 
-- The main file to edit is `cv.Rmd`. Use it to add your name, contact information, and description. Change the template colour using the `headcolor` parameter.
-- Request a short version by setting `short` to `TRUE`.
-- Make sure to install all required packages.
-- Specify your Google Scholar profile number and name if using this feature.
-- Change the order of sections by changing the order of code chunks.
-- Edit the individual files ("childs") to edit your sections' content as desired (e.g., `publications.Rmd`).
+1. The main file to edit is `cv.Rmd`. Use it to add your name, contact information, and description. Change the template colour using the `headcolor` parameter (in the YAML header). Also replace the photo in the `img` folder.
+2. Make sure to install all required packages (LaTeX is required as well).
+3. Specify your Google Scholar profile number and name if using this feature.
+4. Change the order of sections by changing the order of code chunks.
+5. Edit the individual files ("childs") to edit your sections' content as desired (e.g., `publications.Rmd`).
+6. To output the CV to PDF, simply Knit `cv.Rmd` (shortcut is Ctr+Shift+K)
+
+## Tips
+- If you are using a word processor as well as RStudio, one tip to save time is to change the relevant content section (e.g., `publications.Rmd`) from `Source` to `Visual` (top left in RStudio) before copy-pasting your publications and other formatted content. This way, all the existing formatting (bold, italic, etc.) will be kept and you won't have to manually recreate all the formatting.
+- Request a short version by setting `short` to `TRUE` in `cv.Rmd`.
 - Add `eval = !short` to code chunk options to make them optional for the short version.
-- To output the CV to PDF, simply Knit the file `cv.Rmd` (through RStudio's button or the Ctr+Shift+K shortcut)
+- It is possible to import data from other sources automatically (from ORCID, Google Scholar, or another platform), but I have not personally experimented with this yet. More info can be found [here](https://pkg.mitchelloharawild.com/vitae/articles/data.html).
 
 ## Notes
 
-- If you are using a word processor as well as RStudio, one tip to save time is to change the relevant content section (e.g., `publications.Rmd`) from `Source` to `Visual` (top left in RStudio) before copy-pasting your publications and other formatted content. This way, all the existing formatting (bold, italic, etc.) will be kept and you won't have to manually recreate all the formatting.
 - This template uses the North-American `8.5in x 11in` (letter) size instead of the original European `8.27 x 11.69` (A4) size.
-- Special characters (e.g., `$`, `&`, `%`, need to be escaped with a backslash or a double backslash)
+- Special characters (e.g., `$`, `&`, `%`) need to be escaped with a backslash or a double backslash.
 - The template uses some LaTeX language at times for specific customization (commands starting with backslashes `\`). Some useful commands include:
   - `\pagebreak` to create a page break between sections
   - `\scriptsize` to make text smaller (typically for publications sections)
