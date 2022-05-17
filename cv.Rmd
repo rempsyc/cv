@@ -70,7 +70,7 @@ author.name <- "rém thériault"
 # When in doubt, the correct author name can be obtained through:
 # source("get_scholar_name.R") # (after defining 'scholar.profile' above)
 
-# Name inconsistencies should be corrected manually in file 'make_data_impact.R' (lines 14-16) %>% .
+# Name inconsistencies should be corrected manually in file 'make_data_impact.R' (lines 14-16).
 
 ########################
 ##### INSTRUCTIONS #####
