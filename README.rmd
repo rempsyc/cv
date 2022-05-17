@@ -21,6 +21,7 @@ This CV was made using the [`vitae`](https://pkg.mitchelloharawild.com/vitae/) p
 
 ## Notes
 
+- If you are using a word processor as well as RStudio, one tip to save time is to change the relevant content section (e.g., `publications.Rmd`) from `Source` to `Visual` (top left in RStudio) before copy-pasting your publications and other formatted content. This way, all the existing formatting (bold, italic, etc.) will be kept and you won't have to manually recreate all the formatting.
 - This template uses the North-American `8.5in x 11in` (letter) size instead of the original European `8.27 x 11.69` (A4) size.
 - Special characters (e.g., `$`, `&`, `%`, need to be escaped with a backslash or a double backslash)
 - The template uses some LaTeX language at times for specific customization (commands starting with backslashes `\`). Some useful commands include:
@@ -32,6 +33,8 @@ This CV was made using the [`vitae`](https://pkg.mitchelloharawild.com/vitae/) p
   - `\\dotfill` to create dotted lines (e.g., for the award section)
   - `\setlength{\parindent}{-0.2in}` and `\setlength{\leftskip}{0.2in}` to indent publications, "hanging" style.
 - For questions or difficulties, feel free to open a GitHub issue here.
+
+## Demos
 
 My long CV is available for demonstration here: https://remi-theriault.com/cv
 
