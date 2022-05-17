@@ -32,7 +32,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 #######################
 
 # Whether to print a shortened version of the CV
-short <- TRUE
+short <- FALSE
 
 ########################
 #### PACKAGE SETUP #####
@@ -40,7 +40,6 @@ short <- TRUE
 
 # Required packages
 library(vitae)
-library(dplyr)
 library(dplyr)
 
 # For Google scholar data/visualization
@@ -69,9 +68,17 @@ author.name <- "rém thériault"
 # But usually it seems 1-3 letters from first name plus full last name
 
 # When in doubt, the correct author name can be obtained through:
-# source("cv/get_scholar_name.R") # (after defining 'scholar.profile' above)
+# source("get_scholar_name.R") # (after defining 'scholar.profile' above)
 
 # Name inconsistencies should be corrected manually in file 'make_data_impact.R' (lines 14-16) %>% .
+
+########################
+##### INSTRUCTIONS #####
+########################
+
+# Change the order of sections below as desired.
+# Edit the individual files ("childs") to edit the content as desired.
+# Add eval = !short to code chunks to make them optional for the short version
 
 ```
 
