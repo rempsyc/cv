@@ -24,8 +24,8 @@ me would be appreciated, though totally optional.
     as desired (e.g., `publications.Rmd`).
 -   Add `eval = !short` to code chunk options to make them optional for
     the short version.
--   To output the CV to PDF, simply Knit it (through RStudio’s button or
-    the Ctr+Shift+K shortcut)
+-   To output the CV to PDF, simply Knit the file `cv.Rmd` (through
+    RStudio’s button or the Ctr+Shift+K shortcut)
 
 ## Notes
 
