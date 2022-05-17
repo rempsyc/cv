@@ -23,7 +23,7 @@ me would be appreciated, though totally optional.
 -   Edit the individual files (“childs”) to edit your sections’ content
     as desired (e.g., `publications.Rmd`).
 -   Add `eval = !short` to code chunk options to make them optional for
-    the short version
+    the short version.
 
 ## Notes
 
@@ -34,7 +34,7 @@ me would be appreciated, though totally optional.
 -   The template uses some LaTeX language at times for specific
     customization (commands starting with backslashes `\`). Some useful
     commands include:
-    -   `\\pagebreak` to create a page break between sections
+    -   `\pagebreak` to create a page break between sections
     -   `\scriptsize` to make text smaller (typically for publications
         sections)
     -   `\normalsize` to make text normal (for regular sections)

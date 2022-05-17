@@ -16,14 +16,14 @@ This CV was made using the [`vitae`](https://pkg.mitchelloharawild.com/vitae/) p
 - Specify your Google Scholar profile number and name if using this feature.
 - Change the order of sections by changing the order of code chunks.
 - Edit the individual files ("childs") to edit your sections' content as desired (e.g., `publications.Rmd`).
-- Add `eval = !short` to code chunk options to make them optional for the short version
+- Add `eval = !short` to code chunk options to make them optional for the short version.
 
 ## Notes
 
 - This template uses the North-American `8.5in x 11in` (letter) size instead of the original European `8.27 x 11.69` (A4) size.
 - Special characters (e.g., `$`, `&`, `%`, need to be escaped with a backslash or a double backslash)
 - The template uses some LaTeX language at times for specific customization (commands starting with backslashes `\`). Some useful commands include:
-  - `\\pagebreak` to create a page break between sections
+  - `\pagebreak` to create a page break between sections
   - `\scriptsize` to make text smaller (typically for publications sections)
   - `\normalsize` to make text normal (for regular sections)
   - `\\textit{yourtext}` to italicize `yourtext` (within dataframes, outside of regular rmarkdown)
