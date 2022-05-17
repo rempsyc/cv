@@ -3,9 +3,9 @@
 
 This CV was made using the
 [`vitae`](https://pkg.mitchelloharawild.com/vitae/) package in R, and
-using the template from [Dominique Makowski’s
-template](https://github.com/DominiqueMakowski/CV), which includes the
-code for the Google Scholar figure and table, and a lot more. Please
+using the template from [Dominique
+Makowski](https://github.com/DominiqueMakowski/CV) (which includes the
+code for the Google Scholar figure and table, and a lot more). Please
 give them due credit if using this template. I also brought some
 optimization and documentation to the current template, so acknowledging
 me would be appreciated, though totally optional.
