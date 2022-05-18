@@ -23,10 +23,10 @@ me would be appreciated, though totally optional.
 4.  Specify your Google Scholar profile number and name if using this
     feature.
 5.  Change the order of sections by changing the order of code chunks.
-6.  Edit the individual files (“childs”) to edit your sections’ content
-    as desired (e.g., `publications.Rmd`).
+6.  Edit the individual `.Rmd` files to edit your sections’ content as
+    desired (e.g., `publications.Rmd`).
 7.  To output the CV to PDF, simply knit `cv.Rmd` (shortcut is
-    Ctr+Shift+K)
+    `Ctrl+Shift+K`)
 
 ## Tips
 

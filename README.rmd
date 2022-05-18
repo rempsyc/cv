@@ -15,8 +15,8 @@ This CV was made using the [`vitae`](https://pkg.mitchelloharawild.com/vitae/) p
 3. Make sure to install all required packages (LaTeX is required as well).
 4. Specify your Google Scholar profile number and name if using this feature.
 5. Change the order of sections by changing the order of code chunks.
-6. Edit the individual files ("childs") to edit your sections' content as desired (e.g., `publications.Rmd`).
-7. To output the CV to PDF, simply knit `cv.Rmd` (shortcut is Ctr+Shift+K)
+6. Edit the individual `.Rmd` files to edit your sections' content as desired (e.g., `publications.Rmd`).
+7. To output the CV to PDF, simply knit `cv.Rmd` (shortcut is `Ctrl+Shift+K`)
 
 ## Tips
 - Request a short version by setting `short` to `TRUE` in `cv.Rmd`.
