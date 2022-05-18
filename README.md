@@ -12,18 +12,20 @@ me would be appreciated, though totally optional.
 
 ## Instructions
 
-1.  The main file to edit is `cv.Rmd`. Use it to add your name, contact
+1.  First, you will need to clone/download this entire repository and
+    all it’s files to your computer so you can run the code in R.
+2.  The main file to edit is `cv.Rmd`. Use it to add your name, contact
     information, and description. Change the template colour using the
     `headcolor` parameter (in the YAML header). Also replace the photo
     in the `img` folder.
-2.  Make sure to install all required packages (LaTeX is required as
+3.  Make sure to install all required packages (LaTeX is required as
     well).
-3.  Specify your Google Scholar profile number and name if using this
+4.  Specify your Google Scholar profile number and name if using this
     feature.
-4.  Change the order of sections by changing the order of code chunks.
-5.  Edit the individual files (“childs”) to edit your sections’ content
+5.  Change the order of sections by changing the order of code chunks.
+6.  Edit the individual files (“childs”) to edit your sections’ content
     as desired (e.g., `publications.Rmd`).
-6.  To output the CV to PDF, simply knit `cv.Rmd` (shortcut is
+7.  To output the CV to PDF, simply knit `cv.Rmd` (shortcut is
     Ctr+Shift+K)
 
 ## Tips
