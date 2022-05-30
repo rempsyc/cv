@@ -6,7 +6,7 @@ output: html_document
 
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Under peer review at *Social Psychological and Personality Science*. Preprint: <https://psyarxiv.com/xc4g7/>
 
-Miglianico, M.†, **Thériault, R.†,** Lavoie, B.†, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*. Under peer review [second round]. †These authors contributed equally.
+Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*. Under peer review [second round]. \*These authors contributed equally.
 
 **Thériault, R.**, Dandeneau, S, & Baldwin, M. (in preparation). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals.
 
@@ -22,7 +22,7 @@ Miglianico, M.†, **Thériault, R.†,** Lavoie, B.†, Labelle, P., Joussemet,
 
 # Invited Talks
 
-**Thériault, R.†**, Quilico, E.†, Tétreault, F.†, Labossière, S.†, Boudreau, S.† (2020, May 13; †all panelists contributed equally). Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting (Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation). Panel organized by the *Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal (CRIR)*. Presentation available from: <https://youtu.be/8VfnOjnon30?t=4288>.
+**Thériault, R.\***, Quilico, E.\*, Tétreault, F.\*, Labossière, S.\*, Boudreau, S.\* (2020, May 13; \*all panelists contributed equally). Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting (Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation). Panel organized by the *Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal (CRIR)*. Presentation available from: <https://youtu.be/8VfnOjnon30?t=4288>.
 
 **Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2019, January 15). Immersive embodiment experiences improve intergroup relations, empathy, self-other overlap, and prejudice. Online webinar for the *Student Speaker Series* of the *Student Division of the International Positive Psychology Association*. Presentation available from: <https://vimeo.com/user68157211/review/378278530/8d86f3cb33>.
 
@@ -33,6 +33,8 @@ Miglianico, M.†, **Thériault, R.†,** Lavoie, B.†, Labelle, P., Joussemet,
 **Thériault, R.** (2016, October 19)**.** Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale. Oral presentation for the *Wampum Center* at the *Native Friendship Center of Montreal*, QC.
 
 # Conference Talks
+
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). La méditation d’amour-bienveillant augmente-t-elle les comportements de don? Talk accepted for the *22e congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation* in Montréal, QC.
 
 **Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 16-20). Does loving-kindness meditation increase giving behaviors? Talk accepted for the *Tenth SELF International Conference* in Québec city, QC (but the conference has switched to an online format because of COVID).
 
@@ -80,7 +82,7 @@ Mattuck, S., **Thériault, R.**, Landry, M., & Raz, A. (2017, April 17). Explori
 
 **Thériault, R.**, Landry, M., & Raz, A. (2016, January 19). Exploring cognitive aspects of body ownership. Poster session presented at the *6th Annual Faculty of Arts Undergraduate Research Event* at McGill University in Montréal, QC.
 
-# Media Publications
+# Media Publications (blogs, etc.)
 
 **Thériault, R.** (2022, February 8). Making simple moderations with simple slopes easily in [Blog post]. Retrieved from <https://remi-theriault.com/blog_moderation>
 
@@ -130,4 +132,4 @@ Mattuck, S., **Thériault, R.**, Landry, M., & Raz, A. (2017, April 17). Explori
 
 **Thériault, R.** (2012, February 22). Réflexion sur la hausse des droits de scolarité. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *37*(5), p. 10.
 
-**Thériault, R.** , April 27). Expérience sur les perceptions extrasensorielles. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *36*(7), p. 6.
+**Thériault, R.** (2011, April 27). Expérience sur les perceptions extrasensorielles. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *36*(7), p. 6.

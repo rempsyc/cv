@@ -6,7 +6,7 @@ output: html_document
 
 Chmoulevitch, D. (2022, incoming). A look at racism in Québec and related local research [Interview on my implicit bias research to be published in CBC Montreal].
 
-Paré, C. (2022, incoming). Page Jeune chercheur étoile : Rémi Thériault. Magazine Curium. <https://curiummag.com/>
+Paré, C. (2022, June). Page Jeune chercheur étoile : Rémi Thériault ("La réalité virtuelle au service de l'empathie"). *Magazine Curium*, *55*. <https://curiummag.com/magazine/juin-2022-reinventer-le-voyage/>
 
 Néron, . (2022, May 7). Êtes-vous courtois dans la rue? [Guest expert] Retrieved from: <https://ici.radio-canada.ca/ohdio/premiere/emissions/genre-humain/episodes/625907/rattrapage-du-samedi-7-mai-2022>
 

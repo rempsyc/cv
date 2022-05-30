@@ -6,9 +6,8 @@ This CV was made using the
 using the template from [Dominique
 Makowski](https://github.com/DominiqueMakowski/CV) (which includes the
 code for the Google Scholar figure and table, and a lot more). Please
-give them due credit if using this template. I also brought some
-optimization and documentation to the current template, so acknowledging
-me would be appreciated, though totally optional.
+give them due credit if using this template. I also brought some minor
+optimization and documentation to the current template.
 
 ## Instructions
 
@@ -23,8 +22,8 @@ me would be appreciated, though totally optional.
 4.  Specify your Google Scholar profile number and name if using this
     feature.
 5.  Change the order of sections by changing the order of code chunks.
-6.  Edit the individual `.Rmd` files to edit your sections’ content as
-    desired (e.g., `publications.Rmd`).
+6.  Edit the individual `.Rmd` files in the `sections` subfolder to edit
+    your sections’ content as desired (e.g., `publications.Rmd`).
 7.  To output the CV to PDF, simply knit `cv.Rmd` (shortcut is
     `Ctrl+Shift+K`)
 

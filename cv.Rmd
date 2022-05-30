@@ -83,43 +83,43 @@ author.name <- "rém thériault"
 ```
 
 
-```{r Education parent, child=c('education.Rmd')}
+```{r Education parent, child=c('sections/education.Rmd')}
 
 ```
 
-```{r Awards parent, child=c('awards.Rmd')}
+```{r Awards parent, child=c('sections/awards.Rmd')}
 
 ```
 
-```{r Grants parent, child=c('grant.Rmd')}
+```{r Grants parent, child=c('sections/grant.Rmd')}
 
 ```
 
-```{r Teaching parent, child=c('teaching.Rmd')}
+```{r Teaching parent, child=c('sections/teaching.Rmd')}
 
 ```
 
 \scriptsize
-\setlength{\parindent}{-0.2in}
-\setlength{\leftskip}{0.2in}
+<!-- \setlength{\parindent}{-0.2in} -->
+<!-- \setlength{\leftskip}{0.2in} -->
 \setlength{\parskip}{8pt}
 
-```{r Software parent, child=c('software.Rmd')}
+```{r Software parent, child=c('sections/software.Rmd')}
 
 ```
 
-```{r Publications parent, child=c('publications.Rmd')}
+```{r Publications parent, child=c('sections/publications.Rmd')}
 
 ```
 
-```{r Other publications parent, child=c('publications_other.Rmd'), eval = !short}
+```{r Other publications parent, child=c('sections/publications_other.Rmd'), eval = !short}
 ```
 
-```{r Academic service parent, child=c('academic_service.Rmd')}
+```{r Academic service parent, child=c('sections/academic_service.Rmd')}
 
 ```
 
-```{r Media coverage parent, child=c('media_coverage.Rmd'), eval = !short}
+```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}
 
 ```
 
@@ -127,15 +127,15 @@ author.name <- "rém thériault"
 \setlength{\leftskip}{0in}
 \normalsize
 
-```{r Other experience parent, child=c('other_experience.Rmd'), eval = !short}
+```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = !short}
 
 ```
 
-```{r Leadership parent, child=c('leadership.Rmd')}
+```{r Leadership parent, child=c('sections/leadership.Rmd')}
 
 ```
 
-```{r Varia parent, child=c('varia.Rmd'), eval = !short}
+```{r Varia parent, child=c('sections/varia.Rmd'), eval = !short}
 
 ```
 
