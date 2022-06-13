@@ -6,8 +6,6 @@ output: html_document
 
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Under peer review at *Social Psychological and Personality Science*. Preprint: <https://psyarxiv.com/xc4g7/>
 
-Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*. Under peer review [second round]. \*These authors contributed equally.
-
 **Thériault, R.**, Dandeneau, S, & Baldwin, M. (in preparation). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals.
 
 **Thériault, R.**, Landry, M., Mattuck, S., and Raz, A. (in preparation). The Rubber Hand Illusion: Does cognitive load affect EEG & electrodermal activity?

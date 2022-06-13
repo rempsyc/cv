@@ -8,6 +8,15 @@ output: html_document
 data <- rbind(
   
   tibble(
+    Name = "Bourse d'aide à la participation à des rencontres scientifiques (UQAM)",
+    URL = "",
+    Details = "To participate to the CPA 2022 Annual National Convention",
+    Date = "2022",
+    Amount = 750,
+    Activity = NA,
+    Declined = FALSE),
+  
+  tibble(
     Name = "Prix reconnaissance de l’implication étudiante (UQAM) - Projet, Volet Santé et saines habitudes de vie",
     URL = "https://actualites.uqam.ca/2022/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",

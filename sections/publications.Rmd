@@ -4,41 +4,48 @@ output: html_document
 
 # Publications
 
-```{r, results = "asis", eval = FALSE}
-pubs <- get_publications(scholar.profile)
+```{r, results = "asis", echo = FALSE, message = FALSE, eval = FALSE}
+format.authors <- function(scholar.profile, author.name) {
+  library(dplyr)
 
-author.name2 <- "R Thériault"
+  swap_initials <- function(author.name) {
+    sub("(.*) (.*)", "\\2, \\1.", trimws(author.name))
+  }
 
-pubs %>% 
-  arrange(desc(year)) %>%
-  mutate(journal = paste0("*", journal, "*"),
-         Publications = paste0(author, " (", year, "). ", 
-                      title, ". ", journal, ". ", 
-                      number),
-         Publications = gsub(author.name2, paste0("**", author.name2, "**"), Publications)) %>% 
-  select(Publications) -> pubs2
+  pubs <- scholar::get_publications(scholar.profile)
+  pubs %>% 
+    strsplit(x = .$author, split = ",") -> pubs2
+  lapply(pubs2, function(x) {
+    x <- swap_initials(x)
+    x[length(x)] <- paste0("& ", x[length(x)])
+    x <- paste0(x, collapse = ", ")
+    ifelse(startsWith(x, "& "), sub("& ", "", x), x)
+    }
+    ) -> pubs$author
+  
+  author.name2 <- swap_initials(author.name)
+  
+  pubs %>% 
+    arrange(desc(year)) %>%
+    mutate(journal = paste0("*", journal, "*"),
+           Publications = paste0(author, " (", year, "). ", 
+                                 title, ". ", journal, ". ", 
+                                 number),
+           Publications = gsub(author.name2, paste0("**", author.name2, "**"), Publications)) %>% 
+    select(Publications)
+}
 
-#pubs2
+pubs <- format.authors("NrfwEncAAAAJ", "R Thériault")
 
-# lapply(pubs2, function(x) {cat(x)
-#  cat("\\\n \\\n")})
-
-cat(unlist(pubs2), sep = "\\\n \\\n")
-
-# 4+4
-# 
-# for(i in 1:nrow(pubs2)) {
-#   cat(pubs2[i,])
-#   cat("\\\n \\\n")
-# 
-# }
-
+cat(unlist(pubs), sep = "\\\n \\\n")
 
 ```
 
 ```{r, results = "asis"}
 # print_latex(as_hux(pubs2))
 ```
+
+Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (in press 2022). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*. \*These authors contributed equally.
 
 **Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly of Experimental Psychology*. <https://doi.org/10.1177/17470218221078858>
 

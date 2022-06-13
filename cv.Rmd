@@ -100,8 +100,8 @@ author.name <- "rém thériault"
 ```
 
 \scriptsize
-<!-- \setlength{\parindent}{-0.2in} -->
-<!-- \setlength{\leftskip}{0.2in} -->
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
 ```{r Software parent, child=c('sections/software.Rmd')}
