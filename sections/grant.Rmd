@@ -2,10 +2,6 @@
 output: html_document
 ---
 
-```{r, results = "asis", eval = !short}
-cat("\\pagebreak")
-```
-
 # Research Grants
 
 ```{r Grants}

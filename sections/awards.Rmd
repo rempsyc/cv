@@ -2,17 +2,34 @@
 output: html_document
 ---
 
+```{r, results = "asis", eval = TRUE}
+cat("\\pagebreak")
+```
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
 # Recognitions And Awards
 
 ```{r Awards}
 data <- rbind(
+
+    tibble(
+    Name = "Prix de la meilleure présentation orale étudiante au 22e colloque de l’ASMC",
+    URL = "",
+    Details = "For the 22th congress seminar of the Association scientifique pour la modification du comportement",
+    Date = "2022",
+    Amount = 100,
+    Activity = NA,
+    Declined = FALSE),
   
   tibble(
-    Name = "Bourse d'aide à la participation à des rencontres scientifiques (UQAM)",
+    Name = "Bourse d'aide à la participation à des rencontres scientifiques (UQAM + AGEPSY-CS)",
     URL = "",
     Details = "To participate to the CPA 2022 Annual National Convention",
     Date = "2022",
-    Amount = 750,
+    Amount = 850,
     Activity = NA,
     Declined = FALSE),
   
@@ -184,7 +201,7 @@ data <- data %>%
          Amount = ifelse(Declined == TRUE,
                          paste0("(", Amount, ")"),
                          Amount))
-data[18,1] <- gsub("333333", "6FA3CE", data[18,1]) #Red: FF0000, but we use same colour as rest
+data[nrow(data),1] <- gsub("333333", "6FA3CE", data[nrow(data),1]) #Red: FF0000, but we use same colour as rest
 
 brief_entries(data, Name, Date, Amount, .protect = FALSE)
 

@@ -32,11 +32,11 @@ output: html_document
 
 # Conference Talks
 
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). La méditation d’amour-bienveillant augmente-t-elle les comportements de don? Talk accepted for the *22e congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation* in Montréal, QC.
+**Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022, June 18). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Talk presented at the *2022 CPA Annual National Convention* in Calgary, AB.
 
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 16-20). Does loving-kindness meditation increase giving behaviors? Talk accepted for the *Tenth SELF International Conference* in Québec city, QC (but the conference has switched to an online format because of COVID).
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). La méditation d’amour-bienveillant augmente-t-elle les comportements de don? Talk presented at the *22e congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation* in Montréal, QC.
 
-**Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022, June 17-19). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Talk accepted for the *2022 CPA Annual National Convention* in Calgary, AB.
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 16-20). Does loving-kindness meditation increase giving behaviors? Talk presented at the *Tenth SELF International Conference* in Québec city, QC (virtual conference because of COVID).
 
 **Thériault, R.** (2019, June 3). Réduire les préjugés et augmenter l'empathie via la réalité virtuelle. Talk presented at the *2019 Congress of the Humanities and Social Sciences* in Vancouver, BC.
 

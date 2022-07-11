@@ -87,18 +87,6 @@ author.name <- "rém thériault"
 
 ```
 
-```{r Awards parent, child=c('sections/awards.Rmd')}
-
-```
-
-```{r Grants parent, child=c('sections/grant.Rmd')}
-
-```
-
-```{r Teaching parent, child=c('sections/teaching.Rmd')}
-
-```
-
 \scriptsize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
@@ -107,6 +95,27 @@ author.name <- "rém thériault"
 ```{r Software parent, child=c('sections/software.Rmd')}
 
 ```
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+```{r Teaching parent, child=c('sections/teaching.Rmd')}
+
+```
+
+```{r Grants parent, child=c('sections/grant.Rmd')}
+
+```
+
+```{r Awards parent, child=c('sections/awards.Rmd')}
+
+```
+
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
 
 ```{r Publications parent, child=c('sections/publications.Rmd')}
 

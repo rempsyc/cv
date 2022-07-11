@@ -12,7 +12,8 @@ capture.output(data_scholar[["scholar_publications"]] <-  scholar::get_publicati
                  mutate(author = scholar::get_complete_authors(scholar.profile, pubid)))
 
 # Correct author name inconsistencies, if necessary! (uncomment below)
-# data_scholar$scholar_publications$author <- gsub("MM Doucerain |MM. Doucerain", "M Doucerain", 
+data_scholar$scholar_publications$author <- gsub("R Thériault", "Rém Thériault", data_scholar$scholar_publications$author)
+# data_scholar$scholar_publications$author <- gsub("MM Doucerain |MM. Doucerain", "M Doucerain", data_scholar$scholar_publications$author)
 #                                                  data_scholar$scholar_publications$author)
 
 data_scholar[["scholar_data"]] <- data_scholar[["scholar_publications"]]  %>%
@@ -58,6 +59,12 @@ data_scholar[["scholar_publications"]] <- data %>%
   mutate(Publication = paste0(Publication, ")"),
          Publication = fct_reorder(Publication, cites, .desc = TRUE)) %>%
   filter(Publication != "Thériault (2022)")
+
+# Correct publication with several first authors
+if(any(grepl("M Miglianico, Rém Thériault", data_scholar$scholar_publications$author))) {
+  data_scholar$scholar_publications$author <- gsub("M Miglianico, Rém Thériault", "Rém Thériault, M Miglianico",
+       data_scholar$scholar_publications$author)
+}
 
 # Get dataframe with stats
 get_stats <- function(data_scholar, author.name = author.name) {

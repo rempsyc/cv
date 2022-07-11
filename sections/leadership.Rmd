@@ -70,6 +70,7 @@ data <- rbind(
     where = "Montérégie/Montréal",
     details = c("Shaved and gave my hair, plus collected a total of \\$1456 (2011 \\& 2015) in the community for Leucan",
                 "2009: Represented Leucan and the Challenge for the Montérégie region")),
+  # 2011 = $376; 2015 = $1,080
   
   tibble(
     what = "McGill University Leadership Training Program",
@@ -116,7 +117,7 @@ data <- rbind(
 )
 
 if (short) {
-   data <- data[c(5:16), ]
+   data <- data[c(5:12), ]
    #data$details <- NA
 }
 
