@@ -1,3 +1,4 @@
+# From: https://github.com/dmnemec/copy_file_to_another_repo_action
 name: Push File
 
 on: push
@@ -12,7 +13,7 @@ jobs:
     - name: Pushes test file
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        API_TOKEN_GITHUB: ${{ secrets.CV_TOKEN }}
       with:
         source_file: 'cv.pdf'
         destination_repo: 'rempsyc/starter-academic'
