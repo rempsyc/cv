@@ -16,7 +16,7 @@ data <- rbind(
                 "Supervisor: Stéphane Dandeneau")), 
 
   tibble(
-    what = "Master of Science (Psychiatry)",
+    what = "Master of Science (Psychiatry - Social \\& Transcultural)",
     when = "2016/09 - 2018/08",
     with = "McGill University",
     where = "Montréal, Québec, Canada",

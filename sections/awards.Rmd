@@ -2,10 +2,6 @@
 output: html_document
 ---
 
-```{r, results = "asis", eval = TRUE}
-cat("\\pagebreak")
-```
-
 \setlength{\parindent}{0in}
 \setlength{\leftskip}{0in}
 \normalsize
@@ -15,6 +11,24 @@ cat("\\pagebreak")
 ```{r Awards}
 data <- rbind(
 
+    tibble(
+    Name = "Bourse Desjardins, catégorie Coup de pouce – Persévérance scolaire et ambitions pour l’avenir",
+    URL = "",
+    Details = "For school perseverance and ambitions for the future",
+    Date = "2022",
+    Amount = 500,
+    Activity = NA,
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Bourse d'engagement du Syndicat des professeures et professeurs de l'UQAM (SPUQ) - Doctorat",
+    URL = "",
+    Details = "For student involvement and academic excellence",
+    Date = "2022",
+    Amount = 4000,
+    Activity = NA,
+    Declined = FALSE),
+    
     tibble(
     Name = "Prix de la meilleure présentation orale étudiante au 22e colloque de l’ASMC",
     URL = "",
@@ -64,7 +78,7 @@ data <- rbind(
     Name = "Finalist only (< 6\\% of applicants) for the Pierre Elliott Trudeau Scholarship (valued at \\$180,000)",
     URL = "https://www.trudeaufoundation.ca/updates/news/path-engaged-leadership-starts-here",
     Details = "Finalist only (< 6\\% of applicants)",
-    Date = "2021-2024",
+    Date = "2021",
     Amount = 0,
     Activity = NA,
     Declined = FALSE),

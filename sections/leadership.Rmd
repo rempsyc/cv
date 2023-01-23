@@ -2,22 +2,16 @@
 output: html_document
 ---
 
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
 # Leadership Experience
 
 ```{r Leadership}
 
 data <- rbind(
   
-  tibble(
-    what = "Département de psychologie (Université du Québec à Montréal)",
-    when = "2019/01 – Present",
-    role = "Yoga \\& Meditation Student Committee Lead",
-    where = "Montréal, Québec",
-    details = c("Organize affordable weekly yoga sessions for psychology students on campus (Winter 2022)", 
-                "Wrote and successfully obtained 2 grants for the project (first: \\$1,697.85; second: \\$500)", 
-                "Organized and guided weekly meditations for psychology students on campus (Winter 2019)", 
-                "Project objective is to improve student mental health with evidence-based mind-body exercises")),
-
   tibble(
     what = "Canadian Positive Psychology Association (CPPA)",
     when = "2019/09 – Present",
@@ -29,16 +23,6 @@ data <- rbind(
                 "Organize and host webinars periodically, various involvement in other projects")),
   
   tibble(
-    what = "International Positive Psychology Association (IPPA)",
-    when = "2017/12 – Present",
-    role = "Regional Representative (for the province of Québec) of the Student Division (SIPPA)",
-    where = "Montréal, Québec",
-    details = c("Connect local members to IPPA’s Student Division",
-                "Monthly meetings and brainstorming with Representatives and SIPPA Executive Team", 
-                "Created an interactive map of locations of all representatives across the globe for the website", 
-                "Contribution to SIPPA newsletter")),
-  
-  tibble(
     what = "Regroupement québécois de psychologie positive",
     when = "2016/04 – Present",
     role = "Member of think-tank for the future of positive psychology in Québec",
@@ -47,6 +31,26 @@ data <- rbind(
                 "Part of a) research, b) clinical, c) student, and d) English community committees", 
                 "Contribute to advertisement and goals of the group through public outreach, document preparation, help with organization of conference, and presentations to student associations to foster collaborations", 
                 "Lead development of freshly formed student division")),
+  
+  tibble(
+    what = "Département de psychologie (Université du Québec à Montréal)",
+    when = "2019/01 – 2022-12",
+    role = "Yoga \\& Meditation Student Committee Lead",
+    where = "Montréal, Québec",
+    details = c("Organize affordable weekly yoga sessions for psychology students on campus (Winter 2022)", 
+                "Wrote and successfully obtained 2 grants for the project (first: \\$1,697.85; second: \\$500)", 
+                "Organized and guided weekly meditations for psychology students on campus (Winter 2019)", 
+                "Project objective is to improve student mental health with evidence-based mind-body exercises")),
+
+  tibble(
+    what = "International Positive Psychology Association (IPPA)",
+    when = "2017/12 – 2022/08",
+    role = "Regional Representative (for the province of Québec) of the Student Division (SIPPA)",
+    where = "Montréal, Québec",
+    details = c("Connect local members to IPPA’s Student Division",
+                "Monthly meetings and brainstorming with Representatives and SIPPA Executive Team", 
+                "Created an interactive map of locations of all representatives across the globe for the website", 
+                "Contribution to SIPPA newsletter")),
   
   tibble(
     what = "Permacultive ta Ville",

@@ -2,6 +2,11 @@
 output: html_document
 ---
 
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
 # Publications
 
 ```{r, results = "asis", echo = FALSE, message = FALSE, eval = FALSE}
@@ -45,9 +50,10 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
+
 Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*. \*These authors contributed equally. <https://doi.org/10.1016/j.psfr.2022.06.004>
 
-**Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly of Experimental Psychology*. <https://doi.org/10.1177/17470218221078858>
+**Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly of Experimental Psychology*, *75*(11), 2129-2148. <https://doi.org/10.1177/17470218221078858>
 
 **Thériault, R.**, Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology*, 74(12), 2057-2074. <https://doi.org/10.1177/17470218211024826>.
 

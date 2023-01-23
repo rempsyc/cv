@@ -2,6 +2,11 @@
 output: html_document
 ---
 
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
 # Media Coverage
 
 Chmoulevitch, D. (2022, incoming). A look at racism in Québec and related local research [Interview on my implicit bias research to be published in CBC Montreal].

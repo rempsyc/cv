@@ -1,0 +1,13 @@
+---
+output: html_document
+---
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+# Credit
+
+\scriptsize
+
+This CV was made using the `r link("vitae", "https://pkg.mitchelloharawild.com/vitae/")` package in R, and a great deal of inspiration from `r link("Dominique Makowski's template", "https://github.com/DominiqueMakowski/CV")`. I wrote GitHub instructions to `r link("make this CV 100\\% reproducible", "https://github.com/rempsyc/cv")`.

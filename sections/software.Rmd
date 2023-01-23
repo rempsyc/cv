@@ -2,6 +2,84 @@
 output: html_document
 ---
 
-# Software (R Package)
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
 
-**Thériault, R.** (2022). rempsyc: Convenience functions for psychology. <https://github.com/rempsyc/rempsyc> Version = 0.0.3.3.
+# Software (R Packages)
+
+```{r, include = FALSE, eval = TRUE}
+rsvg_png("https://cranlogs.r-pkg.org/badges/easystats", 
+         "D:/github/cv/img/easystats_monthly.png",
+         width = 250)
+
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/easystats", 
+         "D:/github/cv/img/easystats.png",
+         width = 250)
+
+rsvg_png("https://cranlogs.r-pkg.org/badges/report", 
+         "D:/github/cv/img/report_monthly.png",
+         width = 250)
+
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/report", 
+         "D:/github/cv/img/report.png",
+         width = 250)
+
+rsvg_png("https://cranlogs.r-pkg.org/badges/effectsize", 
+         "D:/github/cv/img/effectsize_monthly.png",
+         width = 250)
+
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/effectsize", 
+         "D:/github/cv/img/effectsize.png",
+         width = 250)
+
+rsvg_png("https://cranlogs.r-pkg.org/badges/lavaanExtra", 
+         "D:/github/cv/img/lavaanExtra_monthly.png",
+         width = 250)
+
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/lavaanExtra", 
+         "D:/github/cv/img/lavaanExtra.png",
+         width = 250)
+
+rsvg_png("https://cranlogs.r-pkg.org/badges/rempsyc", 
+         "D:/github/cv/img/rempsyc_monthly.png",
+         width = 250)
+
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc", 
+         "D:/github/cv/img/rempsyc.png",
+         width = 250)
+
+```
+
+Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, E., & **Thériault, R.** (2023). *easystats: An R framework for easy statistical modeling, visualization, and reporting*. (R package version 0.6.0.7) [Computer software]. https://easystats.github.io/easystats.
+```{r, out.height="12pt"}
+knitr::include_graphics("img/easystats_monthly.png", dpi = NA)
+knitr::include_graphics("img/easystats.png", dpi = NA)
+```
+
+Makowski, D., Lüdecke, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *report: From R to your manuscript*. (R package version 0.5.5.3) [Computer software]. https://easystats.github.io/report.
+```{r, out.height="12pt"}
+knitr::include_graphics("img/report_monthly.png", dpi = NA)
+knitr::include_graphics("img/report.png", dpi = NA)
+```
+
+Ben-Shachar, M. S., Makowski, D., Lüdecke, D., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *effectsize: Indices of Effect Size*. (R package version 0.8.2) [Computer software]. https://easystats.github.io/effectsize.
+```{r, out.height="12pt"}
+knitr::include_graphics("img/effectsize_monthly.png", dpi = NA)
+knitr::include_graphics("img/effectsize.png", dpi = NA)
+```
+
+**Thériault, R.** (2022). *lavaanExtra: Convenience functions for lavaan* 
+(R package version 0.1.0) [Computer software]. https://lavaanExtra.remi-theriault.com/.
+```{r, out.height="12pt"}
+knitr::include_graphics("img/lavaanExtra_monthly.png", dpi = NA)
+knitr::include_graphics("img/lavaanExtra.png", dpi = NA)
+```
+
+**Thériault, R.** (2022). *rempsyc: Convenience functions for psychology* 
+(R package version 0.0.7) [Computer software]. https://rempsyc.remi-theriault.com.
+```{r, out.height="12pt"}
+knitr::include_graphics("img/rempsyc_monthly.png", dpi = NA)
+knitr::include_graphics("img/rempsyc.png", dpi = NA)
+```

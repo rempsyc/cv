@@ -2,6 +2,10 @@
 output: html_document
 ---
 
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
 # Varia
 
 ## Professional Affiliations
@@ -127,4 +131,4 @@ French (native) and English (fluent)
 
 ## Activities And Interests
 
-Martial arts (Jeet Kune Do & others), breakdance, parkour/free running, skateboard, gymnastics, yoga, salsa")
+Martial arts (Jeet Kune Do & others), breakdance, parkour/free running, skateboard, gymnastics, yoga, salsa)

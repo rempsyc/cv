@@ -2,9 +2,14 @@
 output: html_document
 ---
 
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
 # Non-Peer-Reviewed Publications
 
-**Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Under peer review at *Social Psychological and Personality Science*. Preprint: <https://psyarxiv.com/xc4g7/>
+**Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Preprint: <https://psyarxiv.com/xc4g7/>
 
 **Thériault, R.**, Dandeneau, S, & Baldwin, M. (in preparation). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals.
 

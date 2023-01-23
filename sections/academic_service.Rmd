@@ -2,8 +2,17 @@
 output: html_document
 ---
 
-# Other Contributions (Academic Service)
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
 
-**Reviewer** for *Psychology of Consciousness: Theory, Research, and Practice*, January 2022.
+# Academic Service
+
+**Core team member** of *easystats* (seven members; official start date: 2022-08). The *easystats* project aims to increase the adoption of good statistical practices through open science tools, for example through a collection of R packages that provide a unifying and consistent framework around statistics. This responsibility involves writing code to improve the various R packages associated with the project and participating in the general decision-making. At this time, the *easystats* packages have collectively been downloaded over 12 millions times. Available from: https://easystats.github.io/easystats/
+
+**Reviewer** for *Group Processes and Intergroup Relations*, August 2022.
+
+**Reviewer** for *Psychology of Consciousness: Theory, Research, and Practice*, five times (January 2022, July 2022, October 2022, December 2022, and January 2023).
 
 **Reviewer** for the *XXI World Congress of Medical and Clinical Hypnosis*, organized by the International Society of Hypnosis and the Société Québécoise d'Hypnose, August 22-25, 2018, Montréal.

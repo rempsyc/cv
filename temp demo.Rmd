@@ -1,0 +1,45 @@
+---
+output: html_document
+---
+
+# Publications
+
+```{r, results = "asis", echo = FALSE, message = FALSE, eval = TRUE}
+format.authors <- function(scholar.profile, author.name) {
+  library(dplyr)
+
+  swap_initials <- function(author.name) {
+    sub("(.*) (.*)", "\\2, \\1.", trimws(author.name))
+  }
+
+  pubs <- scholar::get_publications(scholar.profile)
+  pubs %>% 
+    strsplit(x = .$author, split = ",") -> pubs2
+  lapply(pubs2, function(x) {
+    x <- swap_initials(x)
+    x[length(x)] <- paste0("& ", x[length(x)])
+    x <- paste0(x, collapse = ", ")
+    ifelse(startsWith(x, "& "), sub("& ", "", x), x)
+    }
+    ) -> pubs$author
+  
+  author.name2 <- swap_initials(author.name)
+  
+  pubs %>% 
+    arrange(desc(year)) %>%
+    mutate(journal = paste0("*", journal, "*"),
+           Publications = paste0(author, " (", year, "). ", 
+                                 title, ". ", journal, ". ", 
+                                 number),
+           Publications = gsub(author.name2, paste0("**", author.name2, "**"), Publications)) %>% 
+    select(Publications)
+}
+
+pubs <- format.authors("NrfwEncAAAAJ", "R Thériault")
+
+cat(unlist(pubs), sep = "\\\n \\\n")
+
+```
+
+
+

@@ -2,11 +2,15 @@
 output: html_document
 ---
 
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
 # Other Research Experience
 
 ## Research Assistant, Amir Raz Cognitive Neuroscience Laboratory (2013/09–2016/09)
 
-```{r experience, include = !short}
+```{r experience, include = TRUE}
 data <- rbind(
   
   tibble(

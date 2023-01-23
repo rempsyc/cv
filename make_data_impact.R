@@ -58,7 +58,12 @@ for(i in 1:nrow(data)){
 data_scholar[["scholar_publications"]] <- data %>%
   mutate(Publication = paste0(Publication, ")"),
          Publication = fct_reorder(Publication, cites, .desc = TRUE)) %>%
-  filter(Publication != "Thériault (2022)")
+  filter(!Publication %in% c("Thériault (2022)", 
+                             "Thériault (2022b)", 
+                             "Thériault (2022c)",
+                             "Makowski (2022)"))
+
+data_scholar$scholar_data$Number[6] <- data_scholar$scholar_data$Number[6] -3
 
 # Correct publication with several first authors
 if(any(grepl("M Miglianico, Rém Thériault", data_scholar$scholar_publications$author))) {
@@ -112,7 +117,7 @@ plot_impact <- function(data_scholar) {
     dplyr::filter(Year >= 2010) %>%
     ggplot(aes(x = Year, y = Number)) +
     geom_bar(aes(alpha=Year), stat="identity") +
-    geom_line(aes(colour = Index), size = 2) +
+    geom_line(aes(colour = Index), linewidth = 2) +
     see::theme_modern() +
     ylab("") +
     scale_x_continuous(labels = as.character(data$Year), breaks = data$Year) +
