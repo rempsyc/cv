@@ -19,4 +19,5 @@ jobs:
         destination_folder: 'static'
         user_email: 'remi.theriault@mail.mcgill.ca'
         user_name: 'rempsyc'
+        destination_branch: 'master'
         commit_message: 'update cv'
