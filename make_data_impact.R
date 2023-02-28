@@ -54,16 +54,27 @@ for(i in 1:nrow(data)){
   data$Publication[i] <- paste0(pub, suffix[j])
 }
 
+# Ignore the publications below!
+ignored.publications <- c("Thériault (2022)", 
+                          "Thériault (2022c)",
+                          "Thériault (2022d)",
+                          "Makowski (2023)",
+                          "Lüdecke (2023)")
+
 # Filter some publications out, as desired
 data_scholar[["scholar_publications"]] <- data %>%
   mutate(Publication = paste0(Publication, ")"),
          Publication = fct_reorder(Publication, cites, .desc = TRUE)) %>%
-  filter(!Publication %in% c("Thériault (2022)", 
-                             "Thériault (2022b)", 
-                             "Thériault (2022c)",
-                             "Makowski (2022)"))
+  filter(!Publication %in% ignored.publications)
 
-data_scholar$scholar_data$Number[6] <- data_scholar$scholar_data$Number[6] -3
+# Manual correction for non-publications
+# (You might need to change this yourself!)
+row.to.correct <- nrow(data_scholar[["scholar_publications"]])
+
+data_scholar$scholar_data$Number[row.to.correct] <- 
+  data_scholar$scholar_data$Number[row.to.correct] - length(ignored.publications)
+
+data_scholar$scholar_data <- data_scholar$scholar_data[-7, ]
 
 # Correct publication with several first authors
 if(any(grepl("M Miglianico, Rém Thériault", data_scholar$scholar_publications$author))) {
@@ -136,8 +147,6 @@ plot_impact <- function(data_scholar) {
 
 # Make plot with number of publications and number of citations
 plot_citations_per_paper <- function(data_scholar) {
-  data <- data_scholar$scholar_data
-  
   data_scholar[["scholar_publications"]]  %>%
     ggplot(aes(x = Publication, y = cites, label = Journal)) +
     geom_bar(aes(fill=Publication), stat="identity") +

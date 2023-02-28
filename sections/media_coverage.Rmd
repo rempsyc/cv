@@ -9,8 +9,6 @@ output: html_document
 
 # Media Coverage
 
-Chmoulevitch, D. (2022, incoming). A look at racism in Québec and related local research [Interview on my implicit bias research to be published in CBC Montreal].
-
 Jewell, L. (2022, June 23). Member Spotlight: Rémi Thériault. Interview organized by the *Canadian Positive Psychology Association* and conducted by the CPPA President, Louisa Jewell. Retrieved from: https://youtu.be/3H38-k-L7W0.
 
 Paré, C. (2022, June). Page Jeune chercheur étoile : Rémi Thériault ("La réalité virtuelle au service de l'empathie"). *Magazine Curium*, *55*. <https://curiummag.com/magazine/juin-2022-reinventer-le-voyage/>

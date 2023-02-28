@@ -14,7 +14,7 @@ data <- rbind(
   
   tibble(
     what = "Canadian Positive Psychology Association (CPPA)",
-    when = "2019/09 – Present",
+    when = "2019/09 – 2022/12",
     role = "Lead Student Ambassador \\& Co-founder, Student Ambassador Program",
     where = "Montréal, Québec",
     details = c("As lead, manage about 70 other Student Ambassadors for various projects (blog, webinar, logo, Instagram, etc.)", 
@@ -24,7 +24,7 @@ data <- rbind(
   
   tibble(
     what = "Regroupement québécois de psychologie positive",
-    when = "2016/04 – Present",
+    when = "2016/04 – 2022/12",
     role = "Member of think-tank for the future of positive psychology in Québec",
     where = "Montréal, Québec",
     details = c("Participate to group meetings, discussions, debates, vision, and orientations", 
@@ -44,7 +44,7 @@ data <- rbind(
 
   tibble(
     what = "International Positive Psychology Association (IPPA)",
-    when = "2017/12 – 2022/08",
+    when = "2017/12 – 2022/12",
     role = "Regional Representative (for the province of Québec) of the Student Division (SIPPA)",
     where = "Montréal, Québec",
     details = c("Connect local members to IPPA’s Student Division",

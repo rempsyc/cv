@@ -9,6 +9,8 @@ output: html_document
 
 # Non-Peer-Reviewed Publications
 
+**Thériault, R.** (2023). Bonnes pratiques et science ouverte : Un document d'accompagnement au PRD. <https://remi-theriault.com/files/science_ouverte2023.pdf>
+
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Preprint: <https://psyarxiv.com/xc4g7/>
 
 **Thériault, R.**, Dandeneau, S, & Baldwin, M. (in preparation). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals.
@@ -85,7 +87,7 @@ Mattuck, S., **Thériault, R.**, Landry, M., & Raz, A. (2017, April 17). Explori
 
 **Thériault, R.**, Landry, M., & Raz, A. (2016, January 19). Exploring cognitive aspects of body ownership. Poster session presented at the *6th Annual Faculty of Arts Undergraduate Research Event* at McGill University in Montréal, QC.
 
-# Media Publications (blogs, etc.)
+# Blogs +
 
 **Thériault, R.** (2022, February 8). Making simple moderations with simple slopes easily in [Blog post]. Retrieved from <https://remi-theriault.com/blog_moderation>
 
@@ -109,15 +111,17 @@ Mattuck, S., **Thériault, R.**, Landry, M., & Raz, A. (2017, April 17). Explori
 
 **Thériault, R.** (2019, September 6). Introducing an R function for making nice violin plots [Blog post]. Retrieved from <https://remi-theriault.com/blog_violin>
 
-**Thériault, R.** (2015, December 7). Does hypnosis improve clinical interventions? [Blog post]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/does-hypnosis-improve-clinical-interventions/10154268637803797](https://www.facebook.com/notes/rémi-thériault/does-hypnosis-improve-clinical-interventions/10154268637803797)
+**Thériault, R.** (2015, December 7). Does hypnosis improve clinical interventions? [Blog post]. Retrieved from <https://medium.com/@rempsyc/does-hypnosis-improve-clinical-interventions-ea51d829ed98>
 
-**Thériault, R.** (2015, April 9). The SOI, the Big Five traits of personality, and personal transformation [Blog post]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/the-soi-the-big-five-traits-of-personality-and-personal-transformation/10153829459748797](https://www.facebook.com/notes/rémi-thériault/the-soi-the-big-five-traits-of-personality-and-personal-transformation/10153829459748797)
+**Thériault, R.** (2015, April 9). The New Age Movement: Volunteer Associations, Not Markets [Blog post]. Retrieved from <https://medium.com/@rempsyc/the-new-age-movement-volunteer-associations-not-markets-3f410b376af0>
 
-**Thériault, R.**, April 8). L'hypothèse de continuité dans les rêves et son extension [Blog post]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/lhypothèse-de-continuité-dans-les-rêves-et-son-extension-morale/10153830286773797](https://www.facebook.com/notes/rémi-thériault/lhypothèse-de-continuité-dans-les-rêves-et-son-extension-morale/10153830286773797)
+**Thériault, R.** (2015, April 9). The SOI, the Big Five traits of personality, and personal transformation [Blog post]. Retrieved from <https://medium.com/@rempsyc/the-soi-the-big-five-traits-of-personality-and-personal-transformation-49cbb0d5625b>
 
-**Thériault, R.** (2014, November 27). Critically assessing the motivational framework of Rhonda Byrne's *The Secret* [Blog]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/critically-assessing-the-motivational-framework-of-rhonda-byrnes-the-secret/10153691320873797](https://www.facebook.com/notes/rémi-thériault/critically-assessing-the-motivational-framework-of-rhonda-byrnes-the-secret/10153691320873797)
+**Thériault, R.**, April 8). L'hypothèse de continuité dans les rêves et son extension [Blog post]. Retrieved from <https://www.facebook.com/notes/rémi-thériault/lhypothèse-de-continuité-dans-les-rêves-et-son-extension-morale/10153830286773797>
 
-**Thériault, R.** (2014, April 10). Buddhist koans: Duality of language and its transcendence [Blog post]. Retrieved from [https://www.facebook.com/notes/rémi-thériault/buddhist-koans-duality-of-language-and-its-transcendence/10153691300283797](https://www.facebook.com/notes/rémi-thériault/buddhist-koans-duality-of-language-and-its-transcendence/10153691300283797)
+**Thériault, R.** (2014, November 27). Critically assessing the motivational framework of Rhonda Byrne's *The Secret* [Blog]. Retrieved from <https://medium.com/@rempsyc/critically-assessing-the-motivational-framework-of-rhonda-byrnes-the-secret-bbd78d96127f>
+
+**Thériault, R.** (2014, April 10). Buddhist koans: Duality of language and its transcendence [Blog post]. Retrieved from <https://medium.com/@rempsyc/buddhist-koans-duality-of-language-and-its-transcendence-422ac8c12f66>
 
 **Thériault, R.** (2014, April 3). Do we really know what yoga means?: The place of spirituality in yoga research [Blog post]. Retrieved from [https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/](https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/)
 

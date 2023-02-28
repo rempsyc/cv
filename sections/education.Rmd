@@ -12,8 +12,12 @@ data <- rbind(
     when = "2018/09 - Present",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
-    details = c("GPA: 4.30/4.30",
-                "Supervisor: Stéphane Dandeneau")), 
+    details = c("GPA: 4.30/4.30 (all courses completed)",
+                "Supervisor: Stéphane Dandeneau",
+                "Advisory Committee: 
+                                    Stéphane Dandeneau, 
+                                    Frédérick Philippe, \\&
+                                    Simon Grégoire")), 
 
   tibble(
     what = "Master of Science (Psychiatry - Social \\& Transcultural)",
@@ -43,7 +47,7 @@ tibble(
   when = "2010/08 - 2012/09",
   with = "Cégep Édouard-Montpetit",
   where = "Longueuil, Québec, Canada",
-  details = "Cote R: 30.754 (\\textit{M} = 20-25.9)")
+  details = "Cote R: 30.754 (\\textit{Mean} = 22.95)")
 )
 
  if (short) {

@@ -12,20 +12,29 @@ output: html_document
 data <- rbind(
 
     tibble(
-    Name = "Bourse Desjardins, catégorie Coup de pouce – Persévérance scolaire et ambitions pour l’avenir",
+    Name = "Prix du mérite UQAM - Relève étudiante (doctorat)",
     URL = "",
-    Details = "For school perseverance and ambitions for the future",
-    Date = "2022",
-    Amount = 500,
+    Details = "For academic excellence and exceptional character of the profile",
+    Date = "2023",
+    Amount = 1000,
     Activity = NA,
     Declined = FALSE),
     
     tibble(
     Name = "Bourse d'engagement du Syndicat des professeures et professeurs de l'UQAM (SPUQ) - Doctorat",
-    URL = "",
+    URL = "https://www.spuq.uqam.ca/profil/bourses",
     Details = "For student involvement and academic excellence",
-    Date = "2022",
+    Date = "2023",
     Amount = 4000,
+    Activity = NA,
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Bourse Desjardins, catégorie Coup de pouce – Persévérance scolaire",
+    URL = "",
+    Details = "For school perseverance and ambitions for the future",
+    Date = "2022",
+    Amount = 500,
     Activity = NA,
     Declined = FALSE),
     
@@ -75,7 +84,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Finalist only (< 6\\% of applicants) for the Pierre Elliott Trudeau Scholarship (valued at \\$180,000)",
+    Name = "Finalist (< 6\\% of applicants) for the Pierre Elliott Trudeau Scholarship (valued at \\$180,000)",
     URL = "https://www.trudeaufoundation.ca/updates/news/path-engaged-leadership-starts-here",
     Details = "Finalist only (< 6\\% of applicants)",
     Date = "2021",

@@ -16,20 +16,12 @@ output: html_document
 data <- rbind(
   
   tibble(
-    when = "2022/02 – Present",
-    with = "Canadian Psychological Association"),
-  
-  tibble(
     when = "2021/01  – Present",
     with = "Institut des sciences cognitives (UQAM)"),
   
   tibble(
     when = "2016/09 – Present",
     with = "International Positive Psychology Association"),
-  
-  tibble(
-    when = "2016/02 – Present",
-    with = "Psychologists for Social Responsibility"),
   
   tibble(
     when = "2015/09 – Present",
@@ -43,6 +35,21 @@ detailed_entries(data, with, when, .protect = FALSE)
 
 ```{r Conferences}
 data <- rbind(
+  
+  tibble(
+    Name = "CPA Annual National Convention",
+    where = "Calgary, AB",
+    Date = "2022/06"),  
+
+  tibble(
+    Name = "22e congrès de L’Association scientifique pour la modification du comportement",
+    where = "Montréal, QC",
+    Date = "2022/06"),
+  
+  tibble(
+    Name = "Tenth SELF International Conference",
+    where = "Québec city, QC",
+    Date = "2022/06"),
   
   tibble(
     Name = "6th World Congress on Positive Psychology",
