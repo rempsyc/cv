@@ -31,7 +31,7 @@ data <- rbind(
     
     tibble(
     Name = "Bourse Desjardins, catégorie Coup de pouce – Persévérance scolaire",
-    URL = "",
+    URL = "https://www.facebook.com/caissePierreBoucher/posts/pfbid0x5PtHX6HJP6FvT9PJ6v2jZQBWhjrvnZ7x9vVvhTbyPrLDyNhmUAXN48ZXE7Coxpcl",
     Details = "For school perseverance and ambitions for the future",
     Date = "2022",
     Amount = 500,
@@ -40,7 +40,7 @@ data <- rbind(
     
     tibble(
     Name = "Prix de la meilleure présentation orale étudiante au 22e colloque de l’ASMC",
-    URL = "",
+    URL = "https://remi-theriault.com/awards/ASMC.pdf",
     Details = "For the 22th congress seminar of the Association scientifique pour la modification du comportement",
     Date = "2022",
     Amount = 100,
@@ -202,7 +202,7 @@ data <- rbind(
   
   tibble(
     Name = "Bourse Édouard-Montpetit-Desjardins, for student engagement",
-    URL = "",
+    URL = "https://remi-theriault.com/awards/edouard-montpetit-desjardins.pdf",
     Details = "Student involvement award from Cégep Édouard-Montpetit",
     Date = "2011",
     Amount = 750,
