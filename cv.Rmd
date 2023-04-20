@@ -1,7 +1,7 @@
 ---
 name: Rémi
 surname: Thériault
-profilepic: "./img/profile.png"
+profilepic: "img/profile.png"
 position: "PhD Student"
 qualifications: "MSc"
 address: "Université du Québec à Montréal, Montréal, Québec, Canada"
@@ -51,9 +51,7 @@ library(see)
 library(rsvg)
 
 # To format links throughout the CV
-link <- function(txt, url, color = "1976D2") {
-  paste0("\\href{", url, "}{\\color[HTML]{", color, "}{", txt, "}}")
-}
+source("files/format_links.R")
 
 ########################
 #### GOOGLE SCHOLAR ####
@@ -69,9 +67,9 @@ author.name <- "rém thériault"
 # But usually it seems 1-3 letters from first name plus full last name
 
 # When in doubt, the correct author name can be obtained through:
-# source("get_scholar_name.R") # (after defining 'scholar.profile' above)
+# source("files/get_scholar_name.R") # (after defining 'scholar.profile' above)
 
-# Name inconsistencies should be corrected manually in file 'make_data_impact.R' (lines 14-16).
+# Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
 
 ########################
 ##### INSTRUCTIONS #####
@@ -79,7 +77,7 @@ author.name <- "rém thériault"
 
 # Change the order of sections below as desired.
 # Edit the individual files ("childs") to edit the content as desired.
-# Add eval = !short to code chunks to make them optional for the short version
+# Add `eval = !short` to code chunks to make them optional for the short version
 
 ```
 
@@ -117,10 +115,6 @@ author.name <- "rém thériault"
 ```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = TRUE}
 
 ```
-
-\setlength{\parindent}{0in}
-\setlength{\leftskip}{0in}
-\normalsize
 
 ```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = TRUE}
 

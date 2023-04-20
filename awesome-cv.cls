@@ -90,14 +90,8 @@
   pdfauthor={},
   pdfsubject={},
   pdfkeywords={}
-  breaklinks=true
 }
 
-% Interesting URL breakings
-\usepackage{url}
-\def\UrlBreaks{\do\/\do-\do\&\do.\do:}
-
-% \sloppy 
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -106,14 +100,13 @@
 \newcommand*{\fontdir}[1][fonts/]{\def\@fontdir{#1}}
 \fontdir
 
+
 %-------------------------------------------------------------------------------
 %                Configuration for layout
 %-------------------------------------------------------------------------------
 %% Page Layout
 % Configure page margins with geometry
-\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, 
-footskip=.5cm, paperwidth=8.5in,paperheight=11in}
-% Add the following to above to change paper size to letter: , paperwidth=8.5in,paperheight=11in
+\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
 
 %% Header & Footer
 % Set offset to each header and footer
@@ -282,6 +275,10 @@ footskip=.5cm, paperwidth=8.5in,paperheight=11in}
 % Define writer's position
 % Usage: \name{<position>}
 \newcommand*{\position}[1]{\def\@position{#1}}
+
+% Defines writer's pronouns (optional)
+% Usage: \pronouns{<pronouns>}
+\newcommand*{\pronouns}[1]{\def\@pronouns{#1}}
 
 % Defines writer's mobile (optional)
 % Usage: \mobile{<mobile number>}
@@ -462,11 +459,17 @@ footskip=.5cm, paperwidth=8.5in,paperheight=11in}
     \headersocialstyle{%
       \newbool{isstart}%
       \setbool{isstart}{true}%
+      \ifthenelse{\isundefined{\@pronouns}}%
+        {}%
+        {%
+          \faComment\acvHeaderIconSep\@pronouns%
+          \setbool{isstart}{false}%
+        }%
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \faMobile\acvHeaderIconSep\@mobile%
-          \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@email}}%
         {}%
@@ -658,8 +661,8 @@ footskip=.5cm, paperwidth=8.5in,paperheight=11in}
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 4cm} R{2.5cm}}
-}{% NOTE: THE COMMAND ABOVE (R{1.2cm}) SEEMS TO BE HOW TO ADJUST THE THIRD COLUMN WIDTH, BUT NEEDS CONFIRMATION. Worked with L{\textwidth - 3cm} R{1.2cm}} but messed further table...
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 4.0cm} R{2.5cm}}
+}{%
     \end{tabular*}
   \end{center}
 }
