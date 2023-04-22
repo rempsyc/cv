@@ -51,7 +51,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 ```
 
 
-Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (in press 2023). Phi, Fei, Fo, Fum: Effect Sizes for Categorical Data that Use the Chi-Squared Statistic. *Mathematics*.
+Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (in press 2023). Phi, Fei, Fo, Fum: Effect Sizes for Categorical Data that Use the Chi-Squared Statistic. *Mathematics*, *11*(9), 1982. <https://doi.org/10.3390/math11091982>.
 
 Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*. \*These authors contributed equally. <https://doi.org/10.1016/j.psfr.2022.06.004>
 

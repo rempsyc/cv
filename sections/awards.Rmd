@@ -13,7 +13,7 @@ data <- rbind(
 
     tibble(
     Name = "Prix du mérite UQAM - Relève étudiante (doctorat)",
-    URL = "",
+    URL = "https://actualites.uqam.ca/2023/deuxieme-edition-des-prix-du-merite/",
     Details = "For academic excellence and exceptional character of the profile",
     Date = "2023",
     Amount = 1000,
