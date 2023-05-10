@@ -11,6 +11,6 @@ output: html_document
 
 **Core team member** of *easystats* (seven members; official start date: 2022-08). The *easystats* project aims to increase the adoption of good statistical practices through open science tools, for example through a collection of R packages that provide a unifying and consistent framework around statistics. This responsibility involves writing code to improve the various R packages associated with the project and participating in the general decision-making. At this time, the *easystats* packages have collectively been downloaded over 12 millions times. Available from: https://easystats.github.io/easystats/
 
-**Reviewer** for scientific journals: *Group Processes and Intergroup Relations* (1), *Psychology of Consciousness: Theory, Research, and Practice* (5), *International Journal of Mental Health Promotion* (1). See the "Peer Review" tab at: https://www.webofscience.com/wos/author/record/AAC-6100-2022
+**Reviewer** for scientific journals (total of 8): *Group Processes and Intergroup Relations* (1), *Psychology of Consciousness: Theory, Research, and Practice* (6), *International Journal of Mental Health Promotion* (1). See the "Peer Review" tab at: https://www.webofscience.com/wos/author/record/AAC-6100-2022
 
 **Reviewer** for the *XXI World Congress of Medical and Clinical Hypnosis*, organized by the International Society of Hypnosis and the Société Québécoise d'Hypnose, August 22-25, 2018, Montréal.

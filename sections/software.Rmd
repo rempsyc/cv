@@ -9,47 +9,48 @@ output: html_document
 
 # Software (R Packages)
 
-```{r, include = FALSE, eval = TRUE}
+```{r create images, include = FALSE, eval = TRUE}
+setwd("../img")
+
 rsvg_png("https://cranlogs.r-pkg.org/badges/easystats", 
-         "D:/github/cv/img/easystats_monthly.png",
+         "easystats_monthly.png",
          width = 250)
 
 rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/easystats", 
-         "D:/github/cv/img/easystats.png",
+         "easystats.png",
          width = 250)
 
 rsvg_png("https://cranlogs.r-pkg.org/badges/report", 
-         "D:/github/cv/img/report_monthly.png",
+         "report_monthly.png",
          width = 250)
 
 rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/report", 
-         "D:/github/cv/img/report.png",
+         "report.png",
          width = 250)
 
 rsvg_png("https://cranlogs.r-pkg.org/badges/effectsize", 
-         "D:/github/cv/img/effectsize_monthly.png",
+         "effectsize_monthly.png",
          width = 250)
 
 rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/effectsize", 
-         "D:/github/cv/img/effectsize.png",
+         "effectsize.png",
          width = 250)
 
 rsvg_png("https://cranlogs.r-pkg.org/badges/lavaanExtra", 
-         "D:/github/cv/img/lavaanExtra_monthly.png",
+         "lavaanExtra_monthly.png",
          width = 250)
 
 rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/lavaanExtra", 
-         "D:/github/cv/img/lavaanExtra.png",
+         "lavaanExtra.png",
          width = 250)
 
 rsvg_png("https://cranlogs.r-pkg.org/badges/rempsyc", 
-         "D:/github/cv/img/rempsyc_monthly.png",
+         "rempsyc_monthly.png",
          width = 250)
 
 rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc", 
-         "D:/github/cv/img/rempsyc.png",
+         "rempsyc.png",
          width = 250)
-
 ```
 
 Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, E., & **Thériault, R.** (2023). *easystats: An R framework for easy statistical modeling, visualization, and reporting*. (R package version 0.6.0.7) [Computer software]. https://easystats.github.io/easystats.
