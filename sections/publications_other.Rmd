@@ -13,8 +13,6 @@ Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., Bacher, E., Lüdeck
 
 Thériault, R. (2023). rempsyc: Convenience functions for psychology. <https://remi-theriault.com/preprints/theriault_2023.pdf>
 
-Ben-Shachar, M. S., Patil, I., Thériault, R., Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect sizes for Chi-squared tests. <https://remi-theriault.com/preprints/ben-shachar_et_al_2023.pdf>
-
 Thériault, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2023). Check your outliers! An accessible introduction to identifying statistical outliers in R with easystats. <https://remi-theriault.com/preprints/theriault_et_al_2023.pdf>
 
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. <https://psyarxiv.com/xc4g7/>
