@@ -37,7 +37,7 @@ Positive & moral psychology, contemplative practices, Theory of Mind, empathy, s
 
 ## Technical Skills
 
-R, Rstudio, Rmarkdown, Shiny, GitHub, Inquisit, Wowchemy, Netlify, SPSS, MATLAB, ActiView, Brainstorm, Qualtrics, Survey Monkey, LimeSurvey, Inkscape
+R, Rstudio, Rmarkdown, Shiny, GitHub, Inquisit, Wowchemy, Netlify, SPSS, Qualtrics, Survey Monkey, LimeSurvey, Inkscape
 
 ## Languages
 
