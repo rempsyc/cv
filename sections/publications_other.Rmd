@@ -9,11 +9,11 @@ output: html_document
 
 # Preprints
 
-Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., Bacher, E., Lüdecke, D., & Thériault, R. (2023). report: Automated reporting of results and statistical models in R. <https://remi-theriault.com/preprints/makowski_et_al_2023.pdf>
+Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., Bacher, E., Lüdecke, D., & **Thériault**, R. (2023). report: Automated reporting of results and statistical models in R. <https://remi-theriault.com/preprints/makowski_et_al_2023.pdf>
 
-Thériault, R. (2023). rempsyc: Convenience functions for psychology. <https://remi-theriault.com/preprints/theriault_2023.pdf>
+**Thériault**, R. (2023). rempsyc: Convenience functions for psychology. <https://remi-theriault.com/preprints/theriault_2023.pdf>
 
-Thériault, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2023). Check your outliers! An accessible introduction to identifying statistical outliers in R with easystats. <https://remi-theriault.com/preprints/theriault_et_al_2023.pdf>
+**Thériault**, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2023). Check your outliers! An accessible introduction to identifying statistical outliers in R with easystats. <https://remi-theriault.com/preprints/theriault_et_al_2023.pdf>
 
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. <https://psyarxiv.com/xc4g7/>
 
