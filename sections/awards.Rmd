@@ -12,7 +12,16 @@ output: html_document
 data <- rbind(
 
     tibble(
-    Name = "Bourse de la Fondation J.A. DeSève - Doctorat ",
+    Name = "Society for Improving Psychological Science (SIPS) Project Award, given to the 'easystats' project",
+    URL = "",
+    Details = "For easystats project",
+    Date = "2023",
+    Amount = 0,
+    Activity = NA,
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Bourse de la Fondation J.A. DeSève - Doctorat",
     URL = "",
     Details = "For academic excellence",
     Date = "2023",
