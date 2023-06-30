@@ -12,7 +12,7 @@ output: html_document
 data <- rbind(
 
     tibble(
-    Name = "Society for Improving Psychological Science (SIPS) Project Award, given to the 'easystats' project",
+    Name = "Society for Improving Psychological Science (SIPS) Project Award, given to the easystats project",
     URL = "",
     Details = "For easystats project",
     Date = "2023",
