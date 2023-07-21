@@ -9,7 +9,7 @@ output: html_document
 
 # Preprints
 
-**Thériault, R.** & Dandeneau, S. (2023). Implicitly Activating Mindfulness: Does Trait Self-Control Moderate Its Effect on Aggressive Behaviour? <https://doi.org/10.21203/rs.3.rs-3161372/v1>
+**Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? <https://doi.org/10.21203/rs.3.rs-3161372/v1>
 
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. <https://doi.org/10.31234/osf.io/xc4g7>
 
