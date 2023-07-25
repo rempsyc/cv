@@ -99,7 +99,7 @@ Mattuck, S., **Thériault, R.**, Landry, M., & Raz, A. (2017, April 17). Explori
 
 # Blogs +
 
-**Thériault, R.** (2022, February 8). Making simple moderations with simple slopes easily in [Blog post]. Retrieved from <https://remi-theriault.com/blog_moderation>
+**Thériault, R.** (2022, February 8). Making simple moderations with simple slopes easily in R [Blog post]. Retrieved from <https://remi-theriault.com/blog_moderation>
 
 **Thériault, R.** (2022, February 3). Making simple t-tests with multiple variables easily R [Blog post]. Retrieved from <https://remi-theriault.com/blog_t-test>
 
