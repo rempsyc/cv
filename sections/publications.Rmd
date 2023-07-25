@@ -50,6 +50,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
+1. **Thériault**, R. (2023). rempsyc: Convenience functions for psychology. *Journal of Open Source Software*, *8*(87), 5466. <https://doi.org/10.21105/joss.05466>.
 
 1. Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect Sizes for Categorical Data that Use the Chi-Squared Statistic. *Mathematics*, *11*(9), 1982. <https://doi.org/10.3390/math11091982>.
 
