@@ -9,6 +9,8 @@ output: html_document
 
 # Media Coverage
 
+**Thériault, R.** (2023, August 28). Pour une positivité responsable et bienveillante [Opinion letter]. *Le Devoir*. Retrieved from: <https://www.ledevoir.com/opinion/idees/796952/serie-l-ete-c-est-fait-pour-penser-pour-une-positivite-responsable-et-bienveillante>
+
 Serafin, P. (2023, May 03). CHOQ.ca rencontre les Lauréat.es du Prix du mérite 2023. *Radio CHOQ.ca*. Retrieved from: https://www.choq.ca/reportages/choq-ca-rencontre-les-laureat-es-du-prix-du-merite-2023.
 
 Jewell, L. (2022, June 23). Member Spotlight: Rémi Thériault. Interview organized by the *Canadian Positive Psychology Association* and conducted by the CPPA President, Louisa Jewell. Retrieved from: https://youtu.be/3H38-k-L7W0.
