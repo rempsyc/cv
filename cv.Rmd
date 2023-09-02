@@ -87,13 +87,13 @@ author.name <- "rém thériault"
 ```{r Grants parent, child=c('sections/grant.Rmd')}
 ```
 
-```{r Teaching parent, child=c('sections/teaching.Rmd')}
-```
-
 ```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
 ```{r Awards parent, child=c('sections/awards.Rmd')}
+```
+
+```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 
 ```{r Publications parent, child=c('sections/publications.Rmd')}

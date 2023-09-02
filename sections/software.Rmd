@@ -12,14 +12,6 @@ output: html_document
 ```{r create images, include = FALSE, eval = TRUE}
 setwd("../img")
 
-rsvg_png("https://cranlogs.r-pkg.org/badges/correlation", 
-         "correlation_monthly.png",
-         width = 250)
-
-rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/correlation", 
-         "correlation.png",
-         width = 250)
-
 rsvg_png("https://cranlogs.r-pkg.org/badges/easystats", 
          "easystats_monthly.png",
          width = 250)
@@ -61,12 +53,6 @@ rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc",
          width = 250)
 ```
 
-Makowski, D., Wiernik, B. M., Patil, I., Lüdecke, D., & Ben-Shachar, M. S., & **Thériault, R.** (2023). correlation: Methods for correlation analysis (R package version 0.8.4) [Computer software]. https://easystats.github.io/correlation/
-```{r, out.height="12pt"}
-knitr::include_graphics("img/correlation_monthly.png", dpi = NA)
-knitr::include_graphics("img/correlation.png", dpi = NA)
-```
-
 Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, E., & **Thériault, R.** (2023). *easystats: An R framework for easy statistical modeling, visualization, and reporting*. (R package version 0.6.0.7) [Computer software]. https://easystats.github.io/easystats.
 ```{r, out.height="12pt"}
 knitr::include_graphics("img/easystats_monthly.png", dpi = NA)
@@ -79,7 +65,7 @@ knitr::include_graphics("img/report_monthly.png", dpi = NA)
 knitr::include_graphics("img/report.png", dpi = NA)
 ```
 
-Ben-Shachar, M. S., Makowski, D., Lüdecke, D., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *effectsize: Indices of Effect Size*. (R package version 0.8.2) [Computer software]. https://easystats.github.io/effectsize.
+Ben-Shachar, M. S., Makowski, D., Lüdecke, D., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *effectsize: Indices of effect size*. (R package version 0.8.2) [Computer software]. https://easystats.github.io/effectsize.
 ```{r, out.height="12pt"}
 knitr::include_graphics("img/effectsize_monthly.png", dpi = NA)
 knitr::include_graphics("img/effectsize.png", dpi = NA)
