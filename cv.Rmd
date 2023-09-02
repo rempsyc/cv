@@ -32,7 +32,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 #######################
 
 # Whether to print a shortened version of the CV
-short <- FALSE
+short <- TRUE
 
 ########################
 #### PACKAGE SETUP #####
@@ -102,16 +102,16 @@ author.name <- "rém thériault"
 ```{r Other publications parent, child=c('sections/publications_other.Rmd'), eval = !short}
 ```
 
-```{r Academic service parent, child=c('sections/service.Rmd')}
+```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
-```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = TRUE}
+```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}
 ```
 
-```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = TRUE}
+```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = !short}
 ```
 
-```{r Leadership parent, child=c('sections/leadership.Rmd'), eval =TRUE}
+```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = !short}
 ```
 
 ```{r Varia parent, child=c('sections/varia.Rmd'), eval = !short}
