@@ -32,7 +32,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 #######################
 
 # Whether to print a shortened version of the CV
-short <- TRUE
+short <- FALSE
 
 ########################
 #### PACKAGE SETUP #####
@@ -84,10 +84,10 @@ author.name <- "rém thériault"
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
-```{r Grants parent, child=c('sections/grant.Rmd')}
+```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
-```{r Software parent, child=c('sections/software.Rmd')}
+```{r Grants parent, child=c('sections/grant.Rmd')}
 ```
 
 ```{r Awards parent, child=c('sections/awards.Rmd')}
