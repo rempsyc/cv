@@ -177,7 +177,7 @@ data <- rbind(
     Name = "Graduate Excellence Fellowship in Mental Health Research",
     URL = "",
     Details = "Excellence award from McGill University",
-    Date = "2017-2018",
+    Date = "2016-2017",
     Amount = 10000,
     Activity = NA,
     Declined = FALSE),
