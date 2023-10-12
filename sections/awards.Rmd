@@ -12,6 +12,24 @@ output: html_document
 data <- rbind(
 
     tibble(
+    Name = "Prix reconnaissance de l’implication étudiante (UQAM) - Personnalités 2e et 3e cycles",
+    URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
+    Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
+    Date = "2023",
+    Amount = 1500,
+    Activity = NA,
+    Declined = FALSE),
+  
+    tibble(
+    Name = "Prix reconnaissance de l’implication étudiante (UQAM) - Projet, Volet Santé et saines habitudes de vie",
+    URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
+    Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
+    Date = "2023",
+    Amount = 1000,
+    Activity = NA,
+    Declined = FALSE),
+  
+    tibble(
     Name = "Society for Improving Psychological Science (SIPS) Mission Award, given to the easystats project",
     URL = "https://improvingpsych.org/mission/awards/",
     Details = "For easystats project",
