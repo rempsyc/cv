@@ -50,11 +50,9 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
-13\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? In Press at *Mindfulness*. Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2
+12\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? In Press at *Mindfulness*. Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2
 
-12\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet Expectations: Social Inclusion and the Interaction Between Social Anxiety and Ambiguous or Positive Feedback. In Press at *Frontiers in Psychology*. Preprint: https://doi.org/10.31234/osf.io/xc4g7
-
-11\. **Thériault**, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2023). Check your outliers! An introduction to identifying statistical outliers in R with easystats. *Journal of Open Source Education*, *6*(68), 221. https://doi.org/10.21105/jose.00221
+11\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet Expectations: Social Inclusion and the Interaction Between Social Anxiety and Ambiguous or Positive Feedback. In Press at *Frontiers in Psychology*. Preprint: https://doi.org/10.31234/osf.io/xc4g7
 
 10\. **Thériault**, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software*, *8*(90), 5701. https://doi.org/10.21105/joss.05701.
 
