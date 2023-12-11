@@ -49,6 +49,7 @@ library(forcats)
 library(patchwork)
 library(see)
 library(rsvg)
+library(kableExtra)
 
 # To format links throughout the CV
 source("files/format_links.R")

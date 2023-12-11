@@ -12,6 +12,15 @@ output: html_document
 data <- rbind(
 
     tibble(
+    Name = "International Mobility Award - Offices jeunesse internationaux du Québec (LOJIQ)",
+    URL = "",
+    Details = "",
+    Date = "2023",
+    Amount = 750,
+    Activity = NA,
+    Declined = FALSE),
+  
+    tibble(
     Name = "International Mobility Award - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
     URL = "",
     Details = "",
