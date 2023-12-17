@@ -64,6 +64,8 @@ rsvg_png("https://cranlogs.r-pkg.org/badges/rempsyc",
 rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc", 
          "rempsyc.png",
          width = 250)
+
+setwd("..")
 ```
 
 Makowski, D., Wiernik, B. M., Patil, I., Lüdecke, D., & Ben-Shachar, M. S., & **Thériault, R.** (2023). correlation: Methods for correlation analysis (R package version 0.8.4) [Computer software]. https://easystats.github.io/correlation/

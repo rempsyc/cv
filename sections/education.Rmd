@@ -8,26 +8,24 @@ output: html_document
 data <- rbind(
   
   tibble(
-    what = "PhD (Psychology - Social)",
+    what = "PhD (Psychology - Social) - 120 credits",
     when = "2018/09 - Present",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
-    details = c("GPA: 4.30/4.30 (120 credits)",
-                "Supervisor: Stéphane Dandeneau",
+    details = c("GPA: 4.30/4.30",
                 "Advisory Committee: 
-                                    Stéphane Dandeneau, 
+                                    Stéphane Dandeneau (supervisor), 
                                     Frédérick Philippe, \\&
                                     Simon Grégoire")), 
 
   tibble(
-    what = "Master of Science (Psychiatry - Social \\& Transcultural)",
+    what = "Master of Science (Psychiatry - Social \\& Transcultural) - 45 credits",
     when = "2016/09 - 2018/08",
     with = "McGill University",
     where = "Montréal, Québec, Canada",
-    details = c("GPA: 4.00/4.00 (45 credits)",
-                "Supervisor: Amir Raz",
+    details = c("GPA: 4.00/4.00",
                 "Advisory Committee: 
-                                    Amir Raz, 
+                                    Amir Raz (supervisor), 
                                     Jennifer Bartz, 
                                     Donald Taylor, \\&
                                     Samuel Veissière")),
@@ -35,11 +33,11 @@ data <- rbind(
   tibble(
     what = "Bachelor of Arts (Psychology, 
     Behavioral Science, \\&
-    Sociology)",
+    Sociology) - 120 credits",
     when = "2013/01 - 2016/04",
     with = "McGill University",
     where = "Montréal, Québec, Canada",
-    details = c("GPA: 3.76/4.00 (Distinction – top 25\\%; 120 credits, equivalent to 40 classes)",
+    details = c("GPA: 3.76/4.00 (Distinction – top 25\\%; note: 120 credits is equivalent to 40 classes)",
                 "Supervisor: Amir Raz")))
   
   # tibble(
