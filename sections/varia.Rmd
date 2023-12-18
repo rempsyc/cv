@@ -8,11 +8,11 @@ output: html_document
 
 # Varia
 
-## Professional Affiliations
+<!-- ## Professional Affiliations -->
 
 \scriptsize
 
-```{r Affiliations}
+```{r Affiliations, eval=FALSE}
 data <- rbind(
   
   tibble(
