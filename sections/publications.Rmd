@@ -7,7 +7,7 @@ output: html_document
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
-# Publications
+# Peer-Reviewed Publications
 
 ```{r, results = "asis", echo = FALSE, message = FALSE, eval = FALSE}
 format.authors <- function(scholar.profile, author.name) {
