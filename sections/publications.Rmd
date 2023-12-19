@@ -50,29 +50,29 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
-12\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology*, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773
+12\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology* (2022 IF = 3.8), 1-10. https://doi.org/10.3389/fpsyg.2023.1271773
 
-11\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 1-17. https://doi.org/10.1007/s12671-023-02246-w (Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2)
+11\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness* (2022 IF = 3.6), 1-17. https://doi.org/10.1007/s12671-023-02246-w (Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2)
 
-10\. **Thériault**, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software*, *8*(90), 5701. https://doi.org/10.21105/joss.05701
+10\. **Thériault**, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software* (2022 IF = NA), *8*(90), 5701. https://doi.org/10.21105/joss.05701
 
-9\. **Thériault**, R. (2023). rempsyc: Convenience functions for psychology. *Journal of Open Source Software*, *8*(87), 5466. https://doi.org/10.21105/joss.05466
+9\. **Thériault**, R. (2023). rempsyc: Convenience functions for psychology. *Journal of Open Source Software* (2022 IF = NA), *8*(87), 5466. https://doi.org/10.21105/joss.05466
 
-8\. Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect Sizes for Categorical Data that Use the Chi-Squared Statistic. *Mathematics*, *11*(9), 1982. https://doi.org/10.3390/math11091982
+8\. Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect Sizes for Categorical Data that Use the Chi-Squared Statistic. *Mathematics* (2022 IF = 2.4), *11*(9), 1982. https://doi.org/10.3390/math11091982
 
-7\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive / Clinical practices inspired by research in positive psychology. *Psychologie Française*. \*These authors contributed equally. https://doi.org/10.1016/j.psfr.2022.06.004
+7\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive / Clinical practices inspired by research in positive psychology. *Psychologie Française* (2022 IF = 0.3). \*These authors contributed equally. https://doi.org/10.1016/j.psfr.2022.06.004
 
-6\. **Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly of Experimental Psychology*, *75*(11), 2129-2148. https://doi.org/10.1177/17470218221078858
+6\. **Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly of Experimental Psychology* (2022 IF = 1.7), *75*(11), 2129-2148. https://doi.org/10.1177/17470218221078858
 
-5\. **Thériault, R.**, Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology*, 74(12), 2057-2074. https://doi.org/10.1177/17470218211024826
+5\. **Thériault, R.**, Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology* (2022 IF = 1.7), 74(12), 2057-2074. https://doi.org/10.1177/17470218211024826
 
-4\. Krol, S. A., **Thériault, R.**, Olson, J. A., Raz, A., & Bartz, J. (2020). Self-concept clarity and the bodily self: Malleability across modalities. *Personality and Social Psychology Bulletin*, *46*(5). https://doi.org/10.1177/0146167219879126
+4\. Krol, S. A., **Thériault, R.**, Olson, J. A., Raz, A., & Bartz, J. (2020). Self-concept clarity and the bodily self: Malleability across modalities. *Personality and Social Psychology Bulletin* (2022 IF = 4.0), *46*(5). https://doi.org/10.1177/0146167219879126
 
-3\. **Thériault, R.** (2019). Book review: Awareness is freedom: The adventure of psychology and spirituality. *Frontiers in Psychology*, *10*(2814)*.* https://doi.org/10.3389/fpsyg.2019.02814
+3\. **Thériault, R.** (2019). Book review: Awareness is freedom: The adventure of psychology and spirituality. *Frontiers in Psychology* (2022 IF = 3.8), *10*(2814)*.* https://doi.org/10.3389/fpsyg.2019.02814
 
-2\. **Thériault, R.**, & Raz, A. (2018). Patterns of bronchial challenge testing in Canada. *Canadian Journal of Respiratory Therapy*, *54*(2), 41-47. https://doi.org/10.29390/cjrt-2018-006
+2\. **Thériault, R.**, & Raz, A. (2018). Patterns of bronchial challenge testing in Canada. *Canadian Journal of Respiratory Therapy* (2022 IF = NA), *54*(2), 41-47. https://doi.org/10.29390/cjrt-2018-006
 
-1\. Lifshitz, M., Sheiner, E. O., Olson, J., **Thériault, R.**, & Raz, A. (2017). On suggestibility and placebo: A follow-up study. *American Journal of Clinical Hypnosis*, *59*(4), 1-8. https://doi.org/10.1080/00029157.2016.1225252
+1\. Lifshitz, M., Sheiner, E. O., Olson, J., **Thériault, R.**, & Raz, A. (2017). On suggestibility and placebo: A follow-up study. *American Journal of Clinical Hypnosis* (2022 IF = 1.3), *59*(4), 1-8. https://doi.org/10.1080/00029157.2016.1225252
 
 ```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}
 
