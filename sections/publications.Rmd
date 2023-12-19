@@ -50,7 +50,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
-12\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet Expectations: Social Inclusion and the Interaction Between Social Anxiety and Ambiguous or Positive Feedback. *Frontiers in Psychology*, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773
+12\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology*, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773
 
 11\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 1-17. https://doi.org/10.1007/s12671-023-02246-w (Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2)
 
