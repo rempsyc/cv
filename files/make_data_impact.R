@@ -56,6 +56,7 @@ for(i in 1:nrow(data)){
 
 # Ignore the publications below!
 ignored.publications <- c("Thériault (2022)", 
+                          "Thériault (2023b)",
                           "Thériault (2022c)",
                           "Thériault (2022d)",
                           "Makowski (2023)",
