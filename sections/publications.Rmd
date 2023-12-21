@@ -78,6 +78,6 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 source("../files/make_data_impact.R")
 plot_impact(data_scholar)
-table_impact(data_scholar, author.name = author.name)
+table_impact(data_scholar, author.name = author.name, scholar.profile = scholar.profile)
 
 ```

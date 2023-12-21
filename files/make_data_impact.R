@@ -163,20 +163,31 @@ plot_citations_per_paper <- function(data_scholar) {
 }
 
 # Define table_impact function
-table_impact <- function(data_scholar, author.name = author.name){
+table_impact <- function(data_scholar, 
+                         author.name = author.name, 
+                         scholar.profile = NULL) {
+  # gs_profile <- paste0("https://scholar.google.com/citations?user=", scholar.profile)
+  # gs_profile_URL <- link("Google Scholar Profile", gs_profile)
+  gs_profile_URL <- "Google Scholar Profile"
   get_stats(data_scholar = data_scholar, author.name = author.name) |>
-  knitr::kable(
+    knitr::kable(
     col.names = c(
-      "\\textit{n}-Publications \\textit{(total)}",
+      "\\textit{n}-Publications* \\textit{(total)}",
       "\\textit{n}-1\\textsuperscript{st} author",
       "\\textit{n}-2\\textsuperscript{nd} author",
       "\\textit{n}-Senior author",
       "H-index",
       "Citations \\textit{(total)}"
-    ),
+      ),
     format = "latex",
     booktabs = TRUE,
-    escape = FALSE
-  ) %>%
-  kableExtra::kable_styling(position = "center", font_size = 8, latex_options = "hold_position")
+    escape = FALSE,
+    align = "c"
+    ) %>%
+    kableExtra::kable_styling(
+      position = "center", font_size = 8, latex_options = "hold_position") %>% 
+    kableExtra::add_footnote(
+      paste(
+        "Figure and table automatically updated through my", gs_profile_URL),
+      notation = "symbol")
 }
