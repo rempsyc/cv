@@ -121,5 +121,5 @@ author.name <- "rém thériault"
 ```{r Varia parent, child=c('sections/varia.Rmd'), eval = !short}
 ```
 
-```{r credit parent, child=c('sections/credit.Rmd'), eval = TRUE}
+```{r credit parent, child=c('sections/credit.Rmd'), eval = !short}
 ```
