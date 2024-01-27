@@ -31,9 +31,9 @@ data <- rbind(
 detailed_entries(data, with, when, .protect = FALSE)
 ```
 
-## Research Interests
+<!-- ## Research Interests -->
 
-Positive & moral psychology, contemplative practices, Theory of Mind, empathy, self-regulatory strength, Self-Determination Theory, bodily self-consciousness
+<!-- Positive & moral psychology, contemplative practices, Theory of Mind, empathy, self-regulatory strength, Self-Determination Theory, bodily self-consciousness -->
 
 ## Technical Skills
 
@@ -43,6 +43,6 @@ R, Rstudio, Rmarkdown, Shiny, GitHub, Inquisit, Wowchemy, Netlify, SPSS, Qualtri
 
 French (native), English (fluent)
 
-## Activities and Interests
+<!-- ## Activities and Interests -->
 
-Martial arts, breakdancing, skateboarding, gymnastics, bouldering
+<!-- Martial arts, breakdancing, skateboarding, gymnastics, bouldering -->

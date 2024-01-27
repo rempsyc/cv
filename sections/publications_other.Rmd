@@ -15,23 +15,23 @@ Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., Bacher, E., Lüdeck
 
 **Thériault, R.** (2023). L’importance de la science ouverte en recherche en psychologie. <https://doi.org/10.31234/osf.io/758dx>
 
-# Non-Peer-Reviewed Publications
+<!-- # Non-Peer-Reviewed Publications -->
 
-**Thériault, R.** (2023). Bonnes pratiques et science ouverte : Un document d'accompagnement au PRD. <https://remi-theriault.com/files/science_ouverte2023.pdf>
+<!-- **Thériault, R.** (2023). Bonnes pratiques et science ouverte : Un document d'accompagnement au PRD. <https://remi-theriault.com/files/science_ouverte2023.pdf> -->
 
-**Thériault, R.**, Masson, R., & Dandeneau, S. (in preparation). Is the Mind More Powerful Than the Heart? A Randomized Controlled Trial of Two Loving-Kindness Interventions.
+<!-- **Thériault, R.**, Masson, R., & Dandeneau, S. (in preparation). Is the Mind More Powerful Than the Heart? A Randomized Controlled Trial of Two Loving-Kindness Interventions. -->
 
-**Thériault, R.**, Dandeneau, S., & Baldwin, M. (in preparation). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals.
+<!-- **Thériault, R.**, Dandeneau, S., & Baldwin, M. (in preparation). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals. -->
 
-**Thériault, R.**, Landry, M., Mattuck, S., and Raz, A. (in preparation). The Rubber Hand Illusion: Does cognitive load affect EEG & electrodermal activity?
+<!-- **Thériault, R.**, Landry, M., Mattuck, S., and Raz, A. (in preparation). The Rubber Hand Illusion: Does cognitive load affect EEG & electrodermal activity? -->
 
-**Thériault, R.**, Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J., Turkakin, E., & Raz, A. (in preparation). Suggestion affects subjective breathlessness but not objective pulmonary function.
+<!-- **Thériault, R.**, Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J., Turkakin, E., & Raz, A. (in preparation). Suggestion affects subjective breathlessness but not objective pulmonary function. -->
 
-**Thériault, R.** (2018). *Comparing the effects of mental and embodied perspective-taking* (Master's thesis). McGill University, Montréal, Québec, Canada.
+<!-- **Thériault, R.** (2018). *Comparing the effects of mental and embodied perspective-taking* (Master's thesis). McGill University, Montréal, Québec, Canada. -->
 
-**Thériault, R.** (2016). *Exploring cognitive dimensions of body ownership* (Bachelor's thesis). McGill University, Montréal, Québec, Canada.
+<!-- **Thériault, R.** (2016). *Exploring cognitive dimensions of body ownership* (Bachelor's thesis). McGill University, Montréal, Québec, Canada. -->
 
-**Thériault, R.**, Baron, A., & Cowell, B.(2012). *Comment les activités artistiques peuvent développer l'estime de soi chez les jeunes marginalisés : une intervention en cirque social à la maison des jeunes Kekpart* (Collegial thesis). Cégep Édouard-Montpetit, Longueuil, Québec, Canada.
+<!-- **Thériault, R.**, Baron, A., & Cowell, B.(2012). *Comment les activités artistiques peuvent développer l'estime de soi chez les jeunes marginalisés : une intervention en cirque social à la maison des jeunes Kekpart* (Collegial thesis). Cégep Édouard-Montpetit, Longueuil, Québec, Canada. -->
 
 # Invited Talks
 

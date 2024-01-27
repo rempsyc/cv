@@ -15,11 +15,20 @@ data <- rbind(
     Name = "Bourse Adrien-Pinard en psychologie - Doctorat ",
     URL = "",
     Details = "",
-    Date = "2023",
+    Date = "2024",
     Amount = 4000,
     Activity = NA,
     Declined = FALSE),
     
+    tibble(
+    Name = "International Mobility Award - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
+    URL = "",
+    Details = "",
+    Date = "2024",
+    Amount = 5600,
+    Activity = NA,
+    Declined = FALSE),
+  
     tibble(
     Name = "International Mobility Award - Offices jeunesse internationaux du Québec (LOJIQ)",
     URL = "",
