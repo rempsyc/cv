@@ -85,9 +85,6 @@ author.name <- "rém thériault"
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
-```{r Teaching parent, child=c('sections/teaching.Rmd')}
-```
-
 ```{r Publications parent, child=c('sections/publications.Rmd')}
 ```
 
@@ -95,6 +92,9 @@ author.name <- "rém thériault"
 ```
 
 ```{r Awards parent, child=c('sections/awards.Rmd')}
+```
+
+```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 
 ```{r Other publications parent, child=c('sections/publications_other.Rmd'), eval = !short}
@@ -121,5 +121,5 @@ author.name <- "rém thériault"
 ```{r Varia parent, child=c('sections/varia.Rmd'), eval = FALSE}
 ```
 
-```{r credit parent, child=c('sections/credit.Rmd'), eval = TRUE}
+```{r credit parent, child=c('sections/credit.Rmd'), eval = !short}
 ```

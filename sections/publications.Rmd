@@ -54,9 +54,9 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 11\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness* (2022 IF = 3.6; 5-year IF = 4.7). https://doi.org/10.1007/s12671-023-02246-w (Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2)
 
-10\. **Thériault**, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software* (2022 IF = NA), *8*(90), 5701. https://doi.org/10.21105/joss.05701
+10\. **Thériault**, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software* (Estimated IF = 5.2), *8*(90), 5701. https://doi.org/10.21105/joss.05701
 
-9\. **Thériault**, R. (2023). rempsyc: Convenience functions for psychology. *Journal of Open Source Software* (2022 IF = NA), *8*(87), 5466. https://doi.org/10.21105/joss.05466
+9\. **Thériault**, R. (2023). rempsyc: Convenience functions for psychology. *Journal of Open Source Software* (Estimated IF = 5.2), *8*(87), 5466. https://doi.org/10.21105/joss.05466
 
 8\. Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect Sizes for Categorical Data that Use the Chi-Squared Statistic. *Mathematics* (2022 IF = 2.4; 5-year IF = 2.3), *11*(9), 1982. https://doi.org/10.3390/math11091982
 
@@ -78,6 +78,6 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 source("../files/make_data_impact.R")
 plot_impact(data_scholar)
-table_impact(data_scholar, author.name = author.name)
+table_impact(data_scholar, author.name = author.name, scholar.profile = scholar.profile)
 
 ```
