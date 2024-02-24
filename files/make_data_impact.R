@@ -55,11 +55,7 @@ for(i in 1:nrow(data)){
 }
 
 # Ignore the publications below!
-ignored.publications <- c("Thériault (2022)", 
-                          "Thériault (2023b)",
-                          "Thériault (2022c)",
-                          "Thériault (2022d)",
-                          "Makowski (2023)",
+ignored.publications <- c("Makowski (2023)",
                           "Lüdecke (2023)")
 
 # Filter some publications out, as desired
@@ -70,12 +66,15 @@ data_scholar[["scholar_publications"]] <- data %>%
 
 # Manual correction for non-publications
 # (You might need to change this yourself!)
-row.to.correct <- nrow(data_scholar[["scholar_publications"]])
+row.to.correct <- nrow(data_scholar[["scholar_publications"]]) / 2
+# We divide the total number of rows by 2 here because we want the last year
+# of publications, which sometimes have preprints which we want to remove, etc.
 
+# We subtract the ignored publications to the inflated number of publications
 data_scholar$scholar_data$Number[row.to.correct] <- 
   data_scholar$scholar_data$Number[row.to.correct] - length(ignored.publications)
 
-data_scholar$scholar_data <- data_scholar$scholar_data[-7, ]
+# data_scholar$scholar_data <- data_scholar$scholar_data[-7, ]
 
 # Correct publication with several first authors
 if(any(grepl("M Miglianico, Rém Thériault", data_scholar$scholar_publications$author))) {

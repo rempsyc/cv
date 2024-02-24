@@ -50,7 +50,9 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
-13\. **Thériault**, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2024). Check your outliers! An introduction to identifying statistical outliers in R with *easystats*. In Press at *Behavior Research Methods*, 1-9. Preprint: https://doi.org/10.31234/osf.io/bu6nt
+14\. **Thériault** (2024). L’importance de la science ouverte en recherche en psychologie. Accepted in *Fragments : Revue de psychologie* (2022 IF = NA), 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
+
+13\. **Thériault**, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2024). Check your outliers! An introduction to identifying statistical outliers in R with *easystats*. In Press at *Behavior Research Methods* (2022 IF = 5.4; 5-year IF = 7.7), 1-9. Preprint: https://doi.org/10.31234/osf.io/bu6nt
 
 12\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology* (2022 IF = 3.8; 5-year IF = 4.3), 14, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773
 
@@ -62,7 +64,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 8\. Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect Sizes for Categorical Data that Use the Chi-Squared Statistic. *Mathematics* (2022 IF = 2.4; 5-year IF = 2.3), *11*(9), 1982. https://doi.org/10.3390/math11091982
 
-7\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive / Clinical practices inspired by research in positive psychology. *Psychologie Française* (2022 IF = 0.3; 5-year IF = 0.5). \*These authors contributed equally. https://doi.org/10.1016/j.psfr.2022.06.004
+7\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive / Clinical practices inspired by research in positive psychology. *Psychologie Française* (2022 IF = 0.3; 5-year IF = 0.5). \*Shared first-authorship (these authors contributed equally). https://doi.org/10.1016/j.psfr.2022.06.004
 
 6\. **Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly Journal of Experimental Psychology* (2022 IF = 1.7; 5-year IF = 2.1), *75*(11), 2129-2148. https://doi.org/10.1177/17470218221078858
 

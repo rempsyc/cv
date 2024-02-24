@@ -15,23 +15,25 @@ data <- rbind(
   
   tibble(
     what = "Sensory Deprivation, Consciousness, and Dissociation",
+    URL = "https://digitalcommons.chapman.edu/cusrd_abstracts/325/",
     when = "2014/09-2016/09",
     with = "McGill University",
     where = "Raz Lab",
     details = c("Conceived research designs \\& formulated hypotheses",
                 "Performed various administrative tasks related to the sensory deprivation unit (shopping, maintenance, risks, authorizations, etc.)")),
 
-  tibble(
-    what = "Administrative Assistantship",
-    when = "2013/09-2016/09",
-    with = "McGill University",
-    where = "Raz Lab",
-    details = c("Worked on the WordPress website (razlab.org) \\& managed servers",
-                "Edited videos and photos",
-                "Performed various investigations on different topics for PI")),
-  
+  # tibble(
+  #   what = "Administrative Assistantship",
+  #   when = "2013/09-2016/09",
+  #   with = "McGill University",
+  #   where = "Raz Lab",
+  #   details = c("Worked on the WordPress website (razlab.org) \\& managed servers",
+  #               "Edited videos and photos",
+  #               "Performed various investigations on different topics for PI")),
+  # 
   tibble(
     what = "Posture and Human Resting-State (EEG, MEG)",
+    URL = "https://escholarship.mcgill.ca/concern/theses/bz60cz84m",
     when = "2015/05-07",
     with = "McGill University",
     where = "Raz Lab",
@@ -39,6 +41,7 @@ data <- rbind(
   
   tibble(
     what = "Chronic Hives and the Effect of Cognitive Treatment in Kids and Adults",
+    URL = "https://escholarship.mcgill.ca/concern/theses/2f75rb82q",
     when = "2014/01-09",
     with = "McGill University",
     where = "Raz Lab",
@@ -46,12 +49,16 @@ data <- rbind(
   
   tibble(
     what = "Attention Training in Health and Disease",
+    URL = "https://escholarship.mcgill.ca/concern/theses/12579w270",
     when = "2014/05-08",
     with = "McGill University",
     where = "Raz Lab",
     details = "Trained children’s attention with video games (data collection)")
   
   )
+
+data <- data %>% 
+  mutate(what = link(what, URL, color = "333333"))
 
 detailed_entries(data, with, when, what, where, details, .protect = FALSE)
 

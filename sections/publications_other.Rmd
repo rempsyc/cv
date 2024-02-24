@@ -7,11 +7,11 @@ output: html_document
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
-# Preprints
+<!-- # Preprints -->
 
-Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., Bacher, E., Lüdecke, D., & **Thériault**, R. (2023). report: Automated reporting of results and statistical models in R. <https://remi-theriault.com/preprints/makowski_et_al_2023.pdf>
+<!-- Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., Bacher, E., Lüdecke, D., & **Thériault**, R. (2023). report: Automated reporting of results and statistical models in R. <https://remi-theriault.com/preprints/makowski_et_al_2023.pdf> -->
 
-**Thériault, R.** (2023). L’importance de la science ouverte en recherche en psychologie. <https://doi.org/10.31234/osf.io/758dx>
+<!-- **Thériault, R.** (2023). L’importance de la science ouverte en recherche en psychologie. <https://doi.org/10.31234/osf.io/758dx> -->
 
 <!-- # Non-Peer-Reviewed Publications -->
 
