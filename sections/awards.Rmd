@@ -12,7 +12,16 @@ output: html_document
 data <- rbind(
 
     tibble(
-    Name = "Bourse Adrien-Pinard en psychologie - Doctorat ",
+    Name = "Best Student Paper Award (UQAM)",
+    URL = "",
+    Details = "",
+    Date = "2024",
+    Amount = 200,
+    Activity = NA,
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Adrien-Pinard Psychology Award (PhD)",
     URL = "",
     Details = "",
     Date = "2024",
@@ -48,7 +57,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "Prix reconnaissance de l’implication étudiante (UQAM) - Personnalités 2e et 3e cycles",
+    Name = "Student Involvement Recognition Award (UQAM) - Personality 2nd and 3rd cycles",
     URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
     Date = "2023",
@@ -57,7 +66,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "Prix reconnaissance de l’implication étudiante (UQAM) - Projet, Volet Santé et saines habitudes de vie",
+    Name = "Student Involvement Recognition Award (UQAM) - Project, Health and healthy lifestyle component",
     URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
     Date = "2023",
@@ -75,7 +84,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Bourse de la Fondation J.A. DeSève - Doctorat",
+    Name = "J.A. DeSève Foundation Award (PhD)",
     URL = "https://fondation.uqam.ca/uqam-1/bourses-hiver2023",
     Details = "For academic excellence",
     Date = "2023",
@@ -84,7 +93,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Prix du mérite UQAM - Relève étudiante (doctorat)",
+    Name = "UQAM Merit Award – Next Generation of Students (PhD)",
     URL = "https://actualites.uqam.ca/2023/deuxieme-edition-des-prix-du-merite/",
     Details = "For academic excellence and exceptional character of the profile",
     Date = "2023",
@@ -93,7 +102,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Bourse d'engagement du Syndicat des professeures et professeurs de l'UQAM (SPUQ) - Doctorat",
+    Name = "Involvement Award from the Union of Professors of UQAM (SPUQ) - PhD",
     URL = "https://www.spuq.uqam.ca/profil/bourses",
     Details = "For student involvement and academic excellence",
     Date = "2023",
@@ -102,7 +111,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Bourse Desjardins, catégorie Coup de pouce – Persévérance scolaire",
+    Name = "Desjardins Award, Helping Hand category – Academic perseverance",
     URL = "https://www.facebook.com/caissePierreBoucher/posts/pfbid0x5PtHX6HJP6FvT9PJ6v2jZQBWhjrvnZ7x9vVvhTbyPrLDyNhmUAXN48ZXE7Coxpcl",
     Details = "For school perseverance and ambitions for the future",
     Date = "2022",
@@ -111,7 +120,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Prix de la meilleure présentation orale étudiante au 22e colloque de l’ASMC",
+    Name = "Best Student Presentation Award at the 22nd ASMC Conference",
     URL = "https://remi-theriault.com/awards/ASMC.pdf",
     Details = "For the 22th congress seminar of the Association scientifique pour la modification du comportement",
     Date = "2022",
@@ -120,7 +129,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Bourse d'aide à la participation à des rencontres scientifiques (UQAM + AGEPSY-CS)",
+    Name = "Conference Travel Award (UQAM + AGEPSY-CS)",
     URL = "",
     Details = "To participate to the CPA 2022 Annual National Convention",
     Date = "2022",
@@ -129,7 +138,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Prix reconnaissance de l’implication étudiante (UQAM) - Projet, Volet Santé et saines habitudes de vie",
+    Name = "Student Involvement Recognition Award (UQAM) - Project, Health and healthy lifestyle component",
     URL = "https://actualites.uqam.ca/2022/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
     Date = "2022",
@@ -138,7 +147,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Prix Relève étoile Paul-Gérin-Lajoie, for best paper (FRQSC)",
+    Name = "Paul-Gérin-Lajoie Next Star Award, for best paper (FRQSC)",
     URL = "https://frq.gouv.qc.ca/en/story-and-report/releve-etoile-paul-gerin-lajoie-janvier-2022/",
     Details = "Award-winning publication: Body swapping with a Black person boosts empathy",
     Date = "2022",
@@ -147,7 +156,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Bourse d'implication Desjardins, for student involvement",
+    Name = "Desjardins Student Involvement Award",
     URL = "",
     Details = "For student involvement",
     Date = "2021",
@@ -165,7 +174,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Bourse d'excellence de l'Institut des sciences cognitives (UQAM)",
+    Name = "Excellence Award - Institute for Cognitive Sciences",
     URL = "https://isc.uqam.ca/etudiants/laureats-excellence/",
     Details = "Excellence award from the Institute of Cognitive Sciences",
     Date = "2021",
@@ -174,7 +183,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "McGill Department of Psychiatry Travel Award",
+    Name = "Conference Travel Award (McGill University)",
     URL = "",
     Details = "To attend the 2019 Congress of the Humanities and Social Sciences",
     Date = "2019",
@@ -201,7 +210,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Fonds de recherche du Québec - Société et culture-Doctoral — Declined",
+    Name = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined",
     URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
     Details = "Excellence award from the FRQSC",
     Date = "2018-2021",
@@ -219,7 +228,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Fonds de recherche du Québec - Société et culture-Master’s — Declined",
+    Name = "Fonds de recherche du Québec - Société et culture-Master’s (FRQSC) — Declined",
     URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
     Details = "Excellence award from the FRQSC",
     Date = "2017-2018",
@@ -228,7 +237,7 @@ data <- rbind(
     Declined = TRUE),
   
   tibble(
-    Name = "Graduate Excellence Fellowship in Mental Health Research",
+    Name = "Graduate Excellence Fellowship in Mental Health Research (McGill University)",
     URL = "",
     Details = "Excellence award from McGill University",
     Date = "2016-2017",
@@ -237,7 +246,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Faculty of Arts Research Internship Award",
+    Name = "Faculty of Arts Research Internship Award (McGill University)",
     URL = "https://www.mcgill.ca/arts-internships/research/recipients/2015-aria-recipients",
     Details = "Excellence award from McGill University",
     Date = "2015",
@@ -264,7 +273,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Bourse Coopérative-Odyssée, for student engagement",
+    Name = "Coopérative-Odyssée Award, for student engagement",
     URL = "",
     Details = "Student involvement award from Cégep Édouard-Montpetit",
     Date = "2012",
@@ -273,7 +282,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Bourse Édouard-Montpetit-Desjardins, for student engagement",
+    Name = "Édouard-Montpetit-Desjardins Award, for student engagement",
     URL = "https://remi-theriault.com/awards/edouard-montpetit-desjardins.pdf",
     Details = "Student involvement award from Cégep Édouard-Montpetit",
     Date = "2011",
