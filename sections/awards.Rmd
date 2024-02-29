@@ -12,6 +12,15 @@ output: html_document
 data <- rbind(
 
     tibble(
+    Name = "Postdoctoral Fellowship (SSHRC)",
+    URL = "",
+    Details = "",
+    Date = "2024-2026",
+    Amount = 90000,
+    Activity = NA,
+    Declined = FALSE),
+    
+    tibble(
     Name = "Best Student Paper Award (UQAM)",
     URL = "",
     Details = "",
@@ -294,10 +303,12 @@ data <- rbind(
 
 total <- data$Amount
 
+last_year <- max(unlist(strsplit(data$Date, "-")))
+
 data <- data %>% 
     add_row(Name = "Total Amount Offered",
             URL = "",
-            Date = "2011-2022",
+            Date = paste0("2011-", last_year),
             Amount = sum(total),
             Declined = FALSE) %>% 
   mutate(Name = link(paste0("\\hspace{0.5cm} ", Name, "\\dotfill"), URL, color = "333333"),
@@ -305,6 +316,7 @@ data <- data %>%
          Amount = ifelse(Declined == TRUE,
                          paste0("(", Amount, ")"),
                          Amount))
+
 data[nrow(data),1] <- gsub("333333", "6FA3CE", data[nrow(data),1]) #Red: FF0000, but we use same colour as rest
 
 brief_entries(data, Name, Date, Amount, .protect = FALSE)
