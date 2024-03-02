@@ -112,7 +112,7 @@ data <- rbind(
     
     tibble(
     Name = "Involvement Award from the Union of Professors of UQAM (SPUQ) - PhD",
-    URL = "https://www.spuq.uqam.ca/profil/bourses",
+    URL = "https://web.archive.org/web/20240203075622/https://www.spuq.uqam.ca/profil/bourses",
     Details = "For student involvement and academic excellence",
     Date = "2023",
     Amount = 4000,
@@ -274,7 +274,7 @@ data <- rbind(
   
   tibble(
     Name = "Forces Avenir Laureate – College, Committed Student",
-    URL = "https://ancien.fedecegeps.qc.ca/autres-activites/forces-avenir/",
+    URL = "https://web.archive.org/web/20221002030207/https://ancien.fedecegeps.qc.ca/autres-activites/forces-avenir/",
     Details = "Student involvement award from Forces Avenir",
     Date = "2013",
     Amount = 2500,
