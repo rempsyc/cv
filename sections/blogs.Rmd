@@ -33,7 +33,7 @@ output: html_document
 
 **Thériault, R.** (2015, December 7). Does hypnosis improve clinical interventions? [Blog post]. <https://medium.com/@rempsyc/does-hypnosis-improve-clinical-interventions-ea51d829ed98>
 
-**Thériault, R.** (2015, April 9). The New Age Movement: Volunteer Associations, Not Markets [Blog post]. <https://medium.com/@rempsyc/the-new-age-movement-volunteer-associations-not-markets-3f410b376af0>
+<!-- **Thériault, R.** (2015, April 9). The New Age Movement: Volunteer Associations, Not Markets [Blog post]. <https://medium.com/@rempsyc/the-new-age-movement-volunteer-associations-not-markets-3f410b376af0> -->
 
 **Thériault, R.** (2015, April 9). The SOI, the Big Five traits of personality, and personal transformation [Blog post]. <https://medium.com/@rempsyc/the-soi-the-big-five-traits-of-personality-and-personal-transformation-49cbb0d5625b>
 
@@ -45,13 +45,13 @@ output: html_document
 
 **Thériault, R.** (2014, April 3). Do we really know what yoga means?: The place of spirituality in yoga research [Blog post]. [https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/](https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/)
 
-**Thériault, R.** (2014, March 29). How I became intelligent: or why IQ tests may fail to awaken one's potential [Blog post]. [https://medium.com/rempsyc/how-i-became-intelligent-a95bc08c6290](https://medium.com/rempsyc/how-i-became-intelligent-a95bc08c6290)
+<!-- **Thériault, R.** (2014, March 29). How I became intelligent: or why IQ tests may fail to awaken one's potential [Blog post]. [https://medium.com/rempsyc/how-i-became-intelligent-a95bc08c6290](https://medium.com/rempsyc/how-i-became-intelligent-a95bc08c6290) -->
 
-**Thériault, R.** (2014, March 23). The quest for meaning and where it originates [Blog post]. [https://medium.com/rempsyc/the-quest-for-meaning-eda73de238b8](https://medium.com/rempsyc/the-quest-for-meaning-eda73de238b8)
+<!-- **Thériault, R.** (2014, March 23). The quest for meaning and where it originates [Blog post]. [https://medium.com/rempsyc/the-quest-for-meaning-eda73de238b8](https://medium.com/rempsyc/the-quest-for-meaning-eda73de238b8) -->
 
-**Thériault, R.** (2014, March 22). Do you know your EQ?: No, I'm not talking about your intelligence quotient [Blog post]. [https://medium.com/rempsyc/do-you-know-your-eq-23beca870fc](https://medium.com/rempsyc/do-you-know-your-eq-23beca870fc)
+<!-- **Thériault, R.** (2014, March 22). Do you know your EQ?: No, I'm not talking about your intelligence quotient [Blog post]. [https://medium.com/rempsyc/do-you-know-your-eq-23beca870fc](https://medium.com/rempsyc/do-you-know-your-eq-23beca870fc) -->
 
-**Thériault, R.** (2014, January 16). Nature of reality and its inevitable simplification [Blog post]. [https://medium.com/rempsyc/nature-of-reality-e286a1587d94](https://medium.com/rempsyc/nature-of-reality-e286a1587d94)
+<!-- **Thériault, R.** (2014, January 16). Nature of reality and its inevitable simplification [Blog post]. [https://medium.com/rempsyc/nature-of-reality-e286a1587d94](https://medium.com/rempsyc/nature-of-reality-e286a1587d94) -->
 
 <!-- **Thériault, R.** (2012, October 10). Bilan de RIO+20: La planète n'y arrivera pas si on ne change pas de modèle! *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *38*(3), p. 5. <https://issuu.com/motdit/docs/motdit10.10.12> -->
 
@@ -59,4 +59,4 @@ output: html_document
 
 <!-- **Thériault, R.** (2012, February 22). Réflexion sur la hausse des droits de scolarité. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *37*(5), p. 10. -->
 
-**Thériault, R.** (2011, April 27). Expérience sur les perceptions extrasensorielles. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *36*(7), p. 6.
+<!-- **Thériault, R.** (2011, April 27). Expérience sur les perceptions extrasensorielles. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *36*(7), p. 6. -->

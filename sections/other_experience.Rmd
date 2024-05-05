@@ -8,7 +8,30 @@ output: html_document
 
 # Other Research Experience
 
-## Research Assistant, Amir Raz Cognitive Neuroscience Laboratory (2013/09–2016/09)
+## PhD Intern, [Max Planck Social Neuroscience Lab - Tania Singer](https://www.social.mpg.de/2766/en) (2023/10–2024/05)
+
+```{r experience_new, include = TRUE,eval=TRUE}
+data <- rbind(
+  
+  tibble(
+    what = "Edu:Social School: Strengthening Resilience and Social Skills Among Teachers",
+    URL = "https://www.edusocial-project.de/en/",
+    when = "2023/10-2024/05",
+    with = "Max Planck Social Neuroscience Lab",
+    where = "Berlin, Germany",
+    details = c("Contributed to conceiving research design, formulating hypotheses, designing new tasks, \\& reviewing litterature",
+                "Contributed to admin documents: clinical trial, preregistration, ethics, senate application, etc.",
+                "Topic 1: Social emotions (empathy and compassion)",
+                "Topic 2: Social interactions (egocentric social network analysis)")))
+
+data <- data %>% 
+  mutate(what = link(what, URL, color = "333333"))
+
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+
+```
+
+## Research Assistant, [McGill Cognitive Neuroscience Lab - Amir Raz](https://raz-lab.org/) (2013/09–2016/09)
 
 ```{r experience, include = TRUE}
 data <- rbind(
@@ -17,16 +40,16 @@ data <- rbind(
     what = "Sensory Deprivation, Consciousness, and Dissociation",
     URL = "https://digitalcommons.chapman.edu/cusrd_abstracts/325/",
     when = "2014/09-2016/09",
-    with = "McGill University",
-    where = "Raz Lab",
+    with = "McGill Cognitive Neuroscience Lab",
+    where = "Montréal, Québec",
     details = c("Conceived research designs \\& formulated hypotheses",
                 "Performed various administrative tasks related to the sensory deprivation unit (shopping, maintenance, risks, authorizations, etc.)")),
 
   # tibble(
   #   what = "Administrative Assistantship",
   #   when = "2013/09-2016/09",
-  #   with = "McGill University",
-  #   where = "Raz Lab",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
   #   details = c("Worked on the WordPress website (razlab.org) \\& managed servers",
   #               "Edited videos and photos",
   #               "Performed various investigations on different topics for PI")),
@@ -35,24 +58,24 @@ data <- rbind(
     what = "Posture and Human Resting-State (EEG, MEG)",
     URL = "https://escholarship.mcgill.ca/concern/theses/bz60cz84m",
     when = "2015/05-07",
-    with = "McGill University",
-    where = "Raz Lab",
+    with = "McGill Cognitive Neuroscience Lab",
+    where = "Montréal, Québec",
     details = "Performed various tasks (including statistical analyses) on Brainstorm, Matlab, and Photoshop"),
   
   tibble(
     what = "Chronic Hives and the Effect of Cognitive Treatment in Kids and Adults",
     URL = "https://escholarship.mcgill.ca/concern/theses/2f75rb82q",
     when = "2014/01-09",
-    with = "McGill University",
-    where = "Raz Lab",
+    with = "McGill Cognitive Neuroscience Lab",
+    where = "Montréal, Québec",
     details = "Recruited and managed participants’ appointments"),
   
   tibble(
     what = "Attention Training in Health and Disease",
     URL = "https://escholarship.mcgill.ca/concern/theses/12579w270",
     when = "2014/05-08",
-    with = "McGill University",
-    where = "Raz Lab",
+    with = "McGill Cognitive Neuroscience Lab",
+    where = "Montréal, Québec",
     details = "Trained children’s attention with video games (data collection)")
   
   )

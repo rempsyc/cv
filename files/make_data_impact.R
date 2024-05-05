@@ -82,6 +82,14 @@ if(any(grepl("M Miglianico, Rém Thériault", data_scholar$scholar_publications$
        data_scholar$scholar_publications$author)
 }
 
+# Correct missing authors
+
+if("Zph67rFs4hoC" %in% data_scholar$scholar_publications$pubid) {
+  x <- data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "Zph67rFs4hoC"]
+  x <- paste0(x, ", Rém Thériault, et al.")
+  data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "Zph67rFs4hoC"] <- x
+}
+
 # Get dataframe with stats
 get_stats <- function(data_scholar, author.name = author.name) {
   
