@@ -21,6 +21,15 @@ data <- rbind(
     # Declined = FALSE),
     
     tibble(
+    Name = "SNC-Lavalin Award (UQAM)",
+    URL = "",
+    Details = "",
+    Date = "2024",
+    Amount = 2800,
+    Activity = NA,
+    Declined = FALSE),
+    
+    tibble(
     Name = "Best Student Paper Award (UQAM)",
     URL = "",
     Details = "",
