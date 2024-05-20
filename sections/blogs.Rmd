@@ -13,7 +13,7 @@ output: html_document
 
 <!-- **Thériault, R.** (2022, February 3). Publication-ready t-tests in R [Blog post]. <https://remi-theriault.com/blog_t-test> -->
 
-**Thériault, R.** (2021, March 9). Time Management: The Importance of Self-Monitoring post]. Student Ambassador Program of the Canadian Positive Psychology. <https://cppastudents.medium.com/time-management-the-importance-of-self-monitoring-c9dfff241af1>
+**Thériault, R.** (2021, March 9). Time Management: The Importance of Self-Monitoring [Blog post]. Student Ambassador Program of the Canadian Positive Psychology. <https://cppastudents.medium.com/time-management-the-importance-of-self-monitoring-c9dfff241af1>
 
 <!-- **Thériault, R.** (2020, December 25). Quickly test linear regression assumptions [Blog]. <https://remi-theriault.com/blog_assumptions> -->
 
