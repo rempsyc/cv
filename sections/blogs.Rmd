@@ -7,7 +7,7 @@ output: html_document
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
-# Selected Blogs Posts
+# Selected Blog Posts
 
 <!-- **Thériault, R.** (2022, February 8). Publication-ready moderations with simple slopes in R [Blog post]. <https://remi-theriault.com/blog_moderation> -->
 

@@ -80,6 +80,8 @@ author.name <- "rém thériault"
 # Edit the individual files ("childs") to edit the content as desired.
 # Add `eval = !short` to code chunks to make them optional for the short version
 
+# See all instructions and tips here: https://github.com/rempsyc/cv
+
 ```
 
 ```{r Education parent, child=c('sections/education.Rmd')}

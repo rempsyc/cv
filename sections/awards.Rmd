@@ -39,7 +39,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Adrien-Pinard Psychology Award (PhD)",
+    Name = "Adrien-Pinard Psychology Award (UQAM)",
     URL = "",
     Details = "",
     Date = "2024",
@@ -75,7 +75,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "Student Involvement Recognition Award (UQAM) - Personality 2nd and 3rd cycles",
+    Name = "Student Involvement Recognition Award - Personality 2nd and 3rd cycles (UQAM)",
     URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
     Date = "2023",
@@ -84,7 +84,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "Student Involvement Recognition Award (UQAM) - Project, Health and healthy lifestyle component",
+    Name = "Student Involvement Recognition Award - Project, Health and healthy lifestyle component (UQAM)",
     URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
     Date = "2023",
@@ -102,7 +102,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "J.A. DeSève Foundation Award (PhD)",
+    Name = "J.A. DeSève Foundation Award (UQAM)",
     URL = "https://fondation.uqam.ca/uqam-1/bourses-hiver2023",
     Details = "For academic excellence",
     Date = "2023",
@@ -156,7 +156,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Student Involvement Recognition Award (UQAM) - Project, Health and healthy lifestyle component",
+    Name = "Student Involvement Recognition Award - Project, Health and healthy lifestyle component (UQAM)",
     URL = "https://actualites.uqam.ca/2022/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
     Date = "2022",
