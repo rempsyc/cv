@@ -15,8 +15,6 @@ Brodeur, A., Mikola, D., Cook, N., ... **Thériault, R.**, et al. (2024). *Mass 
 
 <!-- Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., Bacher, E., Lüdecke, D., & **Thériault**, R. (2023). report: Automated reporting of results and statistical models in R. <https://remi-theriault.com/preprints/makowski_et_al_2023.pdf> -->
 
-<!-- **Thériault, R.** (2023). L’importance de la science ouverte en recherche en psychologie. <https://doi.org/10.31234/osf.io/758dx> -->
-
 <!-- # Non-Peer-Reviewed Publications -->
 
 <!-- **Thériault, R.** (2023). Bonnes pratiques et science ouverte : Un document d'accompagnement au PRD. <https://remi-theriault.com/files/science_ouverte2023.pdf> -->
