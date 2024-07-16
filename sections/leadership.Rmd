@@ -17,40 +17,52 @@ data <- rbind(
     when = "2019/09 – 2022/12",
     role = "Lead Student Ambassador \\& Co-founder, Student Ambassador Program",
     where = "Montréal, Québec",
-    details = c("As lead, manage about 70 other Student Ambassadors for various projects (blog, webinar, logo, Instagram, etc.)", 
-                "Editor-in-Chief for the blog project. Reviewed/supervised the publication of more than 20 blogs (see https://medium.com/@cppastudents)", 
-                "Weekly Core Team (board) meetings, monthly meetings for each project",
-                "Organize and host webinars periodically, various involvement in other projects")),
+    details = c(
+      "Lead of ~70 Ambassadors (blog, webinar, logo, Instagram, etc.), Editor-in-Chief (blog)"), 
+      # "As lead, manage about 70 other Student Ambassadors for various projects (blog, webinar, logo, Instagram, etc.)", 
+      # "Editor-in-Chief for the blog project. Reviewed/supervised the publication of more than 20 blogs (see https://medium.com/@cppastudents)", 
+      # "Weekly Core Team (board) meetings, monthly meetings for each project",
+      # "Organize and host webinars periodically, various involvement in other projects")
+    ),
   
   tibble(
     what = "Regroupement québécois de psychologie positive",
     when = "2016/04 – 2022/12",
     role = "Member of think-tank for the future of positive psychology in Québec",
     where = "Montréal, Québec",
-    details = c("Participate to group meetings, discussions, debates, vision, and orientations", 
-                "Part of a) research, b) clinical, c) student, and d) English community committees", 
-                "Contribute to advertisement and goals of the group through public outreach, document preparation, help with organization of conference, and presentations to student associations to foster collaborations", 
-                "Lead development of freshly formed student division")),
+    details = c(
+      "Lead development of freshly formed student division, various responsabilities"), 
+      # "Participate to group meetings, discussions, debates, vision, and orientations", 
+      # "Part of a) research, b) clinical, c) student, and d) English community committees", 
+      # "Contribute to advertisement and goals of the group through public outreach, document preparation, help with organization of conference, and presentations to student associations to foster collaborations", 
+      # "Lead development of freshly formed student division")
+    ),
   
   tibble(
     what = "Département de psychologie (Université du Québec à Montréal)",
     when = "2019/01 – 2022-12",
     role = "Yoga \\& Meditation Student Committee Lead",
     where = "Montréal, Québec",
-    details = c("Organize affordable weekly yoga sessions for psychology students on campus (Winter 2022)", 
-                "Wrote and successfully obtained 2 grants for the project (first: \\$1,697.85; second: \\$500)", 
-                "Organized and guided weekly meditations for psychology students on campus (Winter 2019)", 
-                "Project objective is to improve student mental health with evidence-based mind-body exercises")),
+    details = c(
+      "Led or organized meditation and yoga sessions, secured grants for project"), 
+      # "Organize affordable weekly yoga sessions for psychology students on campus (Winter 2022)", 
+      # "Wrote and successfully obtained 2 grants for the project (first: \\$1,697.85; second: \\$500)",
+      # "Organized and guided weekly meditations for psychology students on campus (Winter 2019)", 
+      # "Project objective is to improve student mental health with evidence-based mind-body exercises")
+    ),
 
   tibble(
     what = "International Positive Psychology Association (IPPA)",
     when = "2017/12 – 2022/12",
     role = "Regional Representative (for the province of Québec) of the Student Division (SIPPA)",
     where = "Montréal, Québec",
-    details = c("Connect local members to IPPA’s Student Division",
-                "Monthly meetings and brainstorming with Representatives and SIPPA Executive Team", 
-                "Created an interactive map of locations of all representatives across the globe for the website", 
-                "Contribution to SIPPA newsletter")),
+    details = c(
+      "SIPPA newsletter, connecting local members, meetings, interactive map"),
+      # "Connect local members to IPPA’s Student Division",
+      # "Monthly meetings and brainstorming with Representatives and SIPPA Executive Team", 
+      # "Created an interactive map of locations of all representatives across the globe for the website",
+      # "Contribution to SIPPA newsletter")
+    )#,
   
   # tibble(
   #   what = "Permacultive ta Ville",
@@ -60,12 +72,12 @@ data <- rbind(
   #   details = c("Co-managed a community garden in Boucherville (summer 2014)", 
   #               "Led presentations and promoted urban permaculture, co-managing Facebook page")),
   
-  tibble(
-    what = "SOI (Sagesse, Ouverture, Intégrité)",
-    when = "2010/09 – 2012/09",
-    role = "Founding president",
-    where = "Cégep Édouard-Montpetit",
-    details = c("Led the executive administrative board (6 people); managed budget (about \\$700/year); promoted well-being, happiness, and health, and led activities based on psychological principles"))#,
+  # tibble(
+  #   what = "SOI (Sagesse, Ouverture, Intégrité)",
+  #   when = "2010/09 – 2012/09",
+  #   role = "Founding president",
+  #   where = "Cégep Édouard-Montpetit",
+  #   details = c("Led the executive administrative board (6 people); managed budget (about \\$700/year); promoted well-being, happiness, and health, and led activities based on psychological principles"))#,
   
   # tibble(
   #   what = "Shaved Head Challenge",

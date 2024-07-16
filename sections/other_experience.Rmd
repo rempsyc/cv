@@ -8,7 +8,7 @@ output: html_document
 
 # Other Research Experience
 
-## PhD Intern, [Max Planck Social Neuroscience Lab - Tania Singer](https://www.social.mpg.de/2766/en) (2023/10–2024/05)
+## PhD Intern, [Max Planck Social Neuroscience Lab - Tania Singer](https://www.social.mpg.de/2766/en)
 
 ```{r experience_new, include = TRUE,eval=TRUE}
 data <- rbind(
@@ -31,19 +31,44 @@ detailed_entries(data, with, when, what, where, details, .protect = FALSE)
 
 ```
 
-## Research Assistant, [McGill Cognitive Neuroscience Lab - Amir Raz](https://raz-lab.org/) (2013/09–2016/09)
+## Research Assistant, [McGill Cognitive Neuroscience Lab - Amir Raz](https://raz-lab.org/)
 
 ```{r experience, include = TRUE}
 data <- rbind(
   
   tibble(
-    what = "Sensory Deprivation, Consciousness, and Dissociation",
-    URL = "https://digitalcommons.chapman.edu/cusrd_abstracts/325/",
-    when = "2014/09-2016/09",
+    what = "Various research projects",
+    URL = "",
+    when = "2013/09–2016/09",
     with = "McGill Cognitive Neuroscience Lab",
     where = "Montréal, Québec",
-    details = c("Conceived research designs \\& formulated hypotheses",
-                "Performed various administrative tasks related to the sensory deprivation unit (shopping, maintenance, risks, authorizations, etc.)")),
+    details = c(
+      link(
+        "Sensory Deprivation, Consciousness, and Dissociation",
+        "https://digitalcommons.chapman.edu/cusrd_abstracts/325/",
+        "333333"),
+      link(
+        "Posture and Human Resting-State (EEG, MEG)",
+        "https://escholarship.mcgill.ca/concern/theses/bz60cz84m",
+        "333333"),
+      link(
+        "Chronic Hives and the Effect of Cognitive Treatment in Kids and Adults",
+        "https://escholarship.mcgill.ca/concern/theses/2f75rb82q",
+        "333333"),
+      link(
+        "Attention Training in Health and Disease",
+        "https://escholarship.mcgill.ca/concern/theses/12579w270",
+        "333333")
+      ))#,
+  
+  # tibble(
+  #   what = "Sensory Deprivation, Consciousness, and Dissociation",
+  #   URL = "https://digitalcommons.chapman.edu/cusrd_abstracts/325/",
+  #   when = "2014/09-2016/09",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
+  #   details = c("Conceived research designs \\& formulated hypotheses",
+  #               "Performed various administrative tasks related to the sensory deprivation unit (shopping, maintenance, risks, authorizations, etc.)")),
 
   # tibble(
   #   what = "Administrative Assistantship",
@@ -54,30 +79,30 @@ data <- rbind(
   #               "Edited videos and photos",
   #               "Performed various investigations on different topics for PI")),
   # 
-  tibble(
-    what = "Posture and Human Resting-State (EEG, MEG)",
-    URL = "https://escholarship.mcgill.ca/concern/theses/bz60cz84m",
-    when = "2015/05-07",
-    with = "McGill Cognitive Neuroscience Lab",
-    where = "Montréal, Québec",
-    details = "Performed various tasks (including statistical analyses) on Brainstorm, Matlab, and Photoshop"),
-  
-  tibble(
-    what = "Chronic Hives and the Effect of Cognitive Treatment in Kids and Adults",
-    URL = "https://escholarship.mcgill.ca/concern/theses/2f75rb82q",
-    when = "2014/01-09",
-    with = "McGill Cognitive Neuroscience Lab",
-    where = "Montréal, Québec",
-    details = "Recruited and managed participants’ appointments"),
-  
-  tibble(
-    what = "Attention Training in Health and Disease",
-    URL = "https://escholarship.mcgill.ca/concern/theses/12579w270",
-    when = "2014/05-08",
-    with = "McGill Cognitive Neuroscience Lab",
-    where = "Montréal, Québec",
-    details = "Trained children’s attention with video games (data collection)")
-  
+  # tibble(
+  #   what = "Posture and Human Resting-State (EEG, MEG)",
+  #   URL = "https://escholarship.mcgill.ca/concern/theses/bz60cz84m",
+  #   when = "2015/05-07",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
+  #   details = "Performed various tasks (including statistical analyses) on Brainstorm, Matlab, and Photoshop"),
+  # 
+  # tibble(
+  #   what = "Chronic Hives and the Effect of Cognitive Treatment in Kids and Adults",
+  #   URL = "https://escholarship.mcgill.ca/concern/theses/2f75rb82q",
+  #   when = "2014/01-09",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
+  #   details = "Recruited and managed participants’ appointments"),
+  # 
+  # tibble(
+  #   what = "Attention Training in Health and Disease",
+  #   URL = "https://escholarship.mcgill.ca/concern/theses/12579w270",
+  #   when = "2014/05-08",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
+  #   details = "Trained children’s attention with video games (data collection)")
+  # 
   )
 
 data <- data %>% 
