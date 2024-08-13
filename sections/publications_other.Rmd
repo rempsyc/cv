@@ -51,7 +51,7 @@ Brodeur, A., Mikola, D., Cook, N., ... **Thériault, R.**, et al. (2024). *Mass 
 
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022, June 18). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Talk presented at the *2022 Canadian Psychological Association Annual National Convention* in Calgary, AB.
 
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). La méditation d’amour-bienveillant augmente-t-elle les comportements de don? Talk presented at the *22e congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation* in Montréal, QC.
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). La méditation d’amour-bienveillant augmente-t-elle les comportements de don? Talk presented at the *22e congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation* in Montréal, QC (virtual conference because of COVID).
 
 **Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 16-20). Does loving-kindness meditation increase giving behaviors? Talk presented at the *Tenth SELF International Conference* in Québec city, QC (virtual conference because of COVID).
 
@@ -68,6 +68,8 @@ Brodeur, A., Mikola, D., Cook, N., ... **Thériault, R.**, et al. (2024). *Mass 
 <!-- Lifshitz, M., Sheiner, E., Olson, J., **Thériault, R**., & Raz, A. (2016, October 6). On suggestibility and placebo. Conference talk presented by first author at the *67^th^ meeting of the Society for Clinical and Experimental Hypnosis* in Boston, MA. -->
 
 # Selected Conference Poster Presentations
+
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (2024, August). *Is the mind more powerful than the heart?  A randomized controlled trial of two loving-kindness interventions*. Poster session presented at the Mind & Life European Summer Research Institute in Pomaia, Italy.
 
 Chabot, B., **Thériault, R.**, Doucerain, M. (2023, July 23-27). *Diversity and Immigration: How Montrealers Feel about Different Cultural Groups*. Poster session presented by first author at the Biennial Conference of the International Academy for Intercultural Research in Philadelphia, Pennsylvania, USA.
 
@@ -97,6 +99,6 @@ Bold, J., **Thériault, R.**, Olson, J., Stain, A., Curry, D., & Raz, A. (2020, 
 
 <!-- Mattuck, S., **Thériault, R.**, Landry, M., & Raz, A. (2017, April 17). Exploring the influence of cognitive resources on body ownership. Poster session presented by first author at the *Psychology Undergraduate Research Day* at McGill University in Montréal, QC. -->
 
-**Thériault, R.**, Landry, M., & Raz, A. (2016, April 15). Exploring the effects of cognitive load and task instructions in the Rubber Hand Illusion. Poster session presented at the *Psychology Undergraduate Research Day* at McGill University in Montréal, QC.
+<!-- **Thériault, R.**, Landry, M., & Raz, A. (2016, April 15). Exploring the effects of cognitive load and task instructions in the Rubber Hand Illusion. Poster session presented at the *Psychology Undergraduate Research Day* at McGill University in Montréal, QC. -->
 
 <!-- **Thériault, R.**, Landry, M., & Raz, A. (2016, January 19). Exploring cognitive aspects of body ownership. Poster session presented at the *6th Annual Faculty of Arts Undergraduate Research Event* at McGill University in Montréal, QC. -->
