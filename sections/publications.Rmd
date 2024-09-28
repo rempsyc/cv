@@ -62,7 +62,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 9\. **Thériault**, R. (2023). rempsyc: Convenience functions for psychology. *Journal of Open Source Software*, *8*(87), 5466. https://doi.org/10.21105/joss.05466
 
-8\. Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect Sizes for Categorical Data that Use the Chi-Squared Statistic. *Mathematics*, *11*(9), 1982. https://doi.org/10.3390/math11091982
+8\. Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect sizes for categorical data that use the chi-squared statistic. *Mathematics*, *11*(9), 1982. https://doi.org/10.3390/math11091982
 
 7\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2022). Pratiques cliniques inspirées par la recherche en psychologie positive / Clinical practices inspired by research in positive psychology. *Psychologie Française*, *69*(1), 85-94. \*Shared first-authorship (these authors contributed equally). https://doi.org/10.1016/j.psfr.2022.06.004
 
