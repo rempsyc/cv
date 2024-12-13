@@ -50,6 +50,8 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
+16\. Ghai, S., **Thériault, R.**, Forscher, P., Shoda, Y., Syed, M., Puthillam, A., Peng, H. C., Basnight-Brown, D., Majid, A., Azevedo, F., Singh, L. (2024, In press). A manifesto for a globally diverse, equitable, and inclusive open science. *Communications Psychology*. 1-38.
+
 15\. Cimon-Paquet, C., St-Cyr, J., **Thériault, R**., & Vallerand, R. J. (2024, In press). Moving positive psychology forward: Building on the psychology of passion. *International Journal of Applied Positive Psychology*. 1-24.
 
 14\. **Thériault**, R. (2024). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. Accepted in *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
