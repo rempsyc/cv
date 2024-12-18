@@ -9,6 +9,8 @@ output: html_document
 
 # Preprints
 
+Heyman, T., Pronizius, E., Lewis, S. C., ... **Thériault, R.**, et al. (2024). *Crowdsourcing Multiverse Analyses to Explore the Impact of Different Data-processing and Analysis Decisions: A Tutorial*. https://osf.io/fjhv5
+
 Buchanan, E. M., Cuccolo, K. M., Coles, N., ... **Thériault, R.**, et al. (2024). *Measuring the Semantic Priming Effect Across Many Languages*. https://doi.org/10.31219/osf.io/q4fjy
 
 Brodeur, A., Mikola, D., Cook, N., ... **Thériault, R.**, et al. (2024). *Mass Reproducibility and Replicability: A New Hope*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107
