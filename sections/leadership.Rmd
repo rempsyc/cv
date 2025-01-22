@@ -39,7 +39,7 @@ data <- rbind(
     ),
   
   tibble(
-    what = "Département de psychologie (Université du Québec à Montréal)",
+    what = "Department of psychology (Université du Québec à Montréal)",
     when = "2019/01 – 2022-12",
     role = "Yoga \\& Meditation Student Committee Lead",
     where = "Montréal, Québec",
@@ -133,7 +133,7 @@ data <- rbind(
 )
 
 if (short) {
-   data <- data[c(5:12), ]
+   data <- data[c(1:4), ]
    #data$details <- NA
 }
 

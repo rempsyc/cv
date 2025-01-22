@@ -10,7 +10,7 @@ output: html_document
 
 ## PhD Intern, [Max Planck Social Neuroscience Lab - Tania Singer](https://www.social.mpg.de/2766/en)
 
-```{r experience_new, include = TRUE,eval=TRUE}
+```{r experience_new, include = TRUE, eval=TRUE}
 data <- rbind(
   
   tibble(

@@ -5,7 +5,7 @@ output: html_document
 \scriptsize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
-\setlength{\parskip}{8pt}
+<!-- \setlength{\parskip}{8pt} -->
 
 # Publications
 
@@ -50,11 +50,11 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
-16\. Ghai, S., **Thériault, R.**, Forscher, P., Shoda, Y., Syed, M., Puthillam, A., Peng, H. C., Basnight-Brown, D., Majid, A., Azevedo, F., Singh, L. (2024, In press). A manifesto for a globally diverse, equitable, and inclusive open science. *Communications Psychology*. 1-38.
+16\. Ghai, S., **Thériault, R.**, Forscher, P., Shoda, Y., Syed, M., Puthillam, A., Peng, H. C., Basnight-Brown, D., Majid, A., Azevedo, F., Singh, L. (2025, In press). A manifesto for a globally diverse, equitable, and inclusive open science. *Communications Psychology*. 1-38.
 
 15\. Cimon-Paquet, C., St-Cyr, J., **Thériault, R**., & Vallerand, R. J. (2025). Moving positive psychology forward: Building on the psychology of passion. *International Journal of Applied Positive Psychology*, *10*(14), 1-19. https://doi.org/10.1007/s41042-024-00198-7
 
-14\. **Thériault**, R. (2024). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. Accepted in *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
+14\. **Thériault**, R. (2025). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. Accepted in *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
 
 13\. **Thériault**, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2024). Check your outliers! An introduction to identifying statistical outliers in R with *easystats*. *Behavior Research Methods*, *56*(4), 4162-4172. https://doi.org/10.3758/s13428-024-02356-w (Preprint: https://doi.org/10.31234/osf.io/bu6nt)
 
@@ -89,3 +89,21 @@ plot_impact(data_scholar)
 table_impact(data_scholar, author.name = author.name, scholar.profile = scholar.profile)
 
 ```
+
+<!-- # Non-Peer-Reviewed Publications -->
+
+<!-- **Thériault, R.** (2023). Bonnes pratiques et science ouverte : Un document d'accompagnement au PRD. <https://remi-theriault.com/files/science_ouverte2023.pdf> -->
+
+<!-- **Thériault, R.**, Masson, R., & Dandeneau, S. (in preparation). Is the Mind More Powerful Than the Heart? A Randomized Controlled Trial of Two Loving-Kindness Interventions. -->
+
+<!-- **Thériault, R.**, Dandeneau, S., & Baldwin, M. (in preparation). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals. -->
+
+<!-- **Thériault, R.**, Landry, M., Mattuck, S., and Raz, A. (in preparation). The Rubber Hand Illusion: Does cognitive load affect EEG & electrodermal activity? -->
+
+<!-- **Thériault, R.**, Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J., Turkakin, E., & Raz, A. (in preparation). Suggestion affects subjective breathlessness but not objective pulmonary function. -->
+
+<!-- **Thériault, R.** (2018). *Comparing the effects of mental and embodied perspective-taking* (Master's thesis). McGill University, Montréal, Québec, Canada. -->
+
+<!-- **Thériault, R.** (2016). *Exploring cognitive dimensions of body ownership* (Bachelor's thesis). McGill University, Montréal, Québec, Canada. -->
+
+<!-- **Thériault, R.**, Baron, A., & Cowell, B.(2012). *Comment les activités artistiques peuvent développer l'estime de soi chez les jeunes marginalisés : une intervention en cirque social à la maison des jeunes Kekpart* (Collegial thesis). Cégep Édouard-Montpetit, Longueuil, Québec, Canada. -->
