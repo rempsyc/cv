@@ -62,7 +62,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 11\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology*, 14, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773
 
-10\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 14, 2946–2962. https://doi.org/10.1007/s12671-023-02246-w (Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2)
+10\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 14(12), 2946–2962. https://doi.org/10.1007/s12671-023-02246-w (Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2)
 
 9\. **Thériault**, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software*, *8*(90), 5701. https://doi.org/10.21105/joss.05701
 

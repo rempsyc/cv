@@ -21,7 +21,7 @@ data <- rbind(
     # Declined = FALSE),
     # 
     # tibble(
-    # Name = "Postdoctoral Fellowship (FRQSC)", # — Declined
+    # Name = "Postdoctoral Fellowship (FRQSC)"
     # URL = "",
     # Details = "",
     # Date = "2024-2026",
