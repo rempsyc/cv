@@ -102,7 +102,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "Society for Improving Psychological Science (SIPS) Mission Award, given to the easystats project",
+    Name = "Society for the Improvement of Psychological Science (SIPS) Mission Award, given to the easystats project",
     URL = "https://improvingpsych.org/mission/awards/",
     Details = "For easystats project",
     Date = "2023",
