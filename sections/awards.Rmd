@@ -9,6 +9,8 @@ output: html_document
 # Recognitions And Awards
 
 ```{r Awards}
+library(tidyverse)
+
 data <- rbind(
     
     # tibble(
@@ -18,17 +20,19 @@ data <- rbind(
     # Date = "2024-2026",
     # Amount = 140000,
     # Activity = NA,
+    # Program = "Postdoc",
     # Declined = FALSE),
     # 
     # tibble(
-    # Name = "Postdoctoral Fellowship (FRQSC)"
+    # Name = "Postdoctoral Fellowship (FRQSC)",
     # URL = "",
     # Details = "",
     # Date = "2024-2026",
     # Amount = 110000,
     # Activity = NA,
+    # Program = "Postdoc",
     # Declined = FALSE),
-    
+
     tibble(
     Name = "SNC-Lavalin Award (UQAM)",
     URL = "",
@@ -36,6 +40,7 @@ data <- rbind(
     Date = "2024",
     Amount = 2800,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
     
     tibble(
@@ -45,6 +50,7 @@ data <- rbind(
     Date = "2024",
     Amount = 200,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
     
     tibble(
@@ -54,6 +60,7 @@ data <- rbind(
     Date = "2024",
     Amount = 4000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
     
     tibble(
@@ -63,6 +70,7 @@ data <- rbind(
     Date = "2024",
     Amount = 5600,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
     tibble(
@@ -72,6 +80,7 @@ data <- rbind(
     Date = "2023",
     Amount = 750,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
     tibble(
@@ -81,6 +90,7 @@ data <- rbind(
     Date = "2023",
     Amount = 5600,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
     tibble(
@@ -90,6 +100,7 @@ data <- rbind(
     Date = "2023",
     Amount = 1500,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
     tibble(
@@ -99,6 +110,7 @@ data <- rbind(
     Date = "2023",
     Amount = 1000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
     tibble(
@@ -108,6 +120,7 @@ data <- rbind(
     Date = "2023",
     Amount = 0,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
     
     tibble(
@@ -117,6 +130,7 @@ data <- rbind(
     Date = "2023",
     Amount = 5500,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
     
     tibble(
@@ -126,6 +140,7 @@ data <- rbind(
     Date = "2023",
     Amount = 1000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
     
     tibble(
@@ -135,6 +150,7 @@ data <- rbind(
     Date = "2023",
     Amount = 4000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
     
     tibble(
@@ -144,6 +160,7 @@ data <- rbind(
     Date = "2022",
     Amount = 500,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
     
     tibble(
@@ -153,6 +170,7 @@ data <- rbind(
     Date = "2022",
     Amount = 100,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -162,6 +180,7 @@ data <- rbind(
     Date = "2022",
     Amount = 850,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -171,6 +190,7 @@ data <- rbind(
     Date = "2022",
     Amount = 1000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -180,6 +200,7 @@ data <- rbind(
     Date = "2022",
     Amount = 1000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -189,6 +210,7 @@ data <- rbind(
     Date = "2021",
     Amount = 2000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -198,6 +220,7 @@ data <- rbind(
     Date = "2021",
     Amount = 0,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -207,6 +230,7 @@ data <- rbind(
     Date = "2021",
     Amount = 2000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -216,6 +240,7 @@ data <- rbind(
     Date = "2019",
     Amount = 485,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -225,6 +250,7 @@ data <- rbind(
     Date = "2019",
     Amount = 3000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -234,6 +260,7 @@ data <- rbind(
     Date = "2018-2021",
     Amount = 105000,
     Activity = NA,
+    Program = "PhD",
     Declined = FALSE),
   
   tibble(
@@ -243,6 +270,7 @@ data <- rbind(
     Date = "2018-2021",
     Amount = 84000,
     Activity = NA,
+    Program = "PhD",
     Declined = TRUE),
   
   tibble(
@@ -252,6 +280,7 @@ data <- rbind(
     Date = "2017-2018",
     Amount = 17500,
     Activity = NA,
+    Program = "Masters",
     Declined = FALSE),
   
   tibble(
@@ -261,6 +290,7 @@ data <- rbind(
     Date = "2017-2018",
     Amount = 15000,
     Activity = NA,
+    Program = "Masters",
     Declined = TRUE),
   
   tibble(
@@ -270,6 +300,7 @@ data <- rbind(
     Date = "2016-2017",
     Amount = 10000,
     Activity = NA,
+    Program = "Masters",
     Declined = FALSE),
   
   tibble(
@@ -279,6 +310,7 @@ data <- rbind(
     Date = "2015",
     Amount = 4000,
     Activity = NA,
+    Program = "Bachelor",
     Declined = FALSE),
   
   tibble(
@@ -288,6 +320,7 @@ data <- rbind(
     Date = "2013",
     Amount = 1000,
     Activity = NA,
+    Program = "Cegep",
     Declined = FALSE),
   
   tibble(
@@ -297,6 +330,7 @@ data <- rbind(
     Date = "2013",
     Amount = 2500,
     Activity = NA,
+    Program = "Cegep",
     Declined = FALSE),
   
   tibble(
@@ -306,6 +340,7 @@ data <- rbind(
     Date = "2012",
     Amount = 750,
     Activity = NA,
+    Program = "Cegep",
     Declined = FALSE),
   
   tibble(
@@ -315,9 +350,16 @@ data <- rbind(
     Date = "2011",
     Amount = 750,
     Activity = NA,
+    Program = "Cegep",
     Declined = FALSE)
   
 )
+
+# data %>% 
+#   group_by(Program) %>%
+#   summarize(total = sum(Amount)) %>% 
+#   add_row(Program = "Total",
+#           total = sum(data$Amount))
 
 total <- data$Amount
 
