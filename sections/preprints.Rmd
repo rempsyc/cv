@@ -9,6 +9,8 @@ output: html_document
 
 # Preprints
 
+**Thériault, R.**, Masson, R., & Dandeneau, S. (2025). Is the Mind More Powerful Than the Heart? A Randomized Controlled Trial of Two Loving-Kindness Interventions. https://doi.org/10.31234/osf.io/x4p9v_v2
+
 Brodeur, A., Valenta, D., Marcoci, A., ... **Thériault, R.**, et al. (2025). *Comparing Human-Only, AI-Assisted, and AI-Led Teams on Assessing Research Reproducibility in Quantitative Social Science*. https://econpapers.repec.org/RePEc:zbw:i4rdps:195
 
 Heyman, T., Pronizius, E., Lewis, S. C., ... **Thériault, R.**, et al. (2024). *Crowdsourcing Multiverse Analyses to Explore the Impact of Different Data-processing and Analysis Decisions: A Tutorial*. https://osf.io/fjhv5

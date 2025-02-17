@@ -2,26 +2,14 @@
 output: html_document
 ---
 
-\scriptsize
-\setlength{\parindent}{-0.2in}
-\setlength{\leftskip}{0.2in}
-\setlength{\parskip}{8pt}
-
-# Preprints
-
-Heyman, T., Pronizius, E., Lewis, S. C., ... **Thériault, R.**, et al. (2024). *Crowdsourcing Multiverse Analyses to Explore the Impact of Different Data-processing and Analysis Decisions: A Tutorial*. https://osf.io/fjhv5
-
-Buchanan, E. M., Cuccolo, K. M., Coles, N., ... **Thériault, R.**, et al. (2024). *Measuring the Semantic Priming Effect Across Many Languages*. https://doi.org/10.31219/osf.io/q4fjy
-
-Brodeur, A., Mikola, D., Cook, N., ... **Thériault, R.**, et al. (2024). *Mass Reproducibility and Replicability: A New Hope*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107
-
-<!-- Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., Bacher, E., Lüdecke, D., & **Thériault**, R. (2023). report: Automated reporting of results and statistical models in R. <https://remi-theriault.com/preprints/makowski_et_al_2023.pdf> -->
+<!-- \scriptsize -->
+<!-- \setlength{\parindent}{-0.2in} -->
+<!-- \setlength{\leftskip}{0.2in} -->
+<!-- \setlength{\parskip}{8pt} -->
 
 <!-- # Non-Peer-Reviewed Publications -->
 
 <!-- **Thériault, R.** (2023). Bonnes pratiques et science ouverte : Un document d'accompagnement au PRD. <https://remi-theriault.com/files/science_ouverte2023.pdf> -->
-
-<!-- **Thériault, R.**, Masson, R., & Dandeneau, S. (in preparation). Is the Mind More Powerful Than the Heart? A Randomized Controlled Trial of Two Loving-Kindness Interventions. -->
 
 <!-- **Thériault, R.**, Dandeneau, S., & Baldwin, M. (in preparation). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals. -->
 
@@ -34,75 +22,3 @@ Brodeur, A., Mikola, D., Cook, N., ... **Thériault, R.**, et al. (2024). *Mass 
 <!-- **Thériault, R.** (2016). *Exploring cognitive dimensions of body ownership* (Bachelor's thesis). McGill University, Montréal, Québec, Canada. -->
 
 <!-- **Thériault, R.**, Baron, A., & Cowell, B.(2012). *Comment les activités artistiques peuvent développer l'estime de soi chez les jeunes marginalisés : une intervention en cirque social à la maison des jeunes Kekpart* (Collegial thesis). Cégep Édouard-Montpetit, Longueuil, Québec, Canada. -->
-
-# Invited Talks
-
-**Thériault, R.** (2024, August 30). The head and the heart: Comparing cognitive and embodied intervention paradigms for increasing prosociality. Talk for the *School of Psychology* at the University of Sussex, UK.
-
-**Thériault, R.** (2024, June 14). The head and the heart: Exploring contemplative approaches to expanding the identity circle. Online talk for the *Social Identity & Morality Lab* at New York University, USA.
-
-**Thériault, R.\***, Quilico, E.\*, Tétreault, F.\*, Labossière, S.\*, Boudreau, S.\* (2020, May 13; \*all panelists contributed equally). Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting (Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation). Panel organized by the *Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal (CRIR)*. Presentation available from: <https://youtu.be/8VfnOjnon30?t=4288>.
-
-**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2019, January 15). Immersive embodiment experiences improve intergroup relations, empathy, self-other overlap, and prejudice. Online webinar for the *Student Speaker Series* of the *Student Division of the International Positive Psychology Association*. Presentation available from: <https://vimeo.com/user68157211/review/378278530/8d86f3cb33>.
-
-**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, October 25). Virtual-reality-based immersive embodiment experiences increase empathy, reduce prejudice. Oral presentation for the *Institute for Interdisciplinary Brain and Behavioral Science* in Orange, California.
-
-**Thériault, R.**, & Raz, A. (2016, December 8). Diagnosing asthma across Canada: question marks... and exclamation points! Oral presentation for the *Chronic Diseases Seminar* for the *Research Center* *of the* *Hôpital Sacré-Coeur de Montréal*, QC.
-
-**Thériault, R.** (2016, October 19)**.** Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale. Oral presentation for the *Wampum Center* at the *Native Friendship Center of Montreal*, QC.
-
-# Selected Conference Talks
-
-**Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022, June 18). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Talk presented at the *2022 Canadian Psychological Association Annual National Convention* in Calgary, AB.
-
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). La méditation d’amour-bienveillant augmente-t-elle les comportements de don? Talk presented at the *22e congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation* in Montréal, QC (virtual conference because of COVID).
-
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 16-20). Does loving-kindness meditation increase giving behaviors? Talk presented at the *Tenth SELF International Conference* in Québec city, QC (virtual conference because of COVID).
-
-**Thériault, R.** (2019, June 3). Réduire les préjugés et augmenter l'empathie via la réalité virtuelle. Talk presented at the *2019 Congress of the Humanities and Social Sciences* in Vancouver, BC.
-
-**Thériault, R.**, Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J. A., & Raz, A. (2018, August 24). Can suggestion affect pulmonary function in children with suspected asthma? Talk presented at the *21^st^* *World Congress of Medical and Clinical Hypnosis* in Montréal, QC.
-
-<!-- Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., **Thériault, R.**, Krol, S., Olson, J., & Raz, A. (2018, June 5). Walking a mile in another's shoes: Can virtual reality decrease prejudice? Conference talk presented by first author at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC. -->
-
-**Thériault, R.**, Krol, S., & Raz, A. (2017, July 14). Investigating the effects of mental versus embodied perspective-taking on prejudice. Talk presented at the *5^th^ World Congress on Positive Psychology* in Montréal, QC.
-
-**Thériault, R.**, Landry, M., Mattuck, S., & Raz, A. (2017, June 2). The Rubber Hand Illusion: Does load affect EEG & electrodermal activity? Talk presented at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC.
-
-<!-- Lifshitz, M., Sheiner, E., Olson, J., **Thériault, R**., & Raz, A. (2016, October 6). On suggestibility and placebo. Conference talk presented by first author at the *67^th^ meeting of the Society for Clinical and Experimental Hypnosis* in Boston, MA. -->
-
-# Selected Conference Poster Presentations
-
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (2024, August). *Is the mind more powerful than the heart?  A randomized controlled trial of two loving-kindness interventions*. Poster session presented at the Mind & Life European Summer Research Institute in Pomaia, Italy.
-
-Chabot, B., **Thériault, R.**, Doucerain, M. (2023, July 23-27). *Diversity and Immigration: How Montrealers Feel about Different Cultural Groups*. Poster session presented by first author at the Biennial Conference of the International Academy for Intercultural Research in Philadelphia, Pennsylvania, USA.
-
-<!-- Chabot, B., **Thériault, R.**, Doucerain, M. (2023, May 27). *Le sentiment des Montréalais envers différents groupes culturels*. Poster session presented by first author at the 45e congrès annuel de la société québécoise pour la recherche en psychologie in Sherbrooke, QC. -->
-
-Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (2021, July). *Can loving-kindness meditation reduce aggressivity? A randomized controlled trial.* Poster session presented by first author at the *7^th^ World Congress on Positive Psychology* in Vancouver, BC (virtual conference because of COVID).
-
-Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (2021, June). *Can prosocial attitudes and behaviors be positively influenced by aggression and subjective fatigue?* Poster session presented by first author at the *Canadian Psychology Association's 82^nd^ Annual National Convention*, Ottawa, ON (virtual conference because of COVID).
-
-<!-- Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (2021, April 28-May 7). L'agressivité et la fatigue cognitive peuvent-elles mener à de plus grands comportements d'aide et de don? Poster session presented by first author at the *88^th^ Congress of ACFAS*---*l'Association francophone pour le savoir* (virtual conference because of COVID). -->
-
-Bold, J., **Thériault, R.**, Olson, J., Stain, A., Curry, D., & Raz, A. (2020, February 29). Replicating the body swap in a different sample: Preliminary data. Poster session presented by first author at the *Society for Personality and Social Psychology Annual Convention* in New Orleans, Louisiana, USA.
-
-**Thériault, R.**, Dandeneau, S, & Baldwin, M. (2019, July 20). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals. Poster session presented at the *6^th^ World Congress on Positive Psychology* in Melbourne, Australia.
-
-**Thériault, R.,** & Dandeneau, S. (2019, June 12). Trait self-control moderates the effects of priming mindfulness on aggressive behaviour. Poster session presented at the *Mind & Life Summer Research Institute* in Garrison, New York, USA.
-
-**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, June 6). Being one with diversity through perspective-taking: Mind or body to increase prosocial feelings? Poster session presented at the *Mind & Life Summer Research Institute* in Garrison, New York, USA.
-
-<!-- Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., **Thériault, R.**, Krol, S., Olson, J. A., & Raz, A. (2018, June 5). Walking a mile in another's shoes: Can virtual reality decrease prejudice? Poster session presented by first three authors at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC. -->
-
-**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, May 24-25). Comparing two interventions to reduce prejudice and increase empathy. Poster session presented at the *4^th^ Canadian Conference on Positive Psychology* in Toronto, ON.
-
-<!-- **Thériault, R.**, Landry, M., Mattuck, S., & Raz, A. (2017, June 2). The Rubber Hand Illusion: Does load affect EEG & electrodermal activity? Poster session presented at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC. -->
-
-**Thériault, R.**, Landry, M., Mattuck, S., & Raz, A. (2017, May 12). The impact of load on electrodermal activity during the Rubber Hand Illusion. Poster session presented at the *8^th^ Annual LDI Scientific Retreat* in Montréal, QC.
-
-<!-- Mattuck, S., **Thériault, R.**, Landry, M., & Raz, A. (2017, April 17). Exploring the influence of cognitive resources on body ownership. Poster session presented by first author at the *Psychology Undergraduate Research Day* at McGill University in Montréal, QC. -->
-
-<!-- **Thériault, R.**, Landry, M., & Raz, A. (2016, April 15). Exploring the effects of cognitive load and task instructions in the Rubber Hand Illusion. Poster session presented at the *Psychology Undergraduate Research Day* at McGill University in Montréal, QC. -->
-
-<!-- **Thériault, R.**, Landry, M., & Raz, A. (2016, January 19). Exploring cognitive aspects of body ownership. Poster session presented at the *6th Annual Faculty of Arts Undergraduate Research Event* at McGill University in Montréal, QC. -->
