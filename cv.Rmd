@@ -13,7 +13,7 @@ github: rempsyc
 # linkedin: rempsyc
 
 aboutme: |
-  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. My main research area deals with prosociality: empathy, perspective-taking, altruism, loving-kindness, and self-control. In my postdoctoral research, I attempt to reduce political polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was made in R too).
+  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my postdoctoral research, I attempt to reduce political polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was made in R too).
 
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look
@@ -90,10 +90,15 @@ author.name <- "rém thériault"
 ```{r Publications parent, child=c('sections/publications.Rmd')}
 ```
 
-```{r Awards parent, child=c('sections/awards.Rmd')}
+```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
 ```{r Grants parent, child=c('sections/grant.Rmd')}
+```
+
+\pagebreak
+
+```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
@@ -114,11 +119,10 @@ author.name <- "rém thériault"
 ```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
-```{r Software parent, child=c('sections/software.Rmd')}
-```
-
 ```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = !short}
 ```
+
+\pagebreak
 
 ```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}
 ```
