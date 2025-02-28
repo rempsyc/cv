@@ -1,0 +1,384 @@
+---
+output: html_document
+---
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+# Bourses et reconnaissances
+
+```{r Awards}
+library(tidyverse)
+
+data <- rbind(
+    
+    # tibble(
+    # Name = "Bourse postdoctorale (CRSH)",
+    # URL = "",
+    # Details = "",
+    # Date = "2024-2026",
+    # Amount = 140000,
+    # Activity = NA,
+    # Program = "Postdoc",
+    # Declined = FALSE),
+    # 
+    # tibble(
+    # Name = "Bourse postdoctorale (FRQSC)",
+    # URL = "",
+    # Details = "",
+    # Date = "2024-2026",
+    # Amount = 110000,
+    # Activity = NA,
+    # Program = "Postdoc",
+    # Declined = FALSE),
+
+    tibble(
+    Name = "Bourse SNC-Lavalin (UQAM)",
+    URL = "",
+    Details = "",
+    Date = "2024",
+    Amount = 2800,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Prix du meilleur article (Département de psychologie de l'UQAM)",
+    URL = "",
+    Details = "",
+    Date = "2024",
+    Amount = 200,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Bourse Adrien-Pinard en psychologie (UQAM)",
+    URL = "",
+    Details = "",
+    Date = "2024",
+    Amount = 4000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Bourse de mobilité internationale - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
+    URL = "",
+    Details = "",
+    Date = "2024",
+    Amount = 5600,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+    tibble(
+    Name = "Bourse de mobilité internationale - Offices jeunesse internationaux du Québec (LOJIQ)",
+    URL = "",
+    Details = "",
+    Date = "2023",
+    Amount = 750,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+    tibble(
+    Name = "Bourse de mobilité internationale - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
+    URL = "",
+    Details = "",
+    Date = "2023",
+    Amount = 5600,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+    tibble(
+    Name = "Bourses d’implication étudiante - Personnalité 2e et 3e cycles (UQAM)",
+    URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
+    Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
+    Date = "2023",
+    Amount = 1500,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+    tibble(
+    Name = "Bourses d’implication étudiante - Projet en Santé et saines habitudes de vie (UQAM)",
+    URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
+    Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
+    Date = "2023",
+    Amount = 1000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+    tibble(
+    Name = "Society for the Improvement of Psychological Science (SIPS) Mission Award (aux membres easystats)",
+    URL = "https://improvingpsych.org/mission/awards/",
+    Details = "For easystats project",
+    Date = "2023",
+    Amount = 0,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Bourse de la Fondation J.A. DeSève (UQAM)",
+    URL = "https://fondation.uqam.ca/uqam-1/bourses-hiver2023",
+    Details = "For academic excellence",
+    Date = "2023",
+    Amount = 5500,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Prix du mérite UQAM – Relève étudiante (Doctorat)",
+    URL = "https://actualites.uqam.ca/2023/deuxieme-edition-des-prix-du-merite/",
+    Details = "Pour l'excellence académique et le caractère exceptionnel du profil",
+    Date = "2023",
+    Amount = 1000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Bourse d'implication du SPUQ (UQAM) - Doctorat",
+    URL = "https://web.archive.org/web/20240203075622/https://www.spuq.uqam.ca/profil/bourses",
+    Details = "Pour l'implication des étudiants et l'excellence académique",
+    Date = "2023",
+    Amount = 4000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Boruse Desjardins, Catégorie Coup de pouce – Persévérance scolaire",
+    URL = "https://www.facebook.com/caissePierreBoucher/posts/pfbid0x5PtHX6HJP6FvT9PJ6v2jZQBWhjrvnZ7x9vVvhTbyPrLDyNhmUAXN48ZXE7Coxpcl",
+    Details = "Pour la persévérance scolaire et les ambitions pour l'avenir",
+    Date = "2022",
+    Amount = 500,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+    
+    tibble(
+    Name = "Meilleure présentation orale au 22ee congrès de l'ASMC",
+    URL = "https://remi-theriault.com/awards/ASMC.pdf",
+    Details = "Pour le 22ème congrès séminaire de l'Association scientifique pour la modification du comportement",
+    Date = "2022",
+    Amount = 100,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse de participation à des conférences (UQAM + AGEPSY-CS)",
+    URL = "",
+    Details = "Pour participer au congrès national annuel 2022 de l'ACP",
+    Date = "2022",
+    Amount = 850,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourses d’implication étudiante - Projet en Santé et saines habitudes de vie (UQAM)",
+    URL = "https://actualites.uqam.ca/2022/bourses-implication-etudiante",
+    Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
+    Date = "2022",
+    Amount = 1000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Prix Relève étoile Paul-Gérin-Lajoie, pour meilleur article (FRQSC)",
+    URL = "https://frq.gouv.qc.ca/en/story-and-report/releve-etoile-paul-gerin-lajoie-janvier-2022/",
+    Details = "Publication primée : l'échange de corps avec une personne noire renforce l'empathie",
+    Date = "2022",
+    Amount = 1000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse d'engagement étudiant Desjardins",
+    URL = "",
+    Details = "Pour l'engagement étudiant",
+    Date = "2021",
+    Amount = 2000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Finaliste (< 6\\% des applicants) de la bourse Pierre Elliott Trudeau (valeur de \\$180,000)",
+    URL = "https://www.trudeaufoundation.ca/updates/news/path-engaged-leadership-starts-here",
+    Details = "Finalistes uniquement (< 6\\% des candidats)",
+    Date = "2021",
+    Amount = 0,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse d'excellence - Institut des sciences cognitives",
+    URL = "https://isc.uqam.ca/etudiants/laureats-excellence/",
+    Details = "Prix d'excellence de l'Institut des sciences cognitives",
+    Date = "2021",
+    Amount = 2000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse de participation à des conférences (McGill University)",
+    URL = "",
+    Details = "Pour assister au Congrès des Sciences Humaines et Sociales 2019",
+    Date = "2019",
+    Amount = 485,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Finaliste du concours J'ai une histoire à raconter (SSHRC)",
+    URL = "https://www.sshrc-crsh.gc.ca/news_room-salle_de_presse/latest_news-nouvelles_recentes/2019/2019_storytellers_top_25-jai_une_histoire_a_raconter_25_finalistes_2019-eng.aspx",
+    Details = "Concours d'art oratoire du Conseil de recherche en sciences humaines",
+    Date = "2019",
+    Amount = 3000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse d'études supérieures du Canada Joseph-Armand-Bombardier-Doctoral (CRSH)",
+    URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2017/cgs_doctoral-doctorat_bes-eng.aspx",
+    Details = "Excellence award from the Social Sciences and Humanities Research Council",
+    Date = "2018-2021",
+    Amount = 105000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Déclinée",
+    URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
+    Details = "Prix d'excellence du FRQSC",
+    Date = "2018-2021",
+    Amount = 84000,
+    Activity = NA,
+    Program = "PhD",
+    Declined = TRUE),
+  
+  tibble(
+    Name = "Bourse d'études supérieures du Canada Joseph-Armand-Bombardier-Maitrise (CRSH)",
+    URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2016/masters-maitrise-eng.aspx",
+    Details = "Prix d'excellence du Conseil de recherche en sciences humaines",
+    Date = "2017-2018",
+    Amount = 17500,
+    Activity = NA,
+    Program = "Masters",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Fonds de recherche du Québec - Société et culture-Master’s (FRQSC) — Déclinée",
+    URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
+    Details = "Prix d'excellence du FRQSC",
+    Date = "2017-2018",
+    Amount = 15000,
+    Activity = NA,
+    Program = "Masters",
+    Declined = TRUE),
+  
+  tibble(
+    Name = "Bourse d’excellence pour les diplômés en recherche sur la santé mentale (McGill University)",
+    URL = "",
+    Details = "Prix d’excellence de l’Université McGill",
+    Date = "2016-2017",
+    Amount = 10000,
+    Activity = NA,
+    Program = "Masters",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse de stage de recherche de la Faculté des arts (Université McGill)",
+    URL = "https://www.mcgill.ca/arts-internships/research/recipients/2015-aria-recipients",
+    Details = "Excellence award from McGill University",
+    Date = "2015",
+    Amount = 4000,
+    Activity = NA,
+    Program = "Bachelor",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Lauréat Je prends ma place, pour engagement citoyen (Gouvernement du Québec)",
+    URL = "https://youtu.be/Hm0_j3OG1BU",
+    Details = "Prix d'implication citoyenne du gouvernement du Québec",
+    Date = "2013",
+    Amount = 1000,
+    Activity = NA,
+    Program = "Cegep",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Lauréat Forces Avenir – Cégep, étudiant engagé",
+    URL = "https://web.archive.org/web/20221002030207/https://ancien.fedecegeps.qc.ca/autres-activites/forces-avenir/",
+    Details = "Prix d'implication étudiante de Forces Avenir",
+    Date = "2013",
+    Amount = 2500,
+    Activity = NA,
+    Program = "Cegep",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse Coopérative-Odyssée, pour engagement étudiant",
+    URL = "",
+    Details = "Prix d'implication étudiante du Cégep Édouard-Montpetit",
+    Date = "2012",
+    Amount = 750,
+    Activity = NA,
+    Program = "Cegep",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "Bourse Édouard-Montpetit-Desjardins, pour engagement étudiant",
+    URL = "https://remi-theriault.com/awards/edouard-montpetit-desjardins.pdf",
+    Details = "Prix d'implication étudiante du Cégep Édouard-Montpetit",
+    Date = "2011",
+    Amount = 750,
+    Activity = NA,
+    Program = "Cegep",
+    Declined = FALSE)
+  
+)
+
+# data %>% 
+#   group_by(Program) %>%
+#   summarize(total = sum(Amount)) %>% 
+#   add_row(Program = "Total",
+#           total = sum(data$Amount))
+
+total <- data$Amount
+
+last_year <- max(unlist(strsplit(data$Date, "-")))
+
+data <- data %>% 
+    add_row(Name = "Montant total offert",
+            URL = "",
+            Date = paste0("2011-", last_year),
+            Amount = sum(total),
+            Declined = FALSE) %>% 
+  mutate(Name = link(paste0("\\hspace{0.5cm} ", Name, "\\dotfill"), URL, color = "333333"),
+         Amount = paste0("\\$", scales::label_comma(accuracy = 1)(Amount)),
+         Amount = ifelse(Declined == TRUE,
+                         paste0("(", Amount, ")"),
+                         Amount))
+
+data[nrow(data),1] <- gsub("333333", "6FA3CE", data[nrow(data),1]) #Red: FF0000, but we use same colour as rest
+
+brief_entries(data, Name, Date, Amount, .protect = FALSE)
+
+```

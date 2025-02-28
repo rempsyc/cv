@@ -1,0 +1,113 @@
+---
+output: html_document
+---
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+# Autres expériences de recherche
+
+## Stagiaire doctoral, [Max Planck Social Neuroscience Lab - Tania Singer](https://www.social.mpg.de/2766/en)
+
+```{r experience_new, include = TRUE, eval=TRUE}
+data <- rbind(
+  
+  tibble(
+    what = "Edu:Social École : Renforcer la résilience et les compétences sociales des enseignants",
+    URL = "https://www.edusocial-project.de/en/",
+    when = "2023/10-2024/05",
+    with = "Max Planck Social Neuroscience Lab",
+    where = "Berlin, Allemagne",
+    details = c("Conception du plan de recherche, formulation d'hypothèses, conception de nouvelles tâches et révision de la littérature.",
+                "Contribution aux documents administratifs : essai clinique, pré-inscription, éthique, demande au Sénat, etc.",
+                "Thème 1 : Les émotions sociales (empathie et compassion)",
+                "Thème 2 : Interactions sociales (analyse égocentrique des réseaux sociaux)")))
+
+data <- data %>% 
+  mutate(what = link(what, URL, color = "333333"))
+
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+
+```
+
+## Assistant de recherche, [McGill Cognitive Neuroscience Lab - Amir Raz](https://raz-lab.org/)
+
+```{r experience, include = TRUE}
+data <- rbind(
+  
+  tibble(
+    what = "Divers projets de recherche",
+    URL = "",
+    when = "2013/09–2016/09",
+    with = "McGill Cognitive Neuroscience Lab",
+    where = "Montréal, Québec",
+    details = c(
+      link(
+        "Privation sensorielle, conscience et dissociation",
+        "https://digitalcommons.chapman.edu/cusrd_abstracts/325/",
+        "333333"),
+      link(
+        "Posture et état de repos humain (EEG, MEG)",
+        "https://escholarship.mcgill.ca/concern/theses/bz60cz84m",
+        "333333"),
+      link(
+        "Urticaire chronique et effet du traitement cognitif chez les enfants et les adultes",
+        "https://escholarship.mcgill.ca/concern/theses/2f75rb82q",
+        "333333"),
+      link(
+        "Formation à l'attention en matière de santé et de maladie",
+        "https://escholarship.mcgill.ca/concern/theses/12579w270",
+        "333333")
+      ))#,
+  
+  # tibble(
+  #   what = "Sensory Deprivation, Consciousness, and Dissociation",
+  #   URL = "https://digitalcommons.chapman.edu/cusrd_abstracts/325/",
+  #   when = "2014/09-2016/09",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
+  #   details = c("Conceived research designs \\& formulated hypotheses",
+  #               "Performed various administrative tasks related to the sensory deprivation unit (shopping, maintenance, risks, authorizations, etc.)")),
+
+  # tibble(
+  #   what = "Administrative Assistantship",
+  #   when = "2013/09-2016/09",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
+  #   details = c("Worked on the WordPress website (razlab.org) \\& managed servers",
+  #               "Edited videos and photos",
+  #               "Performed various investigations on different topics for PI")),
+  # 
+  # tibble(
+  #   what = "Posture and Human Resting-State (EEG, MEG)",
+  #   URL = "https://escholarship.mcgill.ca/concern/theses/bz60cz84m",
+  #   when = "2015/05-07",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
+  #   details = "Performed various tasks (including statistical analyses) on Brainstorm, Matlab, and Photoshop"),
+  # 
+  # tibble(
+  #   what = "Chronic Hives and the Effect of Cognitive Treatment in Kids and Adults",
+  #   URL = "https://escholarship.mcgill.ca/concern/theses/2f75rb82q",
+  #   when = "2014/01-09",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
+  #   details = "Recruited and managed participants’ appointments"),
+  # 
+  # tibble(
+  #   what = "Attention Training in Health and Disease",
+  #   URL = "https://escholarship.mcgill.ca/concern/theses/12579w270",
+  #   when = "2014/05-08",
+  #   with = "McGill Cognitive Neuroscience Lab",
+  #   where = "Montréal, Québec",
+  #   details = "Trained children’s attention with video games (data collection)")
+  # 
+  )
+
+data <- data %>% 
+  mutate(what = link(what, URL, color = "333333"))
+
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+
+```

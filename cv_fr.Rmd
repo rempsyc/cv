@@ -2,7 +2,7 @@
 name: Rémi
 surname: Thériault
 profilepic: "img/profile.png"
-position: "Postdoctoral Fellow"
+position: "Chercheur postdoctoral"
 qualifications: "PhD"
 address: "New York University, New York, USA"
 phone: (438) 995-7648
@@ -13,7 +13,7 @@ github: rempsyc
 # linkedin: rempsyc
 
 aboutme: |
-  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my postdoctoral research, I attempt to reduce political polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was made in R too).
+  \RaggedRight Mes intérêts se situent à l’intersection de la psychologie sociale, des neurosciences et de la psychologie positive, et mes recherches se penchent sur le bien-être optimal, la cohésion sociale, et notre rapport à l’environnement. Dans mes recherches postdoctorales, je tente de réduire la polarisation politique via le développement d'identités sociales partagées. Je suis également passionné par la science ouverte, la science reproductible, la métascience et la science des données à l’aide de R (ce CV a aussi été réalisé en R).
 
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look
@@ -84,57 +84,55 @@ author.name <- "rém thériault"
 
 ```
 
-```{r Education parent, child=c('sections/education.Rmd')}
+```{r Education parent, child=c('fr/sections/education.Rmd')}
 ```
 
-```{r Publications parent, child=c('sections/publications.Rmd')}
+```{r Publications parent, child=c('fr/sections/publications.Rmd')}
 ```
 
-```{r Software parent, child=c('sections/software.Rmd')}
+```{r Software parent, child=c('fr/sections/software.Rmd')}
 ```
 
-```{r Grants parent, child=c('sections/grant.Rmd')}
-```
-
-\pagebreak
-
-```{r Awards parent, child=c('sections/awards.Rmd')}
-```
-
-```{r Teaching parent, child=c('sections/teaching.Rmd')}
-```
-
-```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
-```
-
-```{r Invited talks parent, child=c('sections/invited_talks.Rmd'), eval = !short}
-```
-
-```{r Conference talks parent, child=c('sections/conference_talks.Rmd'), eval = !short}
-```
-
-```{r Conference posters parent, child=c('sections/conference_posters.Rmd'), eval = !short}
-```
-
-```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
-```
-
-```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = !short}
+```{r Grants parent, child=c('fr/sections/grant.Rmd')}
 ```
 
 \pagebreak
 
-```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}
+```{r Awards parent, child=c('fr/sections/awards.Rmd')}
 ```
 
-```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = !short}
+```{r Teaching parent, child=c('fr/sections/teaching.Rmd')}
 ```
 
-```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = !short}
+```{r Preprints parent, child=c('fr/sections/preprints.Rmd'), eval = !short}
 ```
 
-```{r Varia parent, child=c('sections/varia.Rmd'), eval = TRUE}
+```{r Invited talks parent, child=c('fr/sections/invited_talks.Rmd'), eval = !short}
 ```
 
-```{r credit parent, child=c('sections/credit.Rmd'), eval = !short}
+```{r Conference talks parent, child=c('fr/sections/conference_talks.Rmd'), eval = !short}
+```
+
+```{r Conference posters parent, child=c('fr/sections/conference_posters.Rmd'), eval = !short}
+```
+
+```{r Academic service parent, child=c('fr/sections/service.Rmd'), eval = !short}
+```
+
+```{r Blogs parent, child=c('fr/sections/blogs.Rmd'), eval = !short}
+```
+
+```{r Media coverage parent, child=c('fr/sections/media_coverage.Rmd'), eval = !short}
+```
+
+```{r Other experience parent, child=c('fr/sections/other_experience.Rmd'), eval = !short}
+```
+
+```{r Leadership parent, child=c('fr/sections/leadership.Rmd'), eval = !short}
+```
+
+```{r Varia parent, child=c('fr/sections/varia.Rmd'), eval = FALSE}
+```
+
+```{r credit parent, child=c('fr/sections/credit.Rmd'), eval = FALSE}
 ```

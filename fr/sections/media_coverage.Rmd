@@ -1,0 +1,38 @@
+---
+output: html_document
+---
+
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+# Couverture médiatique
+
+**Thériault, R.** (28 aout 2023). Pour une positivité responsable et bienveillante [Lettre d'opinion]. *Le Devoir*. https://www.ledevoir.com/opinion/idees/796952/serie-l-ete-c-est-fait-pour-penser-pour-une-positivite-responsable-et-bienveillante
+
+Serafin, P. (3 mai 2023). CHOQ.ca rencontre les Lauréat.es du Prix du mérite 2023. *Radio CHOQ.ca*. https://www.choq.ca/reportages/choq-ca-rencontre-les-laureat-es-du-prix-du-merite-2023
+
+Jewell, L. (23 juin 2022). Member Spotlight: Rémi Thériault. Entrevue organisée par la *Canadian Positive Psychology Association* et conduite par la Présidente de la CPPA, Louisa Jewell. https://youtu.be/3H38-k-L7W0
+
+Paré, C. (juin 2022). Page Jeune chercheur étoile : Rémi Thériault (« La réalité virtuelle au service de l'empathie »). *Magazine Curium*, *55*. https://curiummag.com/magazine/juin-2022-reinventer-le-voyage/
+
+Néron, M. (7 mai 2022). Êtes-vous courtois dans la rue? [expert invité]. *Ici Radio-Canada*. https://ici.radio-canada.ca/ohdio/premiere/emissions/genre-humain/episodes/625907/rattrapage-du-samedi-7-mai-2022
+
+Perreault, É. & Néron, M. (24 mars 2022). Marie Gendron : Altruisme extrême : donner son rein à un inconnu... de son vivant [expert invité]. *L'avenir nous appartient*. Télé-Québec. https://lavenirnousappartient.telequebec.tv/emissions/333127/lavenir-appartient-a-michel-jean-et-a-la-reconciliation/65381/marie-gendron-altruisme-extreme-donner-son-rein-a-un-inconnu-de-son-vivant
+
+Handfield, C. (19 décembre 2021). Adieu solidarité, rebonjour individualisme [expert invité]. *La Presse*. https://www.lapresse.ca/societe/2021-12-19/adieu-solidarite-rebonjour-individualisme.php
+
+Guillemette, M. (1er septembre 2021). Dans la peau d'une personne noire : La réalité virtuelle peut-elle réduire les préjugés raciaux? [Recherche en vedette] *Québec Science*. https://www.quebecscience.qc.ca/societe/personne-noire-realite-virtuelle/
+
+Morin, I. (29 mai 2020). Un peu de courtoisie [expert invité]. *La Presse*. https://www.lapresse.ca/societe/2020-05-29/un-peu-de-courtoisie
+
+Morin, I. (29 mai 2020). Vivre ensemble au temps de la COVID-19 [expert invité]. *La Presse*. https://www.lapresse.ca/societe/2020-05-29/vivre-ensemble-au-temps-de-la-covid-19
+
+Bourderon, C. and Laliberté, J.-S. (Productrices), & Robitaille, É. (Hôte). (7 décembre 2018). Avez-vous des limites? *On est tous des humains* [Entrevue radio – invité du panel]. https://canalm.vuesetvoix.com/avez-vous-des-limites/
+
+Bourderon, C. and Bolduc, M. (Productrices), & Robitaille, É. (Hôte). (19 octobre 2018). Êtes-vous altruiste? *On est tous des humains* [Entrevue radio – invité du panel]. https://canalm.vuesetvoix.com/etes-vous-altruiste/
+
+LaRoche, G. (Productrice et hôte). (21 aout 2018). Episode 10 - Student conversation ft. Rémi. *The Happiness Legacy Podcast* [Invité de balado audio]. https://thehappinesslegacy.com/podcast
+
+Guy, L.-P. (Producteur et hôte). (1er février 2012). Échange sur la relève en économie sociale et l'action communautaire [Entrevue radio – invité du panel]. *FM 103,3 -- La radio allumée*.

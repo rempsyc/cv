@@ -1,0 +1,44 @@
+---
+output: html_document
+---
+
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+# Communications affichées sélectionnées
+
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (aout 2024). *Is the mind more powerful than the heart?  A randomized controlled trial of two loving-kindness interventions*. Affiche présentée au Mind & Life European Summer Research Institute à Pomaïa, Italie.
+
+<!-- Chabot, B., **Thériault, R.**, Doucerain, M. (23-27 juillet 2023). *Diversity and Immigration: How Montrealers Feel about Different Cultural Groups*. Poster session presented by first author at the Biennial Conference of the International Academy for Intercultural Research in Philadelphia, Pennsylvania, USA. -->
+
+<!-- Chabot, B., **Thériault, R.**, Doucerain, M. (2023, May 27). *Le sentiment des Montréalais envers différents groupes culturels*. Poster session presented by first author at the 45e congrès annuel de la société québécoise pour la recherche en psychologie in Sherbrooke, QC. -->
+
+Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (juillet 2021). *Can loving-kindness meditation reduce aggressivity? A randomized controlled trial.* Affiche présentée par la première autrice au *7^th^ World Congress on Positive Psychology* à Vancouver, BC (congrès virtuel à cause du COVID).
+
+<!-- Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (juin 2021). *Can prosocial attitudes and behaviors be positively influenced by aggression and subjective fatigue?* Affiche présentée par la première autrice au *Canadian Psychology Association's 82^nd^ Annual National Convention* à Ottawa, ON (congrès virtuel à cause du COVID). -->
+
+<!-- Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (2021, April 28-May 7). L'agressivité et la fatigue cognitive peuvent-elles mener à de plus grands comportements d'aide et de don? Poster session presented by first author at the *88^th^ Congress of ACFAS*---*l'Association francophone pour le savoir* (virtual conference because of COVID). -->
+
+Bold, J., **Thériault, R.**, Olson, J., Stain, A., Curry, D., & Raz, A. (29 février 2020). Replicating the body swap in a different sample: Preliminary data. Affiche présentée par la première autrice au *Society for Personality and Social Psychology Annual Convention* à New Orleans, Louisiana, USA.
+
+**Thériault, R.**, Dandeneau, S, & Baldwin, M. (20 juillet 2019). All in a smiling face: The attentional benefits of dynamic attention training for low self-esteem individuals. Affiche présentée au *6^th^ World Congress on Positive Psychology* à Melbourne, Australia.
+
+**Thériault, R.,** & Dandeneau, S. (12 juin 2019). Trait self-control moderates the effects of priming mindfulness on aggressive behaviour. Affiche présentée au *Mind & Life Summer Research Institute* à Garrison, New York, USA.
+
+<!-- **Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (6 juin 2018). Being one with diversity through perspective-taking: Mind or body to increase prosocial feelings? Affiche présentée au *Mind & Life Summer Research Institute* à Garrison, New York, USA. -->
+
+<!-- Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., **Thériault, R.**, Krol, S., Olson, J. A., & Raz, A. (2018, June 5). Walking a mile in another's shoes: Can virtual reality decrease prejudice? Poster session presented by first three authors at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC. -->
+
+**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (24-25 mai 2018). Comparing two interventions to reduce prejudice and increase empathy. Affiche présentée au *4^th^ Canadian Conference on Positive Psychology* à Toronto, ON.
+
+<!-- **Thériault, R.**, Landry, M., Mattuck, S., & Raz, A. (2017, June 2). The Rubber Hand Illusion: Does load affect EEG & electrodermal activity? Poster session presented at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC. -->
+
+**Thériault, R.**, Landry, M., Mattuck, S., & Raz, A. (12 mai 2017). The impact of load on electrodermal activity during the Rubber Hand Illusion. Affiche présentée au *8^th^ Annual LDI Scientific Retreat* à Montréal, QC.
+
+<!-- Mattuck, S., **Thériault, R.**, Landry, M., & Raz, A. (2017, April 17). Exploring the influence of cognitive resources on body ownership. Poster session presented by first author at the *Psychology Undergraduate Research Day* at McGill University in Montréal, QC. -->
+
+<!-- **Thériault, R.**, Landry, M., & Raz, A. (2016, April 15). Exploring the effects of cognitive load and task instructions in the Rubber Hand Illusion. Poster session presented at the *Psychology Undergraduate Research Day* at McGill University in Montréal, QC. -->
+
+<!-- **Thériault, R.**, Landry, M., & Raz, A. (2016, January 19). Exploring cognitive aspects of body ownership. Poster session presented at the *6th Annual Faculty of Arts Undergraduate Research Event* at McGill University in Montréal, QC. -->

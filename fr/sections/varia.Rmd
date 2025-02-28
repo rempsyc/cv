@@ -1,0 +1,48 @@
+---
+output: html_document
+---
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+# Varia
+
+<!-- ## Professional Affiliations -->
+
+\scriptsize
+
+```{r Affiliations, eval=FALSE}
+data <- rbind(
+  
+  tibble(
+    when = "2021/01  – Present",
+    with = "Institut des sciences cognitives (UQAM)"),
+  
+  tibble(
+    when = "2016/09 – Present",
+    with = "International Positive Psychology Association"),
+  
+  tibble(
+    when = "2015/09 – Present",
+    with = "Canadian Positive Psychology Association")
+)
+
+detailed_entries(data, with, when, .protect = FALSE)
+```
+
+<!-- ## Research Interests -->
+
+<!-- Positive & moral psychology, contemplative practices, Theory of Mind, empathy, self-regulatory strength, Self-Determination Theory, bodily self-consciousness -->
+
+## Compétences techniques
+
+R, Rstudio, Rmarkdown, Shiny, GitHub, Inquisit, Wowchemy, Netlify, SPSS, Qualtrics, Survey Monkey, LimeSurvey, Inkscape
+
+## Languages
+
+French (native), English (fluent)
+
+<!-- ## Activities and Interests -->
+
+<!-- Martial arts, breakdancing, skateboarding, gymnastics, bouldering -->

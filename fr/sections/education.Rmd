@@ -1,0 +1,64 @@
+---
+output: html_document
+---
+
+# Éducation
+
+```{r Education}
+data <- rbind(
+  
+  tibble(
+    what = "Postdoctorat (Psychologie - Sociale)",
+    when = "2025/01 - 2026-12",
+    with = "New York University, Center for Conflict and Cooperation",
+    where = "New York, New York, USA",
+    details = "Superviseur : Jay Van Bavel"), 
+  
+  tibble(
+    what = "PhD (Psychologie - Sociale)", # - 120 credits
+    when = "2018/09 - 2024-12",
+    with = "Université du Québec à Montréal, Laboratoire de résilience sociale",
+    where = "Montréal, Québec, Canada",
+    details = c(# "GPA: 4.30/4.30",
+                "Advisory Committee: 
+                                    Stéphane Dandeneau (supervisor), 
+                                    Frédérick Philippe,
+                                    Simon Grégoire, \\&
+                                    Bassam Khoury")), 
+
+  tibble(
+    what = "Maitrise (Psychiatrie - Sociale \\& Transculturelle)", # - 45 credits
+    when = "2016/09 - 2018/08",
+    with = "McGill University, Cognitive Neuroscience Lab",
+    where = "Montréal, Québec, Canada",
+    details = c(# "GPA: 4.00/4.00",
+                "Comité de thèse : 
+                                    Amir Raz (superviseur), 
+                                    Jennifer Bartz, 
+                                    Donald Taylor, \\&
+                                    Samuel Veissière")),
+  
+  tibble(
+    what = "Baccalauréat (Psychologie, 
+    Sciences comportementales, \\&
+    Sociologie)", # - 120 credits
+    when = "2013/01 - 2016/04",
+    with = "McGill University, Cognitive Neuroscience Lab",
+    where = "Montréal, Québec, Canada",
+    details = c(# "GPA: 3.76/4.00 (Distinction – top 25\\%; note: 120 credits is equivalent to 40 classes)",
+                "Superviseur : Amir Raz")))
+  
+  # tibble(
+  #   what = "College Diploma (Social Sciences)",
+  #   when = "2010/08 - 2012/09",
+  #   with = "Cégep Édouard-Montpetit",
+  #   where = "Longueuil, Québec, Canada",
+  #   details = "Cote R: 30.754 (\\textit{Group Mean} = 22.95)"))
+
+ if (short) {
+   data <- data[1:7, ]
+   data$details <- NA
+ }
+ 
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+```

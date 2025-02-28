@@ -1,0 +1,26 @@
+---
+output: html_document
+---
+
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+<!-- \pagebreak -->
+
+# Conférences invitées
+
+**Thériault, R.** (30 aout 2024). The head and the heart: Comparing cognitive and embodied intervention paradigms for increasing prosociality. Présentation orale pour la *School of Psychology* à la University of Sussex, UK.
+
+**Thériault, R.** (14 juin 2024). The head and the heart: Exploring contemplative approaches to expanding the identity circle. Présentation orale en ligne pour le *Social Identity & Morality Lab* à la New York University, USA.
+
+**Thériault, R.\***, Quilico, E.\*, Tétreault, F.\*, Labossière, S.\*, Boudreau, S.\* (13 mai 2020; \*all panelists contributed equally). Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation. Panel organisé par le *Centre de recherche interdisciplinaire en réadaptation du Montréal métropolitain (CRIR)*. Présentation disponible de : <https://youtu.be/8VfnOjnon30?t=4288>.
+
+**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (15 janvier 2019). Immersive embodiment experiences improve intergroup relations, empathy, self-other overlap, and prejudice. Webinaire en ligne pour le *Student Speaker Series* de la *Student Division of the International Positive Psychology Association*. Présentation disponible de : <https://vimeo.com/user68157211/review/378278530/8d86f3cb33>.
+
+**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (25 octobre 2018). Virtual-reality-based immersive embodiment experiences increase empathy, reduce prejudice. Présentation orale pour le *Institute for Interdisciplinary Brain and Behavioral Science* à Orange, Californie, USA.
+
+<!-- **Thériault, R.**, & Raz, A. (8 décembre 2016). Diagnosing asthma across Canada: question marks... and exclamation points! Présentation orale pour le *Chronic Diseases Seminar* du *Centre de recherche de l'Hôpital Sacré-Coeur de Montréal*, QC. -->
+
+**Thériault, R.** (19 octobre 2016)**.** Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale. Atelier organisé pour le *Centre Wampum* au *Centre d’amitié autochtone de Montréal*, QC.

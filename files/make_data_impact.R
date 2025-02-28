@@ -172,9 +172,16 @@ plot_citations_per_paper <- function(data_scholar) {
 # Define table_impact function
 table_impact <- function(data_scholar, 
                          author.name = author.name, 
-                         scholar.profile = NULL) {
+                         scholar.profile = NULL,
+                         language = "EN") {
   # gs_profile <- paste0("https://scholar.google.com/citations?user=", scholar.profile)
   # gs_profile_URL <- link("Google Scholar Profile", gs_profile)
+  if (language == "EN") {
+    caption <- "Figure and table automatically updated through my"
+  } else if (language == "FR") {
+    caption <- "Figure et tableau mis à jour automatiquement via mon"
+  }
+  
   gs_profile_URL <- "Google Scholar Profile"
   get_stats(data_scholar = data_scholar, author.name = author.name) |>
     knitr::kable(
@@ -195,6 +202,6 @@ table_impact <- function(data_scholar,
       position = "center", font_size = 8, latex_options = "hold_position") %>% 
     kableExtra::add_footnote(
       paste(
-        "Figure and table automatically updated through my", gs_profile_URL),
+        caption, gs_profile_URL),
       notation = "symbol")
 }

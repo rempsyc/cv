@@ -1,0 +1,62 @@
+---
+output: html_document
+---
+
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+# Billets de blogue sélectionnés
+
+<!-- **Thériault, R.** (2022, February 8). Publication-ready moderations with simple slopes in R [billet de blogue]. <https://remi-theriault.com/blog_moderation> -->
+
+<!-- **Thériault, R.** (2022, February 3). Publication-ready t-tests in R [billet de blogue]. <https://remi-theriault.com/blog_t-test> -->
+
+**Thériault, R.** (9 mars 2021). Time Management: The Importance of Self-Monitoring [billet de blogue]. Student Ambassador Program of the Canadian Positive Psychology. <https://cppastudents.medium.com/time-management-the-importance-of-self-monitoring-c9dfff241af1>
+
+<!-- **Thériault, R.** (2020, December 25). Quickly test linear regression assumptions [Blog]. <https://remi-theriault.com/blog_assumptions> -->
+
+**Thériault, R.** (1er septembre 2020). Rémi Thériault - Student Success Series [billet de blogue]. Student Ambassador Program of the Canadian Positive Psychology Association. [https://medium.com/cppastudents/student-success-series-with-rémi-thériault-7c15d09b98f](https://medium.com/cppastudents/student-success-series-with-rémi-thériault-7c15d09b98f)
+
+<!-- **Thériault, R.** (2020, August 21). Publication-ready APA tables: from R to Word in 2 min [billet de blogue]. <https://remi-theriault.com/blog_table> -->
+
+**Thériault, R.** (27 mars 2020). Êtes-vous contrôle... de vous? [billet de blogue]. [https://medium.com/psychologie.sociale.uqam/%C3%AAtes-vous-en-contr%C3%B4le-de-vous-f5fbdf81b7eb](https://medium.com/psychologie.sociale.uqam/%C3%AAtes-vous-en-contr%C3%B4le-de-vous-f5fbdf81b7eb)
+
+<!-- **Thériault, R.** (2020, February 28). Interpolating the Inclusion of the Other in the Self [billet de blogue]. <https://remi-theriault.com/blog_circles> -->
+
+<!-- **Thériault, R.** (2019, October 14). Easy randomization in R [billet de blogue]. <https://remi-theriault.com/blog_randomize> -->
+
+<!-- **Thériault, R.** (2019, September 12). Publication-ready scatter plots in R [billet de blogue]. <https://remi-theriault.com/blog_scatter> -->
+
+<!-- **Thériault, R.** (2019, September 6). Publication-ready violin plots in R [billet de blogue]. <https://remi-theriault.com/blog_violin> -->
+
+**Thériault, R.** (7 décembre 2015). Does hypnosis improve clinical interventions? [billet de blogue]. <https://medium.com/@rempsyc/does-hypnosis-improve-clinical-interventions-ea51d829ed98>
+
+<!-- **Thériault, R.** (2015, April 9). The New Age Movement: Volunteer Associations, Not Markets [billet de blogue]. <https://medium.com/@rempsyc/the-new-age-movement-volunteer-associations-not-markets-3f410b376af0> -->
+
+**Thériault, R.** (9 avril 2015). The SOI, the Big Five traits of personality, and personal transformation [billet de blogue]. <https://medium.com/@rempsyc/the-soi-the-big-five-traits-of-personality-and-personal-transformation-49cbb0d5625b>
+
+<!-- **Thériault, R.**, April 8). L'hypothèse de continuité dans les rêves et son extension [billet de blogue]. <https://www.facebook.com/notes/rémi-thériault/lhypothèse-de-continuité-dans-les-rêves-et-son-extension-morale/10153830286773797> -->
+
+**Thériault, R.** (27 novembre 2014). Critically assessing the motivational framework of Rhonda Byrne's *The Secret* [Blog]. <https://medium.com/@rempsyc/critically-assessing-the-motivational-framework-of-rhonda-byrnes-the-secret-bbd78d96127f>
+
+**Thériault, R.** (10 avril 2014). Buddhist koans: Duality of language and its transcendence [billet de blogue]. <https://medium.com/@rempsyc/buddhist-koans-duality-of-language-and-its-transcendence-422ac8c12f66>
+
+**Thériault, R.** (3 avril 2014). Do we really know what yoga means?: The place of spirituality in yoga research [billet de blogue]. [https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/](https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/)
+
+<!-- **Thériault, R.** (2014, March 29). How I became intelligent: or why IQ tests may fail to awaken one's potential [billet de blogue]. [https://medium.com/rempsyc/how-i-became-intelligent-a95bc08c6290](https://medium.com/rempsyc/how-i-became-intelligent-a95bc08c6290) -->
+
+<!-- **Thériault, R.** (2014, March 23). The quest for meaning and where it originates [billet de blogue]. [https://medium.com/rempsyc/the-quest-for-meaning-eda73de238b8](https://medium.com/rempsyc/the-quest-for-meaning-eda73de238b8) -->
+
+<!-- **Thériault, R.** (2014, March 22). Do you know your EQ?: No, I'm not talking about your intelligence quotient [billet de blogue]. [https://medium.com/rempsyc/do-you-know-your-eq-23beca870fc](https://medium.com/rempsyc/do-you-know-your-eq-23beca870fc) -->
+
+<!-- **Thériault, R.** (2014, January 16). Nature of reality and its inevitable simplification [billet de blogue]. [https://medium.com/rempsyc/nature-of-reality-e286a1587d94](https://medium.com/rempsyc/nature-of-reality-e286a1587d94) -->
+
+<!-- **Thériault, R.** (2012, October 10). Bilan de RIO+20: La planète n'y arrivera pas si on ne change pas de modèle! *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *38*(3), p. 5. <https://issuu.com/motdit/docs/motdit10.10.12> -->
+
+<!-- **Thériault, R.** (2012, August 30). Une folle élection: « ki cé kon vote, pq ou qs? » [pastiche]. *Le MotDit : Le journal du Collège Édouard-Montpetit*, *38*(1), p. 6. <https://issuu.com/motdit/docs/motdit30.08.12> -->
+
+<!-- **Thériault, R.** (2012, February 22). Réflexion sur la hausse des droits de scolarité. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *37*(5), p. 10. -->
+
+<!-- **Thériault, R.** (2011, April 27). Expérience sur les perceptions extrasensorielles. *Le MotDit : Le journal étudiant du Collège Édouard-Montpetit*, *36*(7), p. 6. -->

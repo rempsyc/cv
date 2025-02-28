@@ -1,0 +1,26 @@
+---
+output: html_document
+---
+
+\scriptsize
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+# Service académique
+
+**Membre de l'équipe noyau** de *easystats* (sept membres; date de début officielle : 2022-08). Le projet *easystats* vise à accroître l'adoption de bonnes pratiques statistiques grâce à des outils scientifiques ouverts, par exemple via une collection de modules R qui fournissent un cadre unificateur et cohérent autour des statistiques. Cette responsabilité implique d'écrire du code pour améliorer les différents modules R associés au projet et de participer à la prise de décision générale. À l'heure actuelle, les modules *easystats* ont été téléchargés collectivement plus de 20 millions de fois. Disponible sur : https://easystats.github.io/easystats/
+
+**Évaluateur** pour le *XXI World Congress of Medical and Clinical Hypnosis*, organisé par le International Society of Hypnosis et la Société Québécoise d'Hypnose, 22-25 aout 2018, Montréal.
+
+\pagebreak
+
+**Évaluateur** pour (un total de 11) revues savantes : *Group Processes and Intergroup Relations* (1), *Psychology of Consciousness: Theory, Research, and Practice* (7), *International Journal of Mental Health Promotion* (1), *Scientific Reports* (1), *Journal of Statistical Software* (1). Voir l'onglet "Peer Review" (et le bouton violet « Ouvrir le tableau de bord » à droite) à : https://www.webofscience.com/wos/author/record/AAC-6100-2022
+
+```{r peer_review_metrics, out.width="60%", eval = !short}
+knitr::include_graphics("img/peer_review_metrics_fr.png", dpi = NA)
+```
+
+```{r average_review_length, out.width="80%", eval = !short}
+knitr::include_graphics("img/average_review_length_fr.png", dpi = NA)
+```

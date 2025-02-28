@@ -50,9 +50,9 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
-17\. Buchanan, E. M., Cuccolo, K. M., Coles, N., ... **Thériault, R.**, et al. (2025, in press). *Measuring the Semantic Priming Effect Across Many Languages*. In press in *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy
+17\. Buchanan, E. M., Cuccolo, K. M., Coles, N., ... **Thériault, R.**, et al. (2025, sous presse). *Measuring the Semantic Priming Effect Across Many Languages*. Sous presse dans *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy
 
-16\. **Thériault**, R. (2025, in press). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. In press in *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
+16\. **Thériault**, R. (2025, sous presse). L’importance de la science ouverte en recherche en psychologie. Sous presse dans *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
 
 15\. Ghai, S., **Thériault, R.**, Forscher, P., Shoda, Y., Syed, M., Puthillam, A., Peng, H. C., Basnight-Brown, D., Majid, A., Azevedo, F., Singh, L. (2025). A manifesto for a globally diverse, equitable, and inclusive open science. *Communications Psychology*, *3*(16), 1-9. https://doi.org/10.1038/s44271-024-00179-1
 
@@ -60,11 +60,11 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 13\. **Thériault**, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2024). Check your outliers! An introduction to identifying statistical outliers in R with *easystats*. *Behavior Research Methods*, *56*(4), 4162-4172. https://doi.org/10.3758/s13428-024-02356-w (Preprint: https://doi.org/10.31234/osf.io/bu6nt)
 
-12\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2024). Pratiques cliniques inspirées par la recherche en psychologie positive / Clinical practices inspired by research in positive psychology. *Psychologie Française*, *69*(1), 85-94. \*Shared first-authorship (these authors contributed equally). https://doi.org/10.1016/j.psfr.2022.06.004
+12\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2024). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*, *69*(1), 85-94. \*Auteur·e principal·e partagé·e (ces auteur·es ont contribué de manière égale). https://doi.org/10.1016/j.psfr.2022.06.004
 
 11\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology*, 14, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773
 
-10\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 14(12), 2946–2962. https://doi.org/10.1007/s12671-023-02246-w (Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2). Recipient of the 2024 UQAM *Best Student Paper Award* at the Department of Psychology.
+10\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 14(12), 2946–2962. https://doi.org/10.1007/s12671-023-02246-w (Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2). Lauréat du *Prix du meilleur article étudiant 2024* du Département de psychologie de l'UQAM.
 
 9\. **Thériault**, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software*, *8*(90), 5701. https://doi.org/10.21105/joss.05701
 
@@ -74,7 +74,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 6\. **Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly Journal of Experimental Psychology*, *75*(11), 2129-2148. https://doi.org/10.1177/17470218221078858
 
-5\. **Thériault, R.**, Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology*, 74(12), 2057-2074. https://doi.org/10.1177/17470218211024826. Recipient of the 2022 FRQSC *Best Student Paper Award*.
+5\. **Thériault, R.**, Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology*, 74(12), 2057-2074. https://doi.org/10.1177/17470218211024826. Lauréat du *Prix Relève étoile Paul-Gérin-Lajoie*, pour meilleur article (FRQSC).
 
 4\. Krol, S. A., **Thériault, R.**, Olson, J. A., Raz, A., & Bartz, J. (2020). Self-concept clarity and the bodily self: Malleability across modalities. *Personality and Social Psychology Bulletin*, *46*(5). https://doi.org/10.1177/0146167219879126
 
@@ -84,11 +84,12 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 1\. Lifshitz, M., Sheiner, E. O., Olson, J., **Thériault, R.**, & Raz, A. (2017). On suggestibility and placebo: A follow-up study. *American Journal of Clinical Hypnosis*, *59*(4), 1-8. https://doi.org/10.1080/00029157.2016.1225252
 
-```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}
+```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = TRUE}
 
-source("../files/make_data_impact.R")
+source("../../files/make_data_impact.R")
 plot_impact(data_scholar)
-table_impact(data_scholar, author.name = author.name, scholar.profile = scholar.profile)
+table_impact(data_scholar, author.name = author.name, scholar.profile = scholar.profile,
+             language = "FR")
 
 ```
 
