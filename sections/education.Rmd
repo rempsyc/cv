@@ -10,7 +10,7 @@ data <- rbind(
   tibble(
     what = "Postdoc (Psychology - Social)",
     when = "2025/01 - 2026-12",
-    with = "New York University, Social Identity and Morality Lab",
+    with = "New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
     where = "New York, New York, USA",
     details = "Supervisor: Jay Van Bavel"), 
   

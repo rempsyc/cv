@@ -9,20 +9,114 @@ output: html_document
 
 # Research Grants
 
-```{r Grants}
+```{r Grants_table, eval=T}
+library(tidyverse)
+
+data <- rbind(
+    
+    tibble(
+    Name = "\\textbf{Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\$23,500)}",
+    URL = "",
+    Details = "",
+    Date = "2025 - 2027",
+    Amount = 35709,
+    Activity = NA,
+    Program = "Postdoc",
+    secondary = FALSE),
+    
+    tibble(
+    Name = "\\textit{Reading books changes lives: The effects of popular psychology books on moral character and action}",
+    URL = "",
+    Details = "",
+    Date = "",
+    Amount = NA,
+    Activity = NA,
+    Program = "Postdoc",
+    secondary = TRUE),
+
+    tibble(
+    Name = "\\textbf{Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)}",
+    URL = "",
+    Details = "",
+    Date = "2019 - 2022",
+    Amount = 26688,
+    Activity = NA,
+    Program = "Postdoc",
+    secondary = FALSE),
+    
+    tibble(
+    Name = "\\textit{Transforming habits from the heart: From good intentions to reliable prosocial response}",
+    URL = "https://www.mindandlife.org/grant/transforming-habits-from-the-heart-from-good-intentions-to-reliable-prosocial-response/",
+    Details = "",
+    Date = "",
+    Amount = NA,
+    Activity = NA,
+    Program = "Postdoc",
+    secondary = TRUE)
+  
+)
+
+total_grant <- data$Amount
+
+first_year <- min(as.numeric(unlist(strsplit(data$Date, "-"))))
+last_year <- max(as.numeric(unlist(strsplit(data$Date, "-"))))
+
+data <- data %>% 
+  add_row(Name = "Total Grant Offered",
+          URL = "",
+          Date = paste0(first_year, "-", last_year),
+          Amount = sum(total_grant, na.rm = TRUE),
+          secondary = FALSE) %>% 
+  # add_row(Name = "Total Grant + Award Offered",
+  #         URL = "",
+  #         Date = "",
+  #         Amount = sum(total_grant, total_award, na.rm = TRUE),
+  #         secondary = FALSE) %>% 
+  mutate(dotfill = ifelse(secondary, "", "\\dotfill"),
+         Name = link(paste0("\\hspace{0.5cm} ", Name, dotfill), URL, color = "333333"),
+         Amount = paste0("\\$", scales::label_comma(accuracy = 1)(Amount)),
+         Amount = ifelse(Amount == "\\$NA",
+                         "",
+                         Amount))
+
+data[nrow(data),1] <- gsub("333333", "6FA3CE", data[nrow(data),1]) #Red: FF0000, but we use same colour as rest
+
+brief_entries(data, 
+              what = Name, 
+              when = Date, 
+              with = Amount, 
+              .protect = FALSE)
+
+```
+
+```{r Grants, eval=F}
 data <- rbind(
   
   tibble(
-    Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI",
+    Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\$23,500)",
+    URL = "",
+    Details = "Reading Books Changes Lives: The Effects of Popular Psychology Books on Moral Character and Action",
+    Date = "2025 - 2027",
+    Amount = "\\$35,709", # CAD  $35,708.72 / USD 24,636.23
+    Activity = NA),
+  
+  tibble(
+    Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
     URL = "https://www.mindandlife.org/grant/transforming-habits-from-the-heart-from-good-intentions-to-reliable-prosocial-response/",
     Details = "Transforming habits from the heart: From good intentions to reliable prosocial response",
     Date = "2019 - 2022",
-    Amount = "USD \\$20,000", # CAD  $26,688
+    Amount = "\\$26,688", # CAD  $26,688
     Activity = NA)
 )
 
 data <- data %>%
   mutate(Name = link(Name, URL, color = "333333"))
 
-detailed_entries(data, Details, Date, Name, Amount, Activity, .protect = FALSE)
+detailed_entries(data, 
+                 what = Details, 
+                 when = Date, 
+                 with = Name, 
+                 where = Amount, 
+                 why = Activity, 
+                 .protect = FALSE)
 ```

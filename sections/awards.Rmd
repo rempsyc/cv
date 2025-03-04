@@ -12,7 +12,7 @@ output: html_document
 library(tidyverse)
 
 data <- rbind(
-    
+
     # tibble(
     # Name = "Postdoctoral Fellowship (SSHRC)",
     # URL = "",
@@ -361,15 +361,16 @@ data <- rbind(
 #   add_row(Program = "Total",
 #           total = sum(data$Amount))
 
-total <- data$Amount
+total_award <- data$Amount
 
-last_year <- max(unlist(strsplit(data$Date, "-")))
+first_year <- min(as.numeric(unlist(strsplit(data$Date, "-"))))
+last_year <- max(as.numeric(unlist(strsplit(data$Date, "-"))))
 
 data <- data %>% 
-    add_row(Name = "Total Amount Offered",
+    add_row(Name = "Total Award Offered",
             URL = "",
-            Date = paste0("2011-", last_year),
-            Amount = sum(total),
+            Date = paste0(first_year, "-", last_year),
+            Amount = sum(total_award),
             Declined = FALSE) %>% 
   mutate(Name = link(paste0("\\hspace{0.5cm} ", Name, "\\dotfill"), URL, color = "333333"),
          Amount = paste0("\\$", scales::label_comma(accuracy = 1)(Amount)),

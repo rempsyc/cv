@@ -93,12 +93,12 @@ author.name <- "rém thériault"
 ```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
-```{r Grants parent, child=c('sections/grant.Rmd')}
-```
-
 \pagebreak
 
 ```{r Awards parent, child=c('sections/awards.Rmd')}
+```
+
+```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
 ```
 
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
@@ -122,7 +122,7 @@ author.name <- "rém thériault"
 ```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = !short}
 ```
 
-\pagebreak
+<!-- \pagebreak -->
 
 ```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}
 ```
@@ -133,7 +133,7 @@ author.name <- "rém thériault"
 ```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = !short}
 ```
 
-```{r Varia parent, child=c('sections/varia.Rmd'), eval = TRUE}
+```{r Varia parent, child=c('sections/varia.Rmd'), eval = FALSE}
 ```
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = !short}
