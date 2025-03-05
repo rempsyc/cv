@@ -74,7 +74,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 6\. **Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly Journal of Experimental Psychology*, *75*(11), 2129-2148. https://doi.org/10.1177/17470218221078858
 
-5\. **Thériault, R.**, Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology*, 74(12), 2057-2074. https://doi.org/10.1177/17470218211024826. Recipient of the 2022 FRQSC *Best Student Paper Award*.
+5\. **Thériault, R.**, Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a Black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology*, 74(12), 2057-2074. https://doi.org/10.1177/17470218211024826. Recipient of the 2022 FRQSC *Best Student Paper Award*.
 
 4\. Krol, S. A., **Thériault, R.**, Olson, J. A., Raz, A., & Bartz, J. (2020). Self-concept clarity and the bodily self: Malleability across modalities. *Personality and Social Psychology Bulletin*, *46*(5). https://doi.org/10.1177/0146167219879126
 
