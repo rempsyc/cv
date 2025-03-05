@@ -11,6 +11,12 @@ output: html_document
 
 # Invited Talks
 
+**Thériault, R.** (2025, March 11). From time management to motivation management: Introducing a simple self-monitoring system to generate insight, sustain motivation, and increase productivity. Talk for the *Motivation Lab* at New York University, USA.
+
+**Thériault, R.** (2025, March 11). From self-control to second nature: A dual-systems approach to loving-kindness training. Talk for the *Motivation Lab* at New York University, USA.
+
+**Thériault, R.** (2025, February 14). From time management to motivation management: Introducing a simple self-monitoring system to generate insight, sustain motivation, and increase productivity. Talk for the *Center for Conflict and Cooperation* at New York University, USA.
+
 **Thériault, R.** (2024, August 30). The head and the heart: Comparing cognitive and embodied intervention paradigms for increasing prosociality. Talk for the *School of Psychology* at the University of Sussex, UK.
 
 **Thériault, R.** (2024, June 14). The head and the heart: Exploring contemplative approaches to expanding the identity circle. Online talk for the *Social Identity & Morality Lab* at New York University, USA.
@@ -21,6 +27,6 @@ output: html_document
 
 **Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, October 25). Virtual-reality-based immersive embodiment experiences increase empathy, reduce prejudice. Oral presentation for the *Institute for Interdisciplinary Brain and Behavioral Science* in Orange, California.
 
-**Thériault, R.**, & Raz, A. (2016, December 8). Diagnosing asthma across Canada: question marks... and exclamation points! Oral presentation for the *Chronic Diseases Seminar* for the *Research Center* *of the* *Hôpital Sacré-Coeur de Montréal*, QC.
+<!-- **Thériault, R.**, & Raz, A. (2016, December 8). Diagnosing asthma across Canada: question marks... and exclamation points! Oral presentation for the *Chronic Diseases Seminar* for the *Research Center* *of the* *Hôpital Sacré-Coeur de Montréal*, QC. -->
 
 **Thériault, R.** (2016, October 19)**.** Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale. Oral presentation for the *Wampum Center* at the *Native Friendship Center of Montreal*, QC.
