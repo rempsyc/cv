@@ -17,6 +17,14 @@ software <- FALSE
 ```{r create images, include = FALSE, eval = !software}
 setwd("../img")
 
+# modelbased
+rsvg_png("https://cranlogs.r-pkg.org/badges/modelbased", 
+         "modelbased_monthly.png",
+         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/modelbased", 
+         "modelbased.png",
+         width = 250)
+
 # performance
 rsvg_png("https://cranlogs.r-pkg.org/badges/correlation", 
          "performance_monthly.png",
@@ -76,45 +84,52 @@ rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc",
 setwd("..")
 ```
 
-Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Waggoner, P., Wiernik, B. M., & **Thériault, R.** (2024). performance: Assessment of Regression Models Performance (R package version 0.10.8.10) [Computer software]. https://doi.org/10.32614/CRAN.package.performance and https://easystats.github.io/performance/
+8\. Makowski, D., Lüdecke, D., Ben-Shachar, M. S., Patil, I., & **Thériault, R.** (2025). *modelbased: Estimation of model-based predictions, contrasts and means* (R package version 0.9.0.41) [Computer software]. https://doi.org/10.32614/CRAN.package.modelbased and https://easystats.github.io/modelbased/
+
+```{r, out.height="12pt"}
+knitr::include_graphics("img/modelbased_monthly.png", dpi = NA)
+knitr::include_graphics("img/modelbased.png", dpi = NA)
+```
+
+7\. Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Waggoner, P., Wiernik, B. M., & **Thériault, R.** (2024). *performance: Assessment of regression models performance* (R package version 0.10.9) [Computer software]. https://doi.org/10.32614/CRAN.package.performance and https://easystats.github.io/performance/
 
 ```{r, out.height="12pt"}
 knitr::include_graphics("img/performance_monthly.png", dpi = NA)
 knitr::include_graphics("img/performance.png", dpi = NA)
 ```
 
-Makowski, D., Wiernik, B. M., Patil, I., Lüdecke, D., & Ben-Shachar, M. S., & **Thériault, R.** (2023). correlation: Methods for correlation analysis (R package version 0.8.4) [Computer software]. https://doi.org/10.32614/CRAN.package.correlation and https://easystats.github.io/correlation/
+6\. Makowski, D., Wiernik, B. M., Patil, I., Lüdecke, D., & Ben-Shachar, M. S., & **Thériault, R.** (2023). *correlation: Methods for correlation analysis* (R package version 0.8.4) [Computer software]. https://doi.org/10.32614/CRAN.package.correlation and https://easystats.github.io/correlation/
 ```{r, out.height="12pt"}
 knitr::include_graphics("img/correlation_monthly.png", dpi = NA)
 knitr::include_graphics("img/correlation.png", dpi = NA)
 ```
 
-Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, E., & **Thériault, R.** (2023). *easystats: An R framework for easy statistical modeling, visualization, and reporting*. (R package version 0.6.1) [Computer software]. https://doi.org/10.32614/CRAN.package.easystats and https://easystats.github.io/easystats
+5\. Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, E., & **Thériault, R.** (2023). *easystats: An R framework for easy statistical modeling, visualization, and reporting*. (R package version 0.6.1) [Computer software]. https://doi.org/10.32614/CRAN.package.easystats and https://easystats.github.io/easystats
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/easystats_monthly.png", dpi = NA)
 knitr::include_graphics("img/easystats.png", dpi = NA)
 ```
 
-Makowski, D., Lüdecke, D., Patil, I, **Thériault, R.**, Ben-Shachar, M. S., & Wiernik, B. M. (2022). *report: From R to your manuscript*. (R package version 0.5.6) [Computer software]. https://doi.org/10.32614/CRAN.package.report and https://easystats.github.io/report
+4\. Makowski, D., Lüdecke, D., Patil, I, **Thériault, R.**, Ben-Shachar, M. S., & Wiernik, B. M. (2022). *report: From R to your manuscript*. (R package version 0.5.6) [Computer software]. https://doi.org/10.32614/CRAN.package.report and https://easystats.github.io/report
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/report_monthly.png", dpi = NA)
 knitr::include_graphics("img/report.png", dpi = NA)
 ```
 
-Ben-Shachar, M. S., Makowski, D., Lüdecke, D., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *effectsize: Indices of effect size*. (R package version 0.8.2) [Computer software]. https://doi.org/10.32614/CRAN.package.effectsize and https://easystats.github.io/effectsize
+3\. Ben-Shachar, M. S., Makowski, D., Lüdecke, D., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *effectsize: Indices of effect size*. (R package version 0.8.2) [Computer software]. https://doi.org/10.32614/CRAN.package.effectsize and https://easystats.github.io/effectsize
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/effectsize_monthly.png", dpi = NA)
 knitr::include_graphics("img/effectsize.png", dpi = NA)
 ```
 
-**Thériault, R.** (2022). *lavaanExtra: Convenience functions for lavaan* 
+2\. **Thériault, R.** (2022). *lavaanExtra: Convenience functions for lavaan* 
 (R package version 0.1.0) [Computer software]. https://doi.org/10.32614/CRAN.package.lavaanExtra and https://lavaanExtra.remi-theriault.com/
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/lavaanExtra_monthly.png", dpi = NA)
 knitr::include_graphics("img/lavaanExtra.png", dpi = NA)
 ```
 
-**Thériault, R.** (2022). *rempsyc: Convenience functions for psychology* 
+1\. **Thériault, R.** (2022). *rempsyc: Convenience functions for psychology* 
 (R package version 0.0.7) [Computer software]. https://doi.org/10.32614/CRAN.package.rempsyc and https://rempsyc.remi-theriault.com
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/rempsyc_monthly.png", dpi = NA)

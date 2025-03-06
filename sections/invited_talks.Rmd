@@ -9,7 +9,7 @@ output: html_document
 
 <!-- \pagebreak -->
 
-# Invited Talks
+# Selected Invited Talks
 
 **Thériault, R.** (2025, March 11). From time management to motivation management: Introducing a simple self-monitoring system to generate insight, sustain motivation, and increase productivity. Talk for the *Motivation Lab* at New York University, USA.
 

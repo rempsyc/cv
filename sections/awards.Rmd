@@ -14,7 +14,7 @@ library(tidyverse)
 data <- rbind(
 
     # tibble(
-    # Name = "Postdoctoral Fellowship (SSHRC)",
+    # Name = "35. Postdoctoral Fellowship (SSHRC)",
     # URL = "",
     # Details = "",
     # Date = "2024-2026",
@@ -24,7 +24,7 @@ data <- rbind(
     # Declined = FALSE),
     # 
     # tibble(
-    # Name = "Postdoctoral Fellowship (FRQSC)",
+    # Name = "34. Postdoctoral Fellowship (FRQSC)",
     # URL = "",
     # Details = "",
     # Date = "2024-2026",
@@ -34,7 +34,7 @@ data <- rbind(
     # Declined = FALSE),
 
     tibble(
-    Name = "SNC-Lavalin Award (UQAM)",
+    Name = "33. SNC-Lavalin Award (UQAM)",
     URL = "",
     Details = "",
     Date = "2024",
@@ -44,7 +44,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Best Student Paper Award (UQAM)",
+    Name = "32. Best Student Paper Award (UQAM)",
     URL = "",
     Details = "",
     Date = "2024",
@@ -54,7 +54,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Adrien-Pinard Psychology Award (UQAM)",
+    Name = "31. Adrien-Pinard Psychology Award (UQAM)",
     URL = "",
     Details = "",
     Date = "2024",
@@ -64,7 +64,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "International Mobility Award - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
+    Name = "30. International Mobility Award - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
     URL = "",
     Details = "",
     Date = "2024",
@@ -74,7 +74,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "International Mobility Award - Offices jeunesse internationaux du Québec (LOJIQ)",
+    Name = "29. International Mobility Award - Offices jeunesse internationaux du Québec (LOJIQ)",
     URL = "",
     Details = "",
     Date = "2023",
@@ -84,7 +84,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "International Mobility Award - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
+    Name = "28. International Mobility Award - Ministère de l'Éducation, de l'Enseignement supérieur (MEES)",
     URL = "",
     Details = "",
     Date = "2023",
@@ -94,7 +94,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "Student Involvement Recognition Award - Personality 2nd and 3rd cycles (UQAM)",
+    Name = "27. Student Involvement Recognition Award - Personality 2nd and 3rd cycles (UQAM)",
     URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
     Date = "2023",
@@ -104,7 +104,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "Student Involvement Recognition Award - Project, Health and healthy lifestyle component (UQAM)",
+    Name = "26. Student Involvement Recognition Award - Project, Health and healthy lifestyle component (UQAM)",
     URL = "https://actualites.uqam.ca/2023/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
     Date = "2023",
@@ -114,7 +114,7 @@ data <- rbind(
     Declined = FALSE),
   
     tibble(
-    Name = "Society for the Improvement of Psychological Science (SIPS) Mission Award (to easystats members)",
+    Name = "25. Society for the Improvement of Psychological Science (SIPS) Mission Award (to easystats members)",
     URL = "https://improvingpsych.org/mission/awards/",
     Details = "For easystats project",
     Date = "2023",
@@ -124,7 +124,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "J.A. DeSève Foundation Award (UQAM)",
+    Name = "24. J.A. DeSève Foundation Award (UQAM)",
     URL = "https://fondation.uqam.ca/uqam-1/bourses-hiver2023",
     Details = "For academic excellence",
     Date = "2023",
@@ -134,7 +134,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "UQAM Merit Award – Next Generation of Students (PhD)",
+    Name = "23. UQAM Merit Award – Next Generation of Students (PhD)",
     URL = "https://actualites.uqam.ca/2023/deuxieme-edition-des-prix-du-merite/",
     Details = "For academic excellence and exceptional character of the profile",
     Date = "2023",
@@ -144,7 +144,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Involvement Award from the Union of Professors of UQAM (SPUQ) - PhD",
+    Name = "22. Involvement Award from the Union of Professors of UQAM (SPUQ) - PhD",
     URL = "https://web.archive.org/web/20240203075622/https://www.spuq.uqam.ca/profil/bourses",
     Details = "For student involvement and academic excellence",
     Date = "2023",
@@ -154,7 +154,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Desjardins Award, Helping Hand category – Academic perseverance",
+    Name = "21. Desjardins Award, Helping Hand category – Academic perseverance",
     URL = "https://www.facebook.com/caissePierreBoucher/posts/pfbid0x5PtHX6HJP6FvT9PJ6v2jZQBWhjrvnZ7x9vVvhTbyPrLDyNhmUAXN48ZXE7Coxpcl",
     Details = "For school perseverance and ambitions for the future",
     Date = "2022",
@@ -164,7 +164,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Best Student Presentation Award at the 22nd ASMC Conference",
+    Name = "20. Best Student Presentation Award at the 22nd ASMC Conference",
     URL = "https://remi-theriault.com/awards/ASMC.pdf",
     Details = "For the 22th congress seminar of the Association scientifique pour la modification du comportement",
     Date = "2022",
@@ -174,17 +174,27 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Conference Travel Award (UQAM + AGEPSY-CS)",
+    Name = "19. Conference Travel Award (UQAM)",
     URL = "",
     Details = "To participate to the CPA 2022 Annual National Convention",
     Date = "2022",
-    Amount = 850,
+    Amount = 750,
     Activity = NA,
     Program = "PhD",
     Declined = FALSE),
   
   tibble(
-    Name = "Student Involvement Recognition Award - Project, Health and healthy lifestyle component (UQAM)",
+    Name = "18. Conference Travel Award (AGEPSY-CS)",
+    URL = "",
+    Details = "To participate to the CPA 2022 Annual National Convention",
+    Date = "2022",
+    Amount = 100,
+    Activity = NA,
+    Program = "PhD",
+    Declined = FALSE),
+  
+  tibble(
+    Name = "17. Student Involvement Recognition Award - Project, Health and healthy lifestyle component (UQAM)",
     URL = "https://actualites.uqam.ca/2022/bourses-implication-etudiante",
     Details = "Volet Santé et saines habitudes de vie - Programme des ambassadeurs étudiants de l'ACPP",
     Date = "2022",
@@ -194,7 +204,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Paul-Gérin-Lajoie Next Star Award, for best paper (FRQSC)",
+    Name = "16. Paul-Gérin-Lajoie Next Star Award, for best paper (FRQSC)",
     URL = "https://frq.gouv.qc.ca/en/story-and-report/releve-etoile-paul-gerin-lajoie-janvier-2022/",
     Details = "Award-winning publication: Body swapping with a Black person boosts empathy",
     Date = "2022",
@@ -204,7 +214,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Desjardins Student Involvement Award",
+    Name = "15. Desjardins Student Involvement Award",
     URL = "",
     Details = "For student involvement",
     Date = "2021",
@@ -214,7 +224,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Finalist (< 6\\% of applicants) for the Pierre Elliott Trudeau Scholarship (valued at \\$180,000)",
+    Name = "14. Finalist (< 6\\% of applicants) for the Pierre Elliott Trudeau Scholarship (valued at \\$180,000)",
     URL = "https://www.trudeaufoundation.ca/updates/news/path-engaged-leadership-starts-here",
     Details = "Finalist only (< 6\\% of applicants)",
     Date = "2021",
@@ -224,7 +234,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Excellence Award - Institute for Cognitive Sciences",
+    Name = "13. Excellence Award - Institute for Cognitive Sciences",
     URL = "https://isc.uqam.ca/etudiants/laureats-excellence/",
     Details = "Excellence award from the Institute of Cognitive Sciences",
     Date = "2021",
@@ -234,7 +244,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Conference Travel Award (McGill University)",
+    Name = "12. Conference Travel Award (McGill University)",
     URL = "",
     Details = "To attend the 2019 Congress of the Humanities and Social Sciences",
     Date = "2019",
@@ -244,7 +254,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Storytellers public speaking contest Finalist (SSHRC)",
+    Name = "11. Storytellers public speaking contest Finalist (SSHRC)",
     URL = "https://www.sshrc-crsh.gc.ca/news_room-salle_de_presse/latest_news-nouvelles_recentes/2019/2019_storytellers_top_25-jai_une_histoire_a_raconter_25_finalistes_2019-eng.aspx",
     Details = "Public speaking contest from the Social Sciences and Humanities Research Council",
     Date = "2019",
@@ -254,7 +264,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Doctoral (SSHRC)",
+    Name = "10. Joseph-Armand Bombardier Canada Graduate Scholarship-Doctoral (SSHRC)",
     URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2017/cgs_doctoral-doctorat_bes-eng.aspx",
     Details = "Excellence award from the Social Sciences and Humanities Research Council",
     Date = "2018-2021",
@@ -264,7 +274,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined",
+    Name = "9. Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined",
     URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
     Details = "Excellence award from the FRQSC",
     Date = "2018-2021",
@@ -274,7 +284,7 @@ data <- rbind(
     Declined = TRUE),
   
   tibble(
-    Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Master’s (SSHRC)",
+    Name = "8. Joseph-Armand Bombardier Canada Graduate Scholarship-Master’s (SSHRC)",
     URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2016/masters-maitrise-eng.aspx",
     Details = "Excellence award from the Social Sciences and Humanities Research Council",
     Date = "2017-2018",
@@ -284,7 +294,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Fonds de recherche du Québec - Société et culture-Master’s (FRQSC) — Declined",
+    Name = "7. Fonds de recherche du Québec - Société et culture-Master’s (FRQSC) — Declined",
     URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
     Details = "Excellence award from the FRQSC",
     Date = "2017-2018",
@@ -294,7 +304,7 @@ data <- rbind(
     Declined = TRUE),
   
   tibble(
-    Name = "Graduate Excellence Fellowship in Mental Health Research (McGill University)",
+    Name = "6. Graduate Excellence Fellowship in Mental Health Research (McGill University)",
     URL = "",
     Details = "Excellence award from McGill University",
     Date = "2016-2017",
@@ -304,7 +314,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Faculty of Arts Research Internship Award (McGill University)",
+    Name = "5. Faculty of Arts Research Internship Award (McGill University)",
     URL = "https://www.mcgill.ca/arts-internships/research/recipients/2015-aria-recipients",
     Details = "Excellence award from McGill University",
     Date = "2015",
@@ -314,7 +324,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Je prends ma place Laureate, for citizen engagement (Québec Government)",
+    Name = "4. Je prends ma place Laureate, for citizen engagement (Québec Government)",
     URL = "https://youtu.be/Hm0_j3OG1BU",
     Details = "Citizen involvement award from the Québec Government",
     Date = "2013",
@@ -324,7 +334,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Forces Avenir Laureate – College, Committed Student",
+    Name = "3. Forces Avenir Laureate – College, Committed Student",
     URL = "https://web.archive.org/web/20221002030207/https://ancien.fedecegeps.qc.ca/autres-activites/forces-avenir/",
     Details = "Student involvement award from Forces Avenir",
     Date = "2013",
@@ -334,7 +344,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Coopérative-Odyssée Award, for student engagement",
+    Name = "2. Coopérative-Odyssée Award, for student engagement",
     URL = "",
     Details = "Student involvement award from Cégep Édouard-Montpetit",
     Date = "2012",
@@ -344,7 +354,7 @@ data <- rbind(
     Declined = FALSE),
   
   tibble(
-    Name = "Édouard-Montpetit-Desjardins Award, for student engagement",
+    Name = "1. Édouard-Montpetit-Desjardins Award, for student engagement",
     URL = "https://remi-theriault.com/awards/edouard-montpetit-desjardins.pdf",
     Details = "Student involvement award from Cégep Édouard-Montpetit",
     Date = "2011",
