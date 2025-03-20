@@ -93,7 +93,7 @@ author.name <- "rém thériault"
 ```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
-\pagebreak
+<!-- \pagebreak -->
 
 ```{r Awards parent, child=c('sections/awards.Rmd')}
 ```

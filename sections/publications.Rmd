@@ -50,7 +50,9 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
-17\. Buchanan, E. M., Cuccolo, K. M., Coles, N., ... **Thériault, R.**, et al. (2025, in press). *Measuring the Semantic Priming Effect Across Many Languages*. In press in *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy
+18\. Heyman, T., Pronizius, E., Lewis, S. C., ... **Thériault, R.**, et al. (2025, In Press). Crowdsourcing Multiverse Analyses to Explore the Impact of Different Data-processing and Analysis Decisions: A Tutorial. In Press at *Psychological Methods*. Preprint: https://osf.io/fjhv5
+
+17\. Buchanan, E. M., Cuccolo, K. M., Coles, N., ... **Thériault, R.**, et al. (2025, in press). Measuring the Semantic Priming Effect Across Many Languages. In press in *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy
 
 16\. **Thériault**, R. (2025, in press). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. In press in *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
 
