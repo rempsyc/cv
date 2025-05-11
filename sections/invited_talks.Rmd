@@ -11,6 +11,8 @@ output: html_document
 
 # Selected Invited Talks
 
+**Thériault, R.** (2025, May 12). Reading Non-Fiction Books: Effects on Prosociality and Possible Applications to Climate Action and Attitudes. Talk for the *Climate Psychology Working Group* at New York University, USA.
+
 **Thériault, R.** (2025, March 20). Strengthening the foundations of the social fabric: Fostering altruism for a more resilient society. Talk for the *OGS Scholar Speaker Series* at New York University, USA.
 
 **Thériault, R.** (2025, March 11). From self-control to second nature: A dual-systems approach to loving-kindness training. Talk for the *Motivation Lab* at New York University, USA.

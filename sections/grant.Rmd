@@ -26,7 +26,7 @@ data <- rbind(
     
     tibble(
     Name = "\\textit{Reading books changes lives: The effects of popular psychology books on moral character and action}",
-    URL = "",
+    URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
     Details = "",
     Date = "",
     Amount = NA,
@@ -87,36 +87,4 @@ brief_entries(data,
               with = Amount, 
               .protect = FALSE)
 
-```
-
-```{r Grants, eval=F}
-data <- rbind(
-  
-  tibble(
-    Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\$23,500)",
-    URL = "",
-    Details = "Reading Books Changes Lives: The Effects of Popular Psychology Books on Moral Character and Action",
-    Date = "2025 - 2027",
-    Amount = "\\$35,709", # CAD  $35,708.72 / USD 24,636.23
-    Activity = NA),
-  
-  tibble(
-    Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
-    URL = "https://www.mindandlife.org/grant/transforming-habits-from-the-heart-from-good-intentions-to-reliable-prosocial-response/",
-    Details = "Transforming habits from the heart: From good intentions to reliable prosocial response",
-    Date = "2019 - 2022",
-    Amount = "\\$26,688", # CAD  $26,688
-    Activity = NA)
-)
-
-data <- data %>%
-  mutate(Name = link(Name, URL, color = "333333"))
-
-detailed_entries(data, 
-                 what = Details, 
-                 when = Date, 
-                 with = Name, 
-                 where = Amount, 
-                 why = Activity, 
-                 .protect = FALSE)
 ```
