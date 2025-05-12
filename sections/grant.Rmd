@@ -25,7 +25,7 @@ data <- rbind(
     secondary = FALSE),
     
     tibble(
-    Name = "\\textit{Reading books changes lives: The effects of popular psychology books on moral character and action}",
+    Name = "\\textit{Reading books changes lives: The effects of popular psychology books on prosociality and polarization}",
     URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
     Details = "",
     Date = "",
