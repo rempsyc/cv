@@ -9,11 +9,15 @@ output: html_document
 
 # Preprints
 
+\footnotesize
+
 **Thériault, R.**, Masson, R., & Dandeneau, S. (2025). Is the Mind More Powerful Than the Heart? A Randomized Controlled Trial of Two Loving-Kindness Interventions. https://doi.org/10.31234/osf.io/x4p9v_v2
 
-Brodeur, A., Valenta, D., Marcoci, A., ... **Thériault, R.**, et al. (2025). *Comparing Human-Only, AI-Assisted, and AI-Led Teams on Assessing Research Reproducibility in Quantitative Social Science*. https://econpapers.repec.org/RePEc:zbw:i4rdps:195. Second round of review at *Nature*.
+Brodeur, A., Valenta, D., Marcoci, A., ... **Thériault, R.**, et al. (2025). *Comparing Human-Only, AI-Assisted, and AI-Led Teams on Assessing Research Reproducibility in Quantitative Social Science*. https://econpapers.repec.org/RePEc:zbw:i4rdps:195. 
+<!-- Second round of review at *Nature*. -->
 
-Brodeur, A., Mikola, D., Cook, N., ... **Thériault, R.**, et al. (2024). *Mass Reproducibility and Replicability: A New Hope*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107
+<!-- Brodeur, A., Mikola, D., Cook, N., ... **Thériault, R.**, et al. (2024). *Mass Reproducibility and Replicability: A New Hope*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107.  -->
+<!-- First round of review at *Nature*. -->
 
 <!-- Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., Bacher, E., Lüdecke, D., & **Thériault**, R. (2023). report: Automated reporting of results and statistical models in R. <https://remi-theriault.com/preprints/makowski_et_al_2023.pdf> -->
 

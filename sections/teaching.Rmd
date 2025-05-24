@@ -20,8 +20,8 @@ data <- rbind(
     when = "Winter 2019",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",
-    details = c("Undergraduate university class (38 students)",
-                "Average lecturer rating by students: 93.92\\%"))
+    details = c("Undergraduate university class", # (38 students)
+                "Average lecturer rating by students: 3.76/4")) # 93.92\\%
 )
 
 if (short) {

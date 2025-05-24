@@ -4,6 +4,8 @@ output: html_document
 
 # Education
 
+\large
+
 ```{r Education}
 data <- rbind(
   

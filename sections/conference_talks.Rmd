@@ -8,14 +8,15 @@ output: html_document
 \setlength{\parskip}{8pt}
 
 # Selected Conference Talks
+\footnotesize
 
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022, June 18). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Talk presented at the *2022 Canadian Psychological Association Annual National Convention* in Calgary, AB.
 
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). La méditation d’amour-bienveillant augmente-t-elle les comportements de don? Talk presented at the *22e congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation* in Montréal, QC (virtual conference because of COVID).
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). La méditation d’amour-bienveillant augmente-t-elle les comportements de don? [Does loving-kindness meditation increase giving behaviors?] Talk presented at the *22e congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation* in Montréal, QC (virtual conference because of COVID).
 
 **Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 16-20). Does loving-kindness meditation increase giving behaviors? Talk presented at the *Tenth SELF International Conference* in Québec city, QC (virtual conference because of COVID).
 
-**Thériault, R.** (2019, June 3). Réduire les préjugés et augmenter l'empathie via la réalité virtuelle. Talk presented at the *2019 Congress of the Humanities and Social Sciences* in Vancouver, BC.
+**Thériault, R.** (2019, June 3). Réduire les préjugés et augmenter l'empathie via la réalité virtuelle [Reducing prejudice and increasing empathy through virtual reality]. Talk presented at the *2019 Congress of the Humanities and Social Sciences* in Vancouver, BC.
 
 **Thériault, R.**, Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J. A., & Raz, A. (2018, August 24). Can suggestion affect pulmonary function in children with suspected asthma? Talk presented at the *21^st^* *World Congress of Medical and Clinical Hypnosis* in Montréal, QC.
 

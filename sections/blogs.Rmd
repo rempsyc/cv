@@ -9,6 +9,8 @@ output: html_document
 
 # Selected Blog Posts
 
+\footnotesize
+
 <!-- **Thériault, R.** (2022, February 8). Publication-ready moderations with simple slopes in R [Blog post]. <https://remi-theriault.com/blog_moderation> -->
 
 <!-- **Thériault, R.** (2022, February 3). Publication-ready t-tests in R [Blog post]. <https://remi-theriault.com/blog_t-test> -->

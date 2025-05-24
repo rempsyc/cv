@@ -7,23 +7,27 @@ output: html_document
 
 <!-- \pagebreak -->
 
-# Research Grants
+# Research Grants & Project-Based Fellowships
+
+<!-- \large -->
 
 ```{r Grants_table, eval=T}
 library(tidyverse)
 
 data <- rbind(
     
+    ############################################################################
+  
     tibble(
-    Name = "\\textbf{Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\$23,500)}",
-    URL = "",
+    Name = "\\textbf{6. Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\$23,500)}",
+    URL = "", # 8.
     Details = "",
     Date = "2025 - 2027",
     Amount = 35709,
     Activity = NA,
     Program = "Postdoc",
     secondary = FALSE),
-    
+
     tibble(
     Name = "\\textit{Reading books changes lives: The effects of popular psychology books on prosociality and polarization}",
     URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
@@ -33,9 +37,55 @@ data <- rbind(
     Activity = NA,
     Program = "Postdoc",
     secondary = TRUE),
-
+    
+    ############################################################################
+  
+    # tibble(
+    # Name = "\\textbf{7. Postdoctoral Fellowship (FRQSC)}",
+    # URL = "",
+    # Details = "",
+    # Date = "2025 - 2027",
+    # Amount = 110000,
+    # Activity = NA,
+    # Program = "Postdoc",
+    # secondary = FALSE),
+    # 
+    # tibble(
+    # Name = "\\textit{Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux}",
+    # URL = "https://doi.org/10.69777/349023",
+    # Details = "",
+    # Date = "",
+    # Amount = NA,
+    # Activity = NA,
+    # Program = "Postdoc",
+    # secondary = TRUE),  
+    # 
+    # ############################################################################
+    # 
+    # tibble(
+    # Name = "\\textbf{6. Postdoctoral Fellowship (SSHRC)}",
+    # URL = "",
+    # Details = "",
+    # Date = "2025 - 2026",
+    # Amount = 140000,
+    # Activity = NA,
+    # Program = "Postdoc",
+    # secondary = FALSE),
+    # 
+    # tibble(
+    # Name = "\\textit{Reading Books Changes Lives: Investigating the Effects of Reading Popular Books on Identity, Polarization, Prosocial Behaviour, and Social Networks Interconnectedness}",
+    # URL = "",
+    # Details = "",
+    # Date = "",
+    # Amount = NA,
+    # Activity = NA,
+    # Program = "Postdoc",
+    # secondary = TRUE),
+    
+    ############################################################################
+  
     tibble(
-    Name = "\\textbf{Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)}",
+    Name = "\\textbf{5. Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)}",
     URL = "",
     Details = "",
     Date = "2019 - 2022",
@@ -52,7 +102,98 @@ data <- rbind(
     Amount = NA,
     Activity = NA,
     Program = "Postdoc",
+    secondary = TRUE),
+    
+    ############################################################################
+  
+    tibble(
+    Name = "\\textbf{4. Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined}",
+    URL = "",
+    Details = "",
+    Date = "2018 - 2021",
+    Amount = 84000,
+    Activity = NA,
+    Program = "PhD",
+    secondary = FALSE),
+    
+    tibble(
+    Name = "\\textit{Influencer le comportement par la modification des attitudes raciales inconscientes : Une intervention de méditation d'amour bienveillant}",
+    URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
+    Details = "",
+    Date = "",
+    Amount = NA,
+    Activity = NA,
+    Program = "Postdoc",
+    secondary = TRUE),
+    
+    ############################################################################
+  
+    tibble(
+    Name = "\\textbf{3. Joseph-Armand Bombardier Canada Graduate Scholarship-Doctoral (SSHRC)}",
+    URL = "",
+    Details = "",
+    Date = "2018 - 2021",
+    Amount = 105000,
+    Activity = NA,
+    Program = "PhD",
+    secondary = FALSE),
+    
+    tibble(
+    Name = "\\textit{Influencing behaviour by changing unconscious racial attitudes: a loving-kindness meditation intervention}",
+    URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2017/cgs_doctoral-doctorat_bes-eng.aspx",
+    Details = "",
+    Date = "",
+    Amount = NA,
+    Activity = NA,
+    Program = "Postdoc",
+    secondary = TRUE),
+    
+    ############################################################################
+  
+    tibble(
+    Name = "\\textbf{2. Fonds de recherche du Québec - Société et culture-Master’s (FRQSC) — Declined}",
+    URL = "",
+    Details = "",
+    Date = "2017 - 2018",
+    Amount = 15000,
+    Activity = NA,
+    Program = "Masters",
+    secondary = FALSE),
+    
+    tibble(
+    Name = "\\textit{Les effets des prises de perspective mentale et incarnée sur les préjugés envers
+les Autochtones du Canada}",
+    URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
+    Details = "",
+    Date = "",
+    Amount = NA,
+    Activity = NA,
+    Program = "Masters",
+    secondary = TRUE),
+    
+    ############################################################################
+  
+    tibble(
+    Name = "\\textbf{1. Joseph-Armand Bombardier Canada Graduate Scholarship-Master’s (SSHRC)}",
+    URL = "",
+    Details = "",
+    Date = "2017 - 2018",
+    Amount = 17500,
+    Activity = NA,
+    Program = "Masters",
+    secondary = FALSE),
+    
+    tibble(
+    Name = "\\textit{The effects of mental and embodied perspective-taking on prejudice against Aboriginal Peoples of Canada}",
+    URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2016/masters-maitrise-eng.aspx",
+    Details = "",
+    Date = "",
+    Amount = NA,
+    Activity = NA,
+    Program = "Masters",
     secondary = TRUE)
+    
+    ############################################################################
   
 )
 
@@ -62,7 +203,7 @@ first_year <- min(as.numeric(unlist(strsplit(data$Date, "-"))))
 last_year <- max(as.numeric(unlist(strsplit(data$Date, "-"))))
 
 data <- data %>% 
-  add_row(Name = "Total Grant Offered",
+  add_row(Name = "Total Amount Offered",
           URL = "",
           Date = paste0(first_year, "-", last_year),
           Amount = sum(total_grant, na.rm = TRUE),

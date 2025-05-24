@@ -50,11 +50,16 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
-18\. Heyman, T., Pronizius, E., Lewis, S. C., ... **Thériault, R.**, et al. (2025, In Press). Crowdsourcing Multiverse Analyses to Explore the Impact of Different Data-processing and Analysis Decisions: A Tutorial. In Press at *Psychological Methods*. Preprint: https://osf.io/fjhv5
+<!-- \large -->
+\footnotesize
+\setlength{\parindent}{-0.4in}
+\setlength{\leftskip}{0.4in}
 
-17\. Buchanan, E. M., Cuccolo, K. M., Coles, N., ... **Thériault, R.**, et al. (2025, in press). Measuring the Semantic Priming Effect Across Many Languages. In press in *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy
+18\. Heyman, T., Pronizius, E., Lewis, S. C., ... **Thériault, R.**, et al. (2025, in press). Crowdsourcing Multiverse Analyses to Explore the Impact of Different Data-processing and Analysis Decisions: A Tutorial. In press at *Psychological Methods*. Preprint: https://osf.io/fjhv5
 
-16\. **Thériault**, R. (2025, in press). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. In press in *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
+17\. Buchanan, E. M., Cuccolo, K. M., Coles, N., ... **Thériault, R.**, et al. (2025, in press). Measuring the Semantic Priming Effect Across Many Languages. In press at *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy
+
+16\. **Thériault**, R. (2025, in press). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. In press at *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
 
 15\. Ghai, S., **Thériault, R.**, Forscher, P., Shoda, Y., Syed, M., Puthillam, A., Peng, H. C., Basnight-Brown, D., Majid, A., Azevedo, F., Singh, L. (2025). A manifesto for a globally diverse, equitable, and inclusive open science. *Communications Psychology*, *3*(16), 1-9. https://doi.org/10.1038/s44271-024-00179-1
 
@@ -62,7 +67,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 13\. **Thériault**, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2024). Check your outliers! An introduction to identifying statistical outliers in R with *easystats*. *Behavior Research Methods*, *56*(4), 4162-4172. https://doi.org/10.3758/s13428-024-02356-w (Preprint: https://doi.org/10.31234/osf.io/bu6nt)
 
-12\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2024). Pratiques cliniques inspirées par la recherche en psychologie positive / Clinical practices inspired by research in positive psychology. *Psychologie Française*, *69*(1), 85-94. \*Shared first-authorship (these authors contributed equally). https://doi.org/10.1016/j.psfr.2022.06.004
+12\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2024). Pratiques cliniques inspirées par la recherche en psychologie positive [Clinical practices inspired by research in positive psychology]. *Psychologie Française*, *69*(1), 85-94. \*Shared first-authorship (these authors contributed equally). https://doi.org/10.1016/j.psfr.2022.06.004
 
 11\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology*, 14, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773
 

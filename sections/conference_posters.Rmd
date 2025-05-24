@@ -8,6 +8,7 @@ output: html_document
 \setlength{\parskip}{8pt}
 
 # Selected Conference Poster Presentations
+\footnotesize
 
 **Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (2024, August). *Is the mind more powerful than the heart?  A randomized controlled trial of two loving-kindness interventions*. Poster session presented at the Mind & Life European Summer Research Institute in Pomaia, Italy.
 

@@ -8,6 +8,7 @@ output: html_document
 \setlength{\parskip}{8pt}
 
 # Media Coverage
+\footnotesize
 
 **Thériault, R.** (2023, August 28). Pour une positivité responsable et bienveillante [Opinion letter]. *Le Devoir*. Retrieved from: <https://www.ledevoir.com/opinion/idees/796952/serie-l-ete-c-est-fait-pour-penser-pour-une-positivite-responsable-et-bienveillante>
 

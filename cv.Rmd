@@ -7,7 +7,7 @@ qualifications: "PhD"
 address: "New York University, New York, USA"
 phone: (438) 995-7648
 www: remi-theriault.com
-email: "theriault.remi@courrier.uqam.ca"
+email: "remi.theriault@nyu.edu"
 twitter: rempsyc
 github: rempsyc
 # linkedin: rempsyc
@@ -16,7 +16,9 @@ aboutme: |
   \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my postdoctoral research, I attempt to reduce political polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was made in R too).
 
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look
+headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look (6FA3CE)
+# Ok recent feedback was to not use colour at all here, so instead we go with the dark blue of my suit
+# (21242D) so it doesn't even look that obvious but we still have a little something.
 urlcolor: blue
 linkcolor: blue
 output: 
@@ -50,9 +52,20 @@ library(patchwork)
 library(see)
 library(rsvg)
 library(kableExtra)
+library(tidyverse)
 
 # To format links throughout the CV
 source("files/format_links.R")
+source("files/scale_awesomecv_fonts.R")
+
+# Some feedback we got was to increase font size to at least 12 pt everywhere
+# But this has proven to be much more complex than anticipated...
+# Increases font sizes
+# (e.g., 1.1 = 10% increase; 0.90, 10% decrease)
+# First delete awesome-cv.cls
+# file.remove("awesome-cv.cls")
+# Then run:
+# scale_awesomecv_fonts(scale = 1.5)
 
 ########################
 #### GOOGLE SCHOLAR ####
@@ -90,21 +103,21 @@ author.name <- "rém thériault"
 ```{r Publications parent, child=c('sections/publications.Rmd')}
 ```
 
-```{r Software parent, child=c('sections/software.Rmd')}
+```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
 ```
 
 <!-- \pagebreak -->
 
-```{r Awards parent, child=c('sections/awards.Rmd')}
+```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
 ```
 
-```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
+```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 
-```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
+```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
 ```{r Invited talks parent, child=c('sections/invited_talks.Rmd'), eval = !short}
@@ -127,7 +140,7 @@ author.name <- "rém thériault"
 ```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}
 ```
 
-```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = !short}
+```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = F}
 ```
 
 ```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = !short}

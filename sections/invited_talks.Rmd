@@ -10,10 +10,11 @@ output: html_document
 <!-- \pagebreak -->
 
 # Selected Invited Talks
+\footnotesize
 
 **Thériault, R.** (2025, May 12). Reading Non-Fiction Books: Effects on Prosociality and Possible Applications to Climate Action and Attitudes. Talk for the *Climate Psychology Working Group* at New York University, USA.
 
-**Thériault, R.** (2025, March 20). Strengthening the foundations of the social fabric: Fostering altruism for a more resilient society. Talk for the *OGS Scholar Speaker Series* at New York University, USA.
+**Thériault, R.** (2025, March 20). Strengthening the foundations of the social fabric: Fostering altruism for a more resilient society. Talk for the *Office of Global Services Scholar Speaker Series* at New York University, USA.
 
 **Thériault, R.** (2025, March 11). From self-control to second nature: A dual-systems approach to loving-kindness training. Talk for the *Motivation Lab* at New York University, USA.
 
@@ -23,7 +24,8 @@ output: html_document
 
 <!-- **Thériault, R.** (2024, June 14). The head and the heart: Exploring contemplative approaches to expanding the identity circle. Online talk for the *Social Identity & Morality Lab* at New York University, USA. -->
 
-**Thériault, R.\***, Quilico, E.\*, Tétreault, F.\*, Labossière, S.\*, Boudreau, S.\* (2020, May 13; \*all panelists contributed equally). Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting (Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation). Panel organized by the *Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal (CRIR)*. Presentation available from: <https://youtu.be/8VfnOjnon30?t=4288>.
+**Thériault, R.\***, Quilico, E.\*, Tétreault, F.\*, Labossière, S.\*, Boudreau, S.\* (2020, May 13; \*all panelists contributed equally). Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting. Panel organized by the *Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal (CRIR)*. Presentation available from: <https://youtu.be/8VfnOjnon30?t=4288>.
+<!-- Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation -->
 
 **Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2019, January 15). Immersive embodiment experiences improve intergroup relations, empathy, self-other overlap, and prejudice. Online webinar for the *Student Speaker Series* of the *Student Division of the International Positive Psychology Association*. Presentation available from: <https://vimeo.com/user68157211/review/378278530/8d86f3cb33>.
 
@@ -31,4 +33,4 @@ output: html_document
 
 <!-- **Thériault, R.**, & Raz, A. (2016, December 8). Diagnosing asthma across Canada: question marks... and exclamation points! Oral presentation for the *Chronic Diseases Seminar* for the *Research Center* *of the* *Hôpital Sacré-Coeur de Montréal*, QC. -->
 
-**Thériault, R.** (2016, October 19)**.** Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale. Oral presentation for the *Wampum Center* at the *Native Friendship Center of Montreal*, QC.
+**Thériault, R.** (2016, October 19)**.** Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale [Toward Constructive Change in Indigenous Communities: A Social Psychology Perspective.]. Oral presentation for the *Wampum Center* at the *Native Friendship Center of Montreal*, QC.
