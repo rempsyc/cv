@@ -46,8 +46,6 @@ library(dplyr)
 
 # For Google scholar data/visualization
 library(scholar)
-library(ggplot2)
-library(forcats)
 library(patchwork)
 library(see)
 library(rsvg)
@@ -55,8 +53,7 @@ library(kableExtra)
 library(tidyverse)
 
 # To format links throughout the CV
-source("files/format_links.R")
-source("files/scale_awesomecv_fonts.R")
+source("files/functions.R")
 
 # Some feedback we got was to increase font size to at least 12 pt everywhere
 # But this has proven to be much more complex than anticipated...
@@ -81,7 +78,7 @@ author.name <- "rém thériault"
 # But usually it seems 1-3 letters from first name plus full last name
 
 # When in doubt, the correct author name can be obtained through:
-# source("files/get_scholar_name.R") # (after defining 'scholar.profile' above)
+# get_scholar_name(scholar.profile) # (after defining 'scholar.profile' above)
 
 # Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
 
@@ -106,7 +103,10 @@ author.name <- "rém thériault"
 ```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
 ```
 
-<!-- \pagebreak -->
+```{r Teaching parent, child=c('sections/teaching.Rmd')}
+```
+
+\pagebreak
 
 ```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
 ```
@@ -114,8 +114,7 @@ author.name <- "rém thériault"
 ```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
-```{r Teaching parent, child=c('sections/teaching.Rmd')}
-```
+\pagebreak
 
 ```{r Software parent, child=c('sections/software.Rmd')}
 ```

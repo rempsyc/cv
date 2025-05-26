@@ -1,13 +1,13 @@
 ---
 output: html_document
 ---
-\setlength{\parindent}{0in}
-\setlength{\leftskip}{0in}
+<!-- \setlength{\parindent}{0in} -->
+<!-- \setlength{\leftskip}{0in} -->
 \normalsize
 
 <!-- \pagebreak -->
 
-# Research Grants & Project-Based Fellowships
+# Grants & Fellowships
 
 <!-- \large -->
 
@@ -18,214 +18,80 @@ data <- rbind(
     
     ############################################################################
   
-    tibble(
-    Name = "\\textbf{6. Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\$23,500)}",
-    URL = "", # 8.
-    Details = "",
-    Date = "2025 - 2027",
-    Amount = 35709,
-    Activity = NA,
-    Program = "Postdoc",
-    secondary = FALSE),
+    create_grant_entry(
+      Funder_Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\$23,500)",
+      Project_Name = "Reading books changes lives: The effects of popular psychology books on prosociality and polarization",
+      URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
+      Date = "2025 - 2027",
+      Amount = 35709,
+      Program = "Postdoc"),
+    
+    # create_grant_entry(
+    #   Funder_Name = "Postdoctoral Fellowship (FRQSC)",
+    #   Project_Name = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux",
+    #   URL = "https://doi.org/10.69777/349023",
+    #   Date = "2025 - 2027",
+    #   Amount = 110000,
+    #   Program = "Postdoc"),
+    # 
+    # create_grant_entry(
+    #   Funder_Name = "Postdoctoral Fellowship (SSHRC)",
+    #   Project_Name = "Reading Books Changes Lives: Investigating the Effects of Reading Popular Books on Identity, Polarization, Prosocial Behaviour, and Social Networks Interconnectedness",
+    #   URL = "https://doi.org/10.69777/349023",
+    #   Date = "2025 - 2026",
+    #   Amount = 140000,
+    #   Program = "Postdoc"),
+    
+    create_grant_entry(
+      Funder_Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
+      Project_Name = "Transforming habits from the heart: From good intentions to reliable prosocial response",
+      URL = "https://www.mindandlife.org/grant/transforming-habits-from-the-heart-from-good-intentions-to-reliable-prosocial-response/",
+      Date = "2019 - 2022",
+      Amount = 26688,
+      Program = "PhD"),
+    
+    create_grant_entry(
+      Funder_Name = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined",
+      Project_Name = "Influencer le comportement par la modification des attitudes raciales inconscientes : Une intervention de méditation d'amour bienveillant",
+      URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
+      Date = "2018 - 2021",
+      Amount = 84000,
+      Program = "PhD"),
+    
+    create_grant_entry(
+      Funder_Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Doctoral (SSHRC)",
+      Project_Name = "Influencing behaviour by changing unconscious racial attitudes: a loving-kindness meditation intervention",
+      URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2017/cgs_doctoral-doctorat_bes-eng.aspx",
+      Date = "2018 - 2021",
+      Amount = 105000,
+      Program = "PhD"),
+    
+    create_grant_entry(
+      Funder_Name = "Fonds de recherche du Québec - Société et culture-Master’s (FRQSC) — Declined",
+      Project_Name = "Les effets des prises de perspective mentale et incarnée sur les préjugés envers
+les Autochtones du Canada",
+      URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
+      Date = "2017 - 2018",
+      Amount = 15000,
+      Program = "Masters"),
+    
+    create_grant_entry(
+      Funder_Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Master’s (SSHRC)",
+      Project_Name = "The effects of mental and embodied perspective-taking on prejudice against Aboriginal Peoples of Canada",
+      URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2016/masters-maitrise-eng.aspx",
+      Date = "2017 - 2018",
+      Amount = 17500,
+      Program = "Masters"),
 
-    tibble(
-    Name = "\\textit{Reading books changes lives: The effects of popular psychology books on prosociality and polarization}",
-    URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
-    Details = "",
-    Date = "",
-    Amount = NA,
-    Activity = NA,
-    Program = "Postdoc",
-    secondary = TRUE),
-    
-    ############################################################################
-  
-    # tibble(
-    # Name = "\\textbf{7. Postdoctoral Fellowship (FRQSC)}",
-    # URL = "",
-    # Details = "",
-    # Date = "2025 - 2027",
-    # Amount = 110000,
-    # Activity = NA,
-    # Program = "Postdoc",
-    # secondary = FALSE),
-    # 
-    # tibble(
-    # Name = "\\textit{Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux}",
-    # URL = "https://doi.org/10.69777/349023",
-    # Details = "",
-    # Date = "",
-    # Amount = NA,
-    # Activity = NA,
-    # Program = "Postdoc",
-    # secondary = TRUE),  
-    # 
-    # ############################################################################
-    # 
-    # tibble(
-    # Name = "\\textbf{6. Postdoctoral Fellowship (SSHRC)}",
-    # URL = "",
-    # Details = "",
-    # Date = "2025 - 2026",
-    # Amount = 140000,
-    # Activity = NA,
-    # Program = "Postdoc",
-    # secondary = FALSE),
-    # 
-    # tibble(
-    # Name = "\\textit{Reading Books Changes Lives: Investigating the Effects of Reading Popular Books on Identity, Polarization, Prosocial Behaviour, and Social Networks Interconnectedness}",
-    # URL = "",
-    # Details = "",
-    # Date = "",
-    # Amount = NA,
-    # Activity = NA,
-    # Program = "Postdoc",
-    # secondary = TRUE),
-    
-    ############################################################################
-  
-    tibble(
-    Name = "\\textbf{5. Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)}",
-    URL = "",
-    Details = "",
-    Date = "2019 - 2022",
-    Amount = 26688,
-    Activity = NA,
-    Program = "Postdoc",
-    secondary = FALSE),
-    
-    tibble(
-    Name = "\\textit{Transforming habits from the heart: From good intentions to reliable prosocial response}",
-    URL = "https://www.mindandlife.org/grant/transforming-habits-from-the-heart-from-good-intentions-to-reliable-prosocial-response/",
-    Details = "",
-    Date = "",
-    Amount = NA,
-    Activity = NA,
-    Program = "Postdoc",
-    secondary = TRUE),
-    
-    ############################################################################
-  
-    tibble(
-    Name = "\\textbf{4. Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined}",
-    URL = "",
-    Details = "",
-    Date = "2018 - 2021",
-    Amount = 84000,
-    Activity = NA,
-    Program = "PhD",
-    secondary = FALSE),
-    
-    tibble(
-    Name = "\\textit{Influencer le comportement par la modification des attitudes raciales inconscientes : Une intervention de méditation d'amour bienveillant}",
-    URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
-    Details = "",
-    Date = "",
-    Amount = NA,
-    Activity = NA,
-    Program = "Postdoc",
-    secondary = TRUE),
-    
-    ############################################################################
-  
-    tibble(
-    Name = "\\textbf{3. Joseph-Armand Bombardier Canada Graduate Scholarship-Doctoral (SSHRC)}",
-    URL = "",
-    Details = "",
-    Date = "2018 - 2021",
-    Amount = 105000,
-    Activity = NA,
-    Program = "PhD",
-    secondary = FALSE),
-    
-    tibble(
-    Name = "\\textit{Influencing behaviour by changing unconscious racial attitudes: a loving-kindness meditation intervention}",
-    URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2017/cgs_doctoral-doctorat_bes-eng.aspx",
-    Details = "",
-    Date = "",
-    Amount = NA,
-    Activity = NA,
-    Program = "Postdoc",
-    secondary = TRUE),
-    
-    ############################################################################
-  
-    tibble(
-    Name = "\\textbf{2. Fonds de recherche du Québec - Société et culture-Master’s (FRQSC) — Declined}",
-    URL = "",
-    Details = "",
-    Date = "2017 - 2018",
-    Amount = 15000,
-    Activity = NA,
-    Program = "Masters",
-    secondary = FALSE),
-    
-    tibble(
-    Name = "\\textit{Les effets des prises de perspective mentale et incarnée sur les préjugés envers
-les Autochtones du Canada}",
-    URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
-    Details = "",
-    Date = "",
-    Amount = NA,
-    Activity = NA,
-    Program = "Masters",
-    secondary = TRUE),
-    
-    ############################################################################
-  
-    tibble(
-    Name = "\\textbf{1. Joseph-Armand Bombardier Canada Graduate Scholarship-Master’s (SSHRC)}",
-    URL = "",
-    Details = "",
-    Date = "2017 - 2018",
-    Amount = 17500,
-    Activity = NA,
-    Program = "Masters",
-    secondary = FALSE),
-    
-    tibble(
-    Name = "\\textit{The effects of mental and embodied perspective-taking on prejudice against Aboriginal Peoples of Canada}",
-    URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2016/masters-maitrise-eng.aspx",
-    Details = "",
-    Date = "",
-    Amount = NA,
-    Activity = NA,
-    Program = "Masters",
-    secondary = TRUE)
-    
-    ############################################################################
-  
+    create_grant_entry(
+      Funder_Name = "Graduate Excellence Fellowship in Mental Health Research (McGill University)",
+      Project_Name = "Investigating whether changes in the phenomenology of selfhood can modulate attitudes against a visible minority group",
+      URL = "",
+      Date = "2016-2017",
+      Amount = 10000,
+      Program = "Masters")
 )
 
-total_grant <- data$Amount
-
-first_year <- min(as.numeric(unlist(strsplit(data$Date, "-"))))
-last_year <- max(as.numeric(unlist(strsplit(data$Date, "-"))))
-
-data <- data %>% 
-  add_row(Name = "Total Amount Offered",
-          URL = "",
-          Date = paste0(first_year, "-", last_year),
-          Amount = sum(total_grant, na.rm = TRUE),
-          secondary = FALSE) %>% 
-  # add_row(Name = "Total Grant + Award Offered",
-  #         URL = "",
-  #         Date = "",
-  #         Amount = sum(total_grant, total_award, na.rm = TRUE),
-  #         secondary = FALSE) %>% 
-  mutate(dotfill = ifelse(secondary, "", "\\dotfill"),
-         Name = link(paste0("\\hspace{0.5cm} ", Name, dotfill), URL, color = "333333"),
-         Amount = paste0("\\$", scales::label_comma(accuracy = 1)(Amount)),
-         Amount = ifelse(Amount == "\\$NA",
-                         "",
-                         Amount))
-
-data[nrow(data),1] <- gsub("333333", "6FA3CE", data[nrow(data),1]) #Red: FF0000, but we use same colour as rest
-
-brief_entries(data, 
-              what = Name, 
-              when = Date, 
-              with = Amount, 
-              .protect = FALSE)
+nice_grants(data)
 
 ```

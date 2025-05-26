@@ -52,7 +52,7 @@ library(rsvg)
 library(kableExtra)
 
 # To format links throughout the CV
-source("files/format_links.R")
+source("files/functions.R")
 
 ########################
 #### GOOGLE SCHOLAR ####
@@ -68,7 +68,7 @@ author.name <- "rém thériault"
 # But usually it seems 1-3 letters from first name plus full last name
 
 # When in doubt, the correct author name can be obtained through:
-# source("files/get_scholar_name.R") # (after defining 'scholar.profile' above)
+# get_scholar_name(scholar.profile) # (after defining 'scholar.profile' above)
 
 # Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
 

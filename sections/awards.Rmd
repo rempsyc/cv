@@ -11,8 +11,6 @@ output: html_document
 \large
 
 ```{r Awards}
-library(tidyverse)
-
 data <- rbind(
 
     # tibble(
@@ -305,15 +303,15 @@ data <- rbind(
   #   Program = "Masters",
   #   Declined = TRUE),
   
-  tibble(
-    Name = "6. Graduate Excellence Fellowship in Mental Health Research (McGill University)",
-    URL = "",
-    Details = "Excellence award from McGill University",
-    Date = "2016-2017",
-    Amount = 10000,
-    Activity = NA,
-    Program = "Masters",
-    Declined = FALSE),
+  # tibble(
+  #   Name = "6. Graduate Excellence Fellowship in Mental Health Research (McGill University)",
+  #   URL = "",
+  #   Details = "Excellence award from McGill University",
+  #   Date = "2016-2017",
+  #   Amount = 10000,
+  #   Activity = NA,
+  #   Program = "Masters",
+  #   Declined = FALSE),
   
   tibble(
     Name = "5. Faculty of Arts Research Internship Award (McGill University)",
@@ -367,31 +365,6 @@ data <- rbind(
   
 )
 
-# data %>% 
-#   group_by(Program) %>%
-#   summarize(total = sum(Amount)) %>% 
-#   add_row(Program = "Total",
-#           total = sum(data$Amount))
-
-total_award <- data$Amount
-
-first_year <- min(as.numeric(unlist(strsplit(data$Date, "-"))))
-last_year <- max(as.numeric(unlist(strsplit(data$Date, "-"))))
-
-data <- data %>% 
-    add_row(Name = "Total Amount Received",
-            URL = "",
-            Date = paste0(first_year, "-", last_year),
-            Amount = sum(total_award),
-            Declined = FALSE) %>% 
-  mutate(Name = link(paste0("\\hspace{0.5cm} ", Name, "\\dotfill"), URL, color = "333333"),
-         Amount = paste0("\\$", scales::label_comma(accuracy = 1)(Amount)),
-         Amount = ifelse(Declined == TRUE,
-                         paste0("(", Amount, ")"),
-                         Amount))
-
-data[nrow(data),1] <- gsub("333333", "6FA3CE", data[nrow(data),1]) #Red: FF0000, but we use same colour as rest
-
-brief_entries(data, Name, Date, Amount, .protect = FALSE)
+nice_awards(data)
 
 ```
