@@ -6,7 +6,7 @@ output: html_document
 \setlength{\leftskip}{0in}
 \normalsize
 
-# Recognitions And Awards
+# Recognitions & Awards
 
 \large
 
