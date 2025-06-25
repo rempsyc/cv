@@ -10,7 +10,9 @@ output: html_document
 # Selected Conference Poster Presentations
 \footnotesize
 
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (2024, August). *Is the mind more powerful than the heart?  A randomized controlled trial of two loving-kindness interventions*. Poster session presented at the Mind & Life European Summer Research Institute in Pomaia, Italy.
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (2025, June 2). *Reflecting on loving-kindness may be more powerful than meditating on loving-kindness*. Poster session presented at the Mind & Life Summer Research Institute in Garrison, New York, USA.
+
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (2024, August 5). *Is the mind more powerful than the heart?  A randomized controlled trial of two loving-kindness interventions*. Poster session presented at the Mind & Life European Summer Research Institute in Pomaia, Italy.
 
 Chabot, B., **Thériault, R.**, Doucerain, M. (2023, July 23-27). *Diversity and Immigration: How Montrealers Feel about Different Cultural Groups*. Poster session presented by first author at the Biennial Conference of the International Academy for Intercultural Research in Philadelphia, Pennsylvania, USA.
 
