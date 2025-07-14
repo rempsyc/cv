@@ -37,7 +37,7 @@ data <- rbind(
     # create_grant_entry(
     #   Funder_Name = "Postdoctoral Fellowship (SSHRC)",
     #   Project_Name = "Reading Books Changes Lives: Investigating the Effects of Reading Popular Books on Identity, Polarization, Prosocial Behaviour, and Social Networks Interconnectedness",
-    #   URL = "https://doi.org/10.69777/349023",
+    #   URL = "",
     #   Date = "2025 - 2026",
     #   Amount = 140000,
     #   Program = "Postdoc"),
