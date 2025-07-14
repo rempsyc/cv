@@ -67,7 +67,7 @@ pubs <- c(
   "Lifshitz, M., Sheiner, E. O., Olson, J., Thériault, R., & Raz, A. (2017). On suggestibility and placebo: A follow-up study. *American Journal of Clinical Hypnosis*, *59*(4), 1-8. https://doi.org/10.1080/00029157.2016.1225252"
 )
 
-number_pubs(pubs, author_bold = "Thériault, R.")
+number_pubs(pubs, author_bold = author_bold)
 ```
 
 ```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}

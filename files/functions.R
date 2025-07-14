@@ -1,6 +1,10 @@
 # To format links throughout the CV
 link <- function(txt, url, color = "1976D2") {
-  paste0("\\href{", url, "}{\\color[HTML]{", color, "}{", txt, "}}")
+  if (!is.null(color)) {
+    paste0("\\href{", url, "}{\\color[HTML]{", color, "}{", txt, "}}")
+  } else {
+    paste0("\\href{", url, "}{", txt, "}")
+  }
 }
 
 # ------------------------------

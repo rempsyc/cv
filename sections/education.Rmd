@@ -12,14 +12,18 @@ data <- rbind(
   tibble(
     what = "Postdoc (Psychology - Social)",
     when = "2025/01 - 2026-12",
-    with = "New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
+    with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
+                url = "https://www.centerconflictcooperation.com/",
+                color = NULL),
     where = "New York, New York, USA",
     details = "Supervisor: Jay Van Bavel"), 
   
   tibble(
     what = "PhD (Psychology - Social)", # - 120 credits
     when = "2018/09 - 2024-12",
-    with = "Université du Québec à Montréal, Social Resilience Lab",
+    with = link("Université du Québec à Montréal, Social Resilience Lab",
+                url = "https://dandeneau.uqam.ca/en.html",
+                color = NULL),
     where = "Montréal, Québec, Canada",
     details = c(# "GPA: 4.30/4.30",
                 "Advisory Committee: 
@@ -31,7 +35,9 @@ data <- rbind(
   tibble(
     what = "Master of Science (Psychiatry - Social \\& Transcultural)", # - 45 credits
     when = "2016/09 - 2018/08",
-    with = "McGill University, Cognitive Neuroscience Lab",
+    with = link("McGill University, Cognitive Neuroscience Lab",
+                url = "https://raz-lab.org/",
+                color = NULL),
     where = "Montréal, Québec, Canada",
     details = c(# "GPA: 4.00/4.00",
                 "Advisory Committee: 
@@ -45,7 +51,9 @@ data <- rbind(
     Behavioral Science, \\&
     Sociology)", # - 120 credits
     when = "2013/01 - 2016/04",
-    with = "McGill University, Cognitive Neuroscience Lab",
+    with = link("McGill University, Cognitive Neuroscience Lab",
+                url = "https://raz-lab.org/",
+                color = NULL),
     where = "Montréal, Québec, Canada",
     details = c(# "GPA: 3.76/4.00 (Distinction – top 25\\%; note: 120 credits is equivalent to 40 classes)",
                 "Supervisor: Amir Raz")))

@@ -13,26 +13,6 @@ output: html_document
 ```{r Awards}
 data <- rbind(
 
-    # tibble(
-    # Name = "35. Postdoctoral Fellowship (SSHRC)",
-    # URL = "",
-    # Details = "",
-    # Date = "2024-2026",
-    # Amount = 140000,
-    # Activity = NA,
-    # Program = "Postdoc",
-    # Declined = FALSE),
-    # 
-    # tibble(
-    # Name = "34. Postdoctoral Fellowship (FRQSC)",
-    # URL = "",
-    # Details = "",
-    # Date = "2024-2026",
-    # Amount = 110000,
-    # Activity = NA,
-    # Program = "Postdoc",
-    # Declined = FALSE),
-
     tibble(
     Name = "29. SNC-Lavalin Award (UQAM)",
     URL = "",

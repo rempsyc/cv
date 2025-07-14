@@ -13,7 +13,7 @@ github: rempsyc
 # linkedin: rempsyc
 
 aboutme: |
-  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my postdoctoral research, I attempt to reduce political polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was made in R too).
+  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my postdoctoral research, I attempt to reduce affective polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was made in R).
 
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look (6FA3CE)
@@ -64,6 +64,9 @@ source("files/functions.R")
 # Then run:
 # scale_awesomecv_fonts(scale = 1.5)
 
+# Automatically bold your name in the publication section
+author_bold <- "Thériault, R."
+
 ########################
 #### GOOGLE SCHOLAR ####
 ########################
@@ -106,7 +109,7 @@ author.name <- "rém thériault"
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 
-\pagebreak
+<!-- \pagebreak -->
 
 ```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
 ```
@@ -114,7 +117,7 @@ author.name <- "rém thériault"
 ```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
-\pagebreak
+<!-- \pagebreak -->
 
 ```{r Software parent, child=c('sections/software.Rmd')}
 ```
