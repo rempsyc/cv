@@ -54,6 +54,12 @@ nice_awards <- function(data) {
   #   add_row(Program = "Total",
   #           total = sum(data$Amount))
   
+  n <- nrow(data)
+  data$Name <- sapply(seq_len(n), function(i) {
+    num <- (n + 1 - i)
+    paste0(num, ". ", data$Name[i])
+    })
+  
   total_award <- data$Amount
   
   first_year <- min(as.numeric(unlist(strsplit(data$Date, "-"))))

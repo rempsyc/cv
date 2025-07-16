@@ -24,6 +24,8 @@ linkcolor: blue
 output: 
   vitae::awesomecv:
     page_total: true
+header-includes:
+  - \usepackage[gen]{eurosym}
 ---
 
 ```{r setup, include = FALSE}
@@ -109,7 +111,7 @@ author.name <- "rém thériault"
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 
-<!-- \pagebreak -->
+\pagebreak
 
 ```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
 ```
@@ -117,7 +119,10 @@ author.name <- "rém thériault"
 ```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
-<!-- \pagebreak -->
+\pagebreak
+
+```{r Dashboards parent, child=c('sections/dashboards.Rmd')}
+```
 
 ```{r Software parent, child=c('sections/software.Rmd')}
 ```

@@ -1,0 +1,17 @@
+---
+output: html_document
+---
+
+# Visualization Dashboards I Developed
+
+<!-- \large -->
+\footnotesize
+
+The Missing Majority Dashboard is an open-access platform that tracks representation of Global South authors and samples across leading behavioral science journals. Drawing on data from nearly 60 journals and over 100,000 articles, the dashboard uses author affiliations and sample locations to quantify disparities. Articles are manually coded using a transparent protocol, and data is visualized with country-level granularity. It offers a replicable model for tracking representation in science and supports calls for more equitable and inclusive research practices. It also demonstrates the extent of the Global South gap in behavioral science and enables empowers institutions, journals, and researchers to benchmark and improve their equity efforts.
+
+<!-- \scriptsize -->
+\setlength{\parindent}{-0.4in}
+\setlength{\leftskip}{0.4in}
+\setlength{\parskip}{8pt}
+
+**Thériault, R.**, & Forscher, P. (2024). The Missing Majority in Behavioral Science Dashboard. https://remi-theriault.com/dashboards/missing_majority

@@ -19,7 +19,7 @@ data <- rbind(
     ############################################################################
   
     create_grant_entry(
-      Funder_Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\€23,500)",
+      Funder_Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\euro{}23,500)",
       Project_Name = "Reading books changes lives: The effects of popular psychology books on prosociality and polarization",
       URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
       Date = "2025 - 2027",
