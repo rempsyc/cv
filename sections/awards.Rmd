@@ -14,13 +14,23 @@ output: html_document
 data <- rbind(
   
     tibble(
+    Name = "Institute for Humane Studies Conference Travel Award (USD \\$941)",
+    URL = "",
+    Details = "For participation at the 2025 MIT Polarization workshop",
+    Date = "2025",
+    Amount = 1297,
+    Activity = NA,
+    Program = "Postdoc",
+    Declined = FALSE),
+  
+    tibble(
     Name = "Society for the Improvement of Psychological Science (SIPS) Commendation Award (to coauthors)",
     URL = "https://improvingpsych.org/mission/awards/",
     Details = "For *Communications Psychology* publication",
-    Date = "2023",
-    Amount = 0,
+    Date = "2025",
+    Amount = NA,
     Activity = NA,
-    Program = "PhD",
+    Program = "Postdoc",
     Declined = FALSE),
 
     tibble(
@@ -108,7 +118,7 @@ data <- rbind(
     URL = "https://improvingpsych.org/mission/awards/",
     Details = "For easystats project",
     Date = "2023",
-    Amount = 0,
+    Amount = NA,
     Activity = NA,
     Program = "PhD",
     Declined = FALSE),
@@ -218,7 +228,7 @@ data <- rbind(
     URL = "https://www.trudeaufoundation.ca/updates/news/path-engaged-leadership-starts-here",
     Details = "Finalist only (< 6\\% of applicants)",
     Date = "2021",
-    Amount = 0,
+    Amount = NA,
     Activity = NA,
     Program = "PhD",
     Declined = FALSE),

@@ -87,6 +87,8 @@ author.name <- "rém thériault"
 
 # Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
 
+headcolor <- "6FA3CE"
+
 ########################
 ##### INSTRUCTIONS #####
 ########################

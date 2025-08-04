@@ -90,6 +90,12 @@ if("Zph67rFs4hoC" %in% data_scholar$scholar_publications$pubid) {
   data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "Zph67rFs4hoC"] <- x
 }
 
+if("IWHjjKOFINEC" %in% data_scholar$scholar_publications$pubid) {
+  x <- data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "IWHjjKOFINEC"]
+  x <- paste0(x, ", Rém Thériault, et al.")
+  data_scholar$scholar_publications$author[data_scholar$scholar_publications$pubid == "IWHjjKOFINEC"] <- x
+}
+
 # Get dataframe with stats
 get_stats <- function(data_scholar, author.name = author.name) {
   

@@ -47,7 +47,7 @@ create_grant_entry <- function(Funder_Name,
   rbind(a, b)
 }
 
-nice_awards <- function(data) {
+nice_awards <- function(data, theme_color = headcolor) {
   # data %>% 
   #   group_by(Program) %>%
   #   summarize(total = sum(Amount)) %>% 
@@ -68,21 +68,23 @@ nice_awards <- function(data) {
   data <- data %>% 
     add_row(Name = "Total Amount Received",
             URL = "",
-            Date = paste0(first_year, "-", last_year),
-            Amount = sum(total_award),
-            Declined = FALSE) %>% 
+            Date = paste0(first_year, " - ", last_year),
+            Amount = sum(total_award, na.rm = TRUE),
+            Declined = FALSE,
+            .before = 1) %>% 
     mutate(Name = link(paste0("\\hspace{0.5cm} ", Name, "\\dotfill"), URL, color = "333333"),
            Amount = paste0("\\$", scales::label_comma(accuracy = 1)(Amount)),
            Amount = ifelse(Declined == TRUE,
                            paste0("(", Amount, ")"),
-                           Amount))
+                           Amount),
+           Amount = ifelse(Amount == "\\$NA", "—", Amount))
   
-  data[nrow(data),1] <- gsub("333333", "6FA3CE", data[nrow(data),1]) #Red: FF0000, but we use same colour as rest
+  data[1,1] <- gsub("333333", theme_color, data[1,1]) #Red: FF0000, but we use same colour as rest
   
   brief_entries(data, Name, Date, Amount, .protect = FALSE)
 }
 
-nice_grants <- function(data) {
+nice_grants <- function(data, theme_color = headcolor) {
   n <- nrow(data)
   data$Name <- sapply(seq_len(n), function(i) {
     if (i %% 2 == 0) {
@@ -101,9 +103,10 @@ nice_grants <- function(data) {
   data <- data %>% 
     add_row(Name = "Total Amount Offered",
             URL = "",
-            Date = paste0(first_year, "-", last_year),
+            Date = paste0(first_year, " - ", last_year),
             Amount = sum(total_grant, na.rm = TRUE),
-            secondary = FALSE) %>% 
+            secondary = FALSE,
+            .before = 1) %>% 
     # add_row(Name = "Total Grant + Award Offered",
     #         URL = "",
     #         Date = "",
@@ -116,7 +119,7 @@ nice_grants <- function(data) {
                            "",
                            Amount))
   
-  data[nrow(data),1] <- gsub("333333", "6FA3CE", data[nrow(data),1]) #Red: FF0000, but we use same colour as rest
+  data[1,1] <- gsub("333333", theme_color, data[1,1]) #Red: FF0000, but we use same colour as rest
   
   brief_entries(data, 
                 what = Name, 

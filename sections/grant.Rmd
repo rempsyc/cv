@@ -87,7 +87,7 @@ les Autochtones du Canada",
       Funder_Name = "Graduate Excellence Fellowship in Mental Health Research (McGill University)",
       Project_Name = "Investigating whether changes in the phenomenology of selfhood can modulate attitudes against a visible minority group",
       URL = "",
-      Date = "2016-2017",
+      Date = "2016 - 2017",
       Amount = 10000,
       Program = "Masters")
 )
