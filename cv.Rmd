@@ -13,12 +13,13 @@ github: rempsyc
 # linkedin: rempsyc
 
 aboutme: |
-  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my postdoctoral research, I attempt to reduce affective polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was made in R).
+  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my postdoctoral research, I attempt to reduce affective polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was [made in R](https://github.com/rempsyc/cv)).
 
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look (6FA3CE)
+headcolor: "333333" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look (6FA3CE)
 # Ok recent feedback was to not use colour at all here, so instead we go with the dark blue of my suit
 # (21242D) so it doesn't even look that obvious but we still have a little something.
+# #333333 is the default grey.
 urlcolor: blue
 linkcolor: blue
 output: 
@@ -87,7 +88,7 @@ author.name <- "rém thériault"
 
 # Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
 
-headcolor <- "6FA3CE"
+headcolor <- "0a0a0a"
 
 ########################
 ##### INSTRUCTIONS #####
@@ -110,23 +111,15 @@ headcolor <- "6FA3CE"
 ```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
 ```
 
-```{r Teaching parent, child=c('sections/teaching.Rmd')}
+```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
 ```
 
 \pagebreak
-
-```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
-```
 
 ```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
-\pagebreak
-
-```{r Dashboards parent, child=c('sections/dashboards.Rmd')}
-```
-
-```{r Software parent, child=c('sections/software.Rmd')}
+```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 
 ```{r Invited talks parent, child=c('sections/invited_talks.Rmd'), eval = !short}
@@ -138,18 +131,22 @@ headcolor <- "6FA3CE"
 ```{r Conference posters parent, child=c('sections/conference_posters.Rmd'), eval = !short}
 ```
 
-```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
+```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
-```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = !short}
+```{r Dashboards parent, child=c('sections/dashboards.Rmd')}
 ```
 
-<!-- \pagebreak -->
+```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = F}
+```
 
-```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}
+```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = F}
 ```
 
 ```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = F}
+```
+
+```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
 ```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = !short}
@@ -158,5 +155,8 @@ headcolor <- "6FA3CE"
 ```{r Varia parent, child=c('sections/varia.Rmd'), eval = FALSE}
 ```
 
-```{r credit parent, child=c('sections/credit.Rmd'), eval = !short}
+```{r References parent, child=c('sections/references.Rmd'), eval = !short}
+```
+
+```{r credit parent, child=c('sections/credit.Rmd'), eval = F}
 ```

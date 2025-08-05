@@ -22,7 +22,7 @@ data <- rbind(
       Funder_Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\euro{}23,500)",
       Project_Name = "Reading books changes lives: The effects of popular psychology books on prosociality and polarization",
       URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
-      Date = "2025 - 2027",
+      Date = "2025-2027",
       Amount = 35709,
       Program = "Postdoc"),
     
@@ -30,7 +30,7 @@ data <- rbind(
     #   Funder_Name = "Postdoctoral Fellowship (FRQSC)",
     #   Project_Name = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux",
     #   URL = "https://doi.org/10.69777/349023",
-    #   Date = "2025 - 2027",
+    #   Date = "2025-2027",
     #   Amount = 110000,
     #   Program = "Postdoc"),
     # 
@@ -38,7 +38,7 @@ data <- rbind(
     #   Funder_Name = "Postdoctoral Fellowship (SSHRC)",
     #   Project_Name = "Reading Books Changes Lives: Investigating the Effects of Reading Popular Books on Identity, Polarization, Prosocial Behaviour, and Social Networks Interconnectedness",
     #   URL = "",
-    #   Date = "2025 - 2026",
+    #   Date = "2025-2026",
     #   Amount = 140000,
     #   Program = "Postdoc"),
     
@@ -46,7 +46,7 @@ data <- rbind(
       Funder_Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
       Project_Name = "Transforming habits from the heart: From good intentions to reliable prosocial response",
       URL = "https://www.mindandlife.org/grant/transforming-habits-from-the-heart-from-good-intentions-to-reliable-prosocial-response/",
-      Date = "2019 - 2022",
+      Date = "2019-2022",
       Amount = 26688,
       Program = "PhD"),
     
@@ -54,7 +54,7 @@ data <- rbind(
       Funder_Name = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined",
       Project_Name = "Influencer le comportement par la modification des attitudes raciales inconscientes : Une intervention de méditation d'amour bienveillant",
       URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
-      Date = "2018 - 2021",
+      Date = "2018-2021",
       Amount = 84000,
       Program = "PhD"),
     
@@ -62,7 +62,7 @@ data <- rbind(
       Funder_Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Doctoral (SSHRC)",
       Project_Name = "Influencing behaviour by changing unconscious racial attitudes: a loving-kindness meditation intervention",
       URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2017/cgs_doctoral-doctorat_bes-eng.aspx",
-      Date = "2018 - 2021",
+      Date = "2018-2021",
       Amount = 105000,
       Program = "PhD"),
     
@@ -71,7 +71,7 @@ data <- rbind(
       Project_Name = "Les effets des prises de perspective mentale et incarnée sur les préjugés envers
 les Autochtones du Canada",
       URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
-      Date = "2017 - 2018",
+      Date = "2017-2018",
       Amount = 15000,
       Program = "Masters"),
     
@@ -79,7 +79,7 @@ les Autochtones du Canada",
       Funder_Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Master’s (SSHRC)",
       Project_Name = "The effects of mental and embodied perspective-taking on prejudice against Aboriginal Peoples of Canada",
       URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2016/masters-maitrise-eng.aspx",
-      Date = "2017 - 2018",
+      Date = "2017-2018",
       Amount = 17500,
       Program = "Masters"),
 
@@ -87,7 +87,7 @@ les Autochtones du Canada",
       Funder_Name = "Graduate Excellence Fellowship in Mental Health Research (McGill University)",
       Project_Name = "Investigating whether changes in the phenomenology of selfhood can modulate attitudes against a visible minority group",
       URL = "",
-      Date = "2016 - 2017",
+      Date = "2016-2017",
       Amount = 10000,
       Program = "Masters")
 )

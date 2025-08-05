@@ -179,16 +179,18 @@ plot_citations_per_paper <- function(data_scholar) {
 table_impact <- function(data_scholar, 
                          author.name = author.name, 
                          scholar.profile = NULL,
-                         language = "EN") {
-  # gs_profile <- paste0("https://scholar.google.com/citations?user=", scholar.profile)
-  # gs_profile_URL <- link("Google Scholar Profile", gs_profile)
+                         language = "EN",
+                         font_size = 9) {
+  gs_profile <- paste0("https://scholar.google.com/citations?user=", scholar.profile)
+  # gs_profile_URL <- paste0("\\href{", gs_profile, "}{Google Scholar Profile}")
+  gs_profile_URL <- link("Google Scholar Profile", gs_profile, color = NULL)
+  # gs_profile_URL <- paste0("Google Scholar Profile: ", gs_profile)
   if (language == "EN") {
-    caption <- "Figure and table automatically updated through my"
+    caption <- "Table automatically updated through my"
   } else if (language == "FR") {
-    caption <- "Figure et tableau mis à jour automatiquement via mon"
+    caption <- "Tableau mis à jour automatiquement via mon"
   }
   
-  gs_profile_URL <- "Google Scholar Profile"
   get_stats(data_scholar = data_scholar, author.name = author.name) |>
     knitr::kable(
     col.names = c(
@@ -205,9 +207,8 @@ table_impact <- function(data_scholar,
     align = "c"
     ) %>%
     kableExtra::kable_styling(
-      position = "center", font_size = 8, latex_options = "hold_position") %>% 
-    kableExtra::add_footnote(
-      paste(
-        caption, gs_profile_URL),
-      notation = "symbol")
+      position = "center", font_size = font_size, latex_options = "hold_position") %>% 
+    kableExtra::add_footnote(paste(caption, gs_profile_URL),
+                             notation = "symbol", 
+                             escape = FALSE)
 }

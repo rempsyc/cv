@@ -18,10 +18,10 @@ output: html_document
 
 **Reviewer** for scientific journals (11 total): *Group Processes and Intergroup Relations* (1), *Psychology of Consciousness: Theory, Research, and Practice* (7), *International Journal of Mental Health Promotion* (1), *Scientific Reports* (1), *Journal of Statistical Software* (1). See the "Peer Review" tab (and purple "Open dashboard" button on the right) at: https://www.webofscience.com/wos/author/record/AAC-6100-2022
 
-```{r peer_review_metrics, out.width="60%", eval = !short}
+```{r peer_review_metrics, out.width="60%", eval = F}
 knitr::include_graphics("img/peer_review_metrics.png", dpi = NA)
 ```
 
-```{r average_review_length, out.width="80%", eval = !short}
+```{r average_review_length, out.width="80%", eval = F}
 knitr::include_graphics("img/average_review_length.png", dpi = NA)
 ```

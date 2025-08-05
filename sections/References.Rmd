@@ -1,0 +1,23 @@
+---
+output: html_document
+---
+
+\footnotesize
+
+# References
+
+**Jay J. Van Bavel** \
+Professor of Psychology \
+New York University \
+Director, Center for Conflict & Cooperation \
+jay.vanbavel@nyu.edu
+
+**Stéphane Dandeneau** \
+Professor of Psychology \
+Memorial University of Newfoundland \
+sdandeneau@mun.ca
+
+**Marina M. Doucerain** \
+Professor of Psychology \
+Université du Québec à Montréal \
+doucerain.marina@uqam.ca

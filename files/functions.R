@@ -7,6 +7,14 @@ link <- function(txt, url, color = "1976D2") {
   }
 }
 
+bold <- function(txt) {
+  paste0("\\textbf{", txt, "}")
+}
+
+italics <- function(txt) {
+  paste0("\\textit{", txt, "}")
+}
+
 # ------------------------------
 # Scholar data
 # ------------------------------
@@ -66,9 +74,9 @@ nice_awards <- function(data, theme_color = headcolor) {
   last_year <- max(as.numeric(unlist(strsplit(data$Date, "-"))))
   
   data <- data %>% 
-    add_row(Name = "Total Amount Received",
+    add_row(Name = bold("Total Amount Received"),
             URL = "",
-            Date = paste0(first_year, " - ", last_year),
+            Date = bold(paste0(first_year, "-", last_year)),
             Amount = sum(total_award, na.rm = TRUE),
             Declined = FALSE,
             .before = 1) %>% 
@@ -78,6 +86,9 @@ nice_awards <- function(data, theme_color = headcolor) {
                            paste0("(", Amount, ")"),
                            Amount),
            Amount = ifelse(Amount == "\\$NA", "—", Amount))
+  
+  # Bold total amount (must do later since we have symbol processing)
+  data[1,"Amount"] <- bold(data[1,"Amount"])
   
   data[1,1] <- gsub("333333", theme_color, data[1,1]) #Red: FF0000, but we use same colour as rest
   
@@ -101,9 +112,9 @@ nice_grants <- function(data, theme_color = headcolor) {
   last_year <- max(as.numeric(unlist(strsplit(data$Date, "-"))))
   
   data <- data %>% 
-    add_row(Name = "Total Amount Offered",
+    add_row(Name = bold("Total Amount Offered"),
             URL = "",
-            Date = paste0(first_year, " - ", last_year),
+            Date = bold(paste0(first_year, "-", last_year)),
             Amount = sum(total_grant, na.rm = TRUE),
             secondary = FALSE,
             .before = 1) %>% 
@@ -118,6 +129,9 @@ nice_grants <- function(data, theme_color = headcolor) {
            Amount = ifelse(Amount == "\\$NA",
                            "",
                            Amount))
+  
+  # Bold total amount (must do later since we have symbol processing)
+  data[1,"Amount"] <- bold(data[1,"Amount"])
   
   data[1,1] <- gsub("333333", theme_color, data[1,1]) #Red: FF0000, but we use same colour as rest
   

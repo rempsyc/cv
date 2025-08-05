@@ -2,7 +2,7 @@
 output: html_document
 ---
 
-\scriptsize
+\footnotesize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
 <!-- \setlength{\parskip}{8pt} -->
@@ -20,6 +20,11 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
+<!-- \large -->
+\footnotesize
+\setlength{\parindent}{-0.4in}
+\setlength{\leftskip}{0.4in}
+
 ```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}
 
 source("../files/make_data_impact.R")
@@ -27,11 +32,6 @@ source("../files/make_data_impact.R")
 table_impact(data_scholar, author.name = author.name, scholar.profile = scholar.profile)
 
 ```
-
-<!-- \large -->
-\footnotesize
-\setlength{\parindent}{-0.4in}
-\setlength{\leftskip}{0.4in}
 
 ```{r, results = "asis"}
 
