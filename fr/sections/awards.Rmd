@@ -154,7 +154,7 @@ data <- rbind(
     Declined = FALSE),
     
     tibble(
-    Name = "Boruse Desjardins, Catégorie Coup de pouce – Persévérance scolaire",
+    Name = "Bourse Desjardins, Catégorie Coup de pouce – Persévérance scolaire",
     URL = "https://www.facebook.com/caissePierreBoucher/posts/pfbid0x5PtHX6HJP6FvT9PJ6v2jZQBWhjrvnZ7x9vVvhTbyPrLDyNhmUAXN48ZXE7Coxpcl",
     Details = "Pour la persévérance scolaire et les ambitions pour l'avenir",
     Date = "2022",

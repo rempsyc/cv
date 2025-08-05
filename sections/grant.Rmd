@@ -12,9 +12,7 @@ output: html_document
 <!-- \large -->
 
 ```{r Grants_table, eval=T}
-library(tidyverse)
-
-data <- rbind(
+data <- bind_rows(
     
     ############################################################################
   
@@ -28,7 +26,9 @@ data <- rbind(
     
     # create_grant_entry(
     #   Funder_Name = "Postdoctoral Fellowship (FRQSC)",
-    #   Project_Name = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux",
+    #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
+    #   Funder_Name_alt = "Bourse postdoctorale (FRQSC)",
+    #   Project_Name_alt = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux",
     #   URL = "https://doi.org/10.69777/349023",
     #   Date = "2025-2027",
     #   Amount = 110000,
@@ -36,7 +36,8 @@ data <- rbind(
     # 
     # create_grant_entry(
     #   Funder_Name = "Postdoctoral Fellowship (SSHRC)",
-    #   Project_Name = "Reading Books Changes Lives: Investigating the Effects of Reading Popular Books on Identity, Polarization, Prosocial Behaviour, and Social Networks Interconnectedness",
+    #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
+    #   Funder_Name_alt = "Bourse postdoctorale (CRSH)",
     #   URL = "",
     #   Date = "2025-2026",
     #   Amount = 140000,
@@ -51,8 +52,10 @@ data <- rbind(
       Program = "PhD"),
     
     create_grant_entry(
-      Funder_Name = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined",
-      Project_Name = "Influencer le comportement par la modification des attitudes raciales inconscientes : Une intervention de méditation d'amour bienveillant",
+      Funder_Name = "Quebec Research Fund - Society and Culture-Doctoral (FRQSC) — Declined",
+      Project_Name = "Influencing behaviour by changing unconscious racial attitudes: a loving-kindness meditation intervention",
+      Funder_Name_alt = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined",
+      Project_Name_alt = "Influencer le comportement par la modification des attitudes raciales inconscientes : Une intervention de méditation d'amour bienveillant",
       URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
       Date = "2018-2021",
       Amount = 84000,
@@ -67,9 +70,8 @@ data <- rbind(
       Program = "PhD"),
     
     create_grant_entry(
-      Funder_Name = "Fonds de recherche du Québec - Société et culture-Master’s (FRQSC) — Declined",
-      Project_Name = "Les effets des prises de perspective mentale et incarnée sur les préjugés envers
-les Autochtones du Canada",
+      Funder_Name = "Quebec Research Fund - Society and Culture-Master’s (FRQSC) — Declined",
+      Project_Name = "The effects of mental and embodied perspective-taking on prejudice against Aboriginal Peoples of Canada",
       URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
       Date = "2017-2018",
       Amount = 15000,
@@ -92,6 +94,6 @@ les Autochtones du Canada",
       Program = "Masters")
 )
 
-nice_grants(data)
+nice_grants(data, language = "FR")
 
 ```

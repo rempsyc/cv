@@ -16,7 +16,7 @@ cat("\\pagebreak")
 data <- rbind(
   
   tibble(
-    what = "La psychologie des attitudes [The psychology of attitudes]", #PSY5610
+    what = "The psychology of attitudes", #PSY5610
     when = "Winter 2019",
     with = "Université du Québec à Montréal",
     where = "Montréal, Québec, Canada",

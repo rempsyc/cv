@@ -26,7 +26,8 @@ data <- rbind(
     ),
   
   tibble(
-    what = "Regroupement québécois de psychologie positive",
+    what = "Quebec Positive Psychology Association",
+    # what = "Regroupement québécois de psychologie positive",
     when = "2016/04 – 2022/12",
     role = "Member of think-tank for the future of positive psychology in Québec",
     where = "Montréal, Québec",
@@ -44,7 +45,7 @@ data <- rbind(
     role = "Yoga \\& Meditation Student Committee Lead",
     where = "Montréal, Québec",
     details = c(
-      "Led or organized meditation and yoga sessions, secured grants for project"), 
+      "Led or organized meditation and yoga sessions, secured grants (\\$2198) for affordable classes"), 
       # "Organize affordable weekly yoga sessions for psychology students on campus (Winter 2022)", 
       # "Wrote and successfully obtained 2 grants for the project (first: \\$1,697.85; second: \\$500)",
       # "Organized and guided weekly meditations for psychology students on campus (Winter 2019)", 

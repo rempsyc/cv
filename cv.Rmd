@@ -90,6 +90,9 @@ author.name <- "rém thériault"
 
 headcolor <- "0a0a0a"
 
+language <- "EN" # If not EN, will choose the alternative names in the data
+# So far only for nice_awards() and nice_grants()
+
 ########################
 ##### INSTRUCTIONS #####
 ########################
@@ -134,8 +137,13 @@ headcolor <- "0a0a0a"
 ```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
-```{r Dashboards parent, child=c('sections/dashboards.Rmd')}
+```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
+
+```{r References parent, child=c('sections/references.Rmd'), eval = !short}
+```
+
+<!-- We skip the sections below for now. They are on the website and it was recommended to avoid them for the CV for applying to prof positions -->
 
 ```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = F}
 ```
@@ -146,16 +154,10 @@ headcolor <- "0a0a0a"
 ```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = F}
 ```
 
-```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
-```
-
-```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = !short}
+```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = F}
 ```
 
 ```{r Varia parent, child=c('sections/varia.Rmd'), eval = FALSE}
-```
-
-```{r References parent, child=c('sections/references.Rmd'), eval = !short}
 ```
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = F}

@@ -2,21 +2,121 @@
 output: html_document
 ---
 
-\scriptsize
-\setlength{\parindent}{-0.2in}
-\setlength{\leftskip}{0.2in}
-\setlength{\parskip}{8pt}
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
 
 # Academic Service
+
+```{r service}
+
+data <- bind_rows(
+  
+  tibble(
+    what = "easystats: An R framework for easy statistical modeling, visualization, and reporting",
+    when = "2022-08 – Now",
+    role = "Core team member and developper",
+    where = "New York, New York, USA",
+    URL = "https://easystats.github.io/easystats/",
+    details = c(
+      "Write open-source community code and develop R packages downloaded over 20 millions times")
+    ),
+  
+  tibble(
+    what = "Various academic journals",
+    when = "2022-01 – Now",
+    role = "Journal Reviewer",
+    where = "New York, New York, USA",
+    URL = "https://www.webofscience.com/wos/author/record/AAC-6100-2022",
+    details = italics(
+      "Psychology of Consciousness: Theory, Research, and Practice (7), Group Processes and Intergroup Relations (1), \\\\ Journal of Statistical Software (1), Scientific Reports (1), International Journal of Mental Health Promotion (1)")
+    ),
+  
+  tibble(
+    what = "Open Science Netherlands – Dutch Research Council (NWO)",
+    when = "2022-06 – 2022-06",
+    role = "Grant Reviewer",
+    where = "New York, New York, USA",
+    URL = "https://www.openscience.nl/en",
+    details = c(
+      "Reviewed an Open Science NL Grant for the Open Science Infrastructure call")
+    ),
+  
+  tibble(
+    what = "Canadian Positive Psychology Association (CPPA)",
+    when = "2019/09 – 2022/12",
+    role = "Lead Student Ambassador \\& Co-founder, Student Ambassador Program",
+    where = "Montréal, Québec, Canada",
+    URL = "https://cppa.ca/student-zone/",
+    details = c(
+      "Led ~70 Ambassadors (blog, webinar, logo, Instagram, etc.), Editor-in-Chief (blog)")
+    ),
+  
+  tibble(
+    what = "Quebec Positive Psychology Association",
+    # what = "Regroupement québécois de psychologie positive",
+    when = "2016/04 – 2022/12",
+    role = "Member of think-tank for the future of positive psychology in Québec",
+    where = "Montréal, Québec, Canada",
+    URL = "https://rqpp.org/",
+    details = c(
+      "Led development of freshly formed student division, various responsabilities"),
+    ),
+  
+  tibble(
+    what = "International Positive Psychology Association (IPPA)",
+    when = "2017/12 – 2022/12",
+    role = "Regional Representative (for the province of Québec) of the Student Division (SIPPA)",
+    where = "Montréal, Québec, Canada",
+    URL = "https://ippanetwork.org/ippa-divisions/sippa-students/",
+    details = c(
+      "SIPPA newsletter, connecting local members, meetings, interactive map")
+    ),
+  
+  tibble(
+    what = "Department of psychology (Université du Québec à Montréal)",
+    when = "2019/01 – 2022-12",
+    role = "Yoga \\& Meditation Student Committee Lead",
+    where = "Montréal, Québec, Canada",
+    details = c(
+      "Led or organized meditation and yoga sessions, secured grants (\\$2198) for affordable classes and campus well-being")
+  ),
+  
+  tibble(
+    what = "International Society of Hypnosis and the Société Québécoise d'Hypnose",
+    when = "2018/08 – 2018/08",
+    role = "Conference Reviewer",
+    where = "Montréal, Québec, Canada",
+    URL = "https://www.ishhypnosis.org/",
+    details = c(
+      "Reviewed abstracts for the XXI World Congress of Medical and Clinical Hypnosis"),
+    )
+  
+)
+
+if (short) {
+   data <- data[c(1:4), ]
+   #data$details <- NA
+}
+
+data <- data %>% 
+  mutate(what = link(what, URL, color = "333333"))
+
+detailed_entries(data, role, when, what, where, details, .protect = FALSE)
+
+```
+
+<!-- Archived! -->
+
 \footnotesize
 
-**Core team member** of *easystats* (seven members; official start date: 2022-08). The *easystats* project aims to increase the adoption of good statistical practices through open science tools, for example through a collection of R packages that provide a unifying and consistent framework around statistics. This responsibility involves writing code to improve the various R packages associated with the project and participating in the general decision-making. At this time, the *easystats* packages have collectively been downloaded over 20 millions times. Available from: https://easystats.github.io/easystats/
+<!-- **Core team member** of *easystats* (seven members; official start date: 2022-08). The *easystats* project aims to increase the adoption of good statistical practices through open science tools, for example through a collection of R packages that provide a unifying and consistent framework around statistics. This responsibility involves writing code to improve the various R packages associated with the project and participating in the general decision-making. At this time, the *easystats* packages have collectively been downloaded over 20 millions times. Available from: https://easystats.github.io/easystats/ -->
 
-**Reviewer** for the *XXI World Congress of Medical and Clinical Hypnosis*, organized by the International Society of Hypnosis and the Société Québécoise d'Hypnose, August 22-25, 2018, Montréal.
+<!-- **Reviewer** for the *XXI World Congress of Medical and Clinical Hypnosis*, organized by the International Society of Hypnosis and the Société Québécoise d'Hypnose, August 22-25, 2018, Montréal. -->
 
-**Reviewer** for grants (1 total): *Open Science NL* (1)
+<!-- **Reviewer** for grants (1 total): *Open Science NL* (1) -->
 
-**Reviewer** for scientific journals (11 total): *Group Processes and Intergroup Relations* (1), *Psychology of Consciousness: Theory, Research, and Practice* (7), *International Journal of Mental Health Promotion* (1), *Scientific Reports* (1), *Journal of Statistical Software* (1). See the "Peer Review" tab (and purple "Open dashboard" button on the right) at: https://www.webofscience.com/wos/author/record/AAC-6100-2022
+<!-- **Reviewer** for scientific journals (11 total): *Group Processes and Intergroup Relations* (1), *Psychology of Consciousness: Theory, Research, and Practice* (7), *International Journal of Mental Health Promotion* (1), *Scientific Reports* (1), *Journal of Statistical Software* (1). See the "Peer Review" tab (and purple "Open dashboard" button on the right) at: https://www.webofscience.com/wos/author/record/AAC-6100-2022 -->
 
 ```{r peer_review_metrics, out.width="60%", eval = F}
 knitr::include_graphics("img/peer_review_metrics.png", dpi = NA)

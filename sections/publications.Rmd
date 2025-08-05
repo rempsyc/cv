@@ -28,7 +28,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 ```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}
 
 source("../files/make_data_impact.R")
-# plot_impact(data_scholar)
+# plot_impact(data_scholar) # Advice was to remove the figure
 table_impact(data_scholar, author.name = author.name, scholar.profile = scholar.profile)
 
 ```
@@ -78,7 +78,7 @@ pubs <- c(
 number_pubs(pubs, author_bold = author_bold)
 ```
 
-<!-- # Non-Peer-Reviewed Publications -->
+<!-- # Non-Peer-Reviewed Publications [archived - do not delete] -->
 
 <!-- **Thériault, R.** (2023). Bonnes pratiques et science ouverte : Un document d'accompagnement au PRD. <https://remi-theriault.com/files/science_ouverte2023.pdf> -->
 

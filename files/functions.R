@@ -27,6 +27,8 @@ get_scholar_name <- function(scholar.profile) {
 
 create_grant_entry <- function(Funder_Name,
                                Project_Name,
+                               Funder_Name_alt = NULL,
+                               Project_Name_alt = NULL,
                                URL = "",
                                Date,
                                Amount,
@@ -34,6 +36,7 @@ create_grant_entry <- function(Funder_Name,
   
   a <- tibble(
     Name = paste0("\\textbf{", Funder_Name, "}"),
+    Name_alt = ifelse(is.null(Funder_Name_alt), NA, paste0("\\textbf{", Funder_Name_alt, "}")),
     URL = "",
     Details = "",
     Date = Date,
@@ -44,6 +47,7 @@ create_grant_entry <- function(Funder_Name,
   
   b <- tibble(
     Name = paste0("\\textit{", Project_Name, "}"),
+    Name_alt = ifelse(is.null(Project_Name_alt), NA, paste0("\\textit{", Project_Name_alt, "}")),
     URL = URL,
     Details = "",
     Date = "",
@@ -55,13 +59,18 @@ create_grant_entry <- function(Funder_Name,
   rbind(a, b)
 }
 
-nice_awards <- function(data, theme_color = headcolor) {
+nice_awards <- function(data, theme_color = headcolor, language = "EN") {
   # data %>% 
   #   group_by(Program) %>%
   #   summarize(total = sum(Amount)) %>% 
   #   add_row(Program = "Total",
   #           total = sum(data$Amount))
-  
+
+  if (language != "EN") {
+    data <- data %>% 
+      mutate(Name = ifelse(is.na(Name_alt), Name, Name_alt))
+  }
+    
   n <- nrow(data)
   data$Name <- sapply(seq_len(n), function(i) {
     num <- (n + 1 - i)
@@ -95,7 +104,13 @@ nice_awards <- function(data, theme_color = headcolor) {
   brief_entries(data, Name, Date, Amount, .protect = FALSE)
 }
 
-nice_grants <- function(data, theme_color = headcolor) {
+nice_grants <- function(data, theme_color = headcolor, language = "EN") {
+  
+  if (language != "EN") {
+    data <- data %>% 
+      mutate(Name = ifelse(is.na(Name_alt), Name, Name_alt))
+  }
+  
   n <- nrow(data)
   data$Name <- sapply(seq_len(n), function(i) {
     if (i %% 2 == 0) {

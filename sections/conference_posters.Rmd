@@ -14,7 +14,7 @@ output: html_document
 
 **Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (2024, August 5). *Is the mind more powerful than the heart?  A randomized controlled trial of two loving-kindness interventions*. Poster session presented at the Mind & Life European Summer Research Institute in Pomaia, Italy.
 
-Chabot, B., **Thériault, R.**, Doucerain, M. (2023, July 23-27). *Diversity and Immigration: How Montrealers Feel about Different Cultural Groups*. Poster session presented by first author at the Biennial Conference of the International Academy for Intercultural Research in Philadelphia, Pennsylvania, USA.
+Chabot, B., **Thériault, R.**, Doucerain, M. (2023, July 23-27). *Diversity and immigration: How Montrealers feel about different cultural groups*. Poster session presented by first author at the Biennial Conference of the International Academy for Intercultural Research in Philadelphia, Pennsylvania, USA.
 
 <!-- Chabot, B., **Thériault, R.**, Doucerain, M. (2023, May 27). *Le sentiment des Montréalais envers différents groupes culturels*. Poster session presented by first author at the 45e congrès annuel de la société québécoise pour la recherche en psychologie in Sherbrooke, QC. -->
 

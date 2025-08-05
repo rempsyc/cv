@@ -2,12 +2,16 @@
 output: html_document
 ---
 
-# Software (R Packages) I Developed
+# Software I Developed
+
+## R Packages
 
 <!-- \large -->
 \footnotesize
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
 
-R packages are modular, open-source tools that extend the functionality of the R programming language—a leading platform for data analysis, visualization, and reproducible science. These packages are developed to simplify complex statistical workflows, automate reporting, and promote transparency and consistency in research. Below is a list of R packages I have authored or co-authored.  
+R packages are modular, open-source tools that extend the functionality of the R programming language—the leading open-source tool for statistical analysis. These packages simplify complex statistical workflows, automate reporting, and promote good research practices.
 
 ```{r software, include = FALSE}
 software <- FALSE
@@ -88,58 +92,74 @@ rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc",
 setwd("..")
 ```
 
-8\. Makowski, D., Lüdecke, D., Ben-Shachar, M. S., Patil, I., & **Thériault, R.** (2025). *modelbased: Estimation of model-based predictions, contrasts and means* (R package version 0.9.0.41) [Computer software]. https://doi.org/10.32614/CRAN.package.modelbased and https://easystats.github.io/modelbased/. This package helps researchers extract and visualize model-based predictions, marginal means, and contrasts from complex models such as generalized linear models, mixed models, or Bayesian models.
+8\. Makowski, D., Lüdecke, D., Ben-Shachar, M. S., Patil, I., & **Thériault, R.** (2025). *modelbased: Estimation of model-based predictions, contrasts and means* (R package version 0.9.0.41) [Computer software]. https://doi.org/10.32614/CRAN.package.modelbased and https://easystats.github.io/modelbased/. Helps researchers extract and visualize model-based predictions, marginal means, and contrasts from complex models such as generalized linear models, mixed models, or Bayesian models.
 
 ```{r, out.height="12pt"}
 knitr::include_graphics("img/modelbased_monthly.png", dpi = NA)
 knitr::include_graphics("img/modelbased.png", dpi = NA)
 ```
 
-7\. Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Waggoner, P., Wiernik, B. M., & **Thériault, R.** (2024). *performance: Assessment of regression models performance* (R package version 0.10.9) [Computer software]. https://doi.org/10.32614/CRAN.package.performance and https://easystats.github.io/performance/. This package offers standardized, user-friendly functions to evaluate goodness-of-fit, residual diagnostics, and model comparison metrics across a variety of regression models.
+7\. Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Waggoner, P., Wiernik, B. M., & **Thériault, R.** (2024). *performance: Assessment of regression models performance* (R package version 0.10.9) [Computer software]. https://doi.org/10.32614/CRAN.package.performance and https://easystats.github.io/performance/. Offers standardized, user-friendly functions to evaluate goodness-of-fit, residual diagnostics, and model comparison metrics across a variety of regression models.
 
 ```{r, out.height="12pt"}
 knitr::include_graphics("img/performance_monthly.png", dpi = NA)
 knitr::include_graphics("img/performance.png", dpi = NA)
 ```
 
-6\. Makowski, D., Wiernik, B. M., Patil, I., Lüdecke, D., & Ben-Shachar, M. S., & **Thériault, R.** (2023). *correlation: Methods for correlation analysis* (R package version 0.8.4) [Computer software]. https://doi.org/10.32614/CRAN.package.correlation and https://easystats.github.io/correlation/. This package simplifies correlation analysis by offering user-friendly functions for computing, visualizing, and reporting various types of correlations, including partial, robust, and Bayesian correlations.
+6\. Makowski, D., Wiernik, B. M., Patil, I., Lüdecke, D., & Ben-Shachar, M. S., & **Thériault, R.** (2023). *correlation: Methods for correlation analysis* (R package version 0.8.4) [Computer software]. https://doi.org/10.32614/CRAN.package.correlation and https://easystats.github.io/correlation/. Simplifies correlation analysis by offering user-friendly functions for computing, visualizing, and reporting various types of correlations, including partial, robust, and Bayesian correlations.
 
 ```{r, out.height="12pt"}
 knitr::include_graphics("img/correlation_monthly.png", dpi = NA)
 knitr::include_graphics("img/correlation.png", dpi = NA)
 ```
 
-5\. Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, E., & **Thériault, R.** (2023). *easystats: An R framework for easy statistical modeling, visualization, and reporting*. (R package version 0.6.1) [Computer software]. https://doi.org/10.32614/CRAN.package.easystats and https://easystats.github.io/easystats. This package serves as a wrapper for the easystats ecosystem, providing an integrated and consistent interface for statistical modeling, effect sizes, visualizations, and standardized reporting.
+5\. Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, E., & **Thériault, R.** (2023). *easystats: An R framework for easy statistical modeling, visualization, and reporting*. (R package version 0.6.1) [Computer software]. https://doi.org/10.32614/CRAN.package.easystats and https://easystats.github.io/easystats. Serves as a wrapper for the easystats ecosystem, providing an integrated and consistent interface for statistical modeling, effect sizes, visualizations, and standardized reporting.
 
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/easystats_monthly.png", dpi = NA)
 knitr::include_graphics("img/easystats.png", dpi = NA)
 ```
 
-4\. Makowski, D., Lüdecke, D., Patil, I, **Thériault, R.**, Ben-Shachar, M. S., & Wiernik, B. M. (2022). *report: From R to your manuscript*. (R package version 0.5.6) [Computer software]. https://doi.org/10.32614/CRAN.package.report and https://easystats.github.io/report. This package automatically generates APA-style summaries and statistical descriptions from models and tests, streamlining manuscript preparation and reproducible reporting.
+4\. Makowski, D., Lüdecke, D., Patil, I, **Thériault, R.**, Ben-Shachar, M. S., & Wiernik, B. M. (2022). *report: From R to your manuscript*. (R package version 0.5.6) [Computer software]. https://doi.org/10.32614/CRAN.package.report and https://easystats.github.io/report. Automatically generates APA-style summaries and statistical descriptions from models and tests, streamlining manuscript preparation and reproducible reporting.
 
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/report_monthly.png", dpi = NA)
 knitr::include_graphics("img/report.png", dpi = NA)
 ```
 
-3\. Ben-Shachar, M. S., Makowski, D., Lüdecke, D., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *effectsize: Indices of effect size*. (R package version 0.8.2) [Computer software]. https://doi.org/10.32614/CRAN.package.effectsize and https://easystats.github.io/effectsize. This package calculates and interprets a wide range of standardized effect sizes (e.g., Cohen’s *d*, eta-squared) for regression, ANOVA, and non-parametric tests.
+3\. Ben-Shachar, M. S., Makowski, D., Lüdecke, D., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *effectsize: Indices of effect size*. (R package version 0.8.2) [Computer software]. https://doi.org/10.32614/CRAN.package.effectsize and https://easystats.github.io/effectsize. Calculates and interprets a wide range of standardized effect sizes (e.g., Cohen’s *d*, eta-squared) for regression, ANOVA, and non-parametric tests.
 
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/effectsize_monthly.png", dpi = NA)
 knitr::include_graphics("img/effectsize.png", dpi = NA)
 ```
 
-2\. **Thériault, R.** (2022). *lavaanExtra: Convenience functions for lavaan* (R package version 0.1.0) [Computer software]. https://doi.org/10.32614/CRAN.package.lavaanExtra and https://lavaanExtra.remi-theriault.com/. This package extends the capabilities of the *lavaan* package for structural equation modeling by providing automated APA-style table output and more customizable path diagrams.
+2\. **Thériault, R.** (2022). *lavaanExtra: Convenience functions for lavaan* (R package version 0.1.0) [Computer software]. https://doi.org/10.32614/CRAN.package.lavaanExtra and https://lavaanExtra.remi-theriault.com/. Extends the capabilities of the *lavaan* package for structural equation modeling by providing automated APA-style table output and more customizable path diagrams.
 
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/lavaanExtra_monthly.png", dpi = NA)
 knitr::include_graphics("img/lavaanExtra.png", dpi = NA)
 ```
 
-1\. **Thériault, R.** (2022). *rempsyc: Convenience functions for psychology* (R package version 0.0.7) [Computer software]. https://doi.org/10.32614/CRAN.package.rempsyc and https://rempsyc.remi-theriault.com. This package offers convenience functions tailored to psychological researchers, simplifying common tasks such as statistical tests, assumptions checks, and APA-style visualizations and tables.
+1\. **Thériault, R.** (2022). *rempsyc: Convenience functions for psychology* (R package version 0.0.7) [Computer software]. https://doi.org/10.32614/CRAN.package.rempsyc and https://rempsyc.remi-theriault.com. Offers convenience functions tailored to psychological researchers, simplifying common tasks such as statistical tests, assumptions checks, and APA-style visualizations and tables.
 
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/rempsyc_monthly.png", dpi = NA)
 knitr::include_graphics("img/rempsyc.png", dpi = NA)
 ```
+
+## Visualization Dashboard
+
+<!-- \large -->
+\footnotesize
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+
+This dashboard draws on data from nearly 60 journals and over 100,000 articles to highlight and track the under-representation of Global South authors in behavioral science to empower institutions, journals, and researchers to benchmark and improve their equity efforts.
+
+<!-- \scriptsize -->
+\setlength{\parindent}{-0.4in}
+\setlength{\leftskip}{0.4in}
+\setlength{\parskip}{8pt}
+
+**Thériault, R.**, & Forscher, P. (2024). The Missing Majority in Behavioral Science Dashboard. https://remi-theriault.com/dashboards/missing_majority

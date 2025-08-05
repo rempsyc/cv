@@ -12,7 +12,7 @@ output: html_document
 # Selected Invited Talks
 \footnotesize
 
-**Thériault, R.** (2025, May 12). Reading Non-Fiction Books: Effects on Prosociality and Possible Applications to Climate Action and Attitudes. Talk for the *Climate Psychology Working Group* at New York University, USA.
+**Thériault, R.** (2025, May 12). Reading non-fiction books: Effects on prosociality and possible applications to climate action and attitudes. Talk for the *Climate Psychology Working Group* at New York University, USA.
 
 **Thériault, R.** (2025, March 20). Strengthening the foundations of the social fabric: Fostering altruism for a more resilient society. Talk for the *Office of Global Services Scholar Speaker Series* at New York University, USA.
 
@@ -33,4 +33,5 @@ output: html_document
 
 <!-- **Thériault, R.**, & Raz, A. (2016, December 8). Diagnosing asthma across Canada: question marks... and exclamation points! Oral presentation for the *Chronic Diseases Seminar* for the *Research Center* *of the* *Hôpital Sacré-Coeur de Montréal*, QC. -->
 
-**Thériault, R.** (2016, October 19)**.** Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale [Toward Constructive Change in Indigenous Communities: A Social Psychology Perspective.]. Oral presentation for the *Wampum Center* at the *Native Friendship Center of Montreal*, QC.
+**Thériault, R.** (2016, October 19). Towards constructive change in Aboriginal communities: A social psychology perspective. Oral presentation for the *Wampum Center* at the *Native Friendship Center of Montreal*, QC.
+<!-- Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale -->
