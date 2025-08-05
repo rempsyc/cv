@@ -1,22 +1,34 @@
 ---
 output: html_document
 ---
-
-# Education
-
 \large
 
-```{r Education}
+# Positions
+
+```{r Positions}
 data <- rbind(
   
   tibble(
-    what = "Postdoc (Psychology - Social)",
+    what = "Postdoctoral Fellow (Psychology - Social)",
     when = "2025/01 - 2026-12",
     with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
                 url = "https://www.centerconflictcooperation.com/",
                 color = NULL),
     where = "New York, New York, USA",
-    details = "Supervisor: Jay Van Bavel"), 
+    details = "Supervisor: Jay Van Bavel"))
+
+ if (short) {
+   data <- data[1:7, ]
+   data$details <- NA
+ }
+ 
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+```
+
+# Education
+
+```{r Education}
+data <- rbind(
   
   tibble(
     what = "PhD (Psychology - Social)", # - 120 credits
