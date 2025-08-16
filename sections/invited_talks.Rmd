@@ -24,6 +24,9 @@ output: html_document
 
 <!-- **Thériault, R.** (2024, June 14). The head and the heart: Exploring contemplative approaches to expanding the identity circle. Online talk for the *Social Identity & Morality Lab* at New York University, USA. -->
 
+**Thériault, R.** (2023, September 19). Purifying the heart and mind: The role of implicit cognition and mental associations in prosocial behaviour. Guest speaker for *PSY4907 - Observation Workshop in Social Psychology* undergraduate course at the Université du Québec à Montréal, QC.
+<!-- Purifier le cœur et l'esprit : le rôle de la cognition implicite et des associations mentales dans le comportement prosocial -->
+
 **Thériault, R.\***, Quilico, E.\*, Tétreault, F.\*, Labossière, S.\*, Boudreau, S.\* (2020, May 13; \*all panelists contributed equally). Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting. Panel organized by the *Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal (CRIR)*. Presentation available from: <https://youtu.be/8VfnOjnon30?t=4288>.
 <!-- Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation -->
 
