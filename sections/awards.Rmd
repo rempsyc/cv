@@ -27,7 +27,7 @@ data <- bind_rows(
     tibble(
     Name = "Society for the Improvement of Psychological Science (SIPS) Commendation Award (to coauthors)",
     Name_alt = "Society for the Improvement of Psychological Science (SIPS) Commendation Award (aux coauteurs)",
-    URL = "https://improvingpsych.org/mission/awards/",
+    URL = "https://improvingpsych.org/2025/07/",
     Details = "For *Communications Psychology* publication",
     Date = "2025",
     Amount = NA,
@@ -126,7 +126,7 @@ data <- bind_rows(
     tibble(
     Name = "Society for the Improvement of Psychological Science (SIPS) Mission Award (to easystats members)",
     Name_alt = "Society for the Improvement of Psychological Science (SIPS) Mission Award (aux membres easystats)",
-    URL = "https://improvingpsych.org/mission/awards/",
+    URL = "https://improvingpsych.org/2023/08/22/sips-2023-awards-announced/",
     Details = "For easystats project",
     Date = "2023",
     Amount = NA,
