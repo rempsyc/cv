@@ -54,9 +54,6 @@ optimization and documentation to the current template.
     customization (commands starting with backslashes `\`). Some useful
     commands include:
     -   `\pagebreak` to create a page break between sections
-    -   `\scriptsize` to make text smaller (typically for publications
-        sections)
-    -   `\normalsize` to make text normal (for regular sections)
     -   `\\textit{yourtext}` to italicize `yourtext` (within dataframes,
         outside of regular rmarkdown)
     -   `\\hspace{0.5cm}` to create some left space (e.g., between
@@ -65,6 +62,13 @@ optimization and documentation to the current template.
     -   `\setlength{\parindent}{-0.2in}` and
         `\setlength{\leftskip}{0.2in}` to indent publications, “hanging”
         style.
+    -   `\scriptsize` to make text smaller (typically for publications
+        sections)
+    -   `\normalsize` to make text normal (for regular sections)
+    -   For specific font sizes, consider the following reference: 
+
+<img width="40%" height="531" alt="image" src="https://github.com/user-attachments/assets/6561307a-e7eb-432f-8bb3-8156987f1c31" />
+
 -   For questions or difficulties, feel free to open a GitHub issue
     here.
 
