@@ -4,7 +4,8 @@ output: html_document
 
 \setlength{\parindent}{0in}
 \setlength{\leftskip}{0in}
-\normalsize
+\normalsize 
+<!-- We actually need \normalsize here -->
 
 # Academic Service
 
@@ -107,8 +108,6 @@ detailed_entries(data, role, when, what, where, details, .protect = FALSE)
 ```
 
 <!-- Archived! -->
-
-\footnotesize
 
 <!-- **Core team member** of *easystats* (seven members; official start date: 2022-08). The *easystats* project aims to increase the adoption of good statistical practices through open science tools, for example through a collection of R packages that provide a unifying and consistent framework around statistics. This responsibility involves writing code to improve the various R packages associated with the project and participating in the general decision-making. At this time, the *easystats* packages have collectively been downloaded over 20 millions times. Available from: https://easystats.github.io/easystats/ -->
 

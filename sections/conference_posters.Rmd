@@ -2,12 +2,11 @@
 output: html_document
 ---
 
-\scriptsize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
-# Selected Conference Poster Presentations
+# Conference Poster Presentations
 \footnotesize
 
 **Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (2025, June 2). *Reflecting on loving-kindness may be more powerful than meditating on loving-kindness*. Poster session presented at the Mind & Life Summer Research Institute in Garrison, New York, USA.

@@ -2,12 +2,11 @@
 output: html_document
 ---
 
-\scriptsize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
-# Selected Conference Talks
+# Conference Talks
 \footnotesize
 
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022, June 18). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Talk presented at the *2022 Canadian Psychological Association Annual National Convention* in Calgary, AB.

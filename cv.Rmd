@@ -62,10 +62,12 @@ source("files/functions.R")
 # But this has proven to be much more complex than anticipated...
 # Increases font sizes
 # (e.g., 1.1 = 10% increase; 0.90, 10% decrease)
-# First delete awesome-cv.cls
+# First delete awesome-cv.cls if it was already modified with the function below
+# Otherwise no need to delete it.
 # file.remove("awesome-cv.cls")
+# Then knit once (ctrl+K) to recreate the .cls file):
 # Then run:
-# scale_awesomecv_fonts(scale = 1.5)
+# scale_awesomecv_fonts(scale = 1.1)
 
 # Automatically bold your name in the publication section
 author_bold <- "Thériault, R."

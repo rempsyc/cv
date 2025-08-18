@@ -2,14 +2,13 @@
 output: html_document
 ---
 
-\scriptsize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
 <!-- \pagebreak -->
 
-# Selected Invited Talks
+# Invited Talks
 \footnotesize
 
 **Thériault, R.** (2025, May 12). Reading non-fiction books: Effects on prosociality and possible applications to climate action and attitudes. Talk for the *Climate Psychology Working Group* at New York University, USA.

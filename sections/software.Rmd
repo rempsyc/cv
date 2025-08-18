@@ -6,10 +6,9 @@ output: html_document
 
 ## R Packages
 
-<!-- \large -->
-\footnotesize
 \setlength{\parindent}{0in}
 \setlength{\leftskip}{0in}
+\footnotesize
 
 R packages are modular, open-source tools that extend the functionality of the R programming language—the leading open-source tool for statistical analysis. These packages simplify complex statistical workflows, automate reporting, and promote good research practices.
 
@@ -17,7 +16,6 @@ R packages are modular, open-source tools that extend the functionality of the R
 software <- FALSE
 ```
 
-<!-- \scriptsize -->
 \setlength{\parindent}{-0.4in}
 \setlength{\leftskip}{0.4in}
 \setlength{\parskip}{8pt}
@@ -150,14 +148,11 @@ knitr::include_graphics("img/rempsyc.png", dpi = NA)
 
 ## Visualization Dashboard
 
-<!-- \large -->
-\footnotesize
 \setlength{\parindent}{0in}
 \setlength{\leftskip}{0in}
 
 This dashboard draws on data from nearly 60 journals and over 100,000 articles to highlight and track the under-representation of Global South authors in behavioral science to empower institutions, journals, and researchers to benchmark and improve their equity efforts.
 
-<!-- \scriptsize -->
 \setlength{\parindent}{-0.4in}
 \setlength{\leftskip}{0.4in}
 \setlength{\parskip}{8pt}
