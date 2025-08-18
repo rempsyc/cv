@@ -5,7 +5,7 @@ profilepic: "img/profile.png"
 position: "Postdoctoral Fellow"
 qualifications: "PhD"
 address: "New York University, New York, USA"
-phone: (438) 995-7648
+phone: (332) 400-6781
 www: remi-theriault.com
 email: "remi.theriault@nyu.edu"
 twitter: rempsyc
