@@ -23,6 +23,14 @@ software <- FALSE
 ```{r create images, include = FALSE, eval = !software}
 setwd("../img")
 
+# see
+rsvg_png("https://cranlogs.r-pkg.org/badges/see", 
+         "see_monthly.png",
+         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/see", 
+         "see.png",
+         width = 250)
+
 # modelbased
 rsvg_png("https://cranlogs.r-pkg.org/badges/modelbased", 
          "modelbased_monthly.png",
@@ -88,6 +96,13 @@ rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc",
          width = 250)
 
 setwd("..")
+```
+
+9\. Lüdecke, D., Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., & **Thériault, R.** (2025). *see: Model visualisation toolbox for 'easystats' and 'ggplot2'* (R package version 0.11.0.8) [Computer software]. https://doi.org/10.32614/CRAN.package.see and https://easystats.github.io/see/. Complements numeric summaries from easystats packages with functions to generate publication-ready visualizations of model parameters, predictions, and performance diagnostics.
+
+```{r, out.height="12pt"}
+knitr::include_graphics("img/see_monthly.png", dpi = NA)
+knitr::include_graphics("img/see.png", dpi = NA)
 ```
 
 8\. Makowski, D., Lüdecke, D., Ben-Shachar, M. S., Patil, I., & **Thériault, R.** (2025). *modelbased: Estimation of model-based predictions, contrasts and means* (R package version 0.9.0.41) [Computer software]. https://doi.org/10.32614/CRAN.package.modelbased and https://easystats.github.io/modelbased/. Helps researchers extract and visualize model-based predictions, marginal means, and contrasts from complex models such as generalized linear models, mixed models, or Bayesian models.
