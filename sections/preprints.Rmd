@@ -10,6 +10,9 @@ output: html_document
 
 \footnotesize
 
+
+Pillai, R. M., Globig, L. K., Rathje, S., Sternisko, A., **Thériault, R.**, & Van Bavel, Jay J (2025). *An identity-based approach to polarization and public health*. https://doi.org/10.31234/osf.io/5z6r7_v1
+
 **Thériault, R.**, Masson, R., & Dandeneau, S. (2025). *Is the Mind More Powerful Than the Heart? A Randomized Controlled Trial of Two Loving-Kindness Interventions*. https://doi.org/10.31234/osf.io/x4p9v_v2
 
 Brodeur, A., Valenta, D., Marcoci, A., ... **Thériault, R.**, et al. (2025). *Comparing Human-Only, AI-Assisted, and AI-Led Teams on Assessing Research Reproducibility in Quantitative Social Science*. https://econpapers.repec.org/RePEc:zbw:i4rdps:195. 
