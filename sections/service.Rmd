@@ -30,7 +30,7 @@ data <- bind_rows(
     where = "New York, New York, USA",
     URL = "https://www.webofscience.com/wos/author/record/AAC-6100-2022",
     details = italics(
-      "Psychology of Consciousness: Theory, Research, and Practice (7), Group Processes and Intergroup Relations (1), \\\\ Journal of Statistical Software (1), Scientific Reports (1), International Journal of Mental Health Promotion (1)")
+      "Psychology of Consciousness: Theory, Research, and Practice (7), Group Processes and Intergroup Relations (1), \\\\ Journal of Statistical Software (1), Scientific Reports (1), International Journal of Mental Health Promotion (1), Discover Sustainability (1)")
     ),
   
   tibble(
@@ -81,17 +81,17 @@ data <- bind_rows(
     where = "Montréal, Québec, Canada",
     details = c(
       "Led or organized meditation and yoga sessions, secured grants (\\$2198) for affordable classes and campus well-being")
-  ),
+  )#,
   
-  tibble(
-    what = "International Society of Hypnosis and the Société Québécoise d'Hypnose",
-    when = "2018/08 – 2018/08",
-    role = "Conference Reviewer",
-    where = "Montréal, Québec, Canada",
-    URL = "https://www.ishhypnosis.org/",
-    details = c(
-      "Reviewed abstracts for the XXI World Congress of Medical and Clinical Hypnosis"),
-    )
+  # tibble(
+  #   what = "International Society of Hypnosis and the Société Québécoise d'Hypnose",
+  #   when = "2018/08 – 2018/08",
+  #   role = "Conference Reviewer",
+  #   where = "Montréal, Québec, Canada",
+  #   URL = "https://www.ishhypnosis.org/",
+  #   details = c(
+  #     "Reviewed abstracts for the XXI World Congress of Medical and Clinical Hypnosis"),
+  #   )
   
 )
 
