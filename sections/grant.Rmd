@@ -87,7 +87,7 @@ data <- bind_rows(
 
     create_grant_entry(
       Funder_Name = "Graduate Excellence Fellowship in Mental Health Research (McGill University)",
-      Project_Name = "Investigating whether changes in the phenomenology of selfhood can modulate attitudes against a visible minority group",
+      Project_Name = "Investigating whether changes in the phenomenology of selfhood can modulate outgroup attitudes",
       URL = "",
       Date = "2016-2017",
       Amount = 10000,

@@ -68,9 +68,9 @@
 \RequirePackage{setspace}
 % Needed to manage fonts
 \RequirePackage[quiet]{fontspec}
-\usepackage{xfp}
 \providecommand\ACVscale{1}
 \renewcommand\ACVscale{1.000000}
+\usepackage{xfp}
 % To support LaTeX quoting style
 \defaultfontfeatures{Ligatures=TeX}
 % Needed to manage math fonts
