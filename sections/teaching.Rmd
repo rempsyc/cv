@@ -10,9 +10,15 @@ output: html_document
 cat("\\pagebreak")
 ```
 
-# Teaching
+```{r Teaching, results = "asis"}
+nice_header(
+  header = "Teaching",
+  header_alt = "Enseignement",
+  language = language
+)
+```
 
-```{r Teaching}
+```{r Teaching_en, eval=English}
 data <- rbind(
   
   tibble(
@@ -22,6 +28,25 @@ data <- rbind(
     where = "Montréal, Québec, Canada",
     details = c("Undergraduate university class", # (38 students)
                 "Average lecturer rating by students: 3.76/4")) # 93.92\\%
+)
+
+if (short) {
+   data$details <- NA
+}
+
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+```
+
+```{r Teaching_fr, eval=French}
+data <- rbind(
+  
+  tibble(
+    what = "PSY5610 - La psychologie des attitudes",
+    when = "Hiver 2019",
+    with = "Université du Québec à Montréal",
+    where = "Montréal, Québec, Canada",
+    details = c("Cours de premier cycle", # (38 personnes étudiantes)
+                "Moyenne des évaluations d'enseignement : 3.76/4")) # 93.92\\%
 )
 
 if (short) {

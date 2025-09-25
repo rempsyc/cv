@@ -2,7 +2,7 @@
 output: html_document
 ---
 
-\scriptsize
+\footnotesize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
 <!-- \setlength{\parskip}{8pt} -->
@@ -10,36 +10,6 @@ output: html_document
 # Publications
 
 ```{r, results = "asis", echo = FALSE, message = FALSE, eval = FALSE}
-format.authors <- function(scholar.profile, author.name) {
-  library(dplyr)
-
-  swap_initials <- function(author.name) {
-    sub("(.*) (.*)", "\\2, \\1.", trimws(author.name))
-  }
-
-  pubs <- scholar::get_publications(scholar.profile)
-  pubs %>% 
-    strsplit(x = .$author, split = ",") -> pubs2
-  lapply(pubs2, function(x) {
-    x <- swap_initials(x)
-    x[length(x)] <- paste0("& ", x[length(x)])
-    x <- paste0(x, collapse = ", ")
-    ifelse(startsWith(x, "& "), sub("& ", "", x), x)
-    }
-    ) -> pubs$author
-  
-  author.name2 <- swap_initials(author.name)
-  
-  pubs %>% 
-    arrange(desc(year)) %>%
-    mutate(journal = paste0("*", journal, "*"),
-           Publications = paste0(author, " (", year, "). ", 
-                                 title, ". ", journal, ". ", 
-                                 number),
-           Publications = gsub(author.name2, paste0("**", author.name2, "**"), Publications)) %>% 
-    select(Publications)
-}
-
 pubs <- format.authors("NrfwEncAAAAJ", "R Thériault")
 
 cat(unlist(pubs), sep = "\\\n \\\n")
@@ -50,50 +20,68 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 # print_latex(as_hux(pubs2))
 ```
 
-17\. Buchanan, E. M., Cuccolo, K. M., Coles, N., ... **Thériault, R.**, et al. (2025, sous presse). *Measuring the Semantic Priming Effect Across Many Languages*. Sous presse dans *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy
+\setlength{\parindent}{-0.4in}
+\setlength{\leftskip}{0.4in}
 
-16\. **Thériault**, R. (2025, sous presse). L’importance de la science ouverte en recherche en psychologie. Sous presse dans *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx
-
-15\. Ghai, S., **Thériault, R.**, Forscher, P., Shoda, Y., Syed, M., Puthillam, A., Peng, H. C., Basnight-Brown, D., Majid, A., Azevedo, F., Singh, L. (2025). A manifesto for a globally diverse, equitable, and inclusive open science. *Communications Psychology*, *3*(16), 1-9. https://doi.org/10.1038/s44271-024-00179-1
-
-14\. Cimon-Paquet, C., St-Cyr, J., **Thériault, R**., & Vallerand, R. J. (2025). Moving positive psychology forward: Building on the psychology of passion. *International Journal of Applied Positive Psychology*, *10*(14), 1-19. https://doi.org/10.1007/s41042-024-00198-7
-
-13\. **Thériault**, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2024). Check your outliers! An introduction to identifying statistical outliers in R with *easystats*. *Behavior Research Methods*, *56*(4), 4162-4172. https://doi.org/10.3758/s13428-024-02356-w (Preprint: https://doi.org/10.31234/osf.io/bu6nt)
-
-12\. Miglianico, M.\*, **Thériault, R.\*,** Lavoie, B.\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2024). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*, *69*(1), 85-94. \*Auteur·e principal·e partagé·e (ces auteur·es ont contribué de manière égale). https://doi.org/10.1016/j.psfr.2022.06.004
-
-11\. **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology*, 14, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773
-
-10\. **Thériault, R.** & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 14(12), 2946–2962. https://doi.org/10.1007/s12671-023-02246-w (Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2). Lauréat du *Prix du meilleur article étudiant 2024* du Département de psychologie de l'UQAM.
-
-9\. **Thériault**, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software*, *8*(90), 5701. https://doi.org/10.21105/joss.05701
-
-8\. **Thériault**, R. (2023). rempsyc: Convenience functions for psychology. *Journal of Open Source Software*, *8*(87), 5466. https://doi.org/10.21105/joss.05466
-
-7\. Ben-Shachar, M. S., Patil, I., **Thériault, R.**, Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect sizes for categorical data that use the chi-squared statistic. *Mathematics*, *11*(9), 1982. https://doi.org/10.3390/math11091982
-
-6\. **Thériault, R.**, Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly Journal of Experimental Psychology*, *75*(11), 2129-2148. https://doi.org/10.1177/17470218221078858
-
-5\. **Thériault, R.**, Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology*, 74(12), 2057-2074. https://doi.org/10.1177/17470218211024826. Lauréat du *Prix Relève étoile Paul-Gérin-Lajoie*, pour meilleur article (FRQSC).
-
-4\. Krol, S. A., **Thériault, R.**, Olson, J. A., Raz, A., & Bartz, J. (2020). Self-concept clarity and the bodily self: Malleability across modalities. *Personality and Social Psychology Bulletin*, *46*(5). https://doi.org/10.1177/0146167219879126
-
-3\. **Thériault, R.** (2019). Book review: Awareness is freedom: The adventure of psychology and spirituality. *Frontiers in Psychology*, *10*(2814)*.* https://doi.org/10.3389/fpsyg.2019.02814
-
-2\. **Thériault, R.**, & Raz, A. (2018). Patterns of bronchial challenge testing in Canada. *Canadian Journal of Respiratory Therapy*, *54*(2), 41-47. https://doi.org/10.29390/cjrt-2018-006
-
-1\. Lifshitz, M., Sheiner, E. O., Olson, J., **Thériault, R.**, & Raz, A. (2017). On suggestibility and placebo: A follow-up study. *American Journal of Clinical Hypnosis*, *59*(4), 1-8. https://doi.org/10.1080/00029157.2016.1225252
-
-```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = TRUE}
+```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}
 
 source("../../files/make_data_impact.R")
-plot_impact(data_scholar)
-table_impact(data_scholar, author.name = author.name, scholar.profile = scholar.profile,
-             language = "FR")
+# plot_impact(data_scholar) # Advice was to remove the figure
+table_impact(data_scholar, 
+             author.name = author.name, 
+             scholar.profile = scholar.profile,
+             font_size = 9,
+             language = language)
 
 ```
 
-<!-- # Non-Peer-Reviewed Publications -->
+```{r, results = "asis"}
+
+pubs <- c(
+  "Buchanan, E. M., Cuccolo, K. M., Coles, N., ... Thériault, R., et al. (2025, sous presse). Measuring the semantic priming effect across many languages. Sous presse dans *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy",
+  
+  "Thériault, R. (2025). L’importance de la science ouverte en recherche en psychologie. *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx",
+  
+  "Heyman, T., Pronizius, E., Lewis, S. C., ... Thériault, R., et al. (2025). Crowdsourcing multiverse analyses to explore the impact of different data-processing and analysis decisions: A tutorial. *Psychological Methods*, 1-22. http://dx.doi.org/10.1037/met0000770",
+  #Advance online publication, 
+  
+  "Makowski, D. Ben-Shachar, M. S., Wiernik, B. M., Patil, I., Thériault, R., & Lüdecke, D. (2025). modelbased: An R package to make the most out of your statistical models through marginal means, marginal effects, and model predictions. *Journal of Open Source Software*, *10*(109), 7969. https://doi.org/10.21105/joss.07969",
+  
+  "Ghai, S., Thériault, R., Forscher, P., Shoda, Y., Syed, M., Puthillam, A., Peng, H. C., Basnight-Brown, D., Majid, A., Azevedo, F., Singh, L. (2025). A manifesto for a globally diverse, equitable, and inclusive open science. *Communications Psychology*, *3*(16), 1-9. Lauréat d'un *Commendation Award* 2025 (Society for the Improvement of Psychological Science). https://doi.org/10.1038/s44271-024-00179-1",
+  
+  "Cimon-Paquet, C., St-Cyr, J., **Thériault, R**., & Vallerand, R. J. (2025). Moving positive psychology forward: Building on the psychology of passion. *International Journal of Applied Positive Psychology*, *10*(14), 1-19. https://doi.org/10.1007/s41042-024-00198-7",
+  
+  "Thériault, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2024). Check your outliers! An introduction to identifying statistical outliers in R with *easystats*. *Behavior Research Methods*, *56*(4), 4162-4172. https://doi.org/10.3758/s13428-024-02356-w. Preprint: https://doi.org/10.31234/osf.io/bu6nt",
+  
+  "Miglianico, M.\\*, Thériault, R.\\*, Lavoie, B.\\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2024). Pratiques cliniques inspirées par la recherche en psychologie positive. *Psychologie Française*, *69*(1), 85-94. \\*Auteur·e principal·e partagé·e (ces auteur·es ont contribué de manière égale). https://doi.org/10.1016/j.psfr.2022.06.004",
+  
+  "Thériault, R., Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology*, 14, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773",
+  
+  "Thériault, R. & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 14(12), 2946–2962. Lauréat du Prix du meilleur article étudiant 2024 du Département de psychologie de l’UQAM. https://doi.org/10.1007/s12671-023-02246-w. Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2",
+  
+  "Thériault, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software*, *8*(90), 5701. https://doi.org/10.21105/joss.05701",
+  
+  "Thériault, R. (2023). rempsyc: Convenience functions for psychology. *Journal of Open Source Software*, *8*(87), 5466. https://doi.org/10.21105/joss.05466",
+  
+  "Ben-Shachar, M. S., Patil, I., Thériault, R., Wiernik, B. M., & Lüdecke, D. (2023). Phi, Fei, Fo, Fum: Effect sizes for categorical data that use the chi-squared statistic. *Mathematics*, *11*(9), 1982. https://doi.org/10.3390/math11091982",
+  
+  "Thériault, R., Landry, M., & Raz, A. (2022). The Rubber Hand Illusion: Top-down attention modulates embodiment. *Quarterly Journal of Experimental Psychology*, *75*(11), 2129-2148. https://doi.org/10.1177/17470218221078858",
+  
+  "Thériault, R., Olson, J. A., Krol, S. A., & Raz, A. (2021). Body swapping with a Black person boosts empathy: Using virtual reality to embody another. *Quarterly Journal of Experimental Psychology*, 74(12), 2057-2074. Lauréat du Prix Relève étoile Paul‑Gérin‑Lajoie, pour meilleur article (FRQSC). https://doi.org/10.1177/17470218211024826",
+  
+  "Krol, S. A., Thériault, R., Olson, J. A., Raz, A., & Bartz, J. (2020). Self-concept clarity and the bodily self: Malleability across modalities. *Personality and Social Psychology Bulletin*, *46*(5). https://doi.org/10.1177/0146167219879126",
+  
+  "Thériault, R. (2019). Book review: Awareness is freedom: The adventure of psychology and spirituality. *Frontiers in Psychology*, *10*(2814)*.* https://doi.org/10.3389/fpsyg.2019.02814",
+  
+  "Thériault, R., & Raz, A. (2018). Patterns of bronchial challenge testing in Canada. *Canadian Journal of Respiratory Therapy*, *54*(2), 41-47. https://doi.org/10.29390/cjrt-2018-006",
+  
+  "Lifshitz, M., Sheiner, E. O., Olson, J., Thériault, R., & Raz, A. (2017). On suggestibility and placebo: A follow-up study. *American Journal of Clinical Hypnosis*, *59*(4), 1-8. https://doi.org/10.1080/00029157.2016.1225252"
+)
+
+number_pubs(pubs, author_bold = author_bold)
+```
+
+<!-- # Non-Peer-Reviewed Publications [archived - do not delete] -->
 
 <!-- **Thériault, R.** (2023). Bonnes pratiques et science ouverte : Un document d'accompagnement au PRD. <https://remi-theriault.com/files/science_ouverte2023.pdf> -->
 

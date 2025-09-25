@@ -1,11 +1,9 @@
 ---
 output: html_document
 ---
-\large
+<!-- # Positions -->
 
-# Positions
-
-```{r Positions}
+```{r Positions, eval=F}
 data <- rbind(
   
   tibble(
@@ -31,6 +29,15 @@ detailed_entries(data, with, when, what, where, details, .protect = FALSE)
 data <- rbind(
   
   tibble(
+    what = "Postdoctoral Fellow (Psychology - Social)",
+    when = "2025/01 - 2026-12",
+    with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
+                url = "https://www.centerconflictcooperation.com/",
+                color = NULL),
+    where = "New York, New York, USA",
+    details = "Supervisor: Jay Van Bavel"),
+  
+  tibble(
     what = "PhD (Psychology - Social)", # - 120 credits
     when = "2018/09 - 2024-12",
     with = link("Université du Québec à Montréal, Social Resilience Lab",
@@ -39,7 +46,7 @@ data <- rbind(
     where = "Montréal, Québec, Canada",
     details = c(# "GPA: 4.30/4.30",
                 "Advisory Committee: 
-                                    Stéphane Dandeneau (supervisor), 
+                                    Stéphane Dandeneau (superviseur), 
                                     Frédérick Philippe,
                                     Simon Grégoire, 
                                     Marina Doucerain, \\&

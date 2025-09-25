@@ -7,7 +7,13 @@ output: html_document
 
 <!-- \pagebreak -->
 
-# Grants & Fellowships
+```{r Grants & Fellowships, results = "asis"}
+nice_header(
+  header = "Grants & Fellowships",
+  header_alt = "Subventions & Fellowships",
+  language = language
+)
+```
 
 <!-- \large -->
 
@@ -16,32 +22,35 @@ data <- bind_rows(
     
     ############################################################################
   
-    create_grant_entry(
-      Funder_Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\euro{}23,500)",
-      Project_Name = "Reading books changes lives: The effects of popular psychology books on prosociality and polarization",
-      URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
-      Date = "2025-2027",
-      Amount = 35709,
-      Program = "Postdoc"),
-    
+    # create_grant_entry(
+    #   Funder_Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\euro{}23,500)",
+    #   Project_Name = "Reading books changes lives: The effects of popular psychology books on prosociality and polarization",
+    #   URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
+    #   Date = "2025-2027",
+    #   Amount = 35709,
+    #   Program = "Postdoc"),
+    # 
     # create_grant_entry(
     #   Funder_Name = "Postdoctoral Fellowship (FRQSC)",
-    #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
+    #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
+    #   # Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
     #   Funder_Name_alt = "Bourse postdoctorale (FRQSC)",
-    #   Project_Name_alt = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux",
+    #   Project_Name_alt = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité sociale",
+    #   # Project_Name_alt = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux",
     #   URL = "https://doi.org/10.69777/349023",
     #   Date = "2025-2027",
     #   Amount = 110000,
     #   Program = "Postdoc"),
-    # 
-    # create_grant_entry(
-    #   Funder_Name = "Postdoctoral Fellowship (SSHRC)",
-    #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
-    #   Funder_Name_alt = "Bourse postdoctorale (CRSH)",
-    #   URL = "",
-    #   Date = "2025-2026",
-    #   Amount = 140000,
-    #   Program = "Postdoc"),
+
+    create_grant_entry(
+      Funder_Name = "Postdoctoral Fellowship (SSHRC)",
+      Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
+      # Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
+      Funder_Name_alt = "Bourse postdoctorale (CRSH)",
+      URL = "",
+      Date = "2025-2026",
+      Amount = 140000,
+      Program = "Postdoc"),
     
     create_grant_entry(
       Funder_Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
@@ -55,7 +64,8 @@ data <- bind_rows(
       Funder_Name = "Quebec Research Fund - Society and Culture-Doctoral (FRQSC) — Declined",
       Project_Name = "Influencing behaviour by changing unconscious racial attitudes: a loving-kindness meditation intervention",
       Funder_Name_alt = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined",
-      Project_Name_alt = "Influencer le comportement par la modification des attitudes raciales inconscientes : Une intervention de méditation d'amour bienveillant",
+      Project_Name_alt = "Influencer le comportement par la modification des attitudes raciales inconscientes",
+      # Project_Name_alt = "Influencer le comportement par la modification des attitudes raciales inconscientes : Une intervention de méditation d'amour bienveillant",
       URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
       Date = "2018-2021",
       Amount = 84000,
@@ -88,12 +98,13 @@ data <- bind_rows(
     create_grant_entry(
       Funder_Name = "Graduate Excellence Fellowship in Mental Health Research (McGill University)",
       Project_Name = "Investigating whether changes in the phenomenology of selfhood can modulate outgroup attitudes",
+      # Project_Name = "Investigating whether changes in the phenomenology of selfhood can modulate attitudes against a visible minority group",
       URL = "",
       Date = "2016-2017",
       Amount = 10000,
       Program = "Masters")
 )
 
-nice_grants(data, language = "EN")
+nice_grants(data, language = language)
 
 ```

@@ -2,14 +2,18 @@
 output: html_document
 ---
 
+\scriptsize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
-# Preprints
-
-\footnotesize
-
+```{r Preprints, results = "asis"}
+nice_header(
+  header = "Preprints",
+  header_alt = "Préimprimés",
+  language = language
+)
+```
 
 Pillai, R. M., Globig, L. K., Rathje, S., Sternisko, A., **Thériault, R.**, & Van Bavel, Jay J (2025). *An identity-based approach to polarization and public health*. https://doi.org/10.31234/osf.io/5z6r7_v1
 

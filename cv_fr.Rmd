@@ -5,23 +5,28 @@ profilepic: "img/profile.png"
 position: "Chercheur postdoctoral"
 qualifications: "PhD"
 address: "New York University, New York, USA"
-phone: (438) 995-7648
+phone: (332) 400-6781
 www: remi-theriault.com
-email: "theriault.remi@courrier.uqam.ca"
-twitter: rempsyc
+email: "remi.theriault@nyu.edu"
+twitter: RemiTPsyc
 github: rempsyc
 # linkedin: rempsyc
 
 aboutme: |
-  \RaggedRight Mes intérêts se situent à l’intersection de la psychologie sociale, des neurosciences et de la psychologie positive, et mes recherches se penchent sur le bien-être optimal, la cohésion sociale, et notre rapport à l’environnement. Dans mes recherches postdoctorales, je tente de réduire la polarisation politique via le développement d'identités sociales partagées. Je suis également passionné par la science ouverte, la science reproductible, la métascience et la science des données à l’aide de R (ce CV a aussi été réalisé en R).
+  \RaggedRight Mes intérêts se situent à l’intersection de la psychologie sociale, des neurosciences et de la psychologie positive, et mes recherches se penchent sur le bien-être optimal, la cohésion sociale, et notre rapport à l’environnement. Dans mes recherches postdoctorales, je tente de réduire la polarisation politique via le développement d'identités sociales partagées. Je suis également passionné par la science ouverte, la science reproductible, la métascience et la science des données à l’aide de R (ce CV a aussi été [réalisé en R](https://github.com/rempsyc/cv)).
 
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look
+headcolor: "333333" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look (6FA3CE)
+# Ok recent feedback was to not use colour at all here, so instead we go with the dark blue of my suit
+# (21242D) so it doesn't even look that obvious but we still have a little something.
+# #333333 is the default grey.
 urlcolor: blue
 linkcolor: blue
 output: 
   vitae::awesomecv:
     page_total: true
+header-includes:
+  - \usepackage[gen]{eurosym}
 ---
 
 ```{r setup, include = FALSE}
@@ -44,15 +49,20 @@ library(dplyr)
 
 # For Google scholar data/visualization
 library(scholar)
-library(ggplot2)
-library(forcats)
 library(patchwork)
 library(see)
 library(rsvg)
 library(kableExtra)
+library(tidyverse)
+
+language <- "FR" # If not EN, will choose the alternative names in the data
+# So far only for nice_awards() and nice_grants()
 
 # To format links throughout the CV
 source("files/functions.R")
+
+# Automatically bold your name in the publication section
+author_bold <- "Thériault, R."
 
 ########################
 #### GOOGLE SCHOLAR ####
@@ -72,6 +82,8 @@ author.name <- "rém thériault"
 
 # Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
 
+headcolor <- "0a0a0a"
+
 ########################
 ##### INSTRUCTIONS #####
 ########################
@@ -90,21 +102,18 @@ author.name <- "rém thériault"
 ```{r Publications parent, child=c('fr/sections/publications.Rmd')}
 ```
 
-```{r Software parent, child=c('fr/sections/software.Rmd')}
+```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
 ```
 
-```{r Grants parent, child=c('fr/sections/grant.Rmd')}
+```{r Grants parent, child=c('sections/grant.Rmd')}
 ```
 
 \pagebreak
 
-```{r Awards parent, child=c('fr/sections/awards.Rmd')}
+```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
-```{r Teaching parent, child=c('fr/sections/teaching.Rmd')}
-```
-
-```{r Preprints parent, child=c('fr/sections/preprints.Rmd'), eval = !short}
+```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 
 ```{r Invited talks parent, child=c('fr/sections/invited_talks.Rmd'), eval = !short}
@@ -116,23 +125,32 @@ author.name <- "rém thériault"
 ```{r Conference posters parent, child=c('fr/sections/conference_posters.Rmd'), eval = !short}
 ```
 
-```{r Academic service parent, child=c('fr/sections/service.Rmd'), eval = !short}
+```{r Software parent, child=c('fr/sections/software.Rmd')}
 ```
 
-```{r Blogs parent, child=c('fr/sections/blogs.Rmd'), eval = !short}
+```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
 ```{r Media coverage parent, child=c('fr/sections/media_coverage.Rmd'), eval = !short}
 ```
 
-```{r Other experience parent, child=c('fr/sections/other_experience.Rmd'), eval = !short}
+```{r References parent, child=c('sections/references.Rmd'), eval = !short}
 ```
 
-```{r Leadership parent, child=c('fr/sections/leadership.Rmd'), eval = !short}
+<!-- We skip the sections below for now. They are on the website and it was recommended to avoid them for the CV for applying to prof positions -->
+
+```{r Blogs parent, child=c('fr/sections/blogs.Rmd'), eval = F}
 ```
 
-```{r Varia parent, child=c('fr/sections/varia.Rmd'), eval = FALSE}
+```{r Other experience parent, child=c('fr/sections/other_experience.Rmd'), eval = F}
 ```
 
-```{r credit parent, child=c('fr/sections/credit.Rmd'), eval = FALSE}
+```{r Leadership parent, child=c('fr/sections/leadership.Rmd'), eval = F}
 ```
+
+```{r Varia parent, child=c('fr/sections/varia.Rmd'), eval = F}
+```
+
+```{r credit parent, child=c('fr/sections/credit.Rmd'), eval = F}
+```
+

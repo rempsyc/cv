@@ -6,7 +6,13 @@ output: html_document
 \setlength{\leftskip}{0in}
 \normalsize
 
-# Recognitions & Awards
+```{r Recognitions & Awards, results = "asis"}
+nice_header(
+  header = "Recognitions & Awards",
+  header_alt = "Bourses et reconnaissances",
+  language = language
+)
+```
 
 \large
 
@@ -345,6 +351,6 @@ data <- bind_rows(
   
 )
 
-nice_awards(data, language = "EN")
+nice_awards(data, language = language)
 
 ```

@@ -8,7 +8,7 @@ address: "New York University, New York, USA"
 phone: (332) 400-6781
 www: remi-theriault.com
 email: "remi.theriault@nyu.edu"
-twitter: rempsyc
+twitter: RemiTPsyc
 github: rempsyc
 # linkedin: rempsyc
 
@@ -55,6 +55,9 @@ library(rsvg)
 library(kableExtra)
 library(tidyverse)
 
+language <- "EN" # If not EN, will choose the alternative names in the data
+# So far only for nice_awards() and nice_grants()
+
 # To format links throughout the CV
 source("files/functions.R")
 
@@ -91,9 +94,6 @@ author.name <- "rém thériault"
 # Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
 
 headcolor <- "0a0a0a"
-
-language <- "EN" # If not EN, will choose the alternative names in the data
-# So far only for nice_awards() and nice_grants()
 
 ########################
 ##### INSTRUCTIONS #####
@@ -159,7 +159,7 @@ language <- "EN" # If not EN, will choose the alternative names in the data
 ```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = F}
 ```
 
-```{r Varia parent, child=c('sections/varia.Rmd'), eval = FALSE}
+```{r Varia parent, child=c('sections/varia.Rmd'), eval = F}
 ```
 
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = F}

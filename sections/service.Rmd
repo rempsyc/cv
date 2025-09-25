@@ -7,7 +7,13 @@ output: html_document
 \normalsize 
 <!-- We actually need \normalsize here -->
 
-# Academic Service
+```{r References, results = "asis"}
+nice_header(
+  header = "Service académique",
+  header_alt = "Références",
+  language = language
+)
+```
 
 ```{r service}
 

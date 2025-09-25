@@ -1,6 +1,7 @@
 ---
 output: html_document
 ---
+<!-- # Positions -->
 
 # Éducation
 
@@ -23,7 +24,8 @@ data <- rbind(
                 "Advisory Committee: 
                                     Stéphane Dandeneau (supervisor), 
                                     Frédérick Philippe,
-                                    Simon Grégoire, \\&
+                                    Simon Grégoire,
+                                    Marina Doucerain, \\&
                                     Bassam Khoury")), 
 
   tibble(
