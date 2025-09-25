@@ -2,12 +2,12 @@
 output: html_document
 ---
 
-\scriptsize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
+\footnotesize
 
-# Présentations orales sélectionnées
+# Présentations orales
 
 **Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (18 juin 2022). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Présentation orale pour le *2022 Canadian Psychological Association Annual National Convention* à Calgary, AB.
 
@@ -15,7 +15,7 @@ output: html_document
 
 **Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (16-20 juin 2022). Does loving-kindness meditation increase giving behaviors? Présentation orale pour le *Tenth SELF International Conference* à Québec, QC (congrès virtuel à cause du COVID).
 
-<!-- **Thériault, R.** (3 juin 2019). Réduire les préjugés et augmenter l'empathie via la réalité virtuelle. Présentation orale pour le *2019 Congress of the Humanities and Social Sciences* à Vancouver, BC. -->
+**Thériault, R.** (3 juin 2019). Réduire les préjugés et augmenter l'empathie via la réalité virtuelle. Présentation orale pour le *2019 Congress of the Humanities and Social Sciences* à Vancouver, BC.
 
 **Thériault, R.**, Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J. A., & Raz, A. (24 aout 2018). Can suggestion affect pulmonary function in children with suspected asthma? Présentation orale pour le *21^st^* *World Congress of Medical and Clinical Hypnosis* à Montréal, QC.
 

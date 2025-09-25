@@ -37,9 +37,9 @@ table_impact(data_scholar,
 ```{r, results = "asis"}
 
 pubs <- c(
-  "Thériault, R. (2025, in press). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. In press at *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx",
+  "Thériault, R. (2025). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx",
   
-  "Buchanan, E. M., Cuccolo, K. M., Coles, N., ... Thériault, R., et al. (2025, in press). Measuring the semantic priming effect across many languages. In press at *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy",
+  "Buchanan, E. M., Cuccolo, K. M., Coles, N., ... Thériault, R., et al. (2025). Measuring the semantic priming effect across many languages. *Nature Human Behaviour*. https://doi.org/10.1038/s41562-025-02254-x",
   
   "Heyman, T., Pronizius, E., Lewis, S. C., ... Thériault, R., et al. (2025). Crowdsourcing multiverse analyses to explore the impact of different data-processing and analysis decisions: A tutorial. *Psychological Methods*, 1-22. http://dx.doi.org/10.1037/met0000770",
   #Advance online publication, 
@@ -53,11 +53,12 @@ pubs <- c(
   "Thériault, R., Ben-Shachar, M. S., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2024). Check your outliers! An introduction to identifying statistical outliers in R with *easystats*. *Behavior Research Methods*, *56*(4), 4162-4172. https://doi.org/10.3758/s13428-024-02356-w. Preprint: https://doi.org/10.31234/osf.io/bu6nt",
   
   "Miglianico, M.\\*, Thériault, R.\\*, Lavoie, B.\\*, Labelle, P., Joussemet, M., Veilleux, M., Lambert, J., & Bertrand-Dubois, D. (2024). Pratiques cliniques inspirées par la recherche en psychologie positive [Clinical practices inspired by research in positive psychology]. *Psychologie Française*, *69*(1), 85-94. \\*Shared first-authorship. https://doi.org/10.1016/j.psfr.2022.06.004",
-  # (these authors contributed equally)
+  # (these authors contributed equally) / (ces auteur·es ont contribué de manière égale)
+  # Auteur·e principal·e partagé·e
   
   "Thériault, R., Dion-Cliche, F., & Dandeneau, S. (2023). Unmet expectations: Social inclusion and the interaction between social anxiety and ambiguous or positive feedback. *Frontiers in Psychology*, 14, 1-10. https://doi.org/10.3389/fpsyg.2023.1271773",
   
-  "Thériault, R. & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 14(12), 2946–2962. Recipient of the 2024 UQAM *Best Student Paper Award* at the Department of Psychology. https://doi.org/10.1007/s12671-023-02246-w. Preprint: https://doi.org/10.21203/rs.3.rs-3161372/v2",
+  "Thériault, R. & Dandeneau, S. (2023). Implicitly activating mindfulness: Does trait self-control moderate its effect on aggressive behaviour? *Mindfulness*, 14(12), 2946–2962. Recipient of the 2024 UQAM *Best Student Paper Award* at the Department of Psychology. https://doi.org/10.1007/s12671-023-02246-w. Preprint : https://doi.org/10.21203/rs.3.rs-3161372/v2",
   
   "Thériault, R. (2023). lavaanExtra: Convenience functions for lavaan. *Journal of Open Source Software*, *8*(90), 5701. https://doi.org/10.21105/joss.05701",
   
@@ -78,7 +79,25 @@ pubs <- c(
   "Lifshitz, M., Sheiner, E. O., Olson, J., Thériault, R., & Raz, A. (2017). On suggestibility and placebo: A follow-up study. *American Journal of Clinical Hypnosis*, *59*(4), 1-8. https://doi.org/10.1080/00029157.2016.1225252"
 )
 
-number_pubs(pubs, author_bold = author_bold)
+pubs_dictionary <- tribble(
+  ~English, ~French,
+  "Preprint:", "Préimpression :",
+  "in press", "sous presse",
+  "In press at", "Sous presse à",
+  "Recipient of a", "Lauréat d'un",
+  "Recipient of the 2024 UQAM *Best Student Paper Award* at the Department of Psychology",
+  "Lauréat du Prix du meilleur article étudiant 2024 du Département de psychologie de l’UQAM",
+  "Recipient of the 2022 FRQSC *Best Student Paper Award*",
+  "Lauréat du Prix Relève étoile Paul‑Gérin‑Lajoie, pour meilleur article (FRQSC)",
+  "Shared first-authorship", "Ces auteur·es ont contribué de manière égale"
+)
+
+number_pubs(
+  pubs, 
+  author_bold = author_bold, 
+  language = language, 
+  language_dictionary = pubs_dictionary
+)
 ```
 
 <!-- # Non-Peer-Reviewed Publications [archived - do not delete] -->

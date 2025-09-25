@@ -23,9 +23,15 @@ data <- rbind(
 detailed_entries(data, with, when, what, where, details, .protect = FALSE)
 ```
 
-# Education
+```{r Education, results = "asis"}
+nice_header(
+  header = "Education",
+  header_alt = "Éducation",
+  language = language
+)
+```
 
-```{r Education}
+```{r Education_data}
 data <- rbind(
   
   tibble(
@@ -61,7 +67,7 @@ data <- rbind(
     where = "Montréal, Québec, Canada",
     details = c(# "GPA: 4.00/4.00",
                 "Advisory Committee: 
-                                    Amir Raz (supervisor), 
+                                    Amir Raz (superviseur), 
                                     Jennifer Bartz, 
                                     Donald Taylor, \\&
                                     Samuel Veissière")),
@@ -89,6 +95,22 @@ data <- rbind(
    data <- data[1:7, ]
    data$details <- NA
  }
- 
-detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+
+edu_dictionary <- tribble(
+  ~English, ~French,
+  "Postdoctoral Fellow", "Postdoctorat",
+  "Master of Science", "Maitrise",
+  "Bachelor of Arts", "Baccalauréat",
+  "Social Resilience Lab", "Laboratoire de résilience sociale",
+  "Supervisor:", "Superviseur :",
+  "Advisory Committee:", "Comité de thèse :",
+  "ology", "ologie",
+  "Psychiatry", "Psychiatrie",
+  "Transcultural", "Transculturelle",
+  "Social", "Sociale",
+  "Behavioral Science", "Sciences comportementales"
+)
+
+nice_entries(data, language = language, language_dictionary = edu_dictionary)
+
 ```

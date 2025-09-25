@@ -22,14 +22,14 @@ data <- bind_rows(
     
     ############################################################################
   
-    # create_grant_entry(
-    #   Funder_Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\euro{}23,500)",
-    #   Project_Name = "Reading books changes lives: The effects of popular psychology books on prosociality and polarization",
-    #   URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
-    #   Date = "2025-2027",
-    #   Amount = 35709,
-    #   Program = "Postdoc"),
-    # 
+    create_grant_entry(
+      Funder_Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\euro{}23,500)",
+      Project_Name = "Reading books changes lives: The effects of popular psychology books on prosociality and polarization",
+      URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
+      Date = "2025-2027",
+      Amount = 35709,
+      Program = "Postdoc"),
+
     # create_grant_entry(
     #   Funder_Name = "Postdoctoral Fellowship (FRQSC)",
     #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
@@ -41,17 +41,17 @@ data <- bind_rows(
     #   Date = "2025-2027",
     #   Amount = 110000,
     #   Program = "Postdoc"),
-
-    create_grant_entry(
-      Funder_Name = "Postdoctoral Fellowship (SSHRC)",
-      Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
-      # Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
-      Funder_Name_alt = "Bourse postdoctorale (CRSH)",
-      URL = "",
-      Date = "2025-2026",
-      Amount = 140000,
-      Program = "Postdoc"),
-    
+    # 
+    # create_grant_entry(
+    #   Funder_Name = "Postdoctoral Fellowship (SSHRC)",
+    #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
+    #   # Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
+    #   Funder_Name_alt = "Bourse postdoctorale (CRSH)",
+    #   URL = "",
+    #   Date = "2025-2026",
+    #   Amount = 140000,
+    #   Program = "Postdoc"),
+    # 
     create_grant_entry(
       Funder_Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
       Project_Name = "Transforming habits from the heart: From good intentions to reliable prosocial response",

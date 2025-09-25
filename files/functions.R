@@ -265,7 +265,31 @@ format.authors <- function(scholar.profile, author.name) {
     select(Publications)
 }
 
-number_pubs <- function(pubs, author_bold = NULL) {
+gsub_language <- function(text, dictionary) {
+  for (i in seq_len(nrow(dictionary))) {
+    text <- gsub(
+      dictionary$English[i],
+      dictionary$French[i],
+      text,
+      fixed = TRUE
+    )
+  }
+  gsub(
+    " \\[[^]]*\\]",
+    "",
+    text
+  )
+}
+
+number_pubs <- function(
+  pubs,
+  author_bold = NULL,
+  language = "EN",
+  language_dictionary = NULL
+) {
+  if (language != "EN") {
+    pubs <- gsub_language(pubs, language_dictionary)
+  }
   if (!is.null(author_bold)) {
     pubs <- gsub(author_bold, paste0("**", author_bold, "**"), pubs)
   }
@@ -278,4 +302,17 @@ nice_header <- function(header, header_alt, language = "EN") {
     header <- header_alt
   }
   cat(paste("#", header))
+}
+
+if_english <- function(x, y, language = language) {
+  ifelse(language == "EN", x, y)
+}
+
+nice_entries <- function(data, language = "EN", language_dictionary = NULL) {
+  if (language != "EN") {
+    data$what <- gsub_language(data$what, language_dictionary)
+    data$with <- gsub_language(data$with, language_dictionary)
+    data$details <- gsub_language(data$details, language_dictionary)
+  }
+  detailed_entries(data, with, when, what, where, details, .protect = FALSE)
 }

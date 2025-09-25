@@ -2,20 +2,42 @@
 output: html_document
 ---
 
-\scriptsize
-\setlength{\parindent}{-0.2in}
-\setlength{\leftskip}{0.2in}
-\setlength{\parskip}{8pt}
+# Logiciels que j'ai développés
 
-# Logiciels (Modules R)
+## Modules R
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\footnotesize
+
+Les modules R sont des outils modulaires et de logiciel libre qui étendent les fonctionnalités du langage de programmation R, principal outil en logiciel libre d'analyse statistique. Ces modules simplifient les travaux statistiques et favorisent les bonnes pratiques de recherche.
 
 ```{r software, include = FALSE}
 software <- FALSE
 ```
 
+\setlength{\parindent}{-0.4in}
+\setlength{\leftskip}{0.4in}
+\setlength{\parskip}{8pt}
 
 ```{r create images, include = FALSE, eval = !software}
 setwd("../../img")
+
+# see
+rsvg_png("https://cranlogs.r-pkg.org/badges/see", 
+         "see_monthly.png",
+         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/see", 
+         "see.png",
+         width = 250)
+
+# modelbased
+rsvg_png("https://cranlogs.r-pkg.org/badges/modelbased", 
+         "modelbased_monthly.png",
+         width = 250)
+rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/modelbased", 
+         "modelbased.png",
+         width = 250)
 
 # performance
 rsvg_png("https://cranlogs.r-pkg.org/badges/correlation", 
@@ -76,47 +98,78 @@ rsvg_png("https://cranlogs.r-pkg.org/badges/grand-total/rempsyc",
 setwd("..")
 ```
 
-Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Waggoner, P., Wiernik, B. M., & **Thériault, R.** (2024). performance: Assessment of Regression Models Performance (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.performance
+9\. Lüdecke, D., Makowski, D., Patil, I., Ben-Shachar, M. S., Wiernik, B. M., & **Thériault, R.** (2025). *see: Model visualisation toolbox for 'easystats' and 'ggplot2'* (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.see et https://easystats.github.io/see/. Complète les résumés numériques des modules easystats avec des fonctions permettant de générer des visualisations prêtes à être publiées des paramètres du modèle, des prédictions et des diagnostics de performances.
+
+```{r, out.height="12pt"}
+knitr::include_graphics("img/see_monthly.png", dpi = NA)
+knitr::include_graphics("img/see.png", dpi = NA)
+```
+
+8\. Makowski, D., Lüdecke, D., Ben-Shachar, M. S., Patil, I., & **Thériault, R.** (2025). *modelbased: Estimation of model-based predictions, contrasts and means* (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.modelbased and https://easystats.github.io/modelbased/. Aide les chercheurs à extraire et à visualiser les prédictions basées sur des modèles, les moyennes marginales et les contrastes à partir de modèles complexes tels que les modèles linéaires généralisés, les modèles mixtes ou les modèles bayésiens.
+
+```{r, out.height="12pt"}
+knitr::include_graphics("img/modelbased_monthly.png", dpi = NA)
+knitr::include_graphics("img/modelbased.png", dpi = NA)
+```
+
+7\. Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Waggoner, P., Wiernik, B. M., & **Thériault, R.** (2024). *performance: Assessment of regression models performance* (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.performance and https://easystats.github.io/performance/. Offre des fonctions standardisées et conviviales pour évaluer l'adéquation, les diagnostics résiduels et les mesures de comparaison de modèles sur une variété de modèles de régression.
 
 ```{r, out.height="12pt"}
 knitr::include_graphics("img/performance_monthly.png", dpi = NA)
 knitr::include_graphics("img/performance.png", dpi = NA)
 ```
 
-Makowski, D., Wiernik, B. M., Patil, I., Lüdecke, D., & Ben-Shachar, M. S., & **Thériault, R.** (2023). correlation: Methods for correlation analysis (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.correlation
+6\. Makowski, D., Wiernik, B. M., Patil, I., Lüdecke, D., & Ben-Shachar, M. S., & **Thériault, R.** (2023). *correlation: Methods for correlation analysis* (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.correlation and https://easystats.github.io/correlation/. Simplifie l'analyse de corrélation en offrant des fonctions conviviales pour le calcul, la visualisation et la création de rapports sur divers types de corrélations, notamment les corrélations partielles, robustes et bayésiennes.
+
 ```{r, out.height="12pt"}
 knitr::include_graphics("img/correlation_monthly.png", dpi = NA)
 knitr::include_graphics("img/correlation.png", dpi = NA)
 ```
 
-Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, E., & **Thériault, R.** (2023). *easystats: An R framework for easy statistical modeling, visualization, and reporting*. (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.easystats
+5\. Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, E., & **Thériault, R.** (2023). *easystats: An R framework for easy statistical modeling, visualization, and reporting* (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.easystats and https://easystats.github.io/easystats. Sert d'enveloppe pour l'écosystème easystats, fournissant une interface intégrée et cohérente pour la modélisation statistique, les tailles d'effet, les visualisations et les rapports standardisés.
+
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/easystats_monthly.png", dpi = NA)
 knitr::include_graphics("img/easystats.png", dpi = NA)
 ```
 
-Makowski, D., Lüdecke, D., Patil, I, **Thériault, R.**, Ben-Shachar, M. S., & Wiernik, B. M. (2022). *report: From R to your manuscript*. (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.report
+4\. Makowski, D., Lüdecke, D., Patil, I, **Thériault, R.**, Ben-Shachar, M. S., & Wiernik, B. M. (2022). *report: From R to your manuscript* (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.report and https://easystats.github.io/report. Génère automatiquement des résumés de style APA et des descriptions statistiques à partir de modèles et de tests, simplifiant ainsi la préparation des manuscrits et la création de rapports reproductibles.
+
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/report_monthly.png", dpi = NA)
 knitr::include_graphics("img/report.png", dpi = NA)
 ```
 
-Ben-Shachar, M. S., Makowski, D., Lüdecke, D., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *effectsize: Indices of effect size*. (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.effectsize
+3\. Ben-Shachar, M. S., Makowski, D., Lüdecke, D., Patil, I., Wiernik, B. M., & **Thériault, R.** (2022). *effectsize: Indices of effect size* (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.effectsize and https://easystats.github.io/effectsize. Calcule et interprète une large gamme de tailles d’effet standardisées (par exemple, *d* de Cohen, eta-carré) pour les tests de régression, ANOVA et non paramétriques.
+
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/effectsize_monthly.png", dpi = NA)
 knitr::include_graphics("img/effectsize.png", dpi = NA)
 ```
 
-**Thériault, R.** (2022). *lavaanExtra: Convenience functions for lavaan* 
-(module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.lavaanExtra
+2\. **Thériault, R.** (2022). *lavaanExtra: Convenience functions for lavaan* (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.lavaanExtra and https://lavaanExtra.remi-theriault.com/. Étend les capacités du package *lavaan* pour la modélisation d'équations structurelles en fournissant une sortie de tableau automatisée de style APA et des diagrammes de chemin plus personnalisables.
+
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/lavaanExtra_monthly.png", dpi = NA)
 knitr::include_graphics("img/lavaanExtra.png", dpi = NA)
 ```
 
-**Thériault, R.** (2022). *rempsyc: Convenience functions for psychology* 
-(module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.rempsyc
+1\. **Thériault, R.** (2022). *rempsyc: Convenience functions for psychology* (module R) [Logiciel]. https://doi.org/10.32614/CRAN.package.rempsyc and https://rempsyc.remi-theriault.com. Offre des fonctions pratiques adaptées aux chercheurs en psychologie, simplifiant les tâches courantes telles que les tests statistiques, les vérifications d'hypothèses et les visualisations et tableaux de style APA.
+
 ```{r, out.height="12pt", eval = !software}
 knitr::include_graphics("img/rempsyc_monthly.png", dpi = NA)
 knitr::include_graphics("img/rempsyc.png", dpi = NA)
 ```
+
+## Tableau de bord de visualisation
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+
+Ce tableau de bord s'appuie sur les données de près de 60 revues et de plus de 100 000 articles pour mettre en évidence et suivre la sous-représentation des auteur-es du Sud global dans les sciences du comportement afin d'évaluer et d'améliorer les efforts en matière d'équité.
+
+\setlength{\parindent}{-0.4in}
+\setlength{\leftskip}{0.4in}
+\setlength{\parskip}{8pt}
+
+**Thériault, R.**, & Forscher, P. (2024). The Missing Majority in Behavioral Science Dashboard. https://remi-theriault.com/dashboards/missing_majority

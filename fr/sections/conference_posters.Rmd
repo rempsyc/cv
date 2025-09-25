@@ -2,24 +2,26 @@
 output: html_document
 ---
 
-\scriptsize
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
+\footnotesize
 
-# Communications affichées sélectionnées
+# Communications affichées
+
+**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (2 juin 2025). *Reflecting on loving-kindness may be more powerful than meditating on loving-kindness*. Affiche présentée au Mind & Life Summer Research Institute à Garrison, New York, USA.
 
 **Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, D. (aout 2024). *Is the mind more powerful than the heart?  A randomized controlled trial of two loving-kindness interventions*. Affiche présentée au Mind & Life European Summer Research Institute à Pomaïa, Italie.
 
-<!-- Chabot, B., **Thériault, R.**, Doucerain, M. (23-27 juillet 2023). *Diversity and Immigration: How Montrealers Feel about Different Cultural Groups*. Poster session presented by first author at the Biennial Conference of the International Academy for Intercultural Research in Philadelphia, Pennsylvania, USA. -->
+Chabot, B., **Thériault, R.**, Doucerain, M. (23-27 juillet 2023). *Diversity and Immigration: How Montrealers Feel about Different Cultural Groups*. Affiche présentée par le premier auteur au Biennial Conference of the International Academy for Intercultural Research à Philadelphia, Pennsylvania, USA.
 
-<!-- Chabot, B., **Thériault, R.**, Doucerain, M. (2023, May 27). *Le sentiment des Montréalais envers différents groupes culturels*. Poster session presented by first author at the 45e congrès annuel de la société québécoise pour la recherche en psychologie in Sherbrooke, QC. -->
+Chabot, B., **Thériault, R.**, Doucerain, M. (27 mai 2023). *Le sentiment des Montréalais envers différents groupes culturels*. Affiche présentée par le premier auteur au 45e congrès annuel de la société québécoise pour la recherche en psychologie à Sherbrooke, QC.
 
 Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (juillet 2021). *Can loving-kindness meditation reduce aggressivity? A randomized controlled trial.* Affiche présentée par la première autrice au *7^th^ World Congress on Positive Psychology* à Vancouver, BC (congrès virtuel à cause du COVID).
 
-<!-- Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (juin 2021). *Can prosocial attitudes and behaviors be positively influenced by aggression and subjective fatigue?* Affiche présentée par la première autrice au *Canadian Psychology Association's 82^nd^ Annual National Convention* à Ottawa, ON (congrès virtuel à cause du COVID). -->
+Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (juin 2021). *Can prosocial attitudes and behaviors be positively influenced by aggression and subjective fatigue?* Affiche présentée par la première autrice au *Canadian Psychology Association's 82^nd^ Annual National Convention* à Ottawa, ON (congrès virtuel à cause du COVID).
 
-<!-- Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (2021, April 28-May 7). L'agressivité et la fatigue cognitive peuvent-elles mener à de plus grands comportements d'aide et de don? Poster session presented by first author at the *88^th^ Congress of ACFAS*---*l'Association francophone pour le savoir* (virtual conference because of COVID). -->
+Masson, R., **Thériault, R.**, Archambault, M., & Dandeneau, S. (28 avril au 7 mai 2021). L'agressivité et la fatigue cognitive peuvent-elles mener à de plus grands comportements d'aide et de don? Affiche présentée par la première autrice au *88e Congrès de l'ACFAS*---*l'Association francophone pour le savoir* (congrès virtuel à cause du COVID).
 
 Bold, J., **Thériault, R.**, Olson, J., Stain, A., Curry, D., & Raz, A. (29 février 2020). Replicating the body swap in a different sample: Preliminary data. Affiche présentée par la première autrice au *Society for Personality and Social Psychology Annual Convention* à New Orleans, Louisiana, USA.
 
