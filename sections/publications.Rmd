@@ -39,9 +39,10 @@ table_impact(data_scholar,
 pubs <- c(
   "Thériault, R. (2025, in press). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. In press at *Fragments : Revue de psychologie*, 1-15. Preprint: https://doi.org/10.31234/osf.io/758dx",
   
-  "Buchanan, E. M., Cuccolo, K. M., Coles, N., ... Thériault, R., et al. (2025, in press). Measuring the Semantic Priming Effect Across Many Languages. In press at *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy",
+  "Buchanan, E. M., Cuccolo, K. M., Coles, N., ... Thériault, R., et al. (2025, in press). Measuring the semantic priming effect across many languages. In press at *Nature Human Behaviour*. https://doi.org/10.31219/osf.io/q4fjy",
   
-  "Heyman, T., Pronizius, E., Lewis, S. C., ... Thériault, R., et al. (2025). Crowdsourcing Multiverse Analyses to Explore the Impact of Different Data-processing and Analysis Decisions: A Tutorial. *Psychological Methods*, Advance online publication, 1-22. http://dx.doi.org/10.1037/met0000770",
+  "Heyman, T., Pronizius, E., Lewis, S. C., ... Thériault, R., et al. (2025). Crowdsourcing multiverse analyses to explore the impact of different data-processing and analysis decisions: A tutorial. *Psychological Methods*, 1-22. http://dx.doi.org/10.1037/met0000770",
+  #Advance online publication, 
   
   "Makowski, D. Ben-Shachar, M. S., Wiernik, B. M., Patil, I., Thériault, R., & Lüdecke, D. (2025). modelbased: An R package to make the most out of your statistical models through marginal means, marginal effects, and model predictions. *Journal of Open Source Software*, *10*(109), 7969. https://doi.org/10.21105/joss.07969",
   
