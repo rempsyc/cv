@@ -27,6 +27,7 @@ output:
     page_total: true
 header-includes:
   - \usepackage[gen]{eurosym}
+papersize: letter
 ---
 
 ```{r setup, include = FALSE}
@@ -142,16 +143,16 @@ headcolor <- "0a0a0a"
 ```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
+```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = T}
+```
+
+```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = T}
+```
+
 ```{r References parent, child=c('sections/references.Rmd'), eval = !short}
 ```
 
 <!-- We skip the sections below for now. They are on the website and it was recommended to avoid them for the CV for applying to prof positions -->
-
-```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = F}
-```
-
-```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = F}
-```
 
 ```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = F}
 ```
