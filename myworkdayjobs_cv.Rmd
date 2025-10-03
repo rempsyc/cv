@@ -1,0 +1,206 @@
+---
+title: "Rémi Thériault – Workday CV"
+output: word_document
+---
+
+# My Information
+
+How Did You Hear About Us?*
+
+- Other
+
+Are you a current employee, student, or have you previously been?*
+
+- No
+
+Country*
+
+- United States of America
+
+## Name
+
+First Name*
+
+- Rémi
+
+Last Name*
+
+- Thériault
+
+## Address
+
+Address Line 1*
+
+- 14 Washington Place, Apt. 11H
+
+City*
+
+- New York
+
+State*
+
+- New York
+
+Postal Code*
+
+- 10003
+
+## Email Address
+
+- remi.theriault@nyu.edu
+
+## Phone
+
+Phone Device Type*
+
+- Mobile, Home
+
+Country Phone Code*
+
+- United States of America (+1)
+
+Phone Number*
+
+- 333-400-6781  
+
+---
+
+# My Experience
+
+## Work Experience 1 
+
+Job Title*
+
+- Postdoctoral Fellow
+
+Company*
+
+- New York University
+
+Location*
+
+- New York, USA
+
+I currently work here
+
+- Yes
+
+From*
+
+- 1/2025
+
+Role Description*
+
+- Perform social psychology research at the Center for Conflict and Cooperation
+- Conduct randomized controlled trials on contemplative practices and polarization
+- Lead preregistration, data collection, and multilevel mediation analyses in R
+- Supervise graduate students and coordinate international collaborations
+
+---
+
+## Education 1
+
+School or University*
+
+- Université du Québec à Montréal
+
+Degree*
+
+- Doctor of Philosophy (PHD)
+
+Field of Study
+
+- Psychology
+
+Overall Result (GPA)
+
+- 4.10/4.30
+
+## Education 2
+
+School or University*
+
+- McGill University
+
+Degree*
+
+- Master of Science (MSc)
+- Master's Degree (Other)
+
+Field of Study
+
+- Psychiatry
+- Psychology
+
+Overall Result (GPA)
+- 4.00/4.00
+
+## Education 3
+
+School or University*
+
+- McGill University
+
+Degree*
+
+- Bachelor's Degree (BA)
+
+Field of Study
+
+- Psychology
+
+Overall Result (GPA)
+
+- 3.76/4.00
+
+---
+
+## Languages
+
+### Languages 1
+
+Language*
+
+- English
+
+I am fluent in this language.
+
+- Yes
+
+Proficiency
+
+- Professional Working Proficiency (listening, overall, reading, speaking, writing)
+
+### Languages 2
+
+Language*
+
+- French
+
+I am fluent in this language.
+
+- Yes
+
+Proficiency
+
+- Native or Bilingual Proficiency (listening, overall, reading, speaking, writing)  
+
+---
+
+## Skills
+
+- Programming (R, tidyverse, easystats, lavaan, markdown)
+- Open science & preregistration
+- Experimental design & mediation analysis
+- Teaching & mentoring
+- Science communication & writing
+
+---
+
+## Websites
+
+### Websites 1
+
+URL:
+
+- https://remi-theriault.com

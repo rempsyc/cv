@@ -117,6 +117,8 @@ headcolor <- "0a0a0a"
 ```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
 ```
 
+\setlength{\parskip}{8pt}
+
 ```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
 ```
 
