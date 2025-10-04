@@ -132,13 +132,13 @@ headcolor <- "0a0a0a"
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 
-```{r Invited talks parent, child=c('fr/sections/invited_talks.Rmd'), eval = !short}
+```{r Invited talks parent, child=c('sections/invited_talks.Rmd'), eval = !short}
 ```
 
-```{r Conference talks parent, child=c('fr/sections/conference_talks.Rmd'), eval = !short}
+```{r Conference talks parent, child=c('sections/conference_talks.Rmd'), eval = !short}
 ```
 
-```{r Conference posters parent, child=c('fr/sections/conference_posters.Rmd'), eval = !short}
+```{r Conference posters parent, child=c('sections/conference_posters.Rmd'), eval = !short}
 ```
 
 ```{r Software parent, child=c('fr/sections/software.Rmd')}

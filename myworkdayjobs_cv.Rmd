@@ -1,206 +1,82 @@
 ---
-title: "Rémi Thériault – Workday CV"
+title: "Remi Theriault"
 output: word_document
 ---
 
-# My Information
+Website URL: [https://remi-theriault.com](https://remi-theriault.com)  
 
-How Did You Hear About Us?*
+**General Information**
 
-- Other
+332-400-6781  
+14 Washington Place, Apt. 11H  
+New York, NY 10003, USA  
+remi.theriault@nyu.edu  
 
-Are you a current employee, student, or have you previously been?*
+How Did You Hear About Us?:
 
-- No
+Other (Professional Network / Word of Mouth)
 
-Country*
+Are you a current employee, student, or have you previously been affiliated with Penn State?:
 
-- United States of America
-
-## Name
-
-First Name*
-
-- Rémi
-
-Last Name*
-
-- Thériault
-
-## Address
-
-Address Line 1*
-
-- 14 Washington Place, Apt. 11H
-
-City*
-
-- New York
-
-State*
-
-- New York
-
-Postal Code*
-
-- 10003
-
-## Email Address
-
-- remi.theriault@nyu.edu
-
-## Phone
-
-Phone Device Type*
-
-- Mobile, Home
-
-Country Phone Code*
-
-- United States of America (+1)
-
-Phone Number*
-
-- 333-400-6781  
+No
 
 ---
 
-# My Experience
+**Work Experience**
 
-## Work Experience 1 
-
-Job Title*
-
-- Postdoctoral Fellow
-
-Company*
-
-- New York University
-
-Location*
-
-- New York, USA
-
-I currently work here
-
-- Yes
-
-From*
-
-- 1/2025
-
-Role Description*
-
-- Perform social psychology research at the Center for Conflict and Cooperation
-- Conduct randomized controlled trials on contemplative practices and polarization
-- Lead preregistration, data collection, and multilevel mediation analyses in R
-- Supervise graduate students and coordinate international collaborations
+**Postdoctoral Fellow**  
+New York University - New York, USA  
+01/2025 - Present  
+  
+\- 
+\- Perform social psychology research at the Center for Conflict and Cooperation  
+\- Conduct randomized controlled trials on contemplative practices and polarization  
+\- Lead preregistration, data collection, and multilevel mediation analyses in R  
+\- Supervise graduate students and coordinate international collaborations  
 
 ---
 
-## Education 1
+**Education**
 
-School or University*
+**Doctor of Philosophy (PHD), Psychology**  
+Université du Québec à Montréal - Montreal, Canada  
+2018 - 2024  
+GPA: 4.10/4.30  
 
-- Université du Québec à Montréal
+**Master of Medical Science, Psychology**  
+McGill University - Montreal, Canada  
+2016 - 2018  
+GPA: 4.00/4.00  
 
-Degree*
-
-- Doctor of Philosophy (PHD)
-
-Field of Study
-
-- Psychology
-
-Overall Result (GPA)
-
-- 4.10/4.30
-
-## Education 2
-
-School or University*
-
-- McGill University
-
-Degree*
-
-- Master of Science (MSc)
-- Master's Degree (Other)
-
-Field of Study
-
-- Psychiatry
-- Psychology
-
-Overall Result (GPA)
-- 4.00/4.00
-
-## Education 3
-
-School or University*
-
-- McGill University
-
-Degree*
-
-- Bachelor's Degree (BA)
-
-Field of Study
-
-- Psychology
-
-Overall Result (GPA)
-
-- 3.76/4.00
+**Bachelor's Degree, Psychology**  
+McGill University - Montreal, Canada  
+2013 - 2016  
+GPA: 3.76/4.00  
 
 ---
 
-## Languages
+**Languages**
 
-### Languages 1
+\- English - Fluent (Professional Working Proficiency)
+  \- Listening
+  \- Overall
+  \- Reading
+  \- Speaking 
+  \- Writing
 
-Language*
-
-- English
-
-I am fluent in this language.
-
-- Yes
-
-Proficiency
-
-- Professional Working Proficiency (listening, overall, reading, speaking, writing)
-
-### Languages 2
-
-Language*
-
-- French
-
-I am fluent in this language.
-
-- Yes
-
-Proficiency
-
-- Native or Bilingual Proficiency (listening, overall, reading, speaking, writing)  
+\- French - Fluent (Native or Bilingual Proficiency)
+  \- Listening
+  \- Overall
+  \- Reading
+  \- Speaking 
+  \- Writing
 
 ---
 
-## Skills
+**Skills**
 
-- Programming (R, tidyverse, easystats, lavaan, markdown)
-- Open science & preregistration
-- Experimental design & mediation analysis
-- Teaching & mentoring
-- Science communication & writing
-
----
-
-## Websites
-
-### Websites 1
-
-URL:
-
-- https://remi-theriault.com
+\- R programming (tidyverse, easystats, lavaan, markdown)  
+\- Open science & preregistration  
+\- Experimental design & mediation analysis  
+\- Teaching & mentoring  
+\- Science communication & writing  

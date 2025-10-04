@@ -9,33 +9,67 @@ output: html_document
 
 <!-- \pagebreak -->
 
-# Invited Talks
+```{r Invited Talks, results = "asis"}
+nice_header(
+  header = "Invited Talks",
+  header_alt = "Présentations invitées",
+  language = language
+)
+```
 
-**Thériault, R.** (2025, September 23). From body-swapping to cultivating kindness: Transforming the self for a robust prosociality. Talk for the *Social Psychology Speaker Series* at New York University, USA.
+```{r invited_data, results = "asis"}
+data <- c(
+  "Thériault, R. (2025, September 23). *From body-swapping to cultivating kindness: Transforming the self for a robust prosociality*. Social Psychology Speaker Series, New York University, USA.",
+  
+  "Thériault, R. (2025, May 12). *Reading non-fiction books: Effects on prosociality and possible applications to climate action and attitudes*. Climate Psychology Working Group, New York University, USA.",
+  
+  "Thériault, R. (2025, March 20). *Strengthening the foundations of the social fabric: Fostering altruism for a more resilient society*. Office of Global Services Scholar Speaker Series, New York University, USA.",
+  
+  "Thériault, R. (2025, March 11). *From self-control to second nature: A dual-systems approach to loving-kindness training*. Motivation Lab, New York University, USA.",
+  
+  "Thériault, R. (2025, February 14). *From time management to motivation management: Introducing a simple self-monitoring system to generate insight, sustain motivation, and increase productivity*. Center for Conflict and Cooperation, New York University, USA.",
+  
+  "Thériault, R. (2024, August 30). *The head and the heart: Comparing cognitive and embodied intervention paradigms for increasing prosociality*. School of Psychology, University of Sussex, UK.",
+  
+  # "Thériault, R. (2024, June 14). *The head and the heart: Exploring contemplative approaches to expanding the identity circle*. Social Identity & Morality Lab, New York University, USA.",
+  
+  "Thériault, R. (2023, September 19). *Purifying the heart and mind: The role of implicit cognition and mental associations in prosocial behaviour*. Guest speaker for undergraduate course PSY4907 - Observation Workshop in Social Psychology, Department of Psychology, Université du Québec à Montréal, QC.",
+  
+  "Thériault, R.\\*, Quilico, E.\\*, Tétreault, F.\\*, Labossière, S.\\*, Boudreau, S.\\* (2020, May 13; \\*all panelists contributed equally). *Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting*. Panel, Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal (CRIR). <https://youtu.be/8VfnOjnon30?t=4288>.",
+  
+  "Thériault, R., Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2019, January 15). *Immersive embodiment experiences improve intergroup relations, empathy, self-other overlap, and prejudice*. Student Speaker Series, Student Division, International Positive Psychology Association. <https://vimeo.com/user68157211/review/378278530/8d86f3cb33>.",
+  
+  "Thériault, R., Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, October 25). *Virtual-reality-based immersive embodiment experiences increase empathy, reduce prejudice*. Institute for Interdisciplinary Brain and Behavioral Science, Orange, California.",
+  
+  # "Thériault, R., & Raz, A. (2016, December 8). *Diagnosing asthma across Canada: question marks... and exclamation points!* Chronic Diseases Seminar, Research Center, Hôpital Sacré-Coeur de Montréal, QC.",
+  
+  "Thériault, R. (2016, October 19). *Towards constructive change in Aboriginal communities: A social psychology perspective*. Wampum Center, Native Friendship Center of Montreal, QC."
+)
 
-**Thériault, R.** (2025, May 12). Reading non-fiction books: Effects on prosociality and possible applications to climate action and attitudes. Talk for the *Climate Psychology Working Group* at New York University, USA.
+dictionary <- tribble(
+  ~English, ~French,
+  "Guest speaker for undergraduate course ", "Conférencier invité pour le cours de premiers cycles ",
+  "Observation Workshop in Social Psychology", "Atelier d'observation en psychologie sociale",
+  "Department of Psychology", "Département de psychologie",
+  "Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting", 
+  "Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation",
+  "Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal",
+  "Centre de recherche interdisciplinaire en réadaptation du Montréal métropolitain",
+  "Student Division", "division étudiante",
+  "California", "Californie",
+  "Wampum Center", "Centre Wampum",
+  "Native Friendship Center of Montreal", "Centre d’amitié autochtone de Montréal",
+  "Towards constructive change in Aboriginal communities: A social psychology perspective",
+  "Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale",
+  "*Purifying the heart and mind: The role of implicit cognition and mental associations in prosocial behaviour*",
+  "*Purifier le cœur et l'esprit : le rôle de la cognition implicite et des associations mentales dans le comportement prosocial*"
+)
 
-**Thériault, R.** (2025, March 20). Strengthening the foundations of the social fabric: Fostering altruism for a more resilient society. Talk for the *Office of Global Services Scholar Speaker Series* at New York University, USA.
+number_pubs(
+  data, 
+  author_bold = author_bold, 
+  language = language, 
+  language_dictionary = dictionary
+)
 
-**Thériault, R.** (2025, March 11). From self-control to second nature: A dual-systems approach to loving-kindness training. Talk for the *Motivation Lab* at New York University, USA.
-
-**Thériault, R.** (2025, February 14). From time management to motivation management: Introducing a simple self-monitoring system to generate insight, sustain motivation, and increase productivity. Talk for the *Center for Conflict and Cooperation* at New York University, USA.
-
-**Thériault, R.** (2024, August 30). The head and the heart: Comparing cognitive and embodied intervention paradigms for increasing prosociality. Talk for the *School of Psychology* at the University of Sussex, UK.
-
-<!-- **Thériault, R.** (2024, June 14). The head and the heart: Exploring contemplative approaches to expanding the identity circle. Online talk for the *Social Identity & Morality Lab* at New York University, USA. -->
-
-**Thériault, R.** (2023, September 19). Purifying the heart and mind: The role of implicit cognition and mental associations in prosocial behaviour. Guest speaker for *PSY4907 - Observation Workshop in Social Psychology* undergraduate course at the Department of Psychology of the Université du Québec à Montréal, QC.
-<!-- Purifier le cœur et l'esprit : le rôle de la cognition implicite et des associations mentales dans le comportement prosocial -->
-
-**Thériault, R.\***, Quilico, E.\*, Tétreault, F.\*, Labossière, S.\*, Boudreau, S.\* (2020, May 13; \*all panelists contributed equally). Workshop with the SSHRC's Storytellers finalists: an opportunity to learn about and practice the art of presenting. Panel organized by the *Centre for Interdisciplinary Research in Rehabilitation of Greater Montreal (CRIR)*. Presentation available from: <https://youtu.be/8VfnOjnon30?t=4288>.
-<!-- Atelier avec les finalistes du concours CRSH -- J'ai une histoire à raconter : une occasion d'apprendre et pratiquer l'art de la présentation -->
-
-**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2019, January 15). Immersive embodiment experiences improve intergroup relations, empathy, self-other overlap, and prejudice. Online webinar for the *Student Speaker Series* of the *Student Division of the International Positive Psychology Association*. Presentation available from: <https://vimeo.com/user68157211/review/378278530/8d86f3cb33>.
-
-**Thériault, R.**, Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, October 25). Virtual-reality-based immersive embodiment experiences increase empathy, reduce prejudice. Oral presentation for the *Institute for Interdisciplinary Brain and Behavioral Science* in Orange, California.
-
-<!-- **Thériault, R.**, & Raz, A. (2016, December 8). Diagnosing asthma across Canada: question marks... and exclamation points! Oral presentation for the *Chronic Diseases Seminar* for the *Research Center* *of the* *Hôpital Sacré-Coeur de Montréal*, QC. -->
-
-**Thériault, R.** (2016, October 19). Towards constructive change in Aboriginal communities: A social psychology perspective. Oral presentation for the *Wampum Center* at the *Native Friendship Center of Montreal*, QC.
-<!-- Vers un changement constructif dans les communautés autochtones : une perspective de psychologie sociale -->
+```

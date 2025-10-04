@@ -281,6 +281,22 @@ gsub_language <- function(text, dictionary) {
   )
 }
 
+month_map <- tribble(
+  ~English,    ~French,
+  "January",   "janvier",
+  "February",  "février",
+  "March",     "mars",
+  "April",     "avril",
+  "May",       "mai",
+  "June",      "juin",
+  "July",      "juillet",
+  "August",    "août",
+  "September", "septembre",
+  "October",   "octobre",
+  "November",  "novembre",
+  "December",  "décembre"
+)
+
 number_pubs <- function(
   pubs,
   author_bold = NULL,
@@ -288,6 +304,7 @@ number_pubs <- function(
   language_dictionary = NULL
 ) {
   if (language != "EN") {
+    language_dictionary <- rbind(language_dictionary, month_map)
     pubs <- gsub_language(pubs, language_dictionary)
   }
   if (!is.null(author_bold)) {

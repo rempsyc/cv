@@ -7,25 +7,52 @@ output: html_document
 \setlength{\parskip}{8pt}
 \footnotesize
 
-# Conference Talks
+```{r Conference talks, results = "asis"}
+nice_header(
+  header = "Conference Talks",
+  header_alt = "Présentations orales",
+  language = language
+)
+```
 
-**Thériault, R.**, Dion-Cliche, F., & Dandeneau, S. (2022, June 18). Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs. Talk presented at the *2022 Canadian Psychological Association Annual National Convention* in Calgary, AB.
+```{r talks_data, results = "asis"}
+data <- c(
+  "Thériault, R., Dion-Cliche, F., & Dandeneau, S. (2022, June 18). *Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs*. 2022 Canadian Psychological Association Annual National Convention, Calgary, AB.",
+  
+  "Thériault, R., Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). *Does loving-kindness meditation increase giving behaviors?* 22^nd^ Congress of the Scientific Association for Behavior Modification: Kindness and Resilience: The Faces of Adaptation, Montréal, QC.", 
+  
+  "Thériault, R., Masson, R., Archambault, M., & Dandeneau, S. (2022, June 16-20). *Does loving-kindness meditation increase giving behaviors?* Tenth SELF International Conference, Québec, QC.",
+  
+  "Thériault, R. (2019, June 3). *Reducing prejudice and increasing empathy through virtual reality*. 2019 Congress of the Humanities and Social Sciences, Vancouver, BC.",
+  
+  "Thériault, R., Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J. A., & Raz, A. (2018, August 24). *Can suggestion affect pulmonary function in children with suspected asthma?* 21^st^ World Congress of Medical and Clinical Hypnosis, Montréal, QC.",
+  
+  # Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., **Thériault, R.**, Krol, S., Olson, J., & Raz, A. (2018, June 5). *Walking a mile in another's shoes: Can virtual reality decrease prejudice?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.
+  
+  "Thériault, R., Krol, S., & Raz, A. (2017, July 14). *Investigating the effects of mental versus embodied perspective-taking on prejudice*. 5^th^ World Congress on Positive Psychology, Montréal, QC.",
+  
+  "Thériault, R., Landry, M., Mattuck, S., & Raz, A. (2017, June 2). *The Rubber Hand Illusion: Does load affect EEG & electrodermal activity?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.",
+  
+  "Lifshitz, M., Sheiner, E., Olson, J., Thériault, R., & Raz, A. (2016, October 6). *On suggestibility and placebo.* 67^th^ meeting of the Society for Clinical and Experimental Hypnosis, Boston, MA."
+)
 
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). Does loving-kindness meditation increase giving behaviors? Talk presented at the *22nd Congress of the Scientific Association for Behavior Modification: Kindness and Resilience: The Faces of Adaptation* in Montréal, QC (virtual conference because of COVID).
-<!-- La méditation d’amour-bienveillant augmente-t-elle les comportements de don? -->
-<!-- 22e congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation -->
+dictionary <- tribble(
+  ~English, ~French,
+  "22^nd^ Congress of the Scientific Association for Behavior Modification: Kindness and Resilience: The Faces of Adaptation",
+  "22^e^ congrès de L’Association scientifique pour la modification du comportement : Bienveillance et résilience : les visages de l’adaptation",
+  "*Does loving-kindness meditation increase giving behaviors?*", 
+  "*La méditation d’amour-bienveillant augmente-t-elle les comportements de don?*",
+  "*Reducing prejudice and increasing empathy through virtual reality*", 
+  "*Réduire les préjugés et augmenter l'empathie via la réalité virtuelle*",
+  "Canadian Psychological Association Annual National Convention",
+  "Congrès national annuel de la Société canadienne de psychologie"
+)
 
-**Thériault, R.**, Masson, R., Archambault, M., & Dandeneau, S. (2022, June 16-20). Does loving-kindness meditation increase giving behaviors? Talk presented at the *Tenth SELF International Conference* in Québec city, QC (virtual conference because of COVID).
+number_pubs(
+  data, 
+  author_bold = author_bold, 
+  language = language, 
+  language_dictionary = dictionary
+)
 
-**Thériault, R.** (2019, June 3). Reducing prejudice and increasing empathy through virtual reality. Talk presented at the *2019 Congress of the Humanities and Social Sciences* in Vancouver, BC.
-<!-- Réduire les préjugés et augmenter l'empathie via la réalité virtuelle -->
-
-**Thériault, R.**, Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J. A., & Raz, A. (2018, August 24). Can suggestion affect pulmonary function in children with suspected asthma? Talk presented at the *21^st^* *World Congress of Medical and Clinical Hypnosis* in Montréal, QC.
-
-<!-- Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., **Thériault, R.**, Krol, S., Olson, J., & Raz, A. (2018, June 5). Walking a mile in another's shoes: Can virtual reality decrease prejudice? Conference talk presented by first author at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC. -->
-
-**Thériault, R.**, Krol, S., & Raz, A. (2017, July 14). Investigating the effects of mental versus embodied perspective-taking on prejudice. Talk presented at the *5^th^ World Congress on Positive Psychology* in Montréal, QC.
-
-**Thériault, R.**, Landry, M., Mattuck, S., & Raz, A. (2017, June 2). The Rubber Hand Illusion: Does load affect EEG & electrodermal activity? Talk presented at the *Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry* in Montréal, QC.
-
-<!-- Lifshitz, M., Sheiner, E., Olson, J., **Thériault, R**., & Raz, A. (2016, October 6). On suggestibility and placebo. Conference talk presented by first author at the *67^th^ meeting of the Society for Clinical and Experimental Hypnosis* in Boston, MA. -->
+```
