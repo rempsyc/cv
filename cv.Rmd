@@ -27,7 +27,7 @@ output:
     page_total: true
 header-includes:
   - \usepackage[gen]{eurosym}
-papersize: letter
+papersize: letterpaper
 ---
 
 ```{r setup, include = FALSE}
@@ -51,10 +51,10 @@ library(dplyr)
 # For Google scholar data/visualization
 library(scholar)
 library(patchwork)
-library(see)
 library(rsvg)
 library(kableExtra)
 library(tidyverse)
+library(easystats)
 
 language <- "EN" # If not EN, will choose the alternative names in the data
 # So far only for nice_awards() and nice_grants()

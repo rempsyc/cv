@@ -41,7 +41,7 @@ data <- bind_rows(
     #   Date = "2025-2027",
     #   Amount = 110000,
     #   Program = "Postdoc"),
-    # 
+
     # create_grant_entry(
     #   Funder_Name = "Postdoctoral Fellowship (SSHRC)",
     #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
@@ -51,7 +51,7 @@ data <- bind_rows(
     #   Date = "2025-2026",
     #   Amount = 140000,
     #   Program = "Postdoc"),
-    # 
+
     create_grant_entry(
       Funder_Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
       Project_Name = "Transforming habits from the heart: From good intentions to reliable prosocial response",

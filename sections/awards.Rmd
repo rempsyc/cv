@@ -20,6 +20,17 @@ nice_header(
 data <- bind_rows(
   
     tibble(
+    Name = "NYU Faculty of Arts \\& Sciences Postdoctoral Travel Grant Award (USD \\$700)",
+    Name_alt = "Bourse de participation aux conférences de la Faculté des Arts \\& Sciences de NYU (USD \\$700)",
+    URL = "",
+    Details = "For participation at the 2025 MIT Polarization workshop",
+    Date = "2025",
+    Amount = 976,
+    Activity = NA,
+    Program = "Postdoc",
+    Declined = FALSE),
+  
+    tibble(
     Name = "Institute for Humane Studies Conference Travel Award (USD \\$941)",
     Name_alt = "Bourse de participation aux conférences de l'Institute for Humane Studies (USD \\$941)",
     URL = "",

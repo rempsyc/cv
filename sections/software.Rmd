@@ -12,6 +12,23 @@ output: html_document
 
 R packages are modular, open-source tools that extend the functionality of the R programming language—the leading open-source tool for statistical analysis. These packages simplify complex statistical workflows, automate reporting, and promote good research practices.
 
+```{r easystats_downloads, fig.align="center", eval=FALSE}
+# Can't actually run this as replacement for badges because I also have some non-easystats packages!!
+x <- easystats_downloads()
+
+x <- format_value(x, big_mark = ",")
+
+knitr::kable(x,
+    format = "latex",
+    booktabs = TRUE,
+    escape = FALSE,
+    align = "c"
+    ) %>%
+    kableExtra::kable_styling(
+      position = "center", font_size = 9, latex_options = "hold_position")
+
+```
+
 ```{r software, include = FALSE}
 software <- FALSE
 ```

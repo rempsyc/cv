@@ -36,7 +36,7 @@ header-includes:
   - \makeatother
 lang: french
 date: "\\today"
-papersize: letter
+papersize: letterpaper
 ---
 
 ```{r setup, include = FALSE}
