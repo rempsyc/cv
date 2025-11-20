@@ -27,6 +27,18 @@ knitr::kable(x,
     kableExtra::kable_styling(
       position = "center", font_size = 9, latex_options = "hold_position")
 
+filtered_x <- x %>% 
+  filter(Package %in% c("insight", "performance", "effectsize", "correlation", 
+                        "see", "modelbased", "report", "easystats")) %>% 
+  mutate(Total = as.numeric(gsub(",", "", Total)),
+         Monthly = as.numeric(gsub(",", "", Monthly))) %>% 
+  add_row(Package = "Total",
+          Total = sum(.$Total),#prettyNum(.$Total, big.mark = ","),
+          Monthly = sum(.$Monthly)) %>%  #prettyNum(.$Monthly, big.mark = ","))
+  mutate(Total = prettyNum(.$Total, big.mark = ","),
+         Monthly = prettyNum(.$Monthly, big.mark = ","))
+filtered_x
+
 ```
 
 ```{r software, include = FALSE}

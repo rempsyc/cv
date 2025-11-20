@@ -8,9 +8,12 @@ address: "New York University, New York, USA"
 phone: (332) 400-6781
 www: remi-theriault.com
 email: "remi.theriault@nyu.edu"
-twitter: RemiTPsyc
-github: rempsyc
-# linkedin: rempsyc
+linkedin: rempsyc
+orcid: "0000-0003-4315-6788"
+# googlescholar: NrfwEncAAAAJ
+# github: rempsyc
+# twitter: RemiTPsyc
+# pronouns: "il/lui"
 
 aboutme: |
   \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my postdoctoral research, I attempt to reduce affective polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was [made in R](https://github.com/rempsyc/cv)).
@@ -145,10 +148,10 @@ headcolor <- "0a0a0a"
 ```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
-```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = T}
+```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = F}
 ```
 
-```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = T}
+```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = F}
 ```
 
 ```{r References parent, child=c('sections/references.Rmd'), eval = !short}

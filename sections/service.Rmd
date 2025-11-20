@@ -86,17 +86,17 @@ data <- bind_rows(
     where = "Montréal, Québec, Canada",
     details = c(
       "Led or organized meditation and yoga sessions, secured grants (\\$2198) for affordable classes and campus well-being")
-  )#,
+  ),
   
-  # tibble(
-  #   what = "International Society of Hypnosis and the Société Québécoise d'Hypnose",
-  #   when = "2018/08 – 2018/08",
-  #   role = "Conference Reviewer",
-  #   where = "Montréal, Québec, Canada",
-  #   URL = "https://www.ishhypnosis.org/",
-  #   details = c(
-  #     "Reviewed abstracts for the XXI World Congress of Medical and Clinical Hypnosis"),
-  #   )
+  tibble(
+    what = "International Society of Hypnosis and the Québec Hypnosis Society",
+    when = "2018/08 – 2018/08",
+    role = "Conference Reviewer",
+    where = "Montréal, Québec, Canada",
+    URL = "https://www.ishhypnosis.org/",
+    details = c(
+      "Reviewed abstracts for the XXI World Congress of Medical and Clinical Hypnosis"),
+    )
   
 )
 
