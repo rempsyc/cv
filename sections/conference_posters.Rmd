@@ -17,6 +17,8 @@ nice_header(
 
 ```{r posters_data, results = "asis"}
 data <- c(
+  "Thériault, R. (2025, December 6). *Addressing polarization and aggression through non-fiction and artificial intelligence*. Directions of Polarization, Social Norms & Trust in Societies: MIT Polarization Workshop, Cambridge, Massachusetts",
+  
   "Thériault, R., Masson, R., Archambault, M., & Dandeneau, D. (2025, June 2). *Reflecting on loving-kindness may be more powerful than meditating on loving-kindness*. Mind & Life Summer Research Institute, Garrison, New York.", 
   
   "Thériault, R., Masson, R., Archambault, M., & Dandeneau, D. (2024, August 5). *Is the mind more powerful than the heart? A randomized controlled trial of two loving-kindness interventions*. Mind & Life European Summer Research Institute, Pomaia, Italy.",

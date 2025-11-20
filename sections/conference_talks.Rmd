@@ -17,6 +17,8 @@ nice_header(
 
 ```{r talks_data, results = "asis"}
 data <- c(
+  "Thériault, R., & Forscher, P. (2025, October 20). *Tracking epistemic inequality: The missing majority dashboard for global authorship in behavioral science*. Meta-Research Symposium, NYU Health Langone, NY.",
+  
   "Thériault, R., Dion-Cliche, F., & Dandeneau, S. (2022, June 18). *Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs*. 2022 Canadian Psychological Association Annual National Convention, Calgary, AB.",
   
   "Thériault, R., Masson, R., Archambault, M., & Dandeneau, S. (2022, June 9). *Does loving-kindness meditation increase giving behaviors?* 22^nd^ Congress of the Scientific Association for Behavior Modification: Kindness and Resilience: The Faces of Adaptation, Montréal, QC.", 

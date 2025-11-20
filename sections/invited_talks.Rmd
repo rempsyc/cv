@@ -19,6 +19,12 @@ nice_header(
 
 ```{r invited_data, results = "asis"}
 data <- c(
+  "Thériault, R. (2025, December 17). *From embodiment to mettā: Buddhist-inspired pathways to effortless prosociality*. Indian Institute of Technology Delhi, Delhi, India.",
+  
+  "Thériault, R. (2025, December 4). *Developing the moral self: From embodied perspective-taking to embodying loving-kindness*. Morality Lab, Boston College, Boston, USA.",
+  
+  "Bunting, A.\\*, Yee, M.\\*, Thériault, R.\\*, Esquenazi-Karonika,  S.\\*, Laynor, G.\\*, & Stevens, E. R.\\* (2025, October 20; \\*all panelists contributed equally). *Panel Discussion: Experiences in Meta-Research*. Panel, Meta-Research Symposium, NYU Health Langone, NY.",
+  
   "Thériault, R. (2025, September 23). *From body-swapping to cultivating kindness: Transforming the self for a robust prosociality*. Social Psychology Speaker Series, New York University, USA.",
   
   "Thériault, R. (2025, May 12). *Reading non-fiction books: Effects on prosociality and possible applications to climate action and attitudes*. Climate Psychology Working Group, New York University, USA.",
