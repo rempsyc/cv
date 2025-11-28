@@ -39,9 +39,9 @@ detailed_entries(data, with, when, .protect = FALSE)
 
 R, Rstudio, Rmarkdown, Shiny, GitHub, Inquisit, Wowchemy, Netlify, SPSS, Qualtrics, Survey Monkey, LimeSurvey, Inkscape
 
-## Languages
+## Langages
 
-French (native), English (fluent)
+Français (langue natale), Anglais (fluent)
 
 <!-- ## Activities and Interests -->
 

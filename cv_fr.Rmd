@@ -18,7 +18,7 @@ orcid: "0000-0003-4315-6788"
 aboutme: |
   \RaggedRight Mes intérêts se situent à l’intersection de la psychologie sociale, des neurosciences et de la psychologie positive, et mes recherches se penchent sur le bien-être optimal, la cohésion sociale, et notre rapport à l’environnement. Dans mes recherches postdoctorales, je tente de réduire la polarisation politique via le développement d'identités sociales partagées. Je suis également passionné par la science ouverte, la science reproductible, la métascience et la science des données à l’aide de R (ce CV a aussi été [réalisé en R](https://github.com/rempsyc/cv)).
 
-headcolor: "333333" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look (6FA3CE)
+headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look (6FA3CE)
 # Ok recent feedback was to not use colour at all here, so instead we go with the dark blue of my suit
 # (21242D) so it doesn't even look that obvious but we still have a little something.
 # #333333 is the default grey.
@@ -158,18 +158,12 @@ headcolor <- "0a0a0a"
 
 <!-- We skip the sections below for now. They are on the website and it was recommended to avoid them for the CV for applying to prof positions -->
 
-```{r Blogs parent, child=c('fr/sections/blogs.Rmd'), eval = F}
+```{r Blogs parent, child=c('fr/sections/blogs.Rmd'), eval = TRUE}
 ```
 
-```{r Other experience parent, child=c('fr/sections/other_experience.Rmd'), eval = F}
+```{r Other experience parent, child=c('fr/sections/other_experience.Rmd'), eval = TRUE}
 ```
 
-```{r Leadership parent, child=c('fr/sections/leadership.Rmd'), eval = F}
-```
-
-```{r Varia parent, child=c('fr/sections/varia.Rmd'), eval = F}
-```
-
-```{r credit parent, child=c('fr/sections/credit.Rmd'), eval = F}
+```{r credit parent, child=c('sections/credit.Rmd'), eval = TRUE}
 ```
 

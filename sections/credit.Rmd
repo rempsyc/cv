@@ -6,8 +6,21 @@ output: html_document
 \setlength{\leftskip}{0in}
 \normalsize
 
-# Credit
+```{r Credit, results = "asis"}
+nice_header(
+  header = "Credit",
+  header_alt = "Crédit",
+  language = language
+)
+```
 
 \scriptsize
 
-This `r link("100\\% reproducible CV (with instructions)", "https://github.com/rempsyc/cv")` was made using the `r link("vitae", "https://pkg.mitchelloharawild.com/vitae/")` package in R, and a great deal of inspiration from `r link("Dominique Makowski's template", "https://github.com/DominiqueMakowski/CV")`.
+```{r credit_fr, eval=French, results="asis"}
+cat("This ", link("100\\% reproducible CV (with instructions)", "https://github.com/rempsyc/cv"), " was made using the ", link("vitae", "https://pkg.mitchelloharawild.com/vitae/"), " package in R, and a great deal of inspiration from ", link("Dominique Makowski's template", "https://github.com/DominiqueMakowski/CV"), ".")
+```
+
+```{r credit_en, eval=English}
+cat("Ce ", link("CV 100\\% reproducible (avec instructions)", "https://github.com/rempsyc/cv"), " a été fait avec le module ", link("vitae", "https://pkg.mitchelloharawild.com/vitae/"), " dans R, et beaucoup d'inspiration du modèle de ", link("Dominique Makowski", "https://github.com/DominiqueMakowski/CV"), ".")
+```
+
