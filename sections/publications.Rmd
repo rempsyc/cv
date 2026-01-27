@@ -35,8 +35,11 @@ table_impact(data_scholar,
 ```
 
 ```{r pubs_data, results = "asis"}
-
 data <- c(
+  "Brodeur, A., Mikola, D., Cook, N., ... Thériault, R., et al. (In Press 2026). *Computational Reproducibility and Robustness of Empirical Economics and Political Science Research Between 2022 and 2023*. Accepted at *Nature*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107.",
+  
+  "Pillai, R. M., Globig, L. K., Rathje, S., Sternisko, A., Thériault, R., & Van Bavel, J. J. (In Press 2026). *An identity-based approach to polarization and public health*. Accepted at *Social and Personality Psychology Compass*. https://doi.org/10.31234/osf.io/5z6r7_v1.",
+  
   "Thériault, R. (2025). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. *Fragments : Revue de psychologie*, 2, 70-79. Preprint: https://doi.org/10.31234/osf.io/758dx",
   
   "Buchanan, E. M., Cuccolo, K. M., Coles, N., ... Thériault, R., et al. (2025). Measuring the semantic priming effect across many languages. *Nature Human Behaviour*. https://doi.org/10.1038/s41562-025-02254-x",
