@@ -36,9 +36,9 @@ table_impact(data_scholar,
 
 ```{r pubs_data, results = "asis"}
 data <- c(
-  "Brodeur, A., Mikola, D., Cook, N., ... Thériault, R., et al. (In Press 2026). *Computational Reproducibility and Robustness of Empirical Economics and Political Science Research Between 2022 and 2023*. Accepted at *Nature*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107.",
+  "Brodeur, A., Mikola, D., Cook, N., ... Thériault, R., et al. (2026). Computational reproducibility and robustness of empirical economics and political science research between 2022 and 2023. In Press in *Nature*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107.",
   
-  "Pillai, R. M., Globig, L. K., Rathje, S., Sternisko, A., Thériault, R., & Van Bavel, J. J. (In Press 2026). *An identity-based approach to polarization and public health*. Accepted at *Social and Personality Psychology Compass*. https://doi.org/10.31234/osf.io/5z6r7_v1.",
+  "Pillai, R. M., Globig, L. K., Rathje, S., Sternisko, A., Thériault, R., & Van Bavel, J. J. (2026). An identity-based approach to polarization and public health. *Social and Personality Psychology Compass*, *20*(2), e70125. https://doi.org/10.1111/spc3.70125",
   
   "Thériault, R. (2025). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. *Fragments : Revue de psychologie*, 2, 70-79. Preprint: https://doi.org/10.31234/osf.io/758dx",
   

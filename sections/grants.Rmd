@@ -30,27 +30,27 @@ data <- bind_rows(
       Amount = 35709,
       Program = "Postdoc"),
 
-    create_grant_entry(
-      Funder_Name = "Postdoctoral Fellowship (FRQSC)",
-      Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
-      # Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
-      Funder_Name_alt = "Bourse postdoctorale (FRQSC)",
-      Project_Name_alt = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité sociale",
-      # Project_Name_alt = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux",
-      URL = "https://doi.org/10.69777/349023",
-      Date = "2025-2027",
-      Amount = 110000,
-      Program = "Postdoc"),
-
-    create_grant_entry(
-      Funder_Name = "Postdoctoral Fellowship (SSHRC)",
-      Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
-      # Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
-      Funder_Name_alt = "Bourse postdoctorale (CRSH)",
-      URL = "",
-      Date = "2025-2026",
-      Amount = 140000,
-      Program = "Postdoc"),
+    # create_grant_entry(
+    #   Funder_Name = "Postdoctoral Fellowship (FRQSC)",
+    #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
+    #   # Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
+    #   Funder_Name_alt = "Bourse postdoctorale (FRQSC)",
+    #   Project_Name_alt = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité sociale",
+    #   # Project_Name_alt = "Lire change des vies : Une investigation des effets de la lecture de livres populaires sur l’identité, la polarisation, le comportement prosocial et l’interconnexion des réseaux sociaux",
+    #   URL = "https://doi.org/10.69777/349023",
+    #   Date = "2025-2027",
+    #   Amount = 110000,
+    #   Program = "Postdoc"),
+    # 
+    # create_grant_entry(
+    #   Funder_Name = "Postdoctoral Fellowship (SSHRC)",
+    #   Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity \\& polarization",
+    #   # Project_Name = "Reading books changes lives: Investigating the effects of reading popular books on identity, polarization, prosocial behaviour, and social networks interconnectedness",
+    #   Funder_Name_alt = "Bourse postdoctorale (CRSH)",
+    #   URL = "",
+    #   Date = "2025-2026",
+    #   Amount = 140000,
+    #   Program = "Postdoc"),
 
     create_grant_entry(
       Funder_Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
