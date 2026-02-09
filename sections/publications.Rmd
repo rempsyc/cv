@@ -90,6 +90,7 @@ dictionary <- tribble(
   "Preprint:", "Préimpression :",
   "in press", "sous presse",
   "In press at", "Sous presse à",
+  "Accepted at", "Accepté dans",
   "Recipient of a", "Lauréat d'un",
   "Recipient of the 2024 UQAM *Best Student Paper Award* at the Department of Psychology",
   "Lauréat du Prix du meilleur article étudiant 2024 du Département de psychologie de l’UQAM",

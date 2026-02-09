@@ -135,6 +135,8 @@ headcolor <- "0a0a0a"
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
 
+\pagebreak
+
 ```{r Invited talks parent, child=c('sections/invited_talks.Rmd'), eval = !short}
 ```
 

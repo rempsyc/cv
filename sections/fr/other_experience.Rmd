@@ -31,8 +31,6 @@ detailed_entries(data, with, when, what, where, details, .protect = FALSE)
 
 ```
 
-\pagebreak
-
 ## Assistant de recherche, [McGill Cognitive Neuroscience Lab - Amir Raz](https://raz-lab.org/)
 
 ```{r experience, include = TRUE}
