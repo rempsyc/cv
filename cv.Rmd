@@ -122,7 +122,7 @@ headcolor <- "0a0a0a"
 
 \setlength{\parskip}{8pt}
 
-```{r Grants parent, child=c('sections/grant.Rmd'), eval=T}
+```{r Grants parent, child=c('sections/grants.Rmd'), eval=T}
 ```
 
 \pagebreak

@@ -118,7 +118,7 @@ headcolor <- "0a0a0a"
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
-```{r Grants parent, child=c('sections/grant.Rmd')}
+```{r Grants parent, child=c('sections/grants.Rmd')}
 ```
 
 \pagebreak

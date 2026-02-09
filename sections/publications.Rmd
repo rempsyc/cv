@@ -25,21 +25,24 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 ```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}
 
-source("../files/make_data_impact.R")
-plot_impact(data_scholar) # Advice was to remove the figure
-table_impact(data_scholar, 
-             author.name = author.name, 
-             scholar.profile = scholar.profile,
-             font_size = 9,
-             language = language)
+# source("../files/make_data_impact.R")
+# plot_impact(data_scholar) # Advice was to remove the figure
+# table_impact(data_scholar, 
+#              author.name = author.name, 
+#              scholar.profile = scholar.profile,
+#              font_size = 9,
+#              language = language)
 
 ```
 
-\pagebreak
+<!-- \pagebreak -->
 
 ```{r pubs_data, results = "asis"}
-
 data <- c(
+  "Brodeur, A., Mikola, D., Cook, N., ... Thériault, R., et al. (2026). Computational reproducibility and robustness of empirical economics and political science research between 2022 and 2023. Accepted at *Nature*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107.",
+  
+  "Pillai, R. M., Globig, L. K., Rathje, S., Sternisko, A., Thériault, R., & Van Bavel, J. J. (2026). An identity-based approach to polarization and public health. *Social and Personality Psychology Compass*, *20*(2), e70125. https://doi.org/10.1111/spc3.70125",
+  
   "Thériault, R. (2025). L’importance de la science ouverte en recherche en psychologie [The importance of open science in psychological research]. *Fragments : Revue de psychologie*, 2, 70-79. Preprint: https://doi.org/10.31234/osf.io/758dx",
   
   "Buchanan, E. M., Cuccolo, K. M., Coles, N., ... Thériault, R., et al. (2025). Measuring the semantic priming effect across many languages. *Nature Human Behaviour*. https://doi.org/10.1038/s41562-025-02254-x",
