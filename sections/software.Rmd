@@ -15,28 +15,29 @@ R packages are modular, open-source tools that extend the functionality of the R
 ```{r easystats_downloads, fig.align="center", eval=FALSE}
 # Can't actually run this as replacement for badges because I also have some non-easystats packages!!
 x <- easystats_downloads()
+x
 
-x <- format_value(x, big_mark = ",")
+# x <- format_value(x, big_mark = ",")
 
-knitr::kable(x,
-    format = "latex",
-    booktabs = TRUE,
-    escape = FALSE,
-    align = "c"
-    ) %>%
-    kableExtra::kable_styling(
-      position = "center", font_size = 9, latex_options = "hold_position")
+# knitr::kable(x,
+#     format = "latex",
+#     booktabs = TRUE,
+#     escape = FALSE,
+#     align = "c"
+#     ) %>%
+#     kableExtra::kable_styling(
+#       position = "center", font_size = 9, latex_options = "hold_position")
 
 filtered_x <- x %>% 
-  filter(Package %in% c("insight", "performance", "effectsize", "correlation", 
-                        "see", "modelbased", "report", "easystats")) %>% 
-  mutate(Total = as.numeric(gsub(",", "", Total)),
-         Monthly = as.numeric(gsub(",", "", Monthly))) %>% 
+  filter(Package %in% c("insight", "performance", "effectsize", "correlation",
+                        "see", "modelbased", "report", "easystats")) %>%
+  # mutate(Total = as.numeric(gsub(",", "", Total)),
+  #        Monthly = as.numeric(gsub(",", "", Monthly))) %>%
   add_row(Package = "Total",
           Total = sum(.$Total),#prettyNum(.$Total, big.mark = ","),
-          Monthly = sum(.$Monthly)) %>%  #prettyNum(.$Monthly, big.mark = ","))
-  mutate(Total = prettyNum(.$Total, big.mark = ","),
-         Monthly = prettyNum(.$Monthly, big.mark = ","))
+          Monthly = sum(.$Monthly)) #%>%  #prettyNum(.$Monthly, big.mark = ","))
+  # mutate(Total = prettyNum(.$Total, big.mark = ","),
+  #        Monthly = prettyNum(.$Monthly, big.mark = ","))
 filtered_x
 
 ```

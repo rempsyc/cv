@@ -13,6 +13,8 @@ output: html_document
 
 \footnotesize
 
+**Thériault, R.** (2026, January 3). Intuitions about intuition: Deep listening, mind sensations, and the cocktail party effect. <https://insights.remi-theriault.com/posts/intuition/>
+
 **Thériault, R.** (2022, February 8). Publication-ready moderations with simple slopes in R. <https://remi-theriault.com/blog_moderation>
 
 **Thériault, R.** (2022, February 3). Publication-ready t-tests in R. <https://remi-theriault.com/blog_t-test>
