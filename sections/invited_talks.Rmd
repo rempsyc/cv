@@ -37,7 +37,7 @@ data <- c(
   
   "Thériault, R. (2024, August 30). *The head and the heart: Comparing cognitive and embodied intervention paradigms for increasing prosociality*. School of Psychology, University of Sussex, UK.",
   
-  # "Thériault, R. (2024, June 14). *The head and the heart: Exploring contemplative approaches to expanding the identity circle*. Social Identity & Morality Lab, New York University, USA.",
+  "Thériault, R. (2024, June 14). *The head and the heart: Exploring contemplative approaches to expanding the identity circle*. Social Identity & Morality Lab, New York University, USA.",
   
   "Thériault, R. (2023, September 19). *Purifying the heart and mind: The role of implicit cognition and mental associations in prosocial behaviour*. Guest speaker for undergraduate course PSY4907 - Observation Workshop in Social Psychology, Department of Psychology, Université du Québec à Montréal, QC.",
   
@@ -47,7 +47,7 @@ data <- c(
   
   "Thériault, R., Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, October 25). *Virtual-reality-based immersive embodiment experiences increase empathy, reduce prejudice*. Institute for Interdisciplinary Brain and Behavioral Science, Orange, California.",
   
-  # "Thériault, R., & Raz, A. (2016, December 8). *Diagnosing asthma across Canada: question marks... and exclamation points!* Chronic Diseases Seminar, Research Center, Hôpital Sacré-Coeur de Montréal, QC.",
+  "Thériault, R., & Raz, A. (2016, December 8). *Diagnosing asthma across Canada: question marks... and exclamation points!* Chronic Diseases Seminar, Research Center, Hôpital Sacré-Coeur de Montréal, QC.",
   
   "Thériault, R. (2016, October 19). *Towards constructive change in Aboriginal communities: A social psychology perspective*. Wampum Center, Native Friendship Center of Montreal, QC."
 )

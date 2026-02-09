@@ -21,6 +21,6 @@ cat("This ", link("100\\% reproducible CV (with instructions)", "https://github.
 ```
 
 ```{r credit_fr, eval=French, results="asis"}
-cat("Ce ", link("CV 100\\% reproducible (avec instructions)", "https://github.com/rempsyc/cv"), " a été fait avec le module ", link("vitae", "https://pkg.mitchelloharawild.com/vitae/"), " dans R, et beaucoup d'inspiration du modèle de ", link("Dominique Makowski", "https://github.com/DominiqueMakowski/CV"), ".")
+cat("Ce ", link("CV 100\\% reproducible (avec instructions)", "https://github.com/rempsyc/cv"), " a été fait avec le module ", link("vitae", "https://pkg.mitchelloharawild.com/vitae/"), " dans R et beaucoup d'inspiration du modèle de ", link("Dominique Makowski", "https://github.com/DominiqueMakowski/CV"))
 ```
 

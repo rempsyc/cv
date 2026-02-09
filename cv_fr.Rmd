@@ -118,18 +118,18 @@ headcolor <- "0a0a0a"
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
-```{r Publications parent, child=c('sections/publications.Rmd')}
-```
-
-```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
-```
-
 ```{r Grants parent, child=c('sections/grant.Rmd')}
 ```
 
 \pagebreak
 
 ```{r Awards parent, child=c('sections/awards.Rmd')}
+```
+
+```{r Publications parent, child=c('sections/publications.Rmd')}
+```
+
+```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
 ```
 
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
@@ -144,26 +144,27 @@ headcolor <- "0a0a0a"
 ```{r Conference posters parent, child=c('sections/conference_posters.Rmd'), eval = !short}
 ```
 
-```{r Software parent, child=c('fr/sections/software.Rmd')}
+```{r Software parent, child=c('sections/fr/software.Rmd')}
 ```
 
 ```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
-```{r Media coverage parent, child=c('fr/sections/media_coverage.Rmd'), eval = !short}
+```{r Media coverage parent, child=c('sections/fr/media_coverage.Rmd'), eval = !short}
+```
+
+```{r Blogs parent, child=c('sections/fr/blogs.Rmd'), eval = TRUE}
+```
+
+```{r Other experience parent, child=c('sections/fr/other_experience.Rmd'), eval = TRUE}
 ```
 
 ```{r References parent, child=c('sections/references.Rmd'), eval = !short}
 ```
 
-<!-- We skip the sections below for now. They are on the website and it was recommended to avoid them for the CV for applying to prof positions -->
-
-```{r Blogs parent, child=c('fr/sections/blogs.Rmd'), eval = TRUE}
-```
-
-```{r Other experience parent, child=c('fr/sections/other_experience.Rmd'), eval = TRUE}
-```
-
 ```{r credit parent, child=c('sections/credit.Rmd'), eval = TRUE}
 ```
+
+<!-- We skip the sections below for now. They are on the website and it was recommended to avoid them for the CV for applying to prof positions -->
+
 

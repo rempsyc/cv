@@ -29,7 +29,7 @@ data <- c(
   
   "Thériault, R., Corber, L., MacLean, C. W., Napoleon, J.-S., Olson, J. A., & Raz, A. (2018, August 24). *Can suggestion affect pulmonary function in children with suspected asthma?* 21^st^ World Congress of Medical and Clinical Hypnosis, Montréal, QC.",
   
-  # Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., **Thériault, R.**, Krol, S., Olson, J., & Raz, A. (2018, June 5). *Walking a mile in another's shoes: Can virtual reality decrease prejudice?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.
+  "Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Thériault, R., Krol, S., Olson, J., & Raz, A. (2018, June 5). *Walking a mile in another's shoes: Can virtual reality decrease prejudice?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.",
   
   "Thériault, R., Krol, S., & Raz, A. (2017, July 14). *Investigating the effects of mental versus embodied perspective-taking on prejudice*. 5^th^ World Congress on Positive Psychology, Montréal, QC.",
   

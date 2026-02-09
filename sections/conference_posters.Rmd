@@ -25,13 +25,13 @@ data <- c(
   
   "Chabot, B., Thériault, R., & Doucerain, M. (2023, July 23-27). *Diversity and immigration: How Montrealers feel about different cultural groups*. Biennial Conference, International Academy for Intercultural Research, Philadelphia, Pennsylvania.",
   
-  # Chabot, B., Thériault, R., & Doucerain, M. (2023, May 27). *Le sentiment des Montréalais envers différents groupes culturels*. 45e congrès annuel de la Société québécoise pour la recherche en psychologie, Sherbrooke, QC.
+  "Chabot, B., Thériault, R., & Doucerain, M. (2023, May 27). *Le sentiment des Montréalais envers différents groupes culturels*. 45e congrès annuel de la Société québécoise pour la recherche en psychologie, Sherbrooke, QC.",
   
   "Masson, R., Thériault, R., Archambault, M., & Dandeneau, S. (2021, July). *Can loving-kindness meditation reduce aggressivity? A randomized controlled trial.* 7^th^ World Congress on Positive Psychology, Vancouver, BC.",
   
   "Masson, R., Thériault, R., Archambault, M., & Dandeneau, S. (2021, June). *Can prosocial attitudes and behaviors be positively influenced by aggression and subjective fatigue?* 2021 Canadian Psychological Association Annual National Convention, Ottawa, ON.",
   
-  # Masson, R., Thériault, R., Archambault, M., & Dandeneau, S. (2021, April 28-May 7). *L'agressivité et la fatigue cognitive peuvent-elles mener à de plus grands comportements d'aide et de don?* 88^th^ Congress of ACFAS*---*l'Association francophone pour le savoir.
+  "Masson, R., Thériault, R., Archambault, M., & Dandeneau, S. (2021, April 28-May 7). *L'agressivité et la fatigue cognitive peuvent-elles mener à de plus grands comportements d'aide et de don?* 88^th^ Congress of ACFAS*---*l'Association francophone pour le savoir.",
   
   "Bold, J., Thériault, R., Olson, J., Stain, A., Curry, D., & Raz, A. (2020, February 29). *Replicating the body swap in a different sample: Preliminary data*. Society for Personality and Social Psychology Annual Convention, New Orleans, Louisiana.",
   
@@ -41,19 +41,19 @@ data <- c(
   
   "Thériault, R., Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, June 6). *Being one with diversity through perspective-taking: Mind or body to increase prosocial feelings?* Mind & Life Summer Research Institute, Garrison, New York",
   
-  # "Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Thériault, R., Krol, S., Olson, J. A., & Raz, A. (2018, June 5). *Walking a mile in another's shoes: Can virtual reality decrease prejudice?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.",
+  "Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Thériault, R., Krol, S., Olson, J. A., & Raz, A. (2018, June 5). *Walking a mile in another's shoes: Can virtual reality decrease prejudice?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.",
   
   "Thériault, R., Dennie, A., Djehounke, L., Light, E., Chamberlain, C. W., Krol, S., Olson, J., & Raz, A. (2018, May 24-25). *Comparing two interventions to reduce prejudice and increase empathy*. 4^th^ Canadian Conference on Positive Psychology, Toronto, ON.",
   
-  # "Thériault, R., Landry, M., Mattuck, S., & Raz, A. (2017, June 2). *The Rubber Hand Illusion: Does load affect EEG & electrodermal activity?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.",
+  "Thériault, R., Landry, M., Mattuck, S., & Raz, A. (2017, June 2). *The Rubber Hand Illusion: Does load affect EEG & electrodermal activity?* Research Day of the Douglas Hospital Research Centre and McGill Department of Psychiatry, Montréal, QC.",
   
-  "Thériault, R., Landry, M., Mattuck, S., & Raz, A. (2017, May 12). *The impact of load on electrodermal activity during the Rubber Hand Illusion*. 8^th^ Annual LDI Scientific Retreat, Montréal, QC."
+  "Thériault, R., Landry, M., Mattuck, S., & Raz, A. (2017, May 12). *The impact of load on electrodermal activity during the Rubber Hand Illusion*. 8^th^ Annual LDI Scientific Retreat, Montréal, QC.",
   
-  # "Mattuck, S., Thériault, R., Landry, M., & Raz, A. (2017, April 17). *Exploring the influence of cognitive resources on body ownership*. Psychology Undergraduate Research Day, McGill University, Montréal, QC.",
+  "Mattuck, S., Thériault, R., Landry, M., & Raz, A. (2017, April 17). *Exploring the influence of cognitive resources on body ownership*. Psychology Undergraduate Research Day, McGill University, Montréal, QC.",
   
-  # "Thériault, R., Landry, M., & Raz, A. (2016, April 15). *Exploring the effects of cognitive load and task instructions in the Rubber Hand Illusion*. Psychology Undergraduate Research Day, McGill University, Montréal, QC.",
+  "Thériault, R., Landry, M., & Raz, A. (2016, April 15). *Exploring the effects of cognitive load and task instructions in the Rubber Hand Illusion*. Psychology Undergraduate Research Day, McGill University, Montréal, QC.",
   
-  # "Thériault, R., Landry, M., & Raz, A. (2016, January 19). *Exploring cognitive aspects of body ownership*. 6^th^ Annual Faculty of Arts Undergraduate Research Event, McGill University, Montréal, QC."
+  "Thériault, R., Landry, M., & Raz, A. (2016, January 19). *Exploring cognitive aspects of body ownership*. 6^th^ Annual Faculty of Arts Undergraduate Research Event, McGill University, Montréal, QC."
 )
 
 dictionary <- tribble(
