@@ -27,8 +27,8 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 # source("../files/make_data_impact.R")
 # plot_impact(data_scholar) # Advice was to remove the figure
-# table_impact(data_scholar, 
-#              author.name = author.name, 
+# table_impact(data_scholar,
+#              author.name = author.name,
 #              scholar.profile = scholar.profile,
 #              font_size = 9,
 #              language = language)

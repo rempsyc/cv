@@ -17,6 +17,8 @@ nice_header(
 
 ```{r posters_data, results = "asis"}
 data <- c(
+  "Ben-Shachar, M. S., Thériault, R., Patil, I., Lüdecke, D., Wiernik, B. M., & Makowski, D. (2026, February 10–12). *Check your outliers! An introduction to identifying statistical outliers in R with easystats*. 12th Israeli Conference on Cognition Research, Acre, Israel.",
+  
   "Thériault, R. (2025, December 6). *Addressing polarization and aggression through non-fiction and artificial intelligence*. Directions of Polarization, Social Norms & Trust in Societies: MIT Polarization Workshop, Cambridge, Massachusetts",
   
   "Thériault, R., Masson, R., Archambault, M., & Dandeneau, D. (2025, June 2). *Reflecting on loving-kindness may be more powerful than meditating on loving-kindness*. Mind & Life Summer Research Institute, Garrison, New York.", 
