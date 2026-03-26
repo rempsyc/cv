@@ -25,6 +25,7 @@ data <- bind_rows(
     create_grant_entry(
       Funder_Name = "Francisco J. Varela Research Award (Mind \\& Life Europe) — PI (EUR \\euro{}23,500)",
       Project_Name = "Reading books changes lives: The effects of popular psychology books on prosociality and polarization",
+      Funder_Name_alt = "Subvention de recherche Francisco J. Varela (Mind \\& Life Europe) — PI (EUR \\euro{}23,500)",
       URL = "https://mindandlife-europe.org/2024-eva-recipients-projects/",
       Date = "2025-2027",
       Amount = 35709,
@@ -55,6 +56,7 @@ data <- bind_rows(
     create_grant_entry(
       Funder_Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
       Project_Name = "Transforming habits from the heart: From good intentions to reliable prosocial response",
+      Funder_Name_alt = "Subvention de recherche Francisco J. Varela (Mind \\& Life Europe) — PI (USD \\$20,000)",
       URL = "https://www.mindandlife.org/grant/transforming-habits-from-the-heart-from-good-intentions-to-reliable-prosocial-response/",
       Date = "2019-2022",
       Amount = 26688,
@@ -63,8 +65,8 @@ data <- bind_rows(
     create_grant_entry(
       Funder_Name = "Quebec Research Fund - Society and Culture-Doctoral (FRQSC) — Declined",
       Project_Name = "Influencing behaviour by changing unconscious racial attitudes: a loving-kindness meditation intervention",
-      Funder_Name_alt = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Declined",
-      Project_Name_alt = "Influencer le comportement par la modification des attitudes raciales inconscientes",
+      Funder_Name_alt = "Fonds de recherche du Québec - Société et culture-Doctoral (FRQSC) — Decliné",
+      Project_Name_alt = "Influencer le comportement par la modification des attitudes raciales inconscientes et la méditation",
       # Project_Name_alt = "Influencer le comportement par la modification des attitudes raciales inconscientes : Une intervention de méditation d'amour bienveillant",
       URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
       Date = "2018-2021",
@@ -74,6 +76,8 @@ data <- bind_rows(
     create_grant_entry(
       Funder_Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Doctoral (SSHRC)",
       Project_Name = "Influencing behaviour by changing unconscious racial attitudes: a loving-kindness meditation intervention",
+      Funder_Name_alt = "Bourse d’études supérieures du Canada Joseph-Armand Bombardier-Doctoral (CRSH)",
+      Project_Name_alt = "Influencer le comportement par la modification des attitudes raciales inconscientes et la méditation",
       URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2017/cgs_doctoral-doctorat_bes-eng.aspx",
       Date = "2018-2021",
       Amount = 105000,
@@ -82,6 +86,8 @@ data <- bind_rows(
     create_grant_entry(
       Funder_Name = "Quebec Research Fund - Society and Culture-Master’s (FRQSC) — Declined",
       Project_Name = "The effects of mental and embodied perspective-taking on prejudice against Aboriginal Peoples of Canada",
+      Funder_Name_alt = "Fonds de recherche du Québec - Société et culture-Maitrise (FRQSC) — Decliné",
+      Project_Name_alt = "Les effets de la prise de perspective mentale et corporelle sur les préjugés envers les peuples autochtones",
       URL = "https://repertoire.frq.gouv.qc.ca/offres/rechercheOffres.do?methode=afficher",
       Date = "2017-2018",
       Amount = 15000,
@@ -90,6 +96,8 @@ data <- bind_rows(
     create_grant_entry(
       Funder_Name = "Joseph-Armand Bombardier Canada Graduate Scholarship-Master’s (SSHRC)",
       Project_Name = "The effects of mental and embodied perspective-taking on prejudice against Aboriginal Peoples of Canada",
+      Funder_Name_alt = "Bourse d’études supérieures du Canada Joseph-Armand Bombardier-Maitrise (CRSH)",
+      Project_Name_alt = "Les effets de la prise de perspective mentale et corporelle sur les préjugés envers les peuples autochtones",
       URL = "https://www.sshrc-crsh.gc.ca/results-resultats/recipients-recipiendaires/2016/masters-maitrise-eng.aspx",
       Date = "2017-2018",
       Amount = 17500,
