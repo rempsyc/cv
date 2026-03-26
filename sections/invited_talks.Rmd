@@ -19,6 +19,8 @@ nice_header(
 
 ```{r invited_data, results = "asis"}
 data <- c(
+  "Thériault, R. (2026, February 27). *Reading books changes lives: Fostering youth wellbeing and civic identity through popular non-fiction*. Youth Opportunity & Wellbeing Pitchfest, New York University, USA.",
+  
   "Thériault, R. (2025, December 17). *From embodiment to mettā: Buddhist-inspired pathways to effortless prosociality*. Indian Institute of Technology Delhi, Delhi, India.",
   
   "Thériault, R. (2025, December 4). *Developing the moral self: From embodied perspective-taking to embodying loving-kindness*. Morality Lab, Boston College, Boston, USA.",
