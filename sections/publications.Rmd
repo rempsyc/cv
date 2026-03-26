@@ -39,7 +39,7 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 ```{r pubs_data, results = "asis"}
 data <- c(
-  "Brodeur, A., Mikola, D., Cook, N., ... Thériault, R., et al. (2026). Computational reproducibility and robustness of empirical economics and political science research between 2022 and 2023. Accepted at *Nature*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107.",
+  "Brodeur, A., Mikola, D., Cook, N., ... Thériault, R., et al. (2026). Reproducibility and robustness of economics and political science research. Accepted at *Nature*. https://econpapers.repec.org/RePEc:zbw:i4rdps:107.",
   
   "Pillai, R. M., Globig, L. K., Rathje, S., Sternisko, A., Thériault, R., & Van Bavel, J. J. (2026). An identity-based approach to polarization and public health. *Social and Personality Psychology Compass*, *20*(2), e70125. https://doi.org/10.1111/spc3.70125",
   
