@@ -52,6 +52,7 @@ data <- bind_rows(
     #   Date = "2025-2026",
     #   Amount = 140000,
     #   Program = "Postdoc"),
+    # # File number = 756-2024-0362
 
     create_grant_entry(
       Funder_Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI (USD \\$20,000)",
@@ -82,6 +83,7 @@ data <- bind_rows(
       Date = "2018-2021",
       Amount = 105000,
       Program = "PhD"),
+    # File number = 767-2018-1652
     
     create_grant_entry(
       Funder_Name = "Quebec Research Fund - Society and Culture-Master’s (FRQSC) — Declined",
@@ -102,6 +104,7 @@ data <- bind_rows(
       Date = "2017-2018",
       Amount = 17500,
       Program = "Masters"),
+    # File number = ???
 
     create_grant_entry(
       Funder_Name = "Graduate Excellence Fellowship in Mental Health Research (McGill University)",

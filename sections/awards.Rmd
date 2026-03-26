@@ -304,6 +304,7 @@ data <- bind_rows(
     Activity = NA,
     Program = "PhD",
     Declined = FALSE),
+  # File number = ???
   
   tibble(
     Name = "Faculty of Arts Research Internship Award (McGill University)",
