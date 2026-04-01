@@ -65,7 +65,7 @@ data <- bind_rows(
     
     tibble(
     Name = "Best Student Paper Award (UQAM)",
-    Name_alt = "Bourse Adrien-Pinard en psychologie (UQAM)",
+    Name_alt = "Prix du meilleur article étudiant (UQAM)",
     URL = "",
     Details = "",
     Date = "2024",
