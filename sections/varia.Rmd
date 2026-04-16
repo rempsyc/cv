@@ -6,7 +6,9 @@ output: html_document
 \setlength{\leftskip}{0in}
 \normalsize
 
-# Varia
+```{r, results='asis'}
+nice_header("Varia", "Varia", language)
+```
 
 <!-- ## Professional Affiliations -->
 
@@ -35,13 +37,13 @@ detailed_entries(data, with, when, .protect = FALSE)
 
 <!-- Positive & moral psychology, contemplative practices, Theory of Mind, empathy, self-regulatory strength, Self-Determination Theory, bodily self-consciousness -->
 
-## Technical Skills
+`r if_english("## Technical Skills", "## Compétences techniques", language)`
 
 R, Rstudio, Rmarkdown, Shiny, GitHub, Inquisit, Wowchemy, Netlify, SPSS, Qualtrics, Survey Monkey, LimeSurvey, Inkscape
 
-## Languages
+`r if_english("## Languages", "## Langages", language)`
 
-French (native), English (fluent)
+`r if_english("French (native), English (fluent)", "Français (langue natale), Anglais (fluent)", language)`
 
 <!-- ## Activities and Interests -->
 

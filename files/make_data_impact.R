@@ -1,21 +1,106 @@
 # ------------------------------
-# Scholar data
+# Scholar data (with local caching to avoid rate-limiting)
 # ------------------------------
 
-data_scholar <- list()
+# Cache settings
+# Set `refresh_scholar = TRUE` before sourcing this file to force a refresh.
+# Otherwise, cached data is used if available and less than `cache_days` old.
+if (!exists("refresh_scholar")) {
+  refresh_scholar <- FALSE
+}
+if (!exists("cache_days")) {
+  cache_days <- 1
+}
+cache_file <- here::here("files", "scholar_cache.rds")
 
-data_scholar[["date"]] <- format(Sys.time(), "%d %B %Y")
-data_scholar[["scholar_stats"]] <- scholar::get_profile(scholar.profile)
-data_scholar[["scholar_history"]] <- scholar::get_citation_history(
-  scholar.profile
-)
-capture.output(
-  data_scholar[["scholar_publications"]] <- scholar::get_publications(
-    scholar.profile,
-    flush = TRUE
-  ) |>
-    mutate(author = scholar::get_complete_authors(scholar.profile, pubid))
-)
+fetch_scholar_data <- function(scholar.profile, author.name) {
+  data <- list()
+  data[["date"]] <- format(Sys.time(), "%d %B %Y")
+
+  message("Fetching Google Scholar data...")
+  data[["scholar_stats"]] <- tryCatch(
+    scholar::get_profile(scholar.profile),
+    error = function(e) {
+      warning("Could not fetch Google Scholar profile: ", e$message)
+      list(h_index = NA, total_cites = NA)
+    }
+  )
+
+  data[["scholar_history"]] <- tryCatch(
+    scholar::get_citation_history(scholar.profile),
+    error = function(e) {
+      warning("Could not fetch citation history: ", e$message)
+      data.frame(year = integer(), cites = integer())
+    }
+  )
+
+  data[["scholar_publications"]] <- tryCatch(
+    scholar::get_publications(scholar.profile, flush = TRUE),
+    error = function(e) {
+      warning("Could not fetch publications: ", e$message)
+      data.frame(
+        title = character(),
+        author = character(),
+        journal = character(),
+        number = character(),
+        cites = integer(),
+        year = integer(),
+        pubid = character()
+      )
+    }
+  )
+
+  # Only fetch complete authors for pubs where the list is truncated ("...")
+  # or where the target author name is missing. This avoids one HTTP request
+
+  # per publication and typically cuts requests from ~30 to ~5-10.
+  if (nrow(data[["scholar_publications"]]) > 0) {
+    needs_full <- grepl("\\.\\.\\.", data[["scholar_publications"]]$author) |
+      !grepl(author.name, tolower(data[["scholar_publications"]]$author))
+    message(
+      "Fetching complete authors for ",
+      sum(needs_full),
+      "/",
+      nrow(data[["scholar_publications"]]),
+      " publications..."
+    )
+    if (any(needs_full)) {
+      pubids_to_fetch <- data[["scholar_publications"]]$pubid[needs_full]
+      capture.output(
+        full_authors <- tryCatch(
+          scholar::get_complete_authors(scholar.profile, pubids_to_fetch),
+          error = function(e) {
+            warning("Could not fetch complete authors: ", e$message)
+            rep(NA_character_, length(pubids_to_fetch))
+          }
+        )
+      )
+      data[["scholar_publications"]]$author[needs_full] <- full_authors
+    }
+  }
+
+  data
+}
+
+cache_is_valid <- file.exists(cache_file) &&
+  difftime(Sys.time(), file.mtime(cache_file), units = "days") < cache_days &&
+  !refresh_scholar
+
+if (cache_is_valid) {
+  message(
+    "Loading cached Google Scholar data (",
+    round(
+      difftime(Sys.time(), file.mtime(cache_file), units = "hours"),
+      1
+    ),
+    "h old). Set refresh_scholar <- TRUE to update."
+  )
+  data_scholar <- readRDS(cache_file)
+} else {
+  data_scholar <- fetch_scholar_data(scholar.profile, author.name)
+  saveRDS(data_scholar, cache_file)
+  message("Google Scholar data cached to: ", cache_file)
+}
 
 # Correct author name inconsistencies, if necessary! (uncomment below)
 data_scholar$scholar_publications$author <- gsub(
@@ -26,23 +111,34 @@ data_scholar$scholar_publications$author <- gsub(
 # data_scholar$scholar_publications$author <- gsub("MM Doucerain |MM. Doucerain", "M Doucerain", data_scholar$scholar_publications$author)
 #                                                  data_scholar$scholar_publications$author)
 
-data_scholar[["scholar_data"]] <- data_scholar[["scholar_publications"]] %>%
-  dplyr::filter(year > 1950) %>%
-  dplyr::group_by(year) %>%
-  dplyr::summarise(
-    Publications = n(),
-  ) %>%
-  dplyr::mutate(
-    Publications = cumsum(Publications)
-  ) %>%
-  dplyr::rename(Year = year) %>%
-  tidyr::gather(Index, Number, -Year) %>%
-  dplyr::mutate(Index = forcats::fct_rev(Index)) %>%
-  rbind(
-    data_scholar[["scholar_history"]] %>%
-      dplyr::rename(Number = cites, Year = year) %>%
-      mutate(Index = "Citations", Number = cumsum(Number))
+if (
+  nrow(data_scholar[["scholar_publications"]]) > 0 &&
+    nrow(data_scholar[["scholar_history"]]) > 0
+) {
+  data_scholar[["scholar_data"]] <- data_scholar[["scholar_publications"]] %>%
+    dplyr::filter(year > 1950) %>%
+    dplyr::group_by(year) %>%
+    dplyr::summarise(
+      Publications = n(),
+    ) %>%
+    dplyr::mutate(
+      Publications = cumsum(Publications)
+    ) %>%
+    dplyr::rename(Year = year) %>%
+    tidyr::gather(Index, Number, -Year) %>%
+    dplyr::mutate(Index = forcats::fct_rev(Index)) %>%
+    rbind(
+      data_scholar[["scholar_history"]] %>%
+        dplyr::rename(Number = cites, Year = year) %>%
+        mutate(Index = "Citations", Number = cumsum(Number))
+    )
+} else {
+  data_scholar[["scholar_data"]] <- data.frame(
+    Year = integer(),
+    Number = numeric(),
+    Index = character()
   )
+}
 
 # Publications individual
 data <- data_scholar[["scholar_publications"]] %>%
@@ -132,17 +228,24 @@ get_stats <- function(data_scholar, author.name = author.name) {
   authors <- tolower(data_scholar$scholar_publications$author)
   authors <- strsplit(authors, ", ")
   position <- sapply(authors, function(x) {
-    position <- which(x == author.name)
-    if (length(position) > 1) {
-      position <- position[1]
+    # Exact match first
+    pos <- which(x == author.name)
+    # Fallback: partial match (handles name format changes from Google Scholar)
+    if (length(pos) == 0) {
+      pos <- grep(author.name, x, fixed = TRUE)
     }
-    if (position == 1) {
+    # Still no match: skip this publication
+    if (length(pos) == 0) {
+      return("Other")
+    }
+    pos <- pos[1]
+    if (pos == 1) {
       return("First")
     }
-    if (position == 2) {
+    if (pos == 2) {
       return("Second")
     }
-    if (position == length(x)) {
+    if (pos == length(x)) {
       return("Last")
     }
     "Other"
@@ -172,6 +275,10 @@ get_stats <- function(data_scholar, author.name = author.name) {
 # Make plot with number of publications and number of citations
 plot_impact <- function(data_scholar) {
   data <- data_scholar$scholar_data
+  if (is.null(data) || nrow(data) == 0) {
+    message("No scholar data available for plotting.")
+    return(invisible(NULL))
+  }
 
   data %>%
     dplyr::filter(Year >= 2010) %>%
@@ -218,6 +325,14 @@ table_impact <- function(
   language = "EN",
   font_size = 9
 ) {
+  if (
+    is.null(data_scholar$scholar_publications) ||
+      nrow(data_scholar$scholar_publications) == 0
+  ) {
+    message("No scholar publications available for table.")
+    return(invisible(NULL))
+  }
+
   gs_profile <- paste0(
     "https://scholar.google.com/citations?user=",
     scholar.profile

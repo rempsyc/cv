@@ -6,9 +6,35 @@ output: html_document
 \setlength{\leftskip}{0in}
 \normalsize
 
-# Selected Leadership Experience
+```{r, results='asis'}
+nice_header("Selected Leadership Experience", "Expériences de leadeurship sélectionnées", language)
+```
 
 ```{r Leadership}
+
+leadership_dictionary <- tribble(
+  ~English, ~French,
+  "Lead Student Ambassador \\\\& Co-founder, Student Ambassador Program",
+    "Étudiant ambassadeur principal \\\\& Co-fondateur, Student Ambassador Program",
+  "Lead of ~70 Ambassadors (blog, webinar, logo, Instagram, etc.), Editor-in-Chief (blog)",
+    "Responsable d'environ 70 ambassadeurs (blogue, webinaire, logo, Instagram, etc.), rédacteur en chef (blogue)",
+  "Member of think-tank for the future of positive psychology in Québec",
+    "Membre du groupe de réflexion sur l'avenir de la psychologie positive au Québec",
+  "Lead development of freshly formed student division, various responsabilities",
+    "Diriger le développement d'une division étudiante nouvellement formée, diverses responsabilités",
+  "Yoga \\\\& Meditation Student Committee Lead",
+    "Co-responsable du comité étudiant de yoga et de méditation",
+  "Led or organized meditation and yoga sessions, secured grants (\\\\$2198) for affordable classes",
+    "Dirigé ou organisé des séances de méditation et de yoga, obtention de subventions pour le projet",
+  "Regional Representative (for the province of Québec) of the Student Division (SIPPA)",
+    "Représentant régional (pour la province du Québec) de la division étudiante (SIPPA)",
+  "SIPPA newsletter, connecting local members, meetings, interactive map",
+    "Infolettre SIPPA, connexion des membres locaux, réunions, carte interactive",
+  "Quebec Positive Psychology Association",
+    "Regroupement québécois de psychologie positive",
+  "Department of psychology (Université du Québec à Montréal)",
+    "Département de psychologie (Université du Québec à Montréal)"
+)
 
 data <- rbind(
   
@@ -138,6 +164,7 @@ if (short) {
    #data$details <- NA
 }
 
-detailed_entries(data, role, when, what, where, details, .protect = FALSE)
+data <- data %>% rename(with = role)
+nice_entries(data, language, leadership_dictionary)
 
 ```

@@ -51,16 +51,45 @@ try(Sys.setlocale("LC_TIME", "French_France.1252"), silent = TRUE)
 
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
-#######################
-#### SHORT VERSION ####
-#######################
+###################################
+#### YOUR SETTINGS (MUST EDIT) ####
+###################################
+
+# Language: "EN" for English, "FR" for French
+language <- "FR"
 
 # Whether to print a shortened version of the CV
 short <- FALSE
 
-########################
-#### PACKAGE SETUP #####
-########################
+# How your name appears in publications (used for auto-bolding)
+author_bold <- "Thériault, R."
+
+# Your Google Scholar profile ID (from your profile URL)
+scholar.profile <- "NrfwEncAAAAJ"
+
+# Your Google Scholar short author name
+author.name <- "rém thériault"
+# Note: correct name may vary (e.g., if you inconsistently used middle name initials)
+# Dominique Makowski's was simply "d makowski", so the pattern is unclear
+# But usually it seems 1-3 letters from first name plus full last name
+# When in doubt, the correct author name can be obtained through:
+# get_scholar_name(scholar.profile) # (after defining 'scholar.profile' above)
+# Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
+
+###############################
+#### OPTIONAL SETTINGS ########
+###############################
+
+# Cache settings: avoid hitting Google Scholar on every knit
+refresh_scholar <- FALSE  # Set to TRUE to force a fresh fetch
+cache_days <- 1           # Re-fetch automatically after this many days
+
+# Header color for the CV
+headcolor <- "0a0a0a"
+
+########################################
+#### PACKAGE SETUP (DO NOT MODIFY) #####
+########################################
 
 # Required packages
 library(vitae)
@@ -74,34 +103,8 @@ library(rsvg)
 library(kableExtra)
 library(tidyverse)
 
-language <- "FR" # If not EN, will choose the alternative names in the data
-# So far only for nice_awards() and nice_grants()
-
 # To format links throughout the CV
 source("files/functions.R")
-
-# Automatically bold your name in the publication section
-author_bold <- "Thériault, R."
-
-########################
-#### GOOGLE SCHOLAR ####
-########################
-
-# Specify your Google scholar profile
-scholar.profile <- "NrfwEncAAAAJ" # Get it from your Google Scholar profile URL
-
-# Specify your Google scholar short author name
-author.name <- "rém thériault"
-# Note: correct name may vary (e.g., if you inconsistently used middle name initials)
-# Dominique Makowski's was simply "d makowski", so the pattern is unclear 
-# But usually it seems 1-3 letters from first name plus full last name
-
-# When in doubt, the correct author name can be obtained through:
-# get_scholar_name(scholar.profile) # (after defining 'scholar.profile' above)
-
-# Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
-
-headcolor <- "0a0a0a"
 
 ########################
 ##### INSTRUCTIONS #####
@@ -144,19 +147,19 @@ headcolor <- "0a0a0a"
 ```{r Conference posters parent, child=c('sections/conference_posters.Rmd'), eval = !short}
 ```
 
-```{r Software parent, child=c('sections/fr/software.Rmd')}
+```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
 ```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
-```{r Media coverage parent, child=c('sections/fr/media_coverage.Rmd'), eval = !short}
+```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}
 ```
 
-```{r Blogs parent, child=c('sections/fr/blogs.Rmd'), eval = TRUE}
+```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = TRUE}
 ```
 
-```{r Other experience parent, child=c('sections/fr/other_experience.Rmd'), eval = TRUE}
+```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = TRUE}
 ```
 
 ```{r References parent, child=c('sections/references.Rmd'), eval = !short}
