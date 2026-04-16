@@ -90,10 +90,12 @@ scholar_exclude <- c("Makowski (2023)", "Lüdecke (2023)")
 # Fix author name inconsistencies from Google Scholar (named vector: wrong = correct)
 scholar_name_fixes <- c("R Thériault" = "Rém Thériault")
 
-# Fix author ORDER for specific publications (by pubid, named list: pubid = corrected author string)
+# Fix author ORDER for specific publications (named list: wrong order = correct order)
+# Useful for co-first-author papers where you want to be listed first so it counts
+# toward your number of first-author publications in the impact metrics.
 # Use pubids from your Google Scholar profile URL (click a paper → see ?pubid= in URL)
 scholar_author_corrections <- list(
-  # Swap first two authors for this paper:
+  # Swap co-first authors so this paper counts as first-author:
   "M Miglianico, Rém Thériault" = "Rém Thériault, M Miglianico"
 )
 
@@ -107,17 +109,9 @@ headcolor <- "0a0a0a"
 #### PACKAGE SETUP (DO NOT MODIFY) #####
 ########################################
 
-# Required packages
-library(vitae)
-library(dplyr)
-
-# For Google scholar data/visualization
-library(scholar)
-library(patchwork)
-library(see)
-library(rsvg)
-library(kableExtra)
-library(tidyverse)
+# Loads and auto-installs if needed:
+#   vitae, tidyverse, scholar, patchwork, easystats, rsvg, kableExtra, here
+source("files/packages.R")
 
 # To format links throughout the CV
 source("files/functions.R")

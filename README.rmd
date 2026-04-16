@@ -11,12 +11,12 @@ This CV was made using the [`vitae`](https://pkg.mitchelloharawild.com/vitae/) p
 ## Instructions
 
 1. Clone/download this entire repository to your computer.
-2. Open the project in RStudio (double-click `cv.Rproj`).
-3. Install all required packages (LaTeX is required as well).
+2. Open the project in RStudio (double-click `cv/cv.Rproj`). All CV files live inside the `cv/` folder to keep the root clean.
+3. Required packages will be installed automatically on first knit (LaTeX is also required — install via [`tinytex`](https://yihui.org/tinytex/)).
 4. Edit `cv.Rmd` — the setup block is organized into clearly labeled sections:
    - **YOUR SETTINGS (MUST EDIT)**: language, name, Google Scholar profile, etc.
    - **OPTIONAL SETTINGS**: caching, Scholar exclusions/corrections, header color.
-   - **PACKAGE SETUP (DO NOT MODIFY)**: library loading.
+   - **PACKAGE SETUP (DO NOT MODIFY)**: auto-loads and auto-installs packages.
 5. Edit the individual `.Rmd` files in the `sections/` folder to customize content.
 6. Knit `cv.Rmd` to produce `cv.pdf` (shortcut: `Ctrl+Shift+K`).
 7. For a French CV, knit `cv_fr.Rmd` instead — it produces `cv_fr.pdf`. All section files are bilingual and shared between both files.

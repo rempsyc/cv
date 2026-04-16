@@ -207,12 +207,19 @@ if (exists("scholar_author_corrections") && length(scholar_author_corrections) >
 
 # Append missing author to specific publications (config from cv.Rmd)
 if (exists("scholar_append_author") && length(scholar_append_author) > 0) {
+  # Derive title-case author name from the lowercase scholar name
+  author.name.titled <- paste(
+    vapply(strsplit(author.name, " ")[[1]], function(w) {
+      paste0(toupper(substr(w, 1, 1)), substr(w, 2, nchar(w)))
+    }, character(1)),
+    collapse = " "
+  )
   for (pubid in scholar_append_author) {
     if (pubid %in% data_scholar$scholar_publications$pubid) {
       idx <- which(data_scholar$scholar_publications$pubid == pubid)
       data_scholar$scholar_publications$author[idx] <- paste0(
         data_scholar$scholar_publications$author[idx],
-        ", Rém Thériault, et al."
+        ", ", author.name.titled, ", et al."
       )
     }
   }

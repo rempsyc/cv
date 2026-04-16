@@ -4,6 +4,7 @@
 .Ruserdata
 .Rhistory
 files/scholar_cache.rds
+cv/files/scholar_cache.rds
 cv-test.pdf
 cv test.Rmd
 cv-test.log
