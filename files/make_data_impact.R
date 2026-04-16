@@ -102,14 +102,17 @@ if (cache_is_valid) {
   message("Google Scholar data cached to: ", cache_file)
 }
 
-# Correct author name inconsistencies, if necessary! (uncomment below)
-data_scholar$scholar_publications$author <- gsub(
-  "R Thériault",
-  "Rém Thériault",
-  data_scholar$scholar_publications$author
-)
-# data_scholar$scholar_publications$author <- gsub("MM Doucerain |MM. Doucerain", "M Doucerain", data_scholar$scholar_publications$author)
-#                                                  data_scholar$scholar_publications$author)
+# Correct author name inconsistencies using config from cv.Rmd
+if (exists("scholar_name_fixes") && length(scholar_name_fixes) > 0) {
+  for (i in seq_along(scholar_name_fixes)) {
+    data_scholar$scholar_publications$author <- gsub(
+      names(scholar_name_fixes)[i],
+      scholar_name_fixes[i],
+      data_scholar$scholar_publications$author,
+      fixed = TRUE
+    )
+  }
+}
 
 if (
   nrow(data_scholar[["scholar_publications"]]) > 0 &&
@@ -162,8 +165,12 @@ for (i in 1:nrow(data)) {
   data$Publication[i] <- paste0(pub, suffix[j])
 }
 
-# Ignore the publications below!
-ignored.publications <- c("Makowski (2023)", "Lüdecke (2023)")
+# Ignore publications specified in cv.Rmd config
+if (exists("scholar_exclude")) {
+  ignored.publications <- scholar_exclude
+} else {
+  ignored.publications <- c()
+}
 
 # Filter some publications out, as desired
 data_scholar[["scholar_publications"]] <- data %>%
@@ -186,40 +193,29 @@ data_scholar$scholar_data$Number[row.to.correct] <-
 
 # data_scholar$scholar_data <- data_scholar$scholar_data[-7, ]
 
-# Correct publication with several first authors
-if (
-  any(grepl(
-    "M Miglianico, Rém Thériault",
-    data_scholar$scholar_publications$author
-  ))
-) {
-  data_scholar$scholar_publications$author <- gsub(
-    "M Miglianico, Rém Thériault",
-    "Rém Thériault, M Miglianico",
-    data_scholar$scholar_publications$author
-  )
+# Correct author order for specific publications (config from cv.Rmd)
+if (exists("scholar_author_corrections") && length(scholar_author_corrections) > 0) {
+  for (i in seq_along(scholar_author_corrections)) {
+    data_scholar$scholar_publications$author <- gsub(
+      names(scholar_author_corrections)[i],
+      scholar_author_corrections[[i]],
+      data_scholar$scholar_publications$author,
+      fixed = TRUE
+    )
+  }
 }
 
-# Correct missing authors
-
-if ("Zph67rFs4hoC" %in% data_scholar$scholar_publications$pubid) {
-  x <- data_scholar$scholar_publications$author[
-    data_scholar$scholar_publications$pubid == "Zph67rFs4hoC"
-  ]
-  x <- paste0(x, ", Rém Thériault, et al.")
-  data_scholar$scholar_publications$author[
-    data_scholar$scholar_publications$pubid == "Zph67rFs4hoC"
-  ] <- x
-}
-
-if ("IWHjjKOFINEC" %in% data_scholar$scholar_publications$pubid) {
-  x <- data_scholar$scholar_publications$author[
-    data_scholar$scholar_publications$pubid == "IWHjjKOFINEC"
-  ]
-  x <- paste0(x, ", Rém Thériault, et al.")
-  data_scholar$scholar_publications$author[
-    data_scholar$scholar_publications$pubid == "IWHjjKOFINEC"
-  ] <- x
+# Append missing author to specific publications (config from cv.Rmd)
+if (exists("scholar_append_author") && length(scholar_append_author) > 0) {
+  for (pubid in scholar_append_author) {
+    if (pubid %in% data_scholar$scholar_publications$pubid) {
+      idx <- which(data_scholar$scholar_publications$pubid == pubid)
+      data_scholar$scholar_publications$author[idx] <- paste0(
+        data_scholar$scholar_publications$author[idx],
+        ", Rém Thériault, et al."
+      )
+    }
+  }
 }
 
 # Get dataframe with stats

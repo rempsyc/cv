@@ -74,7 +74,6 @@ author.name <- "rém thériault"
 # But usually it seems 1-3 letters from first name plus full last name
 # When in doubt, the correct author name can be obtained through:
 # get_scholar_name(scholar.profile) # (after defining 'scholar.profile' above)
-# Name inconsistencies should be corrected manually in file 'files/make_data_impact.R' (lines 14-16).
 
 ###############################
 #### OPTIONAL SETTINGS ########
@@ -83,6 +82,23 @@ author.name <- "rém thériault"
 # Cache settings: avoid hitting Google Scholar on every knit
 refresh_scholar <- FALSE  # Set to TRUE to force a fresh fetch
 cache_days <- 1           # Re-fetch automatically after this many days
+
+# Publications to exclude from Google Scholar (e.g., preprints already listed elsewhere)
+# Use format: "LastName (Year)" — add letter suffix for disambiguation: "LastName (Yearb)"
+scholar_exclude <- c("Makowski (2023)", "Lüdecke (2023)")
+
+# Fix author name inconsistencies from Google Scholar (named vector: wrong = correct)
+scholar_name_fixes <- c("R Thériault" = "Rém Thériault")
+
+# Fix author ORDER for specific publications (by pubid, named list: pubid = corrected author string)
+# Use pubids from your Google Scholar profile URL (click a paper → see ?pubid= in URL)
+scholar_author_corrections <- list(
+  # Swap first two authors for this paper:
+  "M Miglianico, Rém Thériault" = "Rém Thériault, M Miglianico"
+)
+
+# Append missing author to specific publications (vector of pubids)
+scholar_append_author <- c("Zph67rFs4hoC", "IWHjjKOFINEC")
 
 # Header color for the CV
 headcolor <- "0a0a0a"

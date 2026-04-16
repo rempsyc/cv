@@ -11,66 +11,93 @@ optimization and documentation to the current template.
 
 ## Instructions
 
-1.  First, you will need to clone/download this entire repository and
-    all it’s files to your computer so you can run the code in R.
-2.  The main file to edit is `cv.Rmd`. Use it to add your name, contact
-    information, and description. Change the template colour using the
-    `headcolor` parameter (in the YAML header). Also replace the photo
-    in the `img` folder.
-3.  Make sure to install all required packages (LaTeX is required as
-    well).
-4.  Specify your Google Scholar profile number and name if using this
-    feature.
-5.  Change the order of sections by changing the order of code chunks.
-6.  Edit the individual `.Rmd` files in the `sections` subfolder to edit
-    your sections’ content as desired (e.g., `publications.Rmd`).
-7.  To output the CV to PDF, simply knit `cv.Rmd` (shortcut is
-    `Ctrl+Shift+K`)
+1.  Clone/download this entire repository to your computer.
+2.  Open the project in RStudio (double-click `cv.Rproj`).
+3.  Install all required packages (LaTeX is required as well).
+4.  Edit `cv.Rmd` — the setup block is organized into clearly labeled
+    sections:
+    - **YOUR SETTINGS (MUST EDIT)**: language, name, Google Scholar
+      profile, etc.
+    - **OPTIONAL SETTINGS**: caching, Scholar exclusions/corrections,
+      header color.
+    - **PACKAGE SETUP (DO NOT MODIFY)**: library loading.
+5.  Edit the individual `.Rmd` files in the `sections/` folder to
+    customize content.
+6.  Knit `cv.Rmd` to produce `cv.pdf` (shortcut: `Ctrl+Shift+K`).
+7.  For a French CV, knit `cv_fr.Rmd` instead — it produces `cv_fr.pdf`.
+    All section files are bilingual and shared between both files.
+
+## Bilingual Support
+
+All section files in `sections/` support both English and French. The
+language is controlled by a single `language` setting (`"EN"` or `"FR"`)
+in the setup block. Two entry-point files exist because the YAML header
+(job title, about-me paragraph, LaTeX packages) differs by language:
+
+- `cv.Rmd` → English CV (`cv.pdf`)
+- `cv_fr.Rmd` → French CV (`cv_fr.pdf`)
+
+## Google Scholar
+
+The template can automatically fetch your publication data from Google
+Scholar for an impact summary (citation plot and table). Configure these
+settings in the setup block:
+
+- `scholar.profile`: your Google Scholar profile ID (from the URL).
+- `author.name`: your short author name as it appears on Google Scholar.
+- `refresh_scholar`: set to `TRUE` to force re-fetching (default: use
+  cache).
+- `cache_days`: how many days before the cache expires (default: 1).
+- `scholar_exclude`: publications to hide (e.g., preprints listed
+  elsewhere).
+- `scholar_name_fixes`: fix author name inconsistencies from Google
+  Scholar.
+- `scholar_author_corrections`: fix author order for specific papers.
+- `scholar_append_author`: append your name to papers where it’s
+  missing.
+
+Note: Google Scholar has no official API — the `scholar` R package
+scrapes the web page. Excessive requests may trigger rate limiting (HTTP
+429). The built-in caching avoids this during normal use.
 
 ## Tips
 
--   Request a short version by setting `short` to `TRUE` in `cv.Rmd`.
--   Add `eval = !short` to code chunk options to make them optional for
-    the short version.
--   If you are using a word processor as well as RStudio, one tip to
-    save time is to change the relevant content section (e.g.,
-    `publications.Rmd`) View from `Source` to `Visual` (top left in
-    RStudio) before copy-pasting your publications and other formatted
-    content. This way, all the existing formatting (bold, italic, etc.)
-    will be kept and you won’t have to manually recreate all the
-    formatting.
--   It is also possible to import data from other sources automatically
-    (ORCID, Google Scholar, etc.), but I have not personally
-    experimented with this yet. More info can be found
-    [here](https://pkg.mitchelloharawild.com/vitae/articles/data.html).
+- Request a short version by setting `short` to `TRUE` in `cv.Rmd`.
+- Add `eval = !short` to code chunk options to make them optional for
+  the short version.
+- If you are using a word processor as well as RStudio, one tip to save
+  time is to change the relevant content section (e.g.,
+  `publications.Rmd`) View from `Source` to `Visual` (top left in
+  RStudio) before copy-pasting your publications and other formatted
+  content. This way, all the existing formatting (bold, italic, etc.)
+  will be kept and you won’t have to manually recreate all the
+  formatting.
+- It is also possible to import data from other sources automatically
+  (ORCID, Google Scholar, etc.), but I have not personally experimented
+  with this yet. More info can be found
+  [here](https://pkg.mitchelloharawild.com/vitae/articles/data.html).
 
 ## Notes
 
--   This template uses the North-American `8.5in x 11in` (letter) size
-    instead of the original European `8.27 x 11.69` (A4) size.
--   Special characters (e.g., `$`, `&`, `%`) need to be escaped with a
-    backslash or a double backslash.
--   The template uses some LaTeX language at times for specific
-    customization (commands starting with backslashes `\`). Some useful
-    commands include:
-    -   `\pagebreak` to create a page break between sections
-    -   `\\textit{yourtext}` to italicize `yourtext` (within dataframes,
-        outside of regular rmarkdown)
-    -   `\\hspace{0.5cm}` to create some left space (e.g., between
-        columns in tables)
-    -   `\\dotfill` to create dotted lines (e.g., for the award section)
-    -   `\setlength{\parindent}{-0.2in}` and
-        `\setlength{\leftskip}{0.2in}` to indent publications, “hanging”
-        style.
-    -   `\scriptsize` to make text smaller (typically for publications
-        sections)
-    -   `\normalsize` to make text normal (for regular sections)
-    -   For specific font sizes, consider the following reference: 
-
-<img width="40%" height="531" alt="image" src="https://github.com/user-attachments/assets/6561307a-e7eb-432f-8bb3-8156987f1c31" />
-
--   For questions or difficulties, feel free to open a GitHub issue
-    here.
+- This template uses the North-American `8.5in x 11in` (letter) size
+  instead of the original European `8.27 x 11.69` (A4) size.
+- Special characters (e.g., `$`, `&`, `%`) need to be escaped with a
+  backslash or a double backslash.
+- The template uses some LaTeX language at times for specific
+  customization (commands starting with backslashes `\`). Some useful
+  commands include:
+  - `\pagebreak` to create a page break between sections
+  - `\scriptsize` to make text smaller (typically for publications
+    sections)
+  - `\normalsize` to make text normal (for regular sections)
+  - `\\textit{yourtext}` to italicize `yourtext` (within dataframes,
+    outside of regular rmarkdown)
+  - `\\hspace{0.5cm}` to create some left space (e.g., between columns
+    in tables)
+  - `\\dotfill` to create dotted lines (e.g., for the award section)
+  - `\setlength{\parindent}{-0.2in}` and `\setlength{\leftskip}{0.2in}`
+    to indent publications, “hanging” style.
+- For questions or difficulties, feel free to open a GitHub issue here.
 
 ## Demos
 
