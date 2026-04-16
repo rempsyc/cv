@@ -28,6 +28,7 @@ linkcolor: blue
 output: 
   vitae::awesomecv:
     page_total: true
+    font_scale: 1.0
 header-includes:
   - \usepackage[gen]{eurosym}
 papersize: letterpaper
@@ -90,16 +91,11 @@ scholar_append_author <- c("Zph67rFs4hoC", "IWHjjKOFINEC")
 # Header color for the CV
 headcolor <- "0a0a0a"
 
-# Some feedback we got was to increase font size to at least 12 pt everywhere
-# But this has proven to be much more complex than anticipated...
-# Increases font sizes
-# (e.g., 1.1 = 10% increase; 0.90, 10% decrease)
-# First delete awesome-cv.cls if it was already modified with the function below
-# Otherwise no need to delete it.
-# file.remove("awesome-cv.cls")
-# Then knit once (ctrl+K) to recreate the .cls file):
-# Then run:
-# scale_awesomecv_fonts(scale = 1.1)
+# To scale font sizes, add font_scale to the YAML header above, e.g.:
+#   output:
+#     vitae::awesomecv:
+#       page_total: true
+#       font_scale: 1.1
 
 ########################################
 #### PACKAGE SETUP (DO NOT MODIFY) #####
