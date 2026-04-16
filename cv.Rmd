@@ -114,14 +114,6 @@ headcolor <- "0a0a0a"
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
-```{r Publications parent, child=c('sections/publications.Rmd')}
-```
-
-```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
-```
-
-\setlength{\parskip}{8pt}
-
 ```{r Grants parent, child=c('sections/grants.Rmd'), eval=T}
 ```
 
@@ -129,6 +121,14 @@ headcolor <- "0a0a0a"
 
 ```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
+
+```{r Publications parent, child=c('sections/publications.Rmd')}
+```
+
+```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
+```
+
+\setlength{\parskip}{8pt}
 
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
 ```
