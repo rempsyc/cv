@@ -110,7 +110,7 @@ headcolor <- "0a0a0a"
 ########################################
 
 # Loads and auto-installs if needed:
-#   vitae, tidyverse, scholar, patchwork, easystats, rsvg, kableExtra, here
+#   vitae, tidyverse, scholar, patchwork, see, rsvg, kableExtra, here
 source("files/packages.R")
 
 # To format links throughout the CV

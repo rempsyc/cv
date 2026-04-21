@@ -2,6 +2,105 @@
 # Scholar data (with local caching to avoid rate-limiting)
 # ------------------------------
 
+# Build stable exclusion keys of the form "LastName (Year)" with letter suffixes
+# for duplicates in the same year, e.g., "Smith (2024b)".
+build_scholar_publication_keys <- function(publications_df) {
+  if (is.null(publications_df) || nrow(publications_df) == 0) {
+    return(publications_df)
+  }
+
+  data <- publications_df %>%
+    mutate(
+      Authors = paste0(lapply(stringr::str_split(author, " "), `[[`, 2)),
+      Authors = stringr::str_to_title(stringr::str_remove_all(Authors, ",")),
+      PublicationKey = paste0(Authors, " (", year)
+    )
+
+  suffix <- letters
+  suffix[1] <- ""
+  for (i in seq_len(nrow(data))) {
+    key <- data$PublicationKey[i]
+    j <- 1
+    while (paste0(key, suffix[j]) %in% data$PublicationKey[seq_len(i - 1)]) {
+      j <- j + 1
+    }
+    data$PublicationKey[i] <- paste0(key, suffix[j])
+  }
+
+  data %>%
+    mutate(Publication = paste0(PublicationKey, ")"))
+}
+
+# Normalize exclusion keys to make matching robust to dash variants and spacing.
+normalize_publication_key <- function(x) {
+  x <- as.character(x)
+  # Convert common Unicode dash characters to ASCII hyphen.
+  x <- gsub("[\u2010\u2011\u2012\u2013\u2014\u2212]", "-", x, perl = TRUE)
+  x <- gsub("\\s+", " ", x, perl = TRUE)
+  trimws(x)
+}
+
+# Print a compact preview table to help tune `scholar_exclude`.
+# Returns the exclusion keys invisibly for quick copy/paste.
+preview_scholar_exclusions <- function(
+  data_scholar,
+  scholar_exclude = NULL,
+  n = Inf,
+  order_by = c("year", "cites"),
+  show_excluded = FALSE
+) {
+  order_by <- match.arg(order_by)
+
+  pubs <- data_scholar$scholar_publications_all
+  if (is.null(pubs) || nrow(pubs) == 0) {
+    message("No Google Scholar publications available for exclusion preview.")
+    return(invisible(character(0)))
+  }
+
+  preview <- pubs %>%
+    mutate(
+      Excluded = ifelse(
+        normalize_publication_key(Publication) %in%
+          normalize_publication_key(scholar_exclude),
+        "yes",
+        "no"
+      )
+    ) %>%
+    select(Publication, year, cites, Excluded, title, journal)
+
+  if (!show_excluded) {
+    preview <- preview %>% filter(Excluded == "no")
+  }
+
+  if (order_by == "year") {
+    preview <- preview %>% arrange(desc(year), desc(cites))
+  } else {
+    preview <- preview %>% arrange(desc(cites), desc(year))
+  }
+
+  if (is.finite(n)) {
+    preview <- head(preview, n)
+  }
+
+  preview <- preview %>%
+    mutate(N = dplyr::n() - dplyr::row_number() + 1) %>%
+    select(N, Publication, year, cites, Excluded, title, journal)
+
+  cat(
+    knitr::kable(
+      preview,
+      format = "latex",
+      booktabs = TRUE,
+      escape = TRUE,
+      align = c("c", "l", "c", "c", "c", "l", "l"),
+      col.names = c("#", "Exclude key", "Year", "Cites", "In scholar_exclude", "Title", "Journal")
+    ),
+    sep = "\n"
+  )
+
+  invisible(preview$Publication)
+}
+
 # Cache settings
 # Set `refresh_scholar = TRUE` before sourcing this file to force a refresh.
 # Otherwise, cached data is used if available and less than `cache_days` old.
@@ -144,26 +243,11 @@ if (
 }
 
 # Publications individual
-data <- data_scholar[["scholar_publications"]] %>%
-  mutate(
-    Authors = paste0(lapply(stringr::str_split(author, " "), `[[`, 2)),
-    Authors = stringr::str_to_title(stringr::str_remove_all(Authors, ",")),
-    Publication = paste0(Authors, " (", year),
-    Journal = stringr::str_to_title(journal)
-  )
+data <- build_scholar_publication_keys(data_scholar[["scholar_publications"]]) %>%
+  mutate(Journal = stringr::str_to_title(journal))
 
-
-# Disambiguate unique
-suffix <- letters
-suffix[1] <- ""
-for (i in 1:nrow(data)) {
-  pub <- data$Publication[i]
-  j <- 1
-  while (paste0(pub, suffix[j]) %in% data$Publication[1:i - 1]) {
-    j <- j + 1
-  }
-  data$Publication[i] <- paste0(pub, suffix[j])
-}
+# Keep a complete list (pre-filter) so exclusions can be previewed in the CV.
+data_scholar[["scholar_publications_all"]] <- data
 
 # Ignore publications specified in cv.Rmd config
 if (exists("scholar_exclude")) {
@@ -172,13 +256,17 @@ if (exists("scholar_exclude")) {
   ignored.publications <- c()
 }
 
-# Filter some publications out, as desired
+ignored.publications.normalized <- normalize_publication_key(ignored.publications)
+
+# Filter some publications out, as desired.
+# IMPORTANT: this filtered table is used for publication-count metrics only
+# (n-publications and author-position counts). Profile-level metrics such as
+# h-index and total citations are always taken from `scholar_stats`.
 data_scholar[["scholar_publications"]] <- data %>%
   mutate(
-    Publication = paste0(Publication, ")"),
     Publication = fct_reorder(Publication, cites, .desc = TRUE)
   ) %>%
-  filter(!Publication %in% ignored.publications)
+  filter(!normalize_publication_key(as.character(Publication)) %in% ignored.publications.normalized)
 
 # Manual correction for non-publications
 # (You might need to change this yourself!)
@@ -227,6 +315,7 @@ if (exists("scholar_append_author") && length(scholar_append_author) > 0) {
 
 # Get dataframe with stats
 get_stats <- function(data_scholar, author.name = author.name) {
+  # Counts are based on the filtered publication list.
   # Author position
   authors <- tolower(data_scholar$scholar_publications$author)
   authors <- strsplit(authors, ", ")
@@ -269,6 +358,8 @@ get_stats <- function(data_scholar, author.name = author.name) {
     "n.FirstAuthor" = ifelse(is.null(position$First), 0, position$First),
     "n.SecondAuthor" = ifelse(is.null(position$Second), 0, position$Second),
     "n.LastAuthor" = ifelse(is.null(position$Last), 0, position$Last),
+    # h-index and total citations come from Google Scholar profile totals,
+    # and therefore are never altered by `scholar_exclude`.
     "H.index" = data_scholar$scholar_stats$h_index,
     "Citations" = data_scholar$scholar_stats$total_cites
   )

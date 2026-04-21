@@ -25,14 +25,24 @@ cat(unlist(pubs), sep = "\\\n \\\n")
 
 ```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}
 
-# source("../files/make_data_impact.R")
+source("../files/make_data_impact.R")
 # plot_impact(data_scholar) # Advice was to remove the figure
-# table_impact(data_scholar,
-#              author.name = author.name,
-#              scholar.profile = scholar.profile,
-#              font_size = 9,
-#              language = language)
+table_impact(data_scholar,
+             author.name = author.name,
+             scholar.profile = scholar.profile,
+             font_size = 9,
+             language = language)
 
+```
+
+```{r ScholarExcludePreview, echo = FALSE, results = "asis", eval = show_scholar_exclusion_preview}
+preview_scholar_exclusions(
+  data_scholar = data_scholar,
+  scholar_exclude = scholar_exclude,
+  n = scholar_exclusion_preview_n,
+  order_by = "year",
+  show_excluded = FALSE
+)
 ```
 
 <!-- \pagebreak -->

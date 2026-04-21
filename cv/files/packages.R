@@ -5,14 +5,14 @@
 # Missing packages will be installed automatically.
 
 required_packages <- c(
-  "vitae",       # CV template framework
-  "tidyverse",   # Data science toolkit (includes dplyr, ggplot2, etc.)
-  "scholar",     # Google Scholar data
-  "patchwork",   # Combine ggplots
-  "easystats",   # Statistical modeling ecosystem (includes 'see')
-  "rsvg",        # SVG to PNG conversion (for CRAN badges)
-  "kableExtra",  # Enhanced tables
-  "here"         # Robust file paths
+  "vitae", # CV template framework
+  "tidyverse", # Data science toolkit (includes dplyr, ggplot2, etc.)
+  "scholar", # Google Scholar data
+  "patchwork", # Combine ggplots
+  "see", # Model visualisation (theme_modern, scale_fill_material_d)
+  "rsvg", # SVG to PNG conversion (for CRAN badges)
+  "kableExtra", # Enhanced tables
+  "here" # Robust file paths
 )
 
 missing <- required_packages[
