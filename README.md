@@ -101,7 +101,11 @@ scrapes the web page. Excessive requests may trigger rate limiting (HTTP
   - `\\dotfill` to create dotted lines (e.g., for the award section)
   - `\setlength{\parindent}{-0.2in}` and `\setlength{\leftskip}{0.2in}`
     to indent publications, “hanging” style.
-- For questions or difficulties, feel free to open a GitHub issue here.
+- For specific font sizes, consider the following reference:
+
+<img width="40%" height="531" alt="image" src="https://github.com/user-attachments/assets/6561307a-e7eb-432f-8bb3-8156987f1c31" />
+
+For questions or difficulties, feel free to open a GitHub issue here.
 
 ## Demos
 
