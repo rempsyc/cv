@@ -3,7 +3,10 @@ output: html_document
 ---
 \setlength{\parindent}{0in}
 \setlength{\leftskip}{0in}
-\footnotesize
+
+```{r References_size, results = "asis"}
+cat(if (exists("references_text_size")) references_text_size else "\\footnotesize")
+```
 
 ```{r References, results = "asis"}
 nice_header(

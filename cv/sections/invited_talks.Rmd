@@ -77,7 +77,8 @@ number_pubs(
   data, 
   author_bold = author_bold, 
   language = language, 
-  language_dictionary = dictionary
+  language_dictionary = dictionary,
+  number = count_everything
 )
 
 ```

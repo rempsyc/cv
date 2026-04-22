@@ -1,0 +1,50 @@
+---
+output: html_document
+---
+
+```{r Appointments, results = "asis"}
+nice_header(
+  header = "Appointments",
+  header_alt = "Postes universitaires",
+  language = language
+)
+```
+
+```{r Appointments_data}
+data <- rbind(
+  
+  tibble(
+    what = "Incoming Assistant Professor",
+    when = "2026/08 - Ongoing",
+    with = "Université du Québec à Rimouski",
+    where = "Rimouski, Québec, Canada",
+    details = NA),
+  
+  tibble(
+    what = "Postdoctoral Fellow (Psychology - Social)",
+    when = "2025/01 - 2026-12",
+    with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
+                url = "https://www.centerconflictcooperation.com/",
+                color = NULL),
+    where = "New York, New York, USA",
+    details = "Supervisor: Jay Van Bavel")
+  
+)
+
+ if (short) {
+   data <- data[seq_len(min(nrow(data), 3)), ]
+   data$details <- NA
+ }
+
+appointments_dictionary <- tribble(
+  ~English, ~French,
+  "Postdoctoral Fellow", "Postdoctorat",
+  "Appointments", "Postes universitaires",
+  "Supervisor:", "Superviseur :",
+  "ology", "ologie",
+  "Social", "Sociale"
+)
+
+nice_entries(data, language = language, language_dictionary = appointments_dictionary)
+
+```

@@ -363,6 +363,6 @@ data <- bind_rows(
   
 )
 
-nice_awards(data, language = language)
+nice_awards(data, language = language, number = count_everything)
 
 ```

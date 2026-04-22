@@ -73,7 +73,7 @@ create_grant_entry <- function(
   rbind(a, b)
 }
 
-nice_awards <- function(data, theme_color = headcolor, language = "EN") {
+nice_awards <- function(data, theme_color = headcolor, language = "EN", number = TRUE) {
   total <- "Total Amount Offered"
   if (language != "EN") {
     data <- data %>%
@@ -83,8 +83,11 @@ nice_awards <- function(data, theme_color = headcolor, language = "EN") {
 
   n <- nrow(data)
   data$Name <- sapply(seq_len(n), function(i) {
-    num <- (n + 1 - i)
-    paste0(num, ". ", data$Name[i])
+    if (isTRUE(number)) {
+      num <- (n + 1 - i)
+      return(paste0(num, ". ", data$Name[i]))
+    }
+    data$Name[i]
   })
 
   total_award <- data$Amount
@@ -120,7 +123,7 @@ nice_awards <- function(data, theme_color = headcolor, language = "EN") {
   brief_entries(data, Name, Date, Amount, .protect = FALSE)
 }
 
-nice_grants <- function(data, theme_color = headcolor, language = "EN") {
+nice_grants <- function(data, theme_color = headcolor, language = "EN", number = TRUE) {
   total <- "Total Amount Offered"
   if (language != "EN") {
     data <- data %>%
@@ -131,6 +134,8 @@ nice_grants <- function(data, theme_color = headcolor, language = "EN") {
   n <- nrow(data)
   data$Name <- sapply(seq_len(n), function(i) {
     if (i %% 2 == 0) {
+      data$Name[i]
+    } else if (!isTRUE(number)) {
       data$Name[i]
     } else {
       num <- (n + 1 - i) / 2 # 1 → 7, 3 → 6, ..., 13 → 1
@@ -258,7 +263,8 @@ number_pubs <- function(
   pubs,
   author_bold = NULL,
   language = "EN",
-  language_dictionary = NULL
+  language_dictionary = NULL,
+  number = TRUE
 ) {
   if (language != "EN") {
     language_dictionary <- rbind(language_dictionary, month_map)
@@ -267,8 +273,17 @@ number_pubs <- function(
   if (!is.null(author_bold)) {
     pubs <- gsub(author_bold, paste0("**", author_bold, "**"), pubs)
   }
-  pubs <- paste0(rev(seq_along(pubs)), "\\. ", pubs)
+  if (isTRUE(number)) {
+    pubs <- paste0(rev(seq_along(pubs)), "\\. ", pubs)
+  }
   cat(pubs, sep = "\n\n\n")
+}
+
+number_prefix <- function(index, number = TRUE) {
+  if (isTRUE(number)) {
+    return(paste0(index, "\\. "))
+  }
+  ""
 }
 
 nice_header <- function(header, header_alt, language = "EN") {

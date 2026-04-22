@@ -1,27 +1,6 @@
 ---
 output: html_document
 ---
-<!-- # Positions -->
-
-```{r Positions, eval=F}
-data <- rbind(
-  
-  tibble(
-    what = "Postdoctoral Fellow (Psychology - Social)",
-    when = "2025/01 - 2026-12",
-    with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
-                url = "https://www.centerconflictcooperation.com/",
-                color = NULL),
-    where = "New York, New York, USA",
-    details = "Supervisor: Jay Van Bavel"))
-
- if (short) {
-   data <- data[1:7, ]
-   data$details <- NA
- }
- 
-detailed_entries(data, with, when, what, where, details, .protect = FALSE)
-```
 
 ```{r Education, results = "asis"}
 nice_header(
@@ -34,18 +13,18 @@ nice_header(
 ```{r Education_data}
 data <- rbind(
   
-  tibble(
-    what = "Postdoctoral Fellow (Psychology - Social)",
-    when = "2025/01 - 2026-12",
-    with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
-                url = "https://www.centerconflictcooperation.com/",
-                color = NULL),
-    where = "New York, New York, USA",
-    details = "Supervisor: Jay Van Bavel"),
+  # tibble(
+  #   what = "Postdoctoral Fellow (Psychology - Social)",
+  #   when = "2025/01 - 2026/12",
+  #   with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
+  #               url = "https://www.centerconflictcooperation.com/",
+  #               color = NULL),
+  #   where = "New York, New York, USA",
+  #   details = "Supervisor: Jay Van Bavel"),
   
   tibble(
     what = "PhD (Psychology - Social)", # - 120 credits
-    when = "2018/09 - 2024-12",
+    when = "2018/09 - 2024/12",
     with = link("Université du Québec à Montréal, Social Resilience Lab",
                 url = "https://dandeneau.uqam.ca/en.html",
                 color = NULL),

@@ -51,7 +51,7 @@ blogs <- c(
 
   "**Thériault, R.** (2014, April 3). Do we really know what yoga means?: The place of spirituality in yoga research. [https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/](https://medium.com/rempsyc/do-we-really-know-what-yoga-means-96fc8e083411/)"
 )
-number_pubs(blogs)
+number_pubs(blogs, number = count_everything)
 ```
 
 ```{r blogs_fr, results='asis', eval=French}
@@ -102,5 +102,5 @@ blogs <- c(
 
   "**Thériault, R.** (16 janvier 2014). Nature of reality and its inevitable simplification. [https://medium.com/rempsyc/nature-of-reality-e286a1587d94](https://medium.com/rempsyc/nature-of-reality-e286a1587d94)"
 )
-number_pubs(blogs)
+number_pubs(blogs, number = count_everything)
 ```

@@ -103,7 +103,7 @@ scrapes the web page. Excessive requests may trigger rate limiting (HTTP
     to indent publications, “hanging” style.
 - For specific font sizes, consider the following reference:
 
-<img width="40%" height="531" alt="image" src="https://github.com/user-attachments/assets/6561307a-e7eb-432f-8bb3-8156987f1c31" />
+<img width="60%" height="531" alt="image" src="https://github.com/user-attachments/assets/6561307a-e7eb-432f-8bb3-8156987f1c31" />
 
 For questions or difficulties, feel free to open a GitHub issue here.
 

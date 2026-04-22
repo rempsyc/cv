@@ -23,7 +23,8 @@ data <- c(
 
 number_pubs(
   data, 
-  author_bold = author_bold
+  author_bold = author_bold, 
+  number = count_everything
 )
 ```
 

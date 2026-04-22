@@ -1,7 +1,7 @@
 ---
 name: Rémi
 surname: Thériault
-profilepic: "img/profile.png"
+# profilepic: "img/profile.png"
 position: "Chercheur postdoctoral"
 qualifications: "PhD"
 address: "New York University, New York, USA"
@@ -27,6 +27,7 @@ linkcolor: blue
 output: 
   vitae::awesomecv:
     page_total: true
+    font_scale: 1.0
 header-includes:
   - \usepackage[gen]{eurosym}
   - \usepackage[main=french]{babel}
@@ -105,6 +106,13 @@ scholar_append_author <- c("Zph67rFs4hoC", "IWHjjKOFINEC")
 # Header color for the CV
 headcolor <- "0a0a0a"
 
+# Keep numbering for publications by default. Toggle to TRUE when you want
+# numbering in talks, posters, awards, grants, software, etc. for easy counting.
+count_everything <- FALSE
+
+# Local size knobs that avoid changing the overall document font scale.
+references_text_size <- "\\small"
+
 ########################################
 #### PACKAGE SETUP (DO NOT MODIFY) #####
 ########################################
@@ -126,6 +134,9 @@ source("files/functions.R")
 
 # See all instructions and tips here: https://github.com/rempsyc/cv
 
+```
+
+```{r Appointments parent, child=c('sections/appointments.Rmd')}
 ```
 
 ```{r Education parent, child=c('sections/education.Rmd')}
@@ -157,10 +168,10 @@ source("files/functions.R")
 ```{r Conference posters parent, child=c('sections/conference_posters.Rmd'), eval = !short}
 ```
 
-```{r Software parent, child=c('sections/software.Rmd')}
+```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
-```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
+```{r Software parent, child=c('sections/software.Rmd')}
 ```
 
 ```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}

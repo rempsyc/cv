@@ -1,8 +1,8 @@
 ---
 name: Rémi
 surname: Thériault
-profilepic: "img/profile.png"
-position: "Postdoctoral Fellow"
+# profilepic: "img/profile.png"
+position: "Postdoctoral Fellow & Incoming Assistant Professor"
 qualifications: "PhD"
 address: "New York University, New York, USA"
 phone: (332) 400-6781
@@ -10,8 +10,8 @@ www: remi-theriault.com
 email: "remi.theriault@nyu.edu"
 linkedin: rempsyc
 orcid: "0000-0003-4315-6788"
-# googlescholar: NrfwEncAAAAJ
-# github: rempsyc
+googlescholar: NrfwEncAAAAJ
+github: rempsyc
 # twitter: RemiTPsyc
 # pronouns: "il/lui"
 
@@ -110,11 +110,12 @@ scholar_append_author <- c("Zph67rFs4hoC", "IWHjjKOFINEC")
 # Header color for the CV
 headcolor <- "0a0a0a"
 
-# To scale font sizes, add font_scale to the YAML header above, e.g.:
-#   output:
-#     vitae::awesomecv:
-#       page_total: true
-#       font_scale: 1.1
+# Keep numbering for publications by default. Toggle to TRUE when you want
+# numbering in talks, posters, awards, grants, software, etc. for easy counting.
+count_everything <- FALSE
+
+# Local size knobs that avoid changing the overall document font scale.
+references_text_size <- "\\small"
 
 ########################################
 #### PACKAGE SETUP (DO NOT MODIFY) #####
@@ -139,6 +140,9 @@ source("files/functions.R")
 
 ```
 
+```{r Appointments parent, child=c('sections/appointments.Rmd')}
+```
+
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
@@ -150,16 +154,17 @@ source("files/functions.R")
 ```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
-```{r Publications parent, child=c('sections/publications.Rmd')}
-```
-
-```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
-```
-
-\pagebreak
 \setlength{\parskip}{8pt}
 
 ```{r Teaching parent, child=c('sections/teaching.Rmd')}
+```
+
+```{r Publications parent, child=c('sections/publications.Rmd')}
+```
+
+\pagebreak
+
+```{r Preprints parent, child=c('sections/preprints.Rmd'), eval = !short}
 ```
 
 ```{r Invited talks parent, child=c('sections/invited_talks.Rmd'), eval = !short}
@@ -171,10 +176,10 @@ source("files/functions.R")
 ```{r Conference posters parent, child=c('sections/conference_posters.Rmd'), eval = !short}
 ```
 
-```{r Software parent, child=c('sections/software.Rmd')}
+```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
 ```
 
-```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
+```{r Software parent, child=c('sections/software.Rmd'), eval = !short}
 ```
 
 ```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = F}

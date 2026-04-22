@@ -116,6 +116,6 @@ data <- bind_rows(
       Program = "Masters")
 )
 
-nice_grants(data, language = language)
+nice_grants(data, language = language, number = count_everything)
 
 ```

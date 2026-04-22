@@ -9,8 +9,8 @@ output: html_document
 
 ```{r Service, results = "asis"}
 nice_header(
-  header = "Academic Service",
-  header_alt = "Service académique",
+  header = "Academic Service & Leadership",
+  header_alt = "Service académique et leadeurship",
   language = language
 )
 ```
