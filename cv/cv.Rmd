@@ -110,6 +110,10 @@ scholar_append_author <- c("Zph67rFs4hoC", "IWHjjKOFINEC")
 # Header color for the CV
 headcolor <- "0a0a0a"
 
+# Secondary text color for dates and other muted right-column text.
+# Use "000000" for full black or "333333" for a softer near-black.
+secondary_text_color <- "333333"
+
 # Keep numbering for publications by default. Toggle to TRUE when you want
 # numbering in talks, posters, awards, grants, software, etc. for easy counting.
 count_everything <- FALSE
@@ -138,6 +142,13 @@ source("files/functions.R")
 
 # See all instructions and tips here: https://github.com/rempsyc/cv
 
+```
+
+```{r Template color overrides, results = "asis"}
+secondary_text_color_clean <- gsub("^#", "", secondary_text_color)
+cat(sprintf("\\definecolor{cvsecondarytext}{HTML}{%s}\n", secondary_text_color_clean))
+cat("\\colorlet{graytext}{cvsecondarytext}\n")
+cat("\\colorlet{lighttext}{cvsecondarytext}\n")
 ```
 
 ```{r Appointments parent, child=c('sections/appointments.Rmd')}
