@@ -1,19 +1,19 @@
 
 # Awesome CV in R
 
-This CV was made using the
-[`vitae`](https://pkg.mitchelloharawild.com/vitae/) package in R, and
-using the template from [Dominique
-Makowski](https://github.com/DominiqueMakowski/CV) (which includes the
-code for the Google Scholar figure and table, and a lot more). Please
-give them due credit if using this template. I also brought some minor
-optimization and documentation to the current template.
+This CV uses the Awesome CV template and was made using the
+[`vitae`](https://pkg.mitchelloharawild.com/vitae/) package in R. I
+originally got started with the template from [Dominique
+Makowski](https://github.com/DominiqueMakowski/CV), and made several
+changes over the years.
+
+![](cv/img/preview.png)
 
 ## Instructions
 
 1.  Clone/download this entire repository to your computer.
-2.  Open the project in RStudio (double-click `cv/cv.Rproj`). All
-    CV files live inside the `cv/` folder to keep the root clean.
+2.  Open the project in RStudio (double-click `cv/cv.Rproj`). All CV
+    files live inside the `cv/` folder to keep the root clean.
 3.  Required packages will be installed automatically on first knit
     (LaTeX is also required — install via
     [`tinytex`](https://yihui.org/tinytex/)).
