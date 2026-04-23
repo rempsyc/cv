@@ -70,6 +70,7 @@
 \RequirePackage[quiet]{fontspec}
 \providecommand\ACVscale{1}
 \renewcommand\ACVscale{1.000000}
+\providecommand\ACVheaderScale{\ACVscale}
 \usepackage{xfp}
 % To support LaTeX quoting style
 \defaultfontfeatures{Ligatures=TeX}
@@ -194,23 +195,27 @@
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{\fpeval{32*\ACVscale}pt}{1em}\headerfontlight\color{graytext} #1}}
-\newcommand*{\headerlastnamestyle}[1]{{\fontsize{\fpeval{32*\ACVscale}pt}{1em}\headerfont\bfseries\color{text} #1}}
-\newcommand*{\headerpositionstyle}[1]{{\fontsize{\fpeval{12*\ACVscale}pt}{1.3em}\bodyfont\scshape\color{awesome} #1}}
-\newcommand*{\headeraddressstyle}[1]{{\fontsize{\fpeval{8*\ACVscale}pt}{1em}\headerfont\itshape\color{lighttext} #1}}
-\newcommand*{\headersocialstyle}[1]{{\fontsize{\fpeval{6.8*\ACVscale}pt}{1em}\headerfont\color{text} #1}}
-\newcommand*{\headerquotestyle}[1]{{\fontsize{\fpeval{9*\ACVscale}pt}{1em}\bodyfont\itshape\color{darktext} #1}}
-\newcommand*{\footerstyle}[1]{{\fontsize{\fpeval{8*\ACVscale}pt}{1em}\footerfont\scshape\color{lighttext} #1}}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{\fpeval{32*\ACVheaderScale}pt}{1em}\headerfontlight\color{graytext} #1}}
+\newcommand*{\headerlastnamestyle}[1]{{\fontsize{\fpeval{32*\ACVheaderScale}pt}{1em}\headerfont\bfseries\color{text} #1}}
+\newcommand*{\headerpositionstyle}[1]{{\fontsize{\fpeval{12*\ACVheaderScale}pt}{1.3em}\bodyfont\scshape\color{awesome} #1}}
+\newcommand*{\headeraddressstyle}[1]{{\fontsize{\fpeval{8*\ACVheaderScale}pt}{1em}\headerfont\itshape\color{lighttext} #1}}
+\newcommand*{\headersocialstyle}[1]{{\fontsize{\fpeval{6.8*\ACVheaderScale}pt}{1em}\headerfont\color{text} #1}}
+\newcommand*{\headerquotestyle}[1]{{\fontsize{\fpeval{9*\ACVheaderScale}pt}{1em}\bodyfont\itshape\color{darktext} #1}}
+\providecommand{\acvFooterTextSize}{\fontsize{\fpeval{8.8*\ACVscale}pt}{\fpeval{10.4*\ACVscale}pt}\selectfont}
+\newcommand*{\footerstyle}[1]{{\acvFooterTextSize\footerfont\scshape\color{lighttext} #1}}
 \newcommand*{\sectionstyle}[1]{{\fontsize{\fpeval{16*\ACVscale}pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{\fpeval{12*\ACVscale}pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{\fpeval{9*\ACVscale}pt}{1em}\bodyfontlight\upshape\color{text}}
 
 % For elements of entry
-\newcommand*{\entrytitlestyle}[1]{{\fontsize{\fpeval{10*\ACVscale}pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\entrypositionstyle}[1]{{\fontsize{\fpeval{8*\ACVscale}pt}{1em}\bodyfont\scshape\color{graytext} #1}}
-\newcommand*{\entrydatestyle}[1]{{\fontsize{\fpeval{8*\ACVscale}pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
-\newcommand*{\entrylocationstyle}[1]{{\fontsize{\fpeval{9*\ACVscale}pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
-\newcommand*{\descriptionstyle}[1]{{\fontsize{\fpeval{9*\ACVscale}pt}{1em}\bodyfontlight\upshape\color{text} #1}}
+\providecommand{\acvEntryTitleTextSize}{\fontsize{\fpeval{10*\ACVscale}pt}{\fpeval{11.5*\ACVscale}pt}\selectfont}
+\providecommand{\acvEntryMetaTextSize}{\fontsize{\fpeval{8*\ACVscale}pt}{\fpeval{9.2*\ACVscale}pt}\selectfont}
+\providecommand{\acvEntryBodyTextSize}{\fontsize{\fpeval{9*\ACVscale}pt}{\fpeval{10.35*\ACVscale}pt}\selectfont}
+\newcommand*{\entrytitlestyle}[1]{{\acvEntryTitleTextSize\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrypositionstyle}[1]{{\acvEntryMetaTextSize\bodyfont\scshape\color{graytext} #1}}
+\newcommand*{\entrydatestyle}[1]{{\acvEntryMetaTextSize\bodyfontlight\slshape\color{graytext} #1}}
+\newcommand*{\entrylocationstyle}[1]{{\acvEntryBodyTextSize\bodyfontlight\slshape\color{awesome} #1}}
+\newcommand*{\descriptionstyle}[1]{{\acvEntryBodyTextSize\bodyfontlight\upshape\color{text} #1}}
 
 % For elements of subentry
 \newcommand*{\subentrytitlestyle}[1]{{\fontsize{\fpeval{8*\ACVscale}pt}{1em}\bodyfont\mdseries\color{graytext} #1}}
@@ -220,10 +225,10 @@
 \newcommand*{\subdescriptionstyle}[1]{{\fontsize{\fpeval{8*\ACVscale}pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
 % For elements of honor
-\newcommand*{\honortitlestyle}[1]{{\fontsize{\fpeval{9*\ACVscale}pt}{1em}\bodyfont\color{graytext} #1}}
-\newcommand*{\honorpositionstyle}[1]{{\fontsize{\fpeval{9*\ACVscale}pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\honordatestyle}[1]{{\fontsize{\fpeval{9*\ACVscale}pt}{1em}\bodyfont\color{graytext} #1}}
-\newcommand*{\honorlocationstyle}[1]{{\fontsize{\fpeval{9*\ACVscale}pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
+\newcommand*{\honortitlestyle}[1]{{\acvHonorsTextSize\bodyfont\color{graytext} #1}}
+\newcommand*{\honorpositionstyle}[1]{{\acvHonorsTextSize\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\honordatestyle}[1]{{\acvHonorsTextSize\bodyfont\color{graytext} #1}}
+\newcommand*{\honorlocationstyle}[1]{{\acvHonorsAmountSize\bodyfontlight\slshape\color{awesome} #1}}
 
 % For elements of skill
 \newcommand*{\skilltypestyle}[1]{{\fontsize{\fpeval{10*\ACVscale}pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
@@ -238,6 +243,10 @@
 \newcommand*{\lettertextstyle}{\fontsize{\fpeval{10*\ACVscale}pt}{1.4em}\bodyfontlight\upshape\color{graytext}}
 \newcommand*{\letternamestyle}[1]{{\fontsize{\fpeval{10*\ACVscale}pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{\fpeval{10*\ACVscale}pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
+
+% Reusable hanging-indent helpers for paragraph-style list sections
+\newcommand{\cvnarrowhang}{\setlength{\parindent}{-0.2in}\setlength{\leftskip}{0.2in}}
+\newcommand{\cvwidehang}{\setlength{\parindent}{-0.4in}\setlength{\leftskip}{0.4in}}
 
 
 %-------------------------------------------------------------------------------
@@ -404,15 +413,23 @@
 % Others
 \newcommand{\acvSectionTopSkip}{3mm}
 \newcommand{\acvSectionContentTopSkip}{2.5mm}
+\providecommand{\acvEntryRowStretch}{1.08}
+\newlength{\acvHonorDateWidth}
+\setlength{\acvHonorDateWidth}{1.5cm}
+\newlength{\acvHonorValueWidth}
+\setlength{\acvHonorValueWidth}{1.6cm}
+\providecommand{\acvHonorsTextSize}{\fontsize{\fpeval{9*\ACVscale}pt}{\fpeval{11*\ACVscale}pt}\selectfont}
+\providecommand{\acvHonorsAmountSize}{\acvHonorsTextSize}
+\providecommand{\acvHonorsRowStretch}{1.12}
 
 
 %-------------------------------------------------------------------------------
 %                Commands for utilities
 %-------------------------------------------------------------------------------
 % Use to align an element of tabular table
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
 
 % Use to draw horizontal line with specific thickness
 \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
@@ -625,6 +642,7 @@
 %  \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}%
   \setlength{\extrarowheight}{0pt}%
+  \renewcommand{\arraystretch}{\acvEntryRowStretch}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}%
     \ifempty{#2#3}{\entrypositionstyle{#1} & \entrydatestyle{#4} \\}%
       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\%
@@ -644,6 +662,7 @@
 \newcommand*{\cvsubentry}[4]{%
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
+  \renewcommand{\arraystretch}{\acvEntryRowStretch}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \setlength\leftskip{0.2cm}
     \subentrytitlestyle{#2} & \ifthenelse{\equal{#1}{}}
@@ -664,7 +683,8 @@
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 4.0cm} R{2.5cm}}
+    \renewcommand{\arraystretch}{\acvHonorsRowStretch}
+    \begin{tabular*}{\textwidth}{@{} C{\acvHonorDateWidth} L{\dimexpr\textwidth-\acvHonorDateWidth-\acvHonorValueWidth\relax} R{\acvHonorValueWidth} @{}}
 }{%
     \end{tabular*}
   \end{center}
@@ -672,7 +692,9 @@
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvhonor{<position>}{<title>}{<location>}{<date>}
 \newcommand*{\cvhonor}[4]{%
-  \honordatestyle{#4} & \honorpositionstyle{#1}\honortitlestyle{#2} & \honorlocationstyle{#3} \\
+  \parbox[t]{\acvHonorDateWidth}{\honordatestyle{#4}} &
+  \parbox[t]{\dimexpr\textwidth-\acvHonorDateWidth-\acvHonorValueWidth\relax}{\honorpositionstyle{#1}\honortitlestyle{#2}} &
+  \parbox[t]{\acvHonorValueWidth}{\raggedleft\honorlocationstyle{#3}} \\
 }
 
 % Define an environment for cvskill

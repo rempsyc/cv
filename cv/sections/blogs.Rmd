@@ -5,8 +5,6 @@ output: html_document
 \pagebreak
 
 \scriptsize
-\setlength{\parindent}{-0.2in}
-\setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
 ```{r, results='asis'}

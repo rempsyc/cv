@@ -2,13 +2,6 @@
 output: html_document
 ---
 
-\setlength{\parindent}{-0.2in}
-\setlength{\leftskip}{0.2in}
-\setlength{\parskip}{8pt}
-\footnotesize
-
-<!-- \pagebreak -->
-
 ```{r Invited Talks, results = "asis"}
 nice_header(
   header = "Invited Talks",

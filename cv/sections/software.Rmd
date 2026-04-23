@@ -8,10 +8,6 @@ nice_header("Software I Developed", "Logiciels que j'ai développés", language)
 
 ## `r if_english("R Packages", "Modules R", language)`
 
-\setlength{\parindent}{0in}
-\setlength{\leftskip}{0in}
-\footnotesize
-
 ```{r software_intro, results='asis', echo=FALSE}
 cat(if_english(
   "R packages are modular, open-source tools that extend the functionality of the R programming language—the leading open-source tool for statistical analysis. These packages simplify complex statistical workflows, automate reporting, and promote good research practices.",
@@ -199,8 +195,8 @@ knitr::include_graphics("img/rempsyc.png", dpi = NA)
 
 ## `r if_english("Visualization Dashboard", "Tableau de bord de visualisation", language)`
 
-\setlength{\parindent}{0in}
-\setlength{\leftskip}{0in}
+<!-- \setlength{\parindent}{0in} -->
+<!-- \setlength{\leftskip}{0in} -->
 
 ```{r dashboard_intro, results='asis', echo=FALSE}
 cat(if_english(

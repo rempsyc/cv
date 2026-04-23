@@ -14,7 +14,7 @@ nice_header(
 data <- rbind(
   
   tibble(
-    what = "Incoming Assistant Professor",
+    what = "Assistant Professor",
     when = "2026/08 - Ongoing",
     with = "Université du Québec à Rimouski",
     where = "Rimouski, Québec, Canada",

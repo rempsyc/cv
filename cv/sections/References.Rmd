@@ -1,17 +1,14 @@
 ---
 output: html_document
 ---
+
 \setlength{\parindent}{0in}
 \setlength{\leftskip}{0in}
-
-```{r References_size, results = "asis"}
-cat(if (exists("references_text_size")) references_text_size else "\\footnotesize")
-```
 
 ```{r References, results = "asis"}
 nice_header(
   header = "References",
-  header_alt = "Références",
+  header_alt = "R\\'ef\\'erences",
   language = language
 )
 ```
@@ -53,4 +50,3 @@ Université du Québec à Montréal \\
 doucerain.marina@uqam.ca"
 )
 ```
-

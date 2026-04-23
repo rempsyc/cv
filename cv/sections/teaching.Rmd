@@ -2,10 +2,6 @@
 output: html_document
 ---
 
-\setlength{\parindent}{0in}
-\setlength{\leftskip}{0in}
-\normalsize
-
 ```{r, results = "asis", eval = FALSE}
 cat("\\pagebreak")
 ```

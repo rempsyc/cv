@@ -1,11 +1,6 @@
 ---
 output: html_document
 ---
-<!-- \setlength{\parindent}{0in} -->
-<!-- \setlength{\leftskip}{0in} -->
-\normalsize
-
-<!-- \pagebreak -->
 
 ```{r Grants & Fellowships, results = "asis"}
 nice_header(
@@ -14,8 +9,6 @@ nice_header(
   language = language
 )
 ```
-
-<!-- \large -->
 
 ```{r Grants_table, eval=T}
 data <- bind_rows(

@@ -31,6 +31,7 @@ output:
 header-includes:
   - \usepackage[gen]{eurosym}
   - \usepackage[main=french]{babel}
+  - \input{derived/cv-settings.tex}
    # We'll use totpages (not lastpage) to get total pages, avoids duplicate-label warnings
   - \usepackage{totpages}
   # Hook AwesomeCV's footer and rewrite its 3rd argument (page text)
@@ -115,7 +116,14 @@ secondary_text_color <- "333333"
 count_everything <- FALSE
 
 # Local size knobs that avoid changing the overall document font scale.
-references_text_size <- "\\small"
+header_scale <- 1.1
+baseline_text_size <- 10
+entry_text_size <- 11
+table_text_size <- 10
+entry_row_stretch <- 1.2
+table_row_stretch <- 0.6
+footer_text_size <- 10
+table_left_indent <- "0.3cm"
 
 ########################################
 #### PACKAGE SETUP (DO NOT MODIFY) #####
@@ -127,6 +135,22 @@ source("files/packages.R")
 
 # To format links throughout the CV
 source("files/functions.R")
+
+dir.create("derived", showWarnings = FALSE)
+writeLines(
+  c(
+    sprintf("\\renewcommand{\\ACVheaderScale}{%s}", header_scale),
+    sprintf("\\renewcommand{\\acvEntryRowStretch}{%s}", entry_row_stretch),
+    sprintf("\\renewcommand{\\acvEntryTitleTextSize}{%s}", latex_scaled_text_size(entry_text_size, 1.0)),
+    sprintf("\\renewcommand{\\acvEntryMetaTextSize}{%s}", latex_scaled_text_size(entry_text_size, 0.8)),
+    sprintf("\\renewcommand{\\acvEntryBodyTextSize}{%s}", latex_scaled_text_size(entry_text_size, 0.9)),
+    sprintf("\\renewcommand{\\acvFooterTextSize}{%s}", latex_text_size(footer_text_size)),
+    sprintf("\\renewcommand{\\acvHonorsTextSize}{%s}", latex_text_size(table_text_size)),
+    sprintf("\\renewcommand{\\acvHonorsAmountSize}{%s}", latex_text_size(table_text_size)),
+    sprintf("\\renewcommand{\\acvHonorsRowStretch}{%s}", table_row_stretch)
+  ),
+  "derived/cv-settings.tex"
+)
 
 ########################
 ##### INSTRUCTIONS #####
@@ -145,6 +169,13 @@ secondary_text_color_clean <- gsub("^#", "", secondary_text_color)
 cat(sprintf("\\definecolor{cvsecondarytext}{HTML}{%s}\n", secondary_text_color_clean))
 cat("\\colorlet{graytext}{cvsecondarytext}\n")
 cat("\\colorlet{lighttext}{cvsecondarytext}\n")
+```
+
+```{r Template baseline sizing, results = "asis"}
+cat(latex_text_size(baseline_text_size), "\n")
+```
+
+```{r Template table sizing, results = "asis"}
 ```
 
 ```{r Appointments parent, child=c('sections/appointments.Rmd')}

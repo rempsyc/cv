@@ -19,6 +19,68 @@ italics <- function(txt) {
   paste0("\\textit{", txt, "}")
 }
 
+latex_text_size <- function(size, leading = 1.15) {
+  if (is.null(size) || length(size) == 0 || is.na(size)) {
+    return("")
+  }
+
+  if (is.numeric(size)) {
+    line_height <- round(size * leading, 2)
+    return(sprintf("\\fontsize{%spt}{%spt}\\selectfont", size, line_height))
+  }
+
+  size_chr <- trimws(as.character(size))
+  if (grepl("^[0-9]+(\\.[0-9]+)?$", size_chr)) {
+    size_num <- as.numeric(size_chr)
+    line_height <- round(size_num * leading, 2)
+    return(sprintf("\\fontsize{%spt}{%spt}\\selectfont", size_num, line_height))
+  }
+
+  size_chr
+}
+
+latex_scaled_text_size <- function(size, factor = 1, leading = 1.15) {
+  if (is.null(size) || length(size) == 0 || is.na(size)) {
+    return("")
+  }
+
+  if (is.numeric(size)) {
+    return(latex_text_size(size * factor, leading = leading))
+  }
+
+  size_chr <- trimws(as.character(size))
+  if (grepl("^[0-9]+(\\.[0-9]+)?$", size_chr)) {
+    return(latex_text_size(as.numeric(size_chr) * factor, leading = leading))
+  }
+
+  size_chr
+}
+
+protect_date_range <- function(x) {
+  ifelse(
+    is.na(x) | x == "",
+    x,
+    ifelse(
+      grepl("^\\\\textbf\\{\\d{4}-\\d{4}\\}$", x),
+      sub(
+        "^\\\\textbf\\{(\\d{4})-(\\d{4})\\}$",
+        "\\\\textbf{\\\\mbox{\\1--\\2}}",
+        x
+      ),
+      ifelse(
+        grepl("^\\d{4}-\\d{4}$", x),
+        paste0("\\mbox{", gsub("-", "--", x), "}"),
+        x
+      )
+    )
+  )
+}
+
+get_table_left_indent <- function(default = "0.3cm") {
+  indent <- get0("table_left_indent", ifnotfound = default, inherits = TRUE)
+  as.character(indent)
+}
+
 # ------------------------------
 # Scholar data
 # ------------------------------
@@ -99,14 +161,15 @@ nice_awards <- function(data, theme_color = headcolor, language = "EN", number =
     add_row(
       Name = bold(total),
       URL = "",
-      Date = bold(paste0(first_year, "-", last_year)),
+      Date = paste0(first_year, "-", last_year),
       Amount = sum(total_award, na.rm = TRUE),
       Declined = FALSE,
       .before = 1
     ) %>%
     mutate(
+      Date = protect_date_range(Date),
       Name = link(
-        paste0("\\hspace{0.5cm} ", Name, "\\dotfill"),
+        paste0("\\hspace{", get_table_left_indent(), "} ", Name, "\\dotfill"),
         URL,
         color = "333333"
       ),
@@ -116,6 +179,7 @@ nice_awards <- function(data, theme_color = headcolor, language = "EN", number =
     )
 
   # Bold total amount (must do later since we have symbol processing)
+  data[1, "Date"] <- bold(data[1, "Date"])
   data[1, "Amount"] <- bold(data[1, "Amount"])
 
   data[1, 1] <- gsub("333333", theme_color, data[1, 1]) #Red: FF0000, but we use same colour as rest
@@ -157,7 +221,7 @@ nice_grants <- function(data, theme_color = headcolor, language = "EN", number =
     add_row(
       Name = bold(total),
       URL = "",
-      Date = bold(paste0(first_year, "-", last_year)),
+      Date = paste0(first_year, "-", last_year),
       Amount = sum(total_grant, na.rm = TRUE),
       secondary = FALSE,
       .before = 1
@@ -168,9 +232,10 @@ nice_grants <- function(data, theme_color = headcolor, language = "EN", number =
     #         Amount = sum(total_grant, total_award, na.rm = TRUE),
     #         secondary = FALSE) %>%
     mutate(
+      Date = protect_date_range(Date),
       dotfill = ifelse(secondary, "", "\\dotfill"),
       Name = link(
-        paste0("\\hspace{0.5cm} ", Name, dotfill),
+        paste0("\\hspace{", get_table_left_indent(), "} ", Name, dotfill),
         URL,
         color = "333333"
       ),
@@ -179,6 +244,7 @@ nice_grants <- function(data, theme_color = headcolor, language = "EN", number =
     )
 
   # Bold total amount (must do later since we have symbol processing)
+  data[1, "Date"] <- bold(data[1, "Date"])
   data[1, "Amount"] <- bold(data[1, "Amount"])
 
   data[1, 1] <- gsub("333333", theme_color, data[1, 1]) #Red: FF0000, but we use same colour as rest
@@ -276,6 +342,7 @@ number_pubs <- function(
   if (isTRUE(number)) {
     pubs <- paste0(rev(seq_along(pubs)), "\\. ", pubs)
   }
+  cat("\\cvwidehang\n")
   cat(pubs, sep = "\n\n\n")
 }
 
