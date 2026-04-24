@@ -51,7 +51,7 @@ data <- bind_rows(
   
   tibble(
     what = "Canadian Positive Psychology Association (CPPA)",
-    when = "2019/09 – 2022/12",
+    when = "2019-09 – 2022-12",
     role = "Lead Student Ambassador \\& Co-founder, Student Ambassador Program",
     where = "Montréal, Québec, Canada",
     URL = "https://cppa.ca/student-zone/",
@@ -62,7 +62,7 @@ data <- bind_rows(
   tibble(
     what = "Quebec Positive Psychology Association",
     # what = "Regroupement québécois de psychologie positive",
-    when = "2016/04 – 2022/12",
+    when = "2016-04 – 2022-12",
     role = "Member of think-tank for the future of positive psychology in Québec",
     where = "Montréal, Québec, Canada",
     URL = "https://rqpp.org/",
@@ -72,7 +72,7 @@ data <- bind_rows(
   
   tibble(
     what = "International Positive Psychology Association (IPPA)",
-    when = "2017/12 – 2022/12",
+    when = "2017-12 – 2022-12",
     role = "Regional Representative (for the province of Québec) of the Student Division (SIPPA)",
     where = "Montréal, Québec, Canada",
     URL = "https://ippanetwork.org/ippa-divisions/sippa-students/",
@@ -82,7 +82,7 @@ data <- bind_rows(
   
   tibble(
     what = "Department of psychology (Université du Québec à Montréal)",
-    when = "2019/01 – 2022-12",
+    when = "2019-01 – 2022-12",
     role = "Yoga \\& Meditation Student Committee Lead",
     where = "Montréal, Québec, Canada",
     details = c(
@@ -91,7 +91,7 @@ data <- bind_rows(
   
   tibble(
     what = "International Society of Hypnosis and the Québec Hypnosis Society",
-    when = "2018/08 – 2018/08",
+    when = "2018-08 – 2018-08",
     role = "Conference Reviewer",
     where = "Montréal, Québec, Canada",
     URL = "https://www.ishhypnosis.org/",
@@ -158,7 +158,7 @@ data <- bind_rows(
   
   tibble(
     what = "Association canadienne de psychologie positive (ACPP)",
-    when = "2019/09 – 2022/12",
+    when = "2019-09 – 2022-12",
     role = "Ambassadeur-étudiant principal \\& cofondateur du Programme des ambassadrices et ambassadeurs étudiant-es",
     # role = "Ambassadeur-étudiant principal \\& cofondateur du Programme des ambassadeurs-étudiants",
     where = "Montréal, Québec, Canada",
@@ -169,7 +169,7 @@ data <- bind_rows(
   
   tibble(
     what = "Regroupement québécois de psychologie positive",
-    when = "2016/04 – 2022/12",
+    when = "2016-04 – 2022-12",
     role = "Membre du groupe de réflexion sur l'avenir de la psychologie positive au Québec",
     where = "Montréal, Québec, Canada",
     URL = "https://rqpp.org/",
@@ -179,7 +179,7 @@ data <- bind_rows(
   
   tibble(
     what = "International Positive Psychology Association (IPPA)",
-    when = "2017/12 – 2022/12",
+    when = "2017-12 – 2022-12",
     role = "Représentant régional (pour le Québec) de la division étudiante (SIPPA)",
     where = "Montréal, Québec, Canada",
     URL = "https://ippanetwork.org/ippa-divisions/sippa-students/",
@@ -189,7 +189,7 @@ data <- bind_rows(
   
   tibble(
     what = "Departement de psychologie (Université du Québec à Montréal)",
-    when = "2019/01 – 2022-12",
+    when = "2019-01 – 2022-12",
     role = "Responsable étudiant du Comité yoga \\& méditation",
     where = "Montréal, Québec, Canada",
     details = c(
@@ -198,7 +198,7 @@ data <- bind_rows(
   
   tibble(
     what = "International Society of Hypnosis and the Société Québécoise d'Hypnose",
-    when = "2018/08 – 2018/08",
+    when = "2018-08 – 2018-08",
     role = "Conference Reviewer",
     where = "Montréal, Québec, Canada",
     URL = "https://www.ishhypnosis.org/",

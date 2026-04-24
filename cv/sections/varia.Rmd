@@ -18,15 +18,15 @@ nice_header("Varia", "Varia", language)
 data <- rbind(
   
   tibble(
-    when = "2021/01  – Present",
+    when = "2021-01 – Present",
     with = "Institut des sciences cognitives (UQAM)"),
   
   tibble(
-    when = "2016/09 – Present",
+    when = "2016-09 – Present",
     with = "International Positive Psychology Association"),
   
   tibble(
-    when = "2015/09 – Present",
+    when = "2015-09 – Present",
     with = "Canadian Positive Psychology Association")
 )
 

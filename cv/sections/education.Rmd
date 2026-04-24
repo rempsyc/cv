@@ -15,7 +15,7 @@ data <- rbind(
   
   # tibble(
   #   what = "Postdoctoral Fellow (Psychology - Social)",
-  #   when = "2025/01 - 2026/12",
+  #   when = "2025-01 – 2026-12",
   #   with = link("New York University, Social Identity and Morality Lab \\& Center for Conflict and Cooperation",
   #               url = "https://www.centerconflictcooperation.com/",
   #               color = NULL),
@@ -24,7 +24,7 @@ data <- rbind(
   
   tibble(
     what = "PhD (Psychology - Social)", # - 120 credits
-    when = "2018/09 - 2024/12",
+    when = "2018-09 – 2024-12",
     with = link("Université du Québec à Montréal, Social Resilience Lab",
                 url = "https://dandeneau.uqam.ca/en.html",
                 color = NULL),
@@ -39,7 +39,7 @@ data <- rbind(
 
   tibble(
     what = "Master of Science (Psychiatry - Social \\& Transcultural)", # - 45 credits
-    when = "2016/09 - 2018/08",
+    when = "2016-09 – 2018-08",
     with = link("McGill University, Cognitive Neuroscience Lab",
                 url = "https://raz-lab.org/",
                 color = NULL),
@@ -55,7 +55,7 @@ data <- rbind(
     what = "Bachelor of Arts (Psychology, 
     Behavioral Science, \\&
     Sociology)", # - 120 credits
-    when = "2013/01 - 2016/04",
+    when = "2013-01 – 2016-04",
     with = link("McGill University, Cognitive Neuroscience Lab",
                 url = "https://raz-lab.org/",
                 color = NULL),
@@ -65,7 +65,7 @@ data <- rbind(
   
   # tibble(
   #   what = "College Diploma (Social Sciences)",
-  #   when = "2010/08 - 2012/09",
+  #   when = "2010-08 – 2012-09",
   #   with = "Cégep Édouard-Montpetit",
   #   where = "Longueuil, Québec, Canada",
   #   details = "Cote R: 30.754 (\\textit{Group Mean} = 22.95)"))
