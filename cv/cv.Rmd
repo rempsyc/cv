@@ -28,7 +28,7 @@ linkcolor: blue
 output: 
   vitae::awesomecv:
     page_total: true
-    font_scale: 1.0
+    # font_scale: 1.0
 header-includes:
   - \usepackage[gen]{eurosym}
   - \input{derived/cv-settings.tex}

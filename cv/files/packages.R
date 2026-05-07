@@ -21,7 +21,7 @@ missing <- required_packages[
 
 if (length(missing) > 0) {
   message("Installing missing packages: ", paste(missing, collapse = ", "))
-  install.packages(missing)
+  install.packages(missing, repos = "https://cloud.r-project.org")
 }
 
 invisible(lapply(required_packages, library, character.only = TRUE))
