@@ -40,7 +40,7 @@ preview_scholar_exclusions(
 ```{r pubs_data, results = "asis"}
 data <- c(
   
-  "Brodeur, A., Valenta, D., Marcoci, A., ... Thériault, R., et al. (2026). *AI-assisted teams outperform AI-led teams but not human-only teams in assessing research reproducibility in quantitative social science*. Accepted in *PNAS*. https://econpapers.repec.org/RePEc:zbw:i4rdps:195.",
+  "Brodeur, A., Valenta, D., Marcoci, A., ... Thériault, R., et al. (2026). AI-assisted teams outperform AI-led teams but not human-only teams in assessing research reproducibility in quantitative social science. *Proceedings of the National Academy of Sciences (PNAS)*, *123*(22), e2524747123. https://doi.org/10.1073/pnas.2524747123",
   
   "Brodeur, A., Mikola, D., Cook, N., ... Thériault, R., et al. (2026). Reproducibility and robustness of economics and political science research. *Nature*, *652*, 151-156. https://doi.org/10.1038/s41586-026-10251-x",
   
