@@ -12,6 +12,12 @@ nice_header(
 
 ```{r talks_data, results = "asis"}
 data <- c(
+  "Thériault, R., & Forscher, P. (2026, June 5). *Who publishes psychology? Tracking global authorship over 38 years*. 2026 Canadian Psychological Association Annual National Convention, Montréal, QC.",
+  
+  'Thériault, R. (2026, May 29). *[3^rd^ wave of meditation research; Workshop: "From innovation to practice: Emerging approaches and altered states of consciousness in psychotherapy"]* (originally presented in French). 48^th^ Congress of the Quebec Society for Psychological Research (SQRP). Mont Sainte-Anne, QC.',
+  
+  # "Thériault, R. (2026, May 29). *3e vague de recherche en méditation; Atelier : « De l’innovation à la pratique : approches émergentes et états altérés de conscience en psychothérapie »*. 48^e^ congrès de la société québécoise pour la recherche en psychologie (SQRP). Mont Sainte-Anne, QC.",
+  
   "Thériault, R., & Forscher, P. (2025, October 20). *Tracking epistemic inequality: The missing majority dashboard for global authorship in behavioral science*. Meta-Research Symposium, NYU Health Langone, NY.",
   
   "Thériault, R., Dion-Cliche, F., & Dandeneau, S. (2022, June 18). *Fear of negative evaluation moderates the effect of social inclusion and social feedback on fundamental needs*. 2022 Canadian Psychological Association Annual National Convention, Calgary, AB.",
