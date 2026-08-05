@@ -2,12 +2,12 @@
 name: Rémi
 surname: Thériault
 # profilepic: "img/profile.png"
-position: "Postdoctoral Fellow & Incoming Assistant Professor"
+position: "Assistant Professor"
 qualifications: "PhD"
-address: "New York University, New York, USA"
-phone: (332) 400-6781
+address: "Rimouski, Québec, Canada"
+phone: (438) 995-7648
 www: remi-theriault.com
-email: "remi.theriault@nyu.edu"
+email: "remi_theriault@uqar.ca"
 linkedin: rempsyc
 orcid: "0000-0003-4315-6788"
 # googlescholar: NrfwEncAAAAJ
@@ -16,7 +16,7 @@ github: rempsyc
 # pronouns: "il/lui"
 
 aboutme: |
-  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my postdoctoral research, I attempt to reduce affective polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was [made in R](https://github.com/rempsyc/cv)).
+  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. Over the past decade, my research has focused on developing and testing innovative psychological interventions to positively transform our relationships to others and the world. In my current research, I attempt to reduce affective polarization by appealing to shared social identities. I am also passionate about open science, reproducible science, metascience, and data science using R (this CV was [made in R](https://github.com/rempsyc/cv)).
 
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: "333333" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look (6FA3CE)

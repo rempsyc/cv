@@ -29,13 +29,14 @@ data <- rbind(
                 url = "https://dandeneau.uqam.ca/en.html",
                 color = NULL),
     where = "Montréal, Québec, Canada",
-    details = c(# "GPA: 4.30/4.30",
-                "Advisory Committee: 
-                                    Stéphane Dandeneau (superviseur), 
-                                    Frédérick Philippe,
-                                    Simon Grégoire, 
-                                    Marina Doucerain, \\&
-                                    Bassam Khoury")), 
+    details = NA),
+    # details = c(# "GPA: 4.30/4.30",
+                # "Advisory Committee: 
+                                    # Stéphane Dandeneau (superviseur), 
+                                    # Frédérick Philippe,
+                                    # Simon Grégoire, 
+                                    # Marina Doucerain, \\&
+                                    # Bassam Khoury")), 
 
   tibble(
     what = "Master of Science (Psychiatry - Social \\& Transcultural)", # - 45 credits
@@ -44,12 +45,13 @@ data <- rbind(
                 url = "https://raz-lab.org/",
                 color = NULL),
     where = "Montréal, Québec, Canada",
-    details = c(# "GPA: 4.00/4.00",
-                "Advisory Committee: 
-                                    Amir Raz (superviseur), 
-                                    Jennifer Bartz, 
-                                    Donald Taylor, \\&
-                                    Samuel Veissière")),
+    details = NA),
+    # details = c(# "GPA: 4.00/4.00",
+                # "Advisory Committee: 
+                                    # Amir Raz (superviseur), 
+                                    # Jennifer Bartz, 
+                                    # Donald Taylor, \\&
+                                    # Samuel Veissière")),
   
   tibble(
     what = "Bachelor of Arts (Psychology, 
@@ -60,8 +62,9 @@ data <- rbind(
                 url = "https://raz-lab.org/",
                 color = NULL),
     where = "Montréal, Québec, Canada",
-    details = c(# "GPA: 3.76/4.00 (Distinction – top 25\\%; note: 120 credits is equivalent to 40 classes)",
-                "Supervisor: Amir Raz")))
+    details = NA))
+    # details = c(# "GPA: 3.76/4.00 (Distinction – top 25\\%; note: 120 credits is equivalent to 40 classes)",
+                # "Supervisor: Amir Raz")))
   
   # tibble(
   #   what = "College Diploma (Social Sciences)",
@@ -77,6 +80,7 @@ data <- rbind(
 
 edu_dictionary <- tribble(
   ~English, ~French,
+  "superviseur", "supervisor",
   "Postdoctoral Fellow", "Postdoctorat",
   "Master of Science", "Maitrise",
   "Bachelor of Arts", "Baccalauréat",
