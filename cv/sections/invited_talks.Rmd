@@ -58,6 +58,7 @@ dictionary <- tribble(
   "Centre de recherche interdisciplinaire en réadaptation du Montréal métropolitain",
   "Student Division", "division étudiante",
   "California", "Californie",
+  "USA", "É.-U.",
   "Wampum Center", "Centre Wampum",
   "Native Friendship Center of Montreal", "Centre d’amitié autochtone de Montréal",
   "Towards constructive change in Aboriginal communities: A social psychology perspective",

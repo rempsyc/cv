@@ -48,6 +48,7 @@ appointments_dictionary <- tribble(
   "Postdoctoral Fellow", "Postdoctorat",
   "Appointments", "Postes universitaires",
   "Supervisor:", "Superviseur :",
+  "USA", "É.-U.",
   "ology", "ologie",
   "Social", "Sociale"
 )

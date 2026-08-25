@@ -130,7 +130,7 @@ data <- bind_rows(
     what = "easystats: Un écosystème R pour une analyse et une description faciles des statistiques",
     when = "2022-08 – Maintenant",
     role = "Membre de l'équipe principale et développeur",
-    where = "New York, New York, USA",
+     where = "New York, New York, É.-U.",
     URL = "https://easystats.github.io/easystats/",
     details = c(
       "Écris du code communautaire libre et développe des modules R téléchargés plus de 20 millions de fois")
@@ -140,7 +140,7 @@ data <- bind_rows(
     what = "Diverses revues savantes",
     when = "2022-01 – Maintenant",
     role = "Évaluateur d'articles",
-    where = "New York, New York, USA",
+     where = "New York, New York, É.-U.",
     URL = "https://www.webofscience.com/wos/author/record/AAC-6100-2022",
     details = italics(
       "Psychology of Consciousness: Theory, Research, and Practice (7), Group Processes and Intergroup Relations (1), \\\\ Journal of Statistical Software (1), Scientific Reports (1), International Journal of Mental Health Promotion (1), Discover Sustainability (1)")
@@ -150,7 +150,7 @@ data <- bind_rows(
     what = "Open Science Netherlands – Dutch Research Council (NWO)",
     when = "2022-06 – 2022-06",
     role = "Évaluateur de subventions",
-    where = "New York, New York, USA",
+     where = "New York, New York, É.-U.",
     URL = "https://www.openscience.nl/en",
     details = c(
       "Évalué une subvention Open Science NL pour l'appel à projets Open Science Infrastructure")
