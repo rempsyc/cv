@@ -368,6 +368,7 @@ nice_entries <- function(data, language = "EN", language_dictionary = NULL) {
   if (language != "EN") {
     data$what <- gsub_language(data$what, language_dictionary)
     data$with <- gsub_language(data$with, language_dictionary)
+    data$where <- gsub_language(data$where, language_dictionary)
     data$details <- gsub_language(data$details, language_dictionary)
   }
   detailed_entries(data, with, when, what, where, details, .protect = FALSE)

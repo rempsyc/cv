@@ -16,7 +16,9 @@ data <- rbind(
   tibble(
     what = "Assistant Professor (Psychology - Social)",
     when = "2026-08 – Ongoing",
-    with = "Université du Québec à Rimouski (UQAR)",
+    with = link("Université du Québec à Rimouski (UQAR), SAGE Lab",
+                url = "https://labosage.com/",
+                color = NULL),
     where = "Rimouski, Québec, Canada",
     details = NA),
   
@@ -40,6 +42,9 @@ data <- rbind(
 
 appointments_dictionary <- tribble(
   ~English, ~French,
+  "Assistant Professor", "Professeur adjoint",
+  "SAGE Lab", "Labo SAGE",
+  "https://labosage.com/", "https://labosage.com/fr",
   "Postdoctoral Fellow", "Postdoctorat",
   "Appointments", "Postes universitaires",
   "Supervisor:", "Superviseur :",

@@ -4,7 +4,7 @@ surname: Thériault
 # profilepic: "img/profile.png"
 position: "Assistant Professor"
 qualifications: "PhD"
-address: "Rimouski, Québec, Canada"
+address: "Université du Québec à Rimouski, Rimouski, Québec, Canada"
 phone: (438) 995-7648
 www: remi-theriault.com
 email: "remi_theriault@uqar.ca"

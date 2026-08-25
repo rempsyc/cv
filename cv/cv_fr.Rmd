@@ -2,16 +2,16 @@
 name: Rémi
 surname: Thériault
 # profilepic: "img/profile.png"
-position: "Chercheur postdoctoral"
+position: "Professeur adjoint"
 qualifications: "PhD"
-address: "New York University, New York, USA"
-phone: (332) 400-6781
+address: "Université du Québec à Rimouski, Rimouski, Québec, Canada"
+phone: (438) 995-7648
 www: remi-theriault.com/fr
-email: "remi.theriault@nyu.edu"
+email: "remi_theriault@uqar.ca"
 linkedin: rempsyc
 orcid: "0000-0003-4315-6788"
 # googlescholar: NrfwEncAAAAJ
-# github: rempsyc
+github: rempsyc
 # twitter: RemiTPsyc
 # pronouns: "il/lui"
 
@@ -85,9 +85,28 @@ author.name <- "rém thériault"
 refresh_scholar <- FALSE  # Set to TRUE to force a fresh fetch
 cache_days <- 1           # Re-fetch automatically after this many days
 
-# Publications to exclude from Google Scholar (e.g., preprints already listed elsewhere)
+# Publications to exclude from Google Scholar (e.g., preprints or R packages already listed elsewhere)
 # Use format: "LastName (Year)" — add letter suffix for disambiguation: "LastName (Yearb)"
-scholar_exclude <- c("Makowski (2023)", "Lüdecke (2023)")
+scholar_exclude <- c(
+  "Lukmanova (NA)", 
+  "Lüdecke (2019)",
+  "Makowski (2020)",
+  "Ben‑Shachar (2022)",
+  "Lüdecke (2022)",
+  "Makowski (2023)", 
+  "Lüdecke (2023)",
+  "Brodeur (2024)",
+  "Thériault (2024b)",
+  "Thériault (2025)"
+)
+
+# Show a preview table of all Google Scholar entries with exclusion keys.
+# This helps identify what to add/remove in `scholar_exclude`.
+show_scholar_exclusion_preview <- FALSE
+
+# Maximum number of rows to show in the exclusion preview table.
+# Use Inf to display all entries.
+scholar_exclusion_preview_n <- Inf
 
 # Fix author name inconsistencies from Google Scholar (named vector: wrong = correct)
 scholar_name_fixes <- c("R Thériault" = "Rém Thériault")

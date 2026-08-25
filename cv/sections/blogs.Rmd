@@ -2,8 +2,6 @@
 output: html_document
 ---
 
-\pagebreak
-
 \scriptsize
 \setlength{\parskip}{8pt}
 

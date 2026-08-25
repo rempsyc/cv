@@ -4,11 +4,12 @@ output: html_document
 
 \setlength{\parindent}{0in}
 \setlength{\leftskip}{0in}
+\small
 
 ```{r References, results = "asis"}
 nice_header(
   header = "References",
-  header_alt = "R\\'ef\\'erences",
+  header_alt = "Références",
   language = language
 )
 ```
