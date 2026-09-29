@@ -12,6 +12,8 @@ nice_header(
 
 ```{r talks_data, results = "asis"}
 data <- c(
+  "Thériault, R., Choi, B., Goldstein, B., Ramy, A., Shanholtz, R., Guilas, A.-C., Rathje, S., Globig, L., & Van Bavel, J. (2026, October 2). *Can AI help us find the books that bridge political divides?* (Themed Happy Hour Roundtable Discussion & Informal Paper Session). Society of Experimental Social Psychology annual conference, Montréal, QC.",
+  
   "Thériault, R., & Forscher, P. (2026, June 5). *Who publishes psychology? Tracking global authorship over 38 years*. 2026 Canadian Psychological Association Annual National Convention, Montréal, QC.",
   
   'Thériault, R. (2026, May 29). *[3^rd^ wave of meditation research; Workshop: "From innovation to practice: Emerging approaches and altered states of consciousness in psychotherapy"]* (originally presented in French). 48^th^ Congress of the Quebec Society for Psychological Research (SQRP). Mont Sainte-Anne, QC.',
