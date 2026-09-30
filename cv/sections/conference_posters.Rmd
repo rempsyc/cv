@@ -20,9 +20,9 @@ data <- c(
   
   "Thériault, R., Choi, B., Goldstein, B., Ramy, A., Shanholtz, R., Guilas, A.-C., Rathje, S., Globig, L., & Van Bavel, J. (2025, December 5-6). *Can books reduce polarization? AI-generated simulations of reading non-fiction chapters*. 2025 MIT Polarization Workshop, Cambridge, Massachusetts",
   
-  "Thériault, R., Masson, R., Archambault, M., & Dandeneau, D. (2025, June 2). *Reflecting on loving-kindness may be more powerful than meditating on loving-kindness*. Mind & Life Summer Research Institute, Garrison, New York.",
+  "Thériault, R., Masson, R., Archambault, M., & Dandeneau, S. (2025, June 2). *Reflecting on loving-kindness may be more powerful than meditating on loving-kindness*. Mind & Life Summer Research Institute, Garrison, New York.",
   
-  "Thériault, R., Masson, R., Archambault, M., & Dandeneau, D. (2024, August 5). *Is the mind more powerful than the heart? A randomized controlled trial of two loving-kindness interventions*. Mind & Life European Summer Research Institute, Pomaia, Italy.",
+  "Thériault, R., Masson, R., Archambault, M., & Dandeneau, S. (2024, August 5). *Is the mind more powerful than the heart? A randomized controlled trial of two loving-kindness interventions*. Mind & Life European Summer Research Institute, Pomaia, Italy.",
   
   "Chabot, B., Thériault, R., & Doucerain, M. (2023, July 23-27). *Diversity and immigration: How Montrealers feel about different cultural groups*. Biennial Conference, International Academy for Intercultural Research, Philadelphia, Pennsylvania.",
   
